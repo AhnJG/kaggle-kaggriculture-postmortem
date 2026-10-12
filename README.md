@@ -1,7 +1,7 @@
 # Kaggriculture — 솔로 참가 회고: 최고 2425.7, 메달 미획득
 
 Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026년 9월, 2인 농장 경영 시뮬레이션, 최종 순위 = Bradley-Terry)에
-솔로 팀 **Sian** 으로 참가한 기록이다. 한때 동메달권에 들었지만 마감 직전 슬롯 교체로 점수가 다시 쌓이는 상태에서 끝났다.
+솔로 팀 **Sian** 으로 참가한 기록이다. 한때 은메달권에 들었지만 마감 직전 슬롯 교체로 점수가 다시 쌓이는 상태에서 끝났다.
 사람 1명과 LLM 에이전트 여러 개(Claude, Codex, Gemini/Antigravity, GPT-5.6 Sol)가 한 작업 폴더를 나눠 쓰며 운영했다.
 
 **바로 가기** · [실험 로그](experiments/EXPERIMENT_LOG.md) · [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md) ·
