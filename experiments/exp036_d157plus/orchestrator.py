@@ -54,7 +54,7 @@ def get_kaggle_user():
     for line in out.splitlines():
         if 'username' in line:
             return line.split()[-1]
-    return 'arki13'
+    return '<kaggle_user>'
 
 def count_lines(path):
     p = Path(path)
@@ -280,7 +280,7 @@ def main():
                 kaggle_fallback_to_mac = True
             else:
                 # Wait for dataset ready
-                log("Waiting for dataset arki13/kaggriculture-exp036t to be ready...")
+                log("Waiting for dataset <kaggle_user>/kaggriculture-exp036t to be ready...")
                 while True:
                     code, out = run_cmd(f"kaggle datasets status {user}/kaggriculture-exp036t")
                     if "ready" in out.lower():

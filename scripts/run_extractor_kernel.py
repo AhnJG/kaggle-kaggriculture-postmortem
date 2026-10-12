@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
     # Generate kernel-metadata.json
     metadata = {
-      "id": "arki13/kaggriculture-episode-extractor",
+      "id": "<kaggle_user>/kaggriculture-episode-extractor",
       "title": "Kaggriculture Episode Extractor",
       "code_file": "extract.py",
       "language": "python",
@@ -98,14 +98,14 @@ if __name__ == '__main__':
     print("Waiting for kernel to finish...")
     while True:
         time.sleep(10)
-        res = subprocess.run(["kaggle", "kernels", "status", "arki13/kaggriculture-episode-extractor"], cwd=kernel_dir, env=env, capture_output=True, text=True)
+        res = subprocess.run(["kaggle", "kernels", "status", "<kaggle_user>/kaggriculture-episode-extractor"], cwd=kernel_dir, env=env, capture_output=True, text=True)
         status = res.stdout.strip()
         print(status)
         if "complete" in status.lower() or "error" in status.lower() or "cancel" in status.lower():
             break
             
     print("Fetching output...")
-    subprocess.run(["kaggle", "kernels", "output", "arki13/kaggriculture-episode-extractor"], cwd=kernel_dir, env=env)
+    subprocess.run(["kaggle", "kernels", "output", "<kaggle_user>/kaggriculture-episode-extractor"], cwd=kernel_dir, env=env)
     
 if __name__ == '__main__':
     main()

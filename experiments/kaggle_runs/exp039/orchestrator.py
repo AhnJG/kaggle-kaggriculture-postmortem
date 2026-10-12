@@ -8,7 +8,7 @@ import glob
 from datetime import datetime, timezone, timedelta
 
 KST = timezone(timedelta(hours=9))
-USER = "arki13"
+USER = "<kaggle_user>"
 TAG = "exp039"
 KAGGLE_JOBS = 2560
 MAC_JOBS = 1706

@@ -230,7 +230,7 @@ python3 tools/compare_hosted_episodes.py --submission-a 56165718 --submission-b 
 | 두 슬롯 격차 | +249.5 | **+226.7** | −22.8 |
 
 - `[HOSTED]` 순서는 09-12·09-14와 같다(EXP-006 > EXP-007). 이번 창에서는 EXP-006 하락폭이 EXP-007보다 크다 — 09-14 관측("EXP-007 하락폭이 9.2배")과 방향이 반대다. 두 창 모두 episode 단위 재판독이 없어 원인(상대 분포 변화 vs 레이팅 수렴)은 **N/A**.
-- `[HOSTED]` 공개 leaderboard UI: Sian(`arki13`) **1,724위**, 활성 제출 dialog 표시값 1635.9 / **1862.6**(leaderboard 표시). 1위 Majkel1337 3232.2, 10위 Thomas Tschinkel 2974.2 — 이 상금 경계는 **2026-09-15 KST 값**이며 09-10 23:16 UTC 값(10위 2960.9)과 날짜가 다르므로 직접 비교하지 않는다.
+- `[HOSTED]` 공개 leaderboard UI: Sian(`<kaggle_user>`) **1,724위**, 활성 제출 dialog 표시값 1635.9 / **1862.6**(leaderboard 표시). 1위 Majkel1337 3232.2, 10위 Thomas Tschinkel 2974.2 — 이 상금 경계는 **2026-09-15 KST 값**이며 09-10 23:16 UTC 값(10위 2960.9)과 날짜가 다르므로 직접 비교하지 않는다.
 - 활성 2슬롯 = {56165718, 56175620} — CLI 최신 두 ID·공식 latest-2 규칙·공개 UI 대조로 확인. 로컬 tar SHA 재확인 결과 두 artifact 모두 기존 기록과 일치.
 - `[N/A]` episode 단위 재비교(`tools/compare_hosted_episodes.py`)는 이번 snapshot에서 실행하지 않았다.
 

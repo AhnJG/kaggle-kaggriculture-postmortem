@@ -41,7 +41,7 @@ Start with [`experiments/EXPERIMENT_LOG.md`](experiments/EXPERIMENT_LOG.md) (wha
 
 | 항목 | 값 |
 |---|---|
-| 제출 | 25회 (하루 5회, 최신 2개만 활성·최종 평가) |
+| 제출 | 25회 (EXP-014 쌍 중복 제출 혼선을 따로 세면 26회. 실험 로그 §3·§10-1) |
 | 대회 중 최고 | **2425.7** — EXP-016 (09-23, 약 808위, 당시 동메달권) |
 | 마감 직후 관측 | 1622.2, 1,855위 / 10,230팀 (10-01 05:47 KST, 재제출본이 600에서 재수렴 중). 같은 시점 동메달선 1852.0 |
 | 최종 활성 슬롯 | `L4pc` 56709992 (d157 + glut lead K=4) · `d157c` 56709342 (d157) |
@@ -116,9 +116,9 @@ Start with [`experiments/EXPERIMENT_LOG.md`](experiments/EXPERIMENT_LOG.md) (wha
 | `plan/` | 모델별 계획서, 마감 계획, 회고 |
 | `coordination/` | BOARD · TASKS · HANDOFF · RESET 문서, 그리고 에이전트별 보고·제안 묶음 |
 
-`coordination/reports_<agent>.md`, `coordination/proposals_<agent>.md` 는 원래 수백 개의 개별 파일(보고 217건, 제안·지시서 165건)이던 것을
+`coordination/reports_<agent>.md`, `coordination/proposals_<agent>.md` 는 원래 수백 개의 개별 파일(보고 223건, 제안·지시서 150건)이던 것을
 에이전트별로 시간순으로 이어 붙인 묶음이다. 각 절 제목이 원래 경로이므로, 다른 문서가 `coordination/reports/claude/2026...md` 같은
-경로를 인용하면 해당 묶음 파일에서 그 경로로 검색하면 된다. `coordination/hypotheses_events.json` 은 가설 원장 이벤트 96건의 묶음이다.
+경로를 인용하면 해당 묶음 파일에서 그 경로로 검색하면 된다. `coordination/hypotheses_events.json` 은 가설 원장 이벤트 89건의 묶음이다.
 
 문서 안의 다른 경로는 원래 작업 폴더 기준이며, 아래 "포함하지 않은 것"에 해당하는 경로는 이 저장소에 없다.
 
@@ -135,7 +135,7 @@ Start with [`experiments/EXPERIMENT_LOG.md`](experiments/EXPERIMENT_LOG.md) (wha
 | `slot2r-Rc26_107` | mirror 판이면 route 107, 아니면 c26 | 1658.1 |
 | `exp062-L3p`…`L6p` | d157 + glut lead K=3…6 (L4p가 최종 슬롯) | L4p 1800.5 |
 
-모든 파생 봇은 Apache-2.0 공개 노트북에서 출발했고, 원 저자 표기와 라이선스 전문을 각 `main.py` 안에 그대로 유지했다.
+모든 파생 봇은 Apache-2.0 공개 노트북에서 출발했고, 원 저자 표기를 각 `main.py` 안에 그대로 유지했다. 라이선스 전문은 `main.py` 안에 있거나, 제출 바이트를 바꾸지 않기 위해 같은 폴더의 `LICENSE.txt` 로 함께 두었다.
 일부 봇에는 Kaggle에 공개된 경기 리플레이에서 추출한 행동 기록(tape)이 데이터로 들어 있다.
 
 ## 재현
@@ -156,11 +156,11 @@ python3 -m pytest -q tests                  # 하네스 단위 테스트
 
 | 제외 | 이유 |
 |---|---|
-| 원시 리플레이·경기 결과(`private_artifacts/`, `analysis/**/replays`, `evidence/raw`, `*.jsonl`, 결과 JSON) — 약 45GB | 용량. 재수집 가능 |
+| 원시 리플레이·경기 결과(`private_artifacts/`, `analysis/**/replays`, `evidence/raw`, `*.jsonl`, 판정·요약 외 결과 JSON) — 약 45GB | 용량. 재수집 가능 |
 | 대량 생성된 후보 봇(상수 변형 수천 개)과 Kaggle kernel 출력 | 용량. 생성 스크립트는 포함 |
-| 남이 쓴 공개 노트북 원본(`releases/public-*-exact`, `opponents/`, `docs/`, `**/extracted`) | 우리 저작물이 아님. 출처는 `environment/LICENSES.md` |
+| 남이 쓴 공개 노트북 원본(`releases/public-*-exact`, `opponents/`, `docs/`, `**/extracted`, 다운로드한 상대 봇) | 우리 저작물이 아님. 출처는 `environment/LICENSES.md` |
 | 대회 데이터, 리더보드 CSV | 재배포하지 않음 |
-| 자격증명(`kaggle.json`), 개인 경로·연락처 | 보안. 남아 있던 로컬 경로는 `~` 로 치환 |
+| 자격증명(`kaggle.json`), 개인 경로·연락처·Kaggle 계정명 | 보안. 로컬 경로는 `~`, 계정명은 `<kaggle_user>` 로 치환 |
 | 일회성 루트 스크립트, `scratch/`, 가상환경 | 정리 |
 
 git 이력은 원래 작업 폴더의 91개 커밋을 가져오지 않고 이 정리본에서 새로 시작했다(이전 이력에 대용량 리플레이가 섞여 있었다).

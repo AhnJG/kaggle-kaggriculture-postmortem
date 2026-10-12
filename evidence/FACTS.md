@@ -245,7 +245,7 @@ zhincez 본인 2,527.7(2026-09-08 기준 271위/8,151). 상대 26명 중 25명�
 ### F-T13 `[HOSTED]` 2026-09-15 01:13 KST 직접 CLI+UI snapshot — 활성 2슬롯 publicScore·순위 재확인
 출처: `coordination/reports/codex/20260915-0115-KAGGLE-SNAPSHOT.md` (Codex, `kaggle competitions submissions kaggriculture -v` 직접 실행 + 공개 leaderboard UI, 완료 시각 상한 2026-09-14 16:13:12 UTC). [owner 이관안](../coordination/proposals/codex/20260915-owner-record-sync.md) §4 반영.
 - EXP-006 `56165718` publicScore **1862.6**, EXP-007 `56175620` **1635.9**, 둘 다 COMPLETE. 09-14 10:47 UTC snapshot(1896.9 / 1647.4) 대비 각각 −34.3 / −11.5.
-- 공개 UI: Sian(`arki13`) **1,724위**. 1위 Majkel1337 3232.2, 10위 Thomas Tschinkel 2974.2 — 이 상금 경계는 2026-09-15 KST 값이며 09-10 23:16 UTC 값(10위 2960.9)과 날짜가 달라 직접 비교하지 않는다.
+- 공개 UI: Sian(`<kaggle_user>`) **1,724위**. 1위 Majkel1337 3232.2, 10위 Thomas Tschinkel 2974.2 — 이 상금 경계는 2026-09-15 KST 값이며 09-10 23:16 UTC 값(10위 2960.9)과 날짜가 달라 직접 비교하지 않는다.
 - 로컬 tar SHA 재확인: `coordination/proposals/claude/exp006/submission.tar.gz` `1c478c24…9721`, `releases/public-thomas-replay-router-v2-exact/submission.tar.gz` `8031d51a…0180` — 둘 다 기존 기록과 일치.
 - 전문 기록: `evidence/HOSTED_LEDGER.md` "2026-09-15 01:13 KST" 절. episode 단위 W/D/L 재판독은 이 snapshot에 없음(`[N/A]`).
 - 재현: `kaggle competitions submissions kaggriculture -v`; 위 snapshot 보고서 §2~§4.

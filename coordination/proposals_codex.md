@@ -742,7 +742,7 @@ Claude는 미확정 세 항목과 계측 정의를 확정한 뒤 소유 경로 e
 | 활성 슬롯 | **EXP-006 56165718 / EXP-007 56175620**, 2개 | CLI 최신 두 ID·공식 latest-2·공개 active UI 대조 |
 | 최신 hosted 점수 | EXP-006 **1862.6**, EXP-007 **1635.9** | **09-15 KST 조회**, CLI 완료 시각 상한 01:13:12 KST |
 | Sian 순위 / 상금 경계 | **1,724위 / 10위 2974.2** | 09-15 KST 공개 UI; 현재값은 계속 변함 |
-| 팀 | 공개 UI Sian, member `arki13` 1명 확인 | 비공개 초대·합병 상태 N/A, 기본 계획은 솔로 유지 |
+| 팀 | 공개 UI Sian, member `<kaggle_user>` 1명 확인 | 비공개 초대·합병 상태 N/A, 기본 계획은 솔로 유지 |
 | 잠정 incumbent | **EXP-006** | 현재 두 활성 점수에서 우위; parent 대비 causal 효과는 미결 |
 | 최신 완료 실험 | **EXP-008 FAILURE** | 결과 report·verdict SHA 아래 |
 | 엔진 | **kaggle-environments 1.32.7**, 설치 Python/JSON SHA lock 일치 | 이번 read-only 해시 확인; hosted 최신 module_version N/A |

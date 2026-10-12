@@ -1187,7 +1187,7 @@ ref,fileName,date,description,status,publicScore,privateScore
 |---|---:|
 | 1위 Majkel1337 | 3232.2 |
 | 10위 Thomas Tschinkel | 2974.2 |
-| Sian (`arki13`) | **1,724위 / 1862.6** |
+| Sian (`<kaggle_user>`) | **1,724위 / 1862.6** |
 | Sian 활성 제출 dialog | **1635.9 / 1862.6** (후자에 leaderboard 표시) |
 
 UI는 이 dialog에 submission ID를 노출하지 않는다. CLI의 최신 두 submission·동일 점수·공식 latest-2 규칙과 결합해 EXP-006/007로 연결했다. 총 팀 수는 페이지 간 갱신 시차가 있어 이 보고서의 판단에 쓰지 않는다.

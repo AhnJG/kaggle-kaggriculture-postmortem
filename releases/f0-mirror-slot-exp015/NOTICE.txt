@@ -1,0 +1,2 @@
+f0-mirror-slot-exp015: derived from public Kaggle notebooks licensed under Apache License 2.0 (lynnsakurai Farming Score v2 lineage; upstream authors credited inside main.py, incl. Thomas Tschinkel, yhay81, aurax7, Dmitrii Gluzdov, Ahmed Berat Ozer, Kaggle kaggle-environments contributors).
+main.py references LICENSE.txt; the Apache-2.0 text is supplied here as LICENSE.txt. main.py bytes are unchanged from the submitted/verified artifact.

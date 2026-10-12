@@ -162,7 +162,7 @@ VERDICT | SUCCESS |
 
 ## 실행한 검증과 결과
 - **Task A**: 우리 팀 리플레이 10판 분석 완료 (이전 세션 보고 완료: `20260907-1621-KAGRI-014-TaskA.md`).
-- **Task B**: Kaggle Kernel (`arki13/kaggriculture-top-episodes-grep`) 을 실행하여 `kaggle-environments` 의 방대한 21GB 로그 중 상위 10팀의 최근 에피소드 ID 40개를 추출 후, `kaggle competitions replay` 로 안전하게 로컬 다운로드 완료 (API 제한 속도 2초 간격 준수).
+- **Task B**: Kaggle Kernel (`<kaggle_user>/kaggriculture-top-episodes-grep`) 을 실행하여 `kaggle-environments` 의 방대한 21GB 로그 중 상위 10팀의 최근 에피소드 ID 40개를 추출 후, `kaggle competitions replay` 로 안전하게 로컬 다운로드 완료 (API 제한 속도 2초 간격 준수).
 - **Task C**: 다운로드된 40개 리플레이 중 유효한 29개 리플레이(47개의 팀 시점)를 분석하여 `private_artifacts/tapes/` 에 JSON 테이프로 추출하고 5가지 주요 지표(BUY_LAND 시점, 일꾼 수, 동물 선호도, 목초지/닭장 비율, 평균 SELL 수량)를 집계했습니다.
 - **주요 발견**:
   - `BUY_LAND`는 보통 140~150턴 사이에 처음 일어납니다.

@@ -1,6 +1,6 @@
 # usage: bash experiments/exp062/kaggle_collect.sh <tag> <out.jsonl>   (waits until all 5 kernels finish)
 set -u
-TAG=$1; OUT=$2; U=arki13; R=experiments/kaggle_runs/$TAG
+TAG=$1; OUT=$2; U=<kaggle_user>; R=experiments/kaggle_runs/$TAG
 for i in $(seq 1 240); do
   done_n=0
   for k in 0 1 2 3 4; do s=$(kaggle kernels status $U/kaggriculture-$TAG-k$k 2>&1); echo "$(date '+%H:%M') k$k $s" >> $R/status.log

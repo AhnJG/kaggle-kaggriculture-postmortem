@@ -2435,8 +2435,8 @@ X-D-vs-P {'D': 0.88, 'P': 0.5, 'n': 100}
 # KAGGLE-PILOT 보고 (2026-09-27 15:56 KST)
 
 - compare.txt: FAIL games=60 mismatch=0 errors=1 cpu=4 sec/game kaggle=28.8 mac=11.8 kaggle_games_per_min=8.2 engine=bc8a5487
-- Dataset URL: https://www.kaggle.com/datasets/arki13/kaggriculture-pilot-0927 (private)
-- Kernel URL: https://www.kaggle.com/code/arki13/kaggriculture-pilot-0927-run (private)
+- Dataset URL: https://www.kaggle.com/datasets/<kaggle_user>/kaggriculture-pilot-0927 (private)
+- Kernel URL: https://www.kaggle.com/code/<kaggle_user>/kaggriculture-pilot-0927-run (private)
 - 소요 시간: total_sec=487.2s (~8.1분), game_wall_sec=440.7s
 - 상태 확인: 2회 (1회차 RUNNING, 2회차 COMPLETE)
 - 출력 경로: experiments/kaggle_pilot/out/

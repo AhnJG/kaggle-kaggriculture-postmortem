@@ -95,7 +95,7 @@
 | 활성 슬롯 | **EXP-017 56490029 (09-23, 2100.2) / demand-preserving 0924 exact 56518910 (09-24 10:26 UTC)**. EXP-016 은퇴. 다음 제출은 EXP-017 을 은퇴시킨다 | 사람 제공 ID |
 | 최신 hosted 점수 | **P2 2421.6**(11h, 수렴 전) · yhay81 1483.8 | 09-19 15:20 UTC UI, [HOSTED_LEDGER](../evidence/HOSTED_LEDGER.md) |
 | Sian 순위 / 메달 경계 | **949위 / 9,550팀 (BRONZE 표시)** · 동 955위 **2418.9**(여유 +2.7) · 은 477위 2652.6 · 금 29위 2913.5 | 09-19 15:20 UTC leaderboard API |
-| 팀 | 공개 UI Sian, member `arki13` 1명 확인 | 비공개 초대·합병 상태 N/A, 기본 계획은 솔로 유지 |
+| 팀 | 공개 UI Sian, member `<kaggle_user>` 1명 확인 | 비공개 초대·합병 상태 N/A, 기본 계획은 솔로 유지 |
 | 잠정 incumbent | **P2** (56347732 은퇴 전 2410.4 @1d). EXP-014 는 hosted 판독 대기 | HOSTED_LEDGER 09-20 |
 | 최신 완료 작업 | **EXP-011 attribution PASS / 독립 검토 완료** | [결과](reports/codex/20260918-EXP011-RESULT.md). EXP-008 전략 실험은 FAILURE 유지 |
 | 엔진 | **kaggle-environments 1.32.7**, 설치 Python/JSON SHA lock 일치 | 이번 read-only 해시 확인; hosted 최신 module_version N/A |
