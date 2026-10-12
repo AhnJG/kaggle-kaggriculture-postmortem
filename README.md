@@ -28,7 +28,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 
 ## 내 역할
 
-> **사람 1명(나)과 LLM 에이전트 4종으로 운영했다.** 코드와 문서 대부분은 에이전트가 썼고, 나는 방향과 규칙과 제출을 정했다.
+> **사람 1명(나)과 LLM 에이전트 4종으로 운영했다.** 코드는 모두, 문서는 대부분 에이전트가 썼고, 나는 방향과 규칙과 제출을 정했다.
 > 제출한 봇은 경기 중에 LLM 을 호출하지 않는다. 이 저장소 내용에 대한 책임은 나에게 있다.
 
 ### 누가 무엇을 했나
@@ -39,7 +39,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 |---|---|---|
 | 구상 | 문제 정의, 목표 설정과 변경(상위 500위 → 최소 동메달 → 지는 상대 이기기), "기존 상위권 전략 흡수" 방향 제기 | 계획서 3종 초안, 대안 제시 |
 | 방법론 | 운영 규칙 설계(아래 "경계"), 평가 방식 전환 결정 | 사전등록 카드 설계(Claude), 하네스·gate 설계(Codex) |
-| 소프트웨어 | 코드 작성은 맡기고 산출물을 승인 | 봇·도구·테스트 작성(대부분 Codex, 마지막 날은 Claude). AI 작성 비율은 따로 측정하지 않았다 |
+| 소프트웨어 | 직접 작성한 코드 없음. 산출물 검토·승인 | 봇·도구·테스트 전부 작성(대부분 Codex, 마지막 날은 Claude) |
 | 조사 | — | 실험 실행, 실전 경기 수집, 공개 노트북·토론 수집(Antigravity, Codex) |
 | 검증 | 판정 승인·반려, 사후 기준 완화 거부 | 교차 검토(Codex·Sol·Claude), 재현 확인 |
 | 관리·감독 | 역할 배분과 재배정, 사용량 관리, 제출(09-30 전까지 직접 실행) | 상태 문서(BOARD) 관리, 지시서 작성 |
@@ -50,9 +50,9 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 | 에이전트 | 모델·도구 | 맡은 일 | 남긴 기록 |
 |---|---|---|---|
 | Claude | Claude Opus 5 → 5.5 (데스크톱·클라우드 세션) | 가설, 사전등록, 판정, red-team, 코디네이터(초기·후반) | 보고 39, 제안·지시서 113 |
-| Codex | OpenAI Codex | 봇 런타임, 하네스, release, 코디네이터(09-15~) | 보고 80, 제안 31 |
-| Gemini → Antigravity | Gemini Pro, Antigravity | 공식 문서·공개 노트북·리플레이 수집, 정해진 경기 실행·집계 | 보고 10 + 86 |
-| Sol | GPT-5.6 (ChatGPT) | 제출 직전 결정에 대한 외부 독립 검토 | 보고 6, 검토 7회 |
+| Codex | OpenAI Codex (GPT-5.6 Sol) | 봇 런타임, 하네스, release, 코디네이터(09-15~) | 보고 80, 제안 31 |
+| Gemini → Antigravity | Gemini 3.1 Pro, Gemini 3.8 Flash (Gemini CLI·Antigravity) | 공식 문서·공개 노트북·리플레이 수집, 정해진 경기 실행·집계 | 보고 10 + 86 |
+| Sol | GPT-5.6 Sol (ChatGPT) | 제출 직전 결정에 대한 외부 독립 검토 | 보고 6, 검토 7회 |
 
 각 에이전트의 규칙은 [`AGENTS.md`](AGENTS.md)(공통)와 [`CLAUDE.md`](CLAUDE.md)·[`GEMINI.md`](GEMINI.md)(역할)에, 실제 지시서는 `coordination/proposals_*.md` 에 있다.
 
@@ -205,15 +205,26 @@ flowchart LR
 |---|---|---|
 | 정책 | 상위권 리플레이로 학습한 신경망(행동 복제, BC)이 매 턴 상태를 보고 행동 생성. 1·11위는 그 위에 self-play PPO | 공개 계보의 기록된 행동 tape 재생 + 규칙 레이어 |
 | 상대 반응 | 있음 (상태 입력) | tape 는 없음, 덧붙인 레이어만 |
-| 경제 | 첫 턴부터 동물 중심 경제 | 계보가 정한 생산 계획 유지, 생산 변경 실험은 모두 FAIL |
+| 경제 | 첫 턴부터 동물 중심 경제(438위 팀 관찰) | 우리 봇도 동물을 키웠지만 규모·작물 구성은 tape 가 정한 대로 고정. 생산 변경 실험은 모두 FAIL |
 | 컴퓨트 | 1위는 GPU 수십 장. 4·5·11위는 GPU 1~2장, 5위는 사전학습 약 50분 | 맥북에어 + Kaggle/Colab |
 
 - **천장은 방식에서 정해졌다.** 같은 tape 계열로 438위를 한 팀은 tape 끼리는 5할 승부이고, 2100점 위 상대는 동물을 키우는 경제형 봇이라고 보고했다.
   우리 최종 봇도 1800–2000점 상대에게 0.45~0.50, 2000–2200점 상대에게 0.29~0.33이었다. 마지막 사흘의 진단과 개선은 tape 계열 안의 싸움이었다.
+  다만 우리 봇도 동물을 키웠다(아래 경기에서 15일째 소 6·양 6·거위 5). 그러니 차이를 "동물이 있냐 없냐"로 줄일 수는 없다.
+  상위권 글들이 공통으로 든 차이는 상태를 보고 매 턴 계획을 바꾸는 학습된 정책이었다.
 - **맞는 방향을 처음에 적어 두고 버렸다.** 09-03 [흡수 전략 문서](plan/kaggriculture_strategy_transfer.md)는 리플레이 행동 복제를 "확실한 상위권"으로 평가하고 2~3주차 후보로 잡았지만,
   09-06 범위 결정과 09-10 tape 전환 뒤 다시 다루지 않았다. 5위는 마지막 9일, 26위는 마지막 5일에 BC 로 그 자리에 올랐다.
 - **RL 을 막은 KILL(K6)은 반만 맞았다.** 근거는 처음부터 self-play 만 하는 경우였다. 상위권에서 통한 것은 BC 로 출발한 뒤의 PPO 였고, 4·5위는 BC 만으로 충분했다.
 - **같은 엔진 지식을 다르게 썼다.** 주문 절삭 같은 무음 처리를 우리는 검증 gate 에만 썼고, 4위는 실제 체결된 행동만 학습 라벨로 써서 큰 이득을 봤다.
+
+**실전 패배 한 판** — 2026-09-29, 에피소드 115289957. 왼쪽은 상대(당시 2296점, 이름 가림), 오른쪽은 우리 d157r 이다. 30일을 하루 1장씩 보여 준다.
+
+<img src="media/hosted_loss_115289957.gif" width="760" alt="실전 패배 경기 재생: 왼쪽 상대 농장과 오른쪽 우리 농장이 30일 동안 작물과 동물을 키우고, 최종 85,898 대 60,699로 진다">
+
+두 농장 모두 소·양·거위를 키웠고, 동물 수는 15일째 상대 소 7·양 3·거위 9, 우리 소 6·양 6·거위 5로 비슷했다.
+눈에 띄는 차이는 작물 구성이었다. 22일째 상대는 토마토 18·당근 24칸을, 우리는 딸기 27칸을 운영했다. 최종 잔고는 85,898 대 60,699였다.
+한 판이라 원인을 단정할 수는 없다. 그래도 고정된 생산 계획끼리의 차이가 한 판에서 2만 5천 코인까지 벌어질 수 있음을 보여 준다.
+화면은 공식 `kaggle-environments` 시각화로 렌더링했고, 생성 방법은 [`media/make_replay_gif.py`](media/make_replay_gif.py)에 있다.
 
 출처와 팀별 요약, 다음 대회에 가져갈 것은 [writeup/top-solutions-comparison.md](writeup/top-solutions-comparison.md).
 
@@ -295,8 +306,8 @@ human working with several LLM agents (Claude, Codex, Gemini/Antigravity, GPT-5.
 Both slots were resubmitted at the deadline and were re-converging from 600; last observed **1622.2, 1,855th of 10,230**
 (2026-10-01); **1686, 1,558th** on 2026-10-12 while final Bradley-Terry evaluation was still running. No medal.
 
-**My role.** One human (me) and four LLM agents (Claude, OpenAI Codex, Gemini/Antigravity, GPT-5.6 "Sol"). The agents wrote
-most of the code and documents; the submitted bots make no LLM calls at play time, and I am accountable for everything here.
+**My role.** One human (me) and four LLM agents (Claude Opus 5/5.5, OpenAI Codex on GPT-5.6 Sol, Gemini 3.1 Pro/3.8 Flash via Antigravity, GPT-5.6 Sol in ChatGPT). The agents wrote
+all of the code and most documents; the submitted bots make no LLM calls at play time, and I am accountable for everything here.
 Using CRediT terms: I did conceptualization (problem framing, goal changes), methodology (the agent contract and evidence rules),
 supervision and project administration (role assignment, usage budgeting, submissions), and validation decisions; the agents did
 software, investigation and first drafts. Hard boundaries the agents could not cross: humans submit (delegated only on the last
