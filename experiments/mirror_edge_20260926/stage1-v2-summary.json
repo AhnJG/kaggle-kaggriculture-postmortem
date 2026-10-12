@@ -1,0 +1,175 @@
+{
+  "verdict": "FAIL",
+  "baseline_ok": true,
+  "passing_arms": [],
+  "arms": {
+    "P": {
+      "n": 100,
+      "wins": 3,
+      "draws": 94,
+      "losses": 3,
+      "score_rate": 0.5,
+      "invalid": 0,
+      "runtime": {
+        "games": 100,
+        "calls": 71900,
+        "max_step_seconds": 0.12712304200977087,
+        "p99_step_seconds": 0.0044074999168515205,
+        "invalid_games": 0,
+        "candidate_exceptions": 0,
+        "candidate_caught_errors": 0,
+        "opponent_caught_error_games": 0
+      }
+    },
+    "H1a": {
+      "n": 100,
+      "wins": 3,
+      "draws": 94,
+      "losses": 3,
+      "score_rate": 0.5,
+      "invalid": 0,
+      "runtime": {
+        "games": 100,
+        "calls": 71900,
+        "max_step_seconds": 0.12458762503229082,
+        "p99_step_seconds": 0.00461241602897644,
+        "invalid_games": 0,
+        "candidate_exceptions": 0,
+        "candidate_caught_errors": 0,
+        "opponent_caught_error_games": 0
+      }
+    },
+    "H1b": {
+      "n": 100,
+      "wins": 3,
+      "draws": 94,
+      "losses": 3,
+      "score_rate": 0.5,
+      "invalid": 0,
+      "runtime": {
+        "games": 100,
+        "calls": 71900,
+        "max_step_seconds": 0.15030037495307624,
+        "p99_step_seconds": 0.005084875039756298,
+        "invalid_games": 0,
+        "candidate_exceptions": 0,
+        "candidate_caught_errors": 0,
+        "opponent_caught_error_games": 0
+      }
+    },
+    "H3": {
+      "n": 100,
+      "wins": 3,
+      "draws": 94,
+      "losses": 3,
+      "score_rate": 0.5,
+      "invalid": 0,
+      "runtime": {
+        "games": 100,
+        "calls": 71900,
+        "max_step_seconds": 0.14363104198127985,
+        "p99_step_seconds": 0.005142207955941558,
+        "invalid_games": 0,
+        "candidate_exceptions": 0,
+        "candidate_caught_errors": 0,
+        "opponent_caught_error_games": 0
+      }
+    },
+    "H4": {
+      "n": 100,
+      "wins": 2,
+      "draws": 62,
+      "losses": 36,
+      "score_rate": 0.33,
+      "invalid": 0,
+      "runtime": {
+        "games": 100,
+        "calls": 71900,
+        "max_step_seconds": 0.12790779187344015,
+        "p99_step_seconds": 0.004996415926143527,
+        "invalid_games": 0,
+        "candidate_exceptions": 0,
+        "candidate_caught_errors": 0,
+        "opponent_caught_error_games": 0
+      }
+    }
+  },
+  "h2prime_gate": {
+    "status": "STOP",
+    "reason": "FROZEN_WRAPPER_TELEMETRY_IMPLEMENTATION_ERROR",
+    "detail": "The wrapper referenced undefined global _json while recording the parent step-0 action. Every gate game recorded _ME_REPORT.wrapper_errors=1, mutation_count=0, and is candidate-side invalid. Per the frozen gate, H2-prime is not modified or rerun.",
+    "games": 8,
+    "invalid": 8,
+    "runtime": {
+      "games": 8,
+      "calls": 5752,
+      "max_step_seconds": 0.050430583069100976,
+      "p99_step_seconds": 0.003892499953508377,
+      "invalid_games": 8,
+      "candidate_exceptions": 0,
+      "candidate_caught_errors": 8,
+      "opponent_caught_error_games": 0
+    },
+    "keys": [
+      "h2prime-stage1|H2prime|5800|1|127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "h2prime-stage1|H2prime|5800|0|127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "h2prime-gate-nonmirror|H2prime|5800|1|1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+      "h2prime-gate-nonmirror|H2prime|5800|0|178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "h2prime-gate-nonmirror|H2prime|5800|0|1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+      "h2prime-gate-nonmirror|H2prime|5800|0|4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+      "h2prime-gate-nonmirror|H2prime|5800|1|178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "h2prime-gate-nonmirror|H2prime|5800|1|4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"
+    ]
+  },
+  "parent_step0": {
+    "seed": 5800,
+    "rows": [
+      {
+        "seat": 0,
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "seat": 1,
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "BUY_PRODUCT",
+              "WHEAT",
+              5
+            ],
+            [
+              "BUY_SEED",
+              "WHEAT",
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "reason_sell_absent": "_PIPE_MODE='EarlyCycle' calls _pipe_install, whose non-Original/non-HybridOpening branch overwrites tape[0].market with BUY_PRODUCT WHEAT 5 plus BUY_SEED WHEAT 1 before the appended wrapper receives the action (parent main.py:6344,6358-6360,6410-6418)."
+  },
+  "v2_sha256": "6d52219747ac476a45d2242d3e7d2621b50b6edc46720cc11250ebe33493d442",
+  "h2prime_prereg_sha256": "bbb20f02d815f4bf693507db5b161338f25d9f1860d79ceddb4eaa79991d63c0",
+  "report": "coordination/reports/codex/20260926-0104-EXP021-STAGE1-V2.md"
+}

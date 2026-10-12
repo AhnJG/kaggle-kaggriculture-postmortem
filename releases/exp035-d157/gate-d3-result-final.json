@@ -1,0 +1,27 @@
+{
+ "at": "2026-09-30T13:57:00Z",
+ "cand_sha": "94a46c1196853577418bba1766fd347279aa8d213cea8812086d73c5f01c918e",
+ "engine_version": "1.32.7",
+ "basis": "Claude-B 22:57 KST re-evaluation of gate-d3-result.json (2026-09-27): single-worker legs all PASS (max 0.503s, step0 0.178s, total 3.30s, 0 errors, engine sha ok); original verdict FAIL only because the 6-worker leg field was null (stage1 constant not attached). Same stage1 constant (0.7506s, 0 invalid) used by L4p/L5p gates. Extra evidence: hosted d157r 56675458 = 213 public + 1 validation episodes, 0 bad (errcheck 22:55); S8 Kaggle 720 games 0 errors.",
+ "gate": {
+  "max_step_incl_step0": 0.5030698219999294,
+  "max_step0": 0.1783087249999653,
+  "max_step_after0": 0.5030698219999294,
+  "max_p99_step": 0.08150300099998731,
+  "max_total_per_game": 3.2976708930007135,
+  "max_overage_per_game": 0,
+  "errors_or_invalid": 0,
+  "dp_mean_step_after0": 0.0017824347852361852,
+  "pass_single_max_lt_0_8": true,
+  "pass_step0_lt_0_8": true,
+  "pass_total_lt_30": true,
+  "pass_no_error": true,
+  "pass_engine_sha": true,
+  "stage1_6worker_max_step": 0.750587249873206,
+  "stage1_6worker_invalid": 0,
+  "pass_6worker_lt_1_0": true,
+  "tolerable_hosted_slowdown_to_1s": 1.987795642411125,
+  "verdict": "PASS"
+ },
+ "source_file": "gate-d3-result.json"
+}

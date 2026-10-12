@@ -1,0 +1,24 @@
+{
+  "action_sha_changed_pairs": 134,
+  "candidate_max_step": 0.5103580420836806,
+  "candidate_wdl": {
+    "0.0": 356,
+    "0.5": 1,
+    "1.0": 238
+  },
+  "margin_changed_pairs": 74,
+  "margin_delta_max": 6.0,
+  "margin_delta_mean": -1.030252100840336,
+  "margin_delta_min": -30.0,
+  "pairs": 595,
+  "parent_wdl": {
+    "0.0": 356,
+    "0.5": 1,
+    "1.0": 238
+  },
+  "rows": 1190,
+  "score_delta_counts": {
+    "0.0": 595
+  },
+  "source_sha256": "e1cd056263b581faf81b2390780aa4465acf2a0db7292b7d76aee11f6a8cc9c4"
+}

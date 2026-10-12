@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-16T10:19:03Z",
+  "evidence_label": "LOCAL",
+  "manifest": {
+    "path": "experiments/results/p1_release_preflight/manifest.json",
+    "sha256": "46fd9e5eacb79200fd03ce2302649e05e0f75f2eb51f77d2f745b87fb6e4801c",
+    "claude_approved_same_manifest": true,
+    "antigravity_approved_same_manifest": true,
+    "approved_runtime": {
+      "total_s_by_parent_player_lte": 623,
+      "wall_seconds_lte": 960,
+      "wall_seconds_hard_ceiling_lt": 1200
+    }
+  },
+  "execution": {
+    "command_record": "experiments/results/p1_release_preflight/commands.json",
+    "command_record_sha256": "98a7c6aa06da71b5e0c14ca4e4851b29f9a358355d6de54fd3a03a8d88674a96",
+    "requested_episodes": 13,
+    "completed_episodes": 13,
+    "done_done_episodes": 13,
+    "steps_720_episodes": 13,
+    "cell_json_count": 13,
+    "exit_code_2_count": 13,
+    "runner_error_count": 0,
+    "malformed_json_count": 0,
+    "missing_metric_count": 0,
+    "metric_schema_version_mismatch_count": 0,
+    "status": "COMPLETE_VALID_FAILURES"
+  },
+  "identity": {
+    "tar_sha_mismatch_count": 0,
+    "unexpected_extracted_member_count": 0,
+    "missing_member_count": 0,
+    "member_sha_mismatch_count": 0,
+    "artifact_changed_during_run_count": 0,
+    "engine_mismatch_count": 0,
+    "runner_mismatch_count": 0,
+    "opponent_mismatch_count": 0,
+    "verdict": "PASS"
+  },
+  "parent_records": {
+    "expected": 16,
+    "observed": 16,
+    "zero_gate_passed": 0,
+    "zero_gate_failed": 16,
+    "counter_sums": {
+      "noop_actions": 3488,
+      "shed_discarded": 482,
+      "shed_unsold": 0,
+      "orders_truncated": 0,
+      "buy_failed": 74,
+      "hire_failed": 18,
+      "seed_blocked_plant": 56,
+      "hands_length_mismatch_count": 92,
+      "exceptions": 0
+    },
+    "records_with_nonzero": {
+      "noop_actions": 16,
+      "shed_discarded": 16,
+      "shed_unsold": 0,
+      "orders_truncated": 0,
+      "buy_failed": 6,
+      "hire_failed": 2,
+      "seed_blocked_plant": 6,
+      "hands_length_mismatch_count": 2,
+      "exceptions": 0
+    },
+    "diagnostic_not_gating": {
+      "sell_unfilled_sum": 1541806,
+      "records_nonzero": 16
+    },
+    "verdict": "FAILURE"
+  },
+  "runtime": {
+    "parent_total_s_min": 0.07802299747709185,
+    "parent_total_s_max": 0.19782073854003102,
+    "parent_total_s_mean": 0.11108626787608955,
+    "episode_wall_seconds_min": 2.841,
+    "episode_wall_seconds_max": 4.652,
+    "parent_limit_failure_count": 0,
+    "episode_wall_limit_failure_count": 0,
+    "hard_ceiling_failure_count": 0,
+    "verdict": "PASS"
+  },
+  "pre_submission_checklist": {
+    "Identity": "PASS",
+    "Schema": "FAIL",
+    "Runtime": "PASS",
+    "Isolation": "PASS",
+    "License": "PASS",
+    "Ledger": "N/A_PRE_SUBMISSION"
+  },
+  "result_verification": {
+    "integrator_cross_check": "PASS",
+    "independent_result_verification": "PENDING",
+    "note": "The pre-run Antigravity review approved the manifest and runner, not these newly generated cell results."
+  },
+  "overall_verdict": "LOCAL_FAILURE_INDEPENDENT_RESULT_VERIFICATION_PENDING",
+  "hosted_strength_claim": "N/A",
+  "submission_authorized": false
+}

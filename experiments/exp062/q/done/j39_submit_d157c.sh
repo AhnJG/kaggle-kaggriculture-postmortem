@@ -1,0 +1,1 @@
+bash experiments/exp062/submit62d.sh releases/exp035-d157 94a46c1196853577418bba1766fd347279aa8d213cea8812086d73c5f01c918e releases/exp035-d157/gate-d3-result-final.json 56705818 56694892 "EXP-062 final A step1: d157c = d157 copy (same bytes as d157r 56675458, sha 94a46c11); retires L4p 56694892; step2 strong-L copy will retire L5p -> active {d157c, L}"

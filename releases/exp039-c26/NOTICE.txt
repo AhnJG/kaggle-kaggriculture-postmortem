@@ -1,0 +1,6 @@
+EXP-039 c26 = d157 (releases/exp035-d157, sha 94a46c11...) + appended wrapper _CA_MARGIN -15 -> -26 (CARROT2 layer: carrot-vs-wheat planting margin).
+d157 = public "demand-preserving-turn-sale-timing" (tetsutani, Apache-2.0, sha 55be5d5f...) + _S1002_PASSES 35. Parent bytes unchanged; full Apache-2.0 text and
+upstream attribution retained in main.py. Entry: exp039_entry (last callable).
+Evidence vs d157: EXP-039 tapes(486) +0.024 (lo95 +0.001), family arena +0.104, O127/V074 equal, d157-hosted-opponent tapes -0.004 (1/136 game; frozen d157' rule FAIL);
+EXP-042 2400+ tapes (742): +0.033 (lo95 +0.017), select teams +0.040, holdout 5 teams +0.007. Submitted as slot-2 (aggressive) candidate, retires v074.
+D3 v2 single worker, 15 fresh-process games (cloud): max step 0.532s, step0 0.218s, max total 3.43s, errors 0.

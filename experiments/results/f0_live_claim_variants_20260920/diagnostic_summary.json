@@ -1,0 +1,187 @@
+{
+  "seeds": "2000-2009",
+  "seats": "alternating (both)",
+  "games_per_pair": 20,
+  "pairs": {
+    "v1_vs_p2": {
+      "name": "v1_vs_p2",
+      "a": "releases/public-goodpjw2008-kaggriculture-melon-threshold-squeeze-2749-exact/main.py",
+      "b": "releases/public-lynnsakurai-farming-score-v2-exact/main.py",
+      "exit": 0,
+      "verdict": "FAILURE",
+      "wins": 0,
+      "draws": 0,
+      "losses": 20,
+      "paired_score": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean_margin": -2353.4,
+      "errors": 0,
+      "games": 20,
+      "seed_values": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "artifact_sha256": {
+        "a": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+        "b": "cddf51ea4e5bac24e5118b12b78f771a92055e17064e062b0267724822b8a94d"
+      },
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "raw": "diag_v1_vs_p2.json"
+    },
+    "v2_vs_p2": {
+      "name": "v2_vs_p2",
+      "a": "releases/public-seyitkaangunes-kaggriculture-2820-score-exact/main.py",
+      "b": "releases/public-lynnsakurai-farming-score-v2-exact/main.py",
+      "exit": 0,
+      "verdict": "FAILURE",
+      "wins": 0,
+      "draws": 0,
+      "losses": 20,
+      "paired_score": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean_margin": -1487.4,
+      "errors": 0,
+      "games": 20,
+      "seed_values": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "artifact_sha256": {
+        "a": "fa9e47d81de5020847c1dbc7ca10d058b227be66deea7c019040fb12a1d99f19",
+        "b": "cddf51ea4e5bac24e5118b12b78f771a92055e17064e062b0267724822b8a94d"
+      },
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "raw": "diag_v2_vs_p2.json"
+    },
+    "v1_vs_p1_alperen": {
+      "name": "v1_vs_p1_alperen",
+      "a": "releases/public-goodpjw2008-kaggriculture-melon-threshold-squeeze-2749-exact/main.py",
+      "b": "releases/public-alperen-before-dawn-stock-cash-sales-exact/main.py",
+      "exit": 0,
+      "verdict": "FAILURE",
+      "wins": 0,
+      "draws": 0,
+      "losses": 20,
+      "paired_score": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean_margin": -2522.6,
+      "errors": 0,
+      "games": 20,
+      "seed_values": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "artifact_sha256": {
+        "a": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+        "b": "87142c0e6576d5ca40935a6e51d28818766e424f7173da2f50b558dbe4843b39"
+      },
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "raw": "diag_v1_vs_p1_alperen.json"
+    },
+    "v2_vs_p1_alperen": {
+      "name": "v2_vs_p1_alperen",
+      "a": "releases/public-seyitkaangunes-kaggriculture-2820-score-exact/main.py",
+      "b": "releases/public-alperen-before-dawn-stock-cash-sales-exact/main.py",
+      "exit": 0,
+      "verdict": "FAILURE",
+      "wins": 2,
+      "draws": 0,
+      "losses": 18,
+      "paired_score": 0.1,
+      "ci95": [
+        -0.12619999999999998,
+        0.3262
+      ],
+      "mean_margin": -738.0,
+      "errors": 0,
+      "games": 20,
+      "seed_values": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "artifact_sha256": {
+        "a": "fa9e47d81de5020847c1dbc7ca10d058b227be66deea7c019040fb12a1d99f19",
+        "b": "87142c0e6576d5ca40935a6e51d28818766e424f7173da2f50b558dbe4843b39"
+      },
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "raw": "diag_v2_vs_p1_alperen.json"
+    },
+    "v1_vs_v2": {
+      "name": "v1_vs_v2",
+      "a": "releases/public-goodpjw2008-kaggriculture-melon-threshold-squeeze-2749-exact/main.py",
+      "b": "releases/public-seyitkaangunes-kaggriculture-2820-score-exact/main.py",
+      "exit": 0,
+      "verdict": "INCONCLUSIVE",
+      "wins": 14,
+      "draws": 0,
+      "losses": 6,
+      "paired_score": 0.7,
+      "ci95": [
+        0.35447379260032963,
+        1.0455262073996703
+      ],
+      "mean_margin": 595.2,
+      "errors": 0,
+      "games": 20,
+      "seed_values": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "artifact_sha256": {
+        "a": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+        "b": "fa9e47d81de5020847c1dbc7ca10d058b227be66deea7c019040fb12a1d99f19"
+      },
+      "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "raw": "diag_v1_vs_v2.json"
+    }
+  }
+}

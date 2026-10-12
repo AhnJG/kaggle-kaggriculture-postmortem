@@ -1,0 +1,8 @@
+EXP-035 candidate d157 = public "demand-preserving-turn-sale-timing" (tetsutani, 09-27, Apache-2.0) + one constant.
+Parent: releases/public-dpnew-55be5d5f-exact/main.py (sha256 55be5d5f124c8daaaa63c1a29ba4aab096004909666f04748007603c67b7d2a8), bytes unchanged.
+Change: appended wrapper sets _S1002_PASSES 34 -> 35 (one more fixed-sell closure pass); entry = exp029_entry (last callable).
+The file retains the full Apache License 2.0 text and upstream attribution (thomastschinkel, yhay81, destbreso, aurax7,
+tetsutani, prvsiyan, Dmitrii Gluzdov, Ahmed Berat Ozer and the notebook author).
+Evidence: EXP-029 screen, EXP-032 (Kaggle 2,540 games; runtime-only FAIL under 4-way contention), EXP-034 sequential Kaggle
+runtime (max 0.247s, overage 0), D3 gate v2 single-worker cloud 15 fresh-process games (max 0.503s, step0 0.178s, total <=3.30s,
+errors 0), EXP-035 prereg experiments/exp035_d157/PREREG.md (sha b054c5bf...).

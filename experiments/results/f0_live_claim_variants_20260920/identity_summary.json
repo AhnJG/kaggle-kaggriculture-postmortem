@@ -1,0 +1,54 @@
+{
+  "v1": {
+    "status": "PASS",
+    "tar_sha256": "cfdd7f6c9513155b960776311c7a12bd73ff2146f8f56498646ccfbcb2e27f63",
+    "main_py_sha256": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+    "tar_members": [
+      "main.py"
+    ],
+    "tar_member_main_sha256": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+    "manifest_expected": {
+      "main.py": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49"
+    },
+    "manifest_expected_matches": {
+      "main.py": true
+    },
+    "rebuilds_in_runner": [
+      {
+        "build": "A",
+        "tar_sha256": "cfdd7f6c9513155b960776311c7a12bd73ff2146f8f56498646ccfbcb2e27f63"
+      },
+      {
+        "build": "B",
+        "tar_sha256": "cfdd7f6c9513155b960776311c7a12bd73ff2146f8f56498646ccfbcb2e27f63"
+      }
+    ],
+    "release_build_sha256": "cfdd7f6c9513155b960776311c7a12bd73ff2146f8f56498646ccfbcb2e27f63"
+  },
+  "v2": {
+    "status": "PASS",
+    "tar_sha256": "f623578bdd7e62558626d4fdcc332060f8db1d1b06ee4e1ce34ff72ca82a9114",
+    "main_py_sha256": "fa9e47d81de5020847c1dbc7ca10d058b227be66deea7c019040fb12a1d99f19",
+    "tar_members": [
+      "main.py"
+    ],
+    "tar_member_main_sha256": "fa9e47d81de5020847c1dbc7ca10d058b227be66deea7c019040fb12a1d99f19",
+    "manifest_expected": {
+      "main.py": "fa9e47d81de5020847c1dbc7ca10d058b227be66deea7c019040fb12a1d99f19"
+    },
+    "manifest_expected_matches": {
+      "main.py": true
+    },
+    "rebuilds_in_runner": [
+      {
+        "build": "A",
+        "tar_sha256": "f623578bdd7e62558626d4fdcc332060f8db1d1b06ee4e1ce34ff72ca82a9114"
+      },
+      {
+        "build": "B",
+        "tar_sha256": "f623578bdd7e62558626d4fdcc332060f8db1d1b06ee4e1ce34ff72ca82a9114"
+      }
+    ],
+    "release_build_sha256": "f623578bdd7e62558626d4fdcc332060f8db1d1b06ee4e1ce34ff72ca82a9114"
+  }
+}

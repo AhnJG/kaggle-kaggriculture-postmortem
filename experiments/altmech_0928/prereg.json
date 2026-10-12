@@ -1,0 +1,134 @@
+{
+  "id": "ALTMECH-0928",
+  "status": "NO_SUPPORTED_CANDIDATE",
+  "execution_enabled": false,
+  "selected": null,
+  "candidates": [],
+  "hypothesis_id": null,
+  "test_id": null,
+  "reason": "Reviewed mechanisms either already exist in the exact parents or lack a demonstrated recoverable loss and a distinct executable change. No candidate performance experiment is registered.",
+  "parents": {
+    "v074": {
+      "path": "releases/round2-v074/main.py",
+      "sha256": "860a502c36f9a9f700c93125e6828f41378f50d74fa130f62a09f911316ea19c"
+    },
+    "d157": {
+      "path": "releases/exp035-d157/main.py",
+      "sha256": "94a46c1196853577418bba1766fd347279aa8d213cea8812086d73c5f01c918e"
+    }
+  },
+  "required_future_panel_reference": {
+    "split": {
+      "path": "experiments/exp036_d157plus/tape-split.json",
+      "sha256": "ca76c617c2c0964ca5b8012b96948af9c3d865dc30723704182dbb8f2a432f48"
+    },
+    "definition": {
+      "path": "experiments/exp036_d157plus/prep36.py",
+      "sha256": "636a67926f4f35892393a4687777fe09fb34be1c4f319ac1fc1a47953b109e3b"
+    },
+    "judge": {
+      "path": "experiments/exp036_d157plus/judge36.py",
+      "sha256": "29026970f221fa98019b75401bcf55fbd1634723ab817abe321f9aa72782263c"
+    },
+    "tape_count": 300,
+    "closed": {
+      "V074": {
+        "seeds": [
+          14100,
+          14149
+        ],
+        "seats": [
+          0,
+          1
+        ]
+      },
+      "O127": {
+        "seeds": [
+          14100,
+          14149
+        ],
+        "seats": [
+          0,
+          1
+        ]
+      },
+      "D": {
+        "seeds": [
+          14300,
+          14349
+        ],
+        "seats": [
+          0,
+          1
+        ]
+      },
+      "guard23": {
+        "seeds": [
+          14200,
+          14209
+        ],
+        "seats": [
+          0,
+          1
+        ],
+        "aggregation": "pooled"
+      }
+    }
+  },
+  "required_future_gates_from_work_order": {
+    "comparison": "candidate minus d157, paired scores",
+    "tape_lower95_gt": 0,
+    "closed_each_point_gte": -0.03,
+    "guard_pooled_point_gte": -0.02,
+    "single_worker_max_step_seconds_lt": 0.8,
+    "exceptions_eq": 0,
+    "action_count_eq": 719,
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "action_effect_required": true
+  },
+  "future_gates_status": "Requirements preserved, not evaluated; a concrete candidate needs a new complete frozen preregistration before execution.",
+  "jobs": {
+    "path": "experiments/altmech_0928/jobs-kaggle.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "count": 0,
+    "instruction": "Do not launch. Empty because no candidate was accepted."
+  },
+  "smoke": {
+    "new_games": 0,
+    "worker_limit": 1,
+    "game_limit": 24,
+    "changed_steps": null,
+    "exceptions": null,
+    "runtime": null,
+    "status": "NOT_RUN_NO_CANDIDATE"
+  },
+  "analysis_scope": {
+    "existing_screen_episodes": 50,
+    "existing_paired_rows": 100,
+    "heldout_outcomes_used": 0,
+    "forbidden_seed_range": [
+      9000,
+      9599
+    ],
+    "downloads": 0,
+    "submissions": 0
+  },
+  "canonical_ledger": {
+    "status": "NOT_UPDATED_SCOPE_RESTRICTION",
+    "related_existing_ids": [
+      "HYP-0003",
+      "HYP-0006",
+      "HYP-0016",
+      "HYP-0038"
+    ],
+    "reason": "The work order forbids changes to existing files and permits output directory plus one report only; no new HYP ID, game, event or canonical status is claimed."
+  },
+  "audit": {
+    "path": "experiments/altmech_0928/audit.json",
+    "sha256": "53795ed6b53b6bdce36666664fbc197dc2b2ccdd7494a20f8ab39fe15b0d916e"
+  },
+  "claim": "Only new files in experiments/altmech_0928 and one coordination/reports/codex/*-ALTMECH.md; no shared TASKS/BOARD edits."
+}

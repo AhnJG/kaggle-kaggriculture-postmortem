@@ -1,0 +1,1311 @@
+[
+  {
+    "path": "analysis/daily_scan/20260924/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py",
+    "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+    "lines": 6917,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py"
+    ],
+    "gate": {
+      "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+      "lines": 6917,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "_cxd_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/demand-preserving-turn-sale-timing/main.py",
+    "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+    "lines": 7333,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3593,
+        "_v92_os.environ.get('V92_SELL_LIB')"
+      ],
+      [
+        3596,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/demand-preserving-turn-sale-timing/main.py",
+      "analysis/daily_scan/20260924/extracted/kaggriculture-frontier-the-moon-counts-melons/main.py",
+      "analysis/daily_scan/20260924/extracted/kaggriculture-frontier-the-soil-remembers-rain/main.py"
+    ],
+    "gate": {
+      "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "lines": 7333,
+      "external_calls": [
+        {
+          "line": 3593,
+          "call": "_v92_os.environ.get('V92_SELL_LIB')"
+        },
+        {
+          "line": 3596,
+          "call": "open(path)"
+        }
+      ],
+      "nonstdlib": [],
+      "dependency_pass": false
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "_final_sell_block_reorder_entrypoint",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": false
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py",
+    "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01",
+    "lines": 7158,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py"
+    ],
+    "gate": {
+      "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01",
+      "lines": 7158,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "herdsafe_forecast_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+    "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+    "lines": 7046,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-lb-2700/main.py",
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-submit/main.py"
+    ],
+    "gate": {
+      "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+      "lines": 7046,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "opening_liquidity_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-autonomous-ai-farming-agent/main.py",
+    "sha256": "2993cf9241b467bbfa317cf8ba13216f4f2b49070c5632984eb2704eb88a2435",
+    "lines": 6852,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-autonomous-ai-farming-agent/main.py",
+      "analysis/daily_scan/20260925/extracted/kaggriculture-autonomous-ai-farming-agent/main.py"
+    ],
+    "gate": {
+      "sha256": "2993cf9241b467bbfa317cf8ba13216f4f2b49070c5632984eb2704eb88a2435",
+      "lines": 6852,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "_cxd_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-hack/main.py",
+    "sha256": "dc5433c7996f3f18bc766083a3b6b0ef22ba290cf917fd680ee41c62b8de734d",
+    "lines": 2625,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "zlib"
+    ],
+    "external_calls": [],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-hack/main.py"
+    ],
+    "gate": {
+      "sha256": "dc5433c7996f3f18bc766083a3b6b0ef22ba290cf917fd680ee41c62b8de734d",
+      "lines": 2625,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py",
+    "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689",
+    "lines": 7340,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3598,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py"
+    ],
+    "gate": {
+      "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689",
+      "lines": 7340,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "_final_sell_block_reorder_entrypoint",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py",
+    "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d",
+    "lines": 7046,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py"
+    ],
+    "gate": {
+      "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d",
+      "lines": 7046,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "opening_liquidity_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py",
+    "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e",
+    "lines": 7046,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py"
+    ],
+    "gate": {
+      "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e",
+      "lines": 7046,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "opening_liquidity_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py",
+    "sha256": "f6175fd1bc3850f74185e7a813bb5a87d54e7e15212c874133dafc6e1ce91d34",
+    "lines": 8157,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3594,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py"
+    ],
+    "gate": {
+      "sha256": "f6175fd1bc3850f74185e7a813bb5a87d54e7e15212c874133dafc6e1ce91d34",
+      "lines": 8157,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "v15_submission_entry",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-k0013-v46-advance6/main.py",
+    "sha256": "45628c719dc967f81655c19f70e579c55a5758b9fe75a5fcdad9193eebf6a017",
+    "lines": 3630,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "zlib"
+    ],
+    "external_calls": [],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-k0013-v46-advance6/main.py"
+    ],
+    "gate": {
+      "sha256": "45628c719dc967f81655c19f70e579c55a5758b9fe75a5fcdad9193eebf6a017",
+      "lines": 3630,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py",
+    "sha256": "0957bac0892defe4416cd8fcd774174e7177eef75b9ad4fff6ce184051bcdd75",
+    "lines": 7846,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py"
+    ],
+    "gate": {
+      "sha256": "0957bac0892defe4416cd8fcd774174e7177eef75b9ad4fff6ce184051bcdd75",
+      "lines": 7846,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "v16_submission_entry",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-master-engine-v3/main.py",
+    "sha256": "9f5e8924c61e9f70dc7f665bd95c0519163ce3d262010feb9659ebf8b558216c",
+    "lines": 6446,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3112,
+        "_v92_os.environ.get('V92_SELL_LIB')"
+      ],
+      [
+        3115,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-master-engine-v3/main.py"
+    ],
+    "gate": {
+      "sha256": "9f5e8924c61e9f70dc7f665bd95c0519163ce3d262010feb9659ebf8b558216c",
+      "lines": 6446,
+      "external_calls": [
+        {
+          "line": 3112,
+          "call": "_v92_os.environ.get('V92_SELL_LIB')"
+        },
+        {
+          "line": 3115,
+          "call": "open(path)"
+        }
+      ],
+      "nonstdlib": [],
+      "dependency_pass": false
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "_terminal_liquidation_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": false
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py",
+    "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+    "lines": 7035,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3602,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py"
+    ],
+    "gate": {
+      "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+      "lines": 7035,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "rescue_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py",
+    "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3",
+    "lines": 6829,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3370,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py"
+    ],
+    "gate": {
+      "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3",
+      "lines": 6829,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "opening_liquidity_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py",
+    "sha256": "939c445771d83901f27478561d0cc3137133e2233b3ef266f26277aa0b2c7714",
+    "lines": 8407,
+    "imports": [
+      "__future__",
+      "base64",
+      "collections",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "zlib"
+    ],
+    "external_calls": [],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py"
+    ],
+    "gate": {
+      "sha256": "939c445771d83901f27478561d0cc3137133e2233b3ef266f26277aa0b2c7714",
+      "lines": 8407,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "_v350_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py",
+    "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+    "lines": 7804,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py",
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-submit/main.py"
+    ],
+    "gate": {
+      "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+      "lines": 7804,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "v15_submission_entry",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py",
+    "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de",
+    "lines": 7088,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3602,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py"
+    ],
+    "gate": {
+      "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de",
+      "lines": 7088,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v57-funding-order-invariant/main.py",
+    "sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+    "lines": 6986,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v57-funding-order-invariant/main.py"
+    ],
+    "gate": {
+      "sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+      "lines": 6986,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "v57_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/order-book-v3-response-improvement/main.py",
+    "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+    "lines": 6985,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/order-book-v3-response-improvement/main.py"
+    ],
+    "gate": {
+      "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+      "lines": 6985,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "orderbook_response_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py",
+    "sha256": "1d8c562280d9bbd12f34e58dcd0d85a074b27622a3ee4a50ff8904b7b8130c27",
+    "lines": 2063,
+    "imports": [
+      "base64",
+      "zlib"
+    ],
+    "external_calls": [],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py"
+    ],
+    "gate": {
+      "sha256": "1d8c562280d9bbd12f34e58dcd0d85a074b27622a3ee4a50ff8904b7b8130c27",
+      "lines": 2063,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py",
+    "sha256": "2d7227833871cf92e574115dfa2e8a39d0c1304dc63b019789b352c4fea36fce",
+    "lines": 2114,
+    "imports": [
+      "base64",
+      "zlib"
+    ],
+    "external_calls": [],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py"
+    ],
+    "gate": {
+      "sha256": "2d7227833871cf92e574115dfa2e8a39d0c1304dc63b019789b352c4fea36fce",
+      "lines": 2114,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "pioneers_candidate3_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py",
+    "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+    "lines": 7058,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3593,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py"
+    ],
+    "gate": {
+      "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+      "lines": 7058,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+    "sha256": "ae44d83baf39ae2cf203d3617d0e9d7846d4a8b379b00c3ebd3734f1cfb5fbf3",
+    "lines": 7162,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py"
+    ],
+    "gate": {
+      "sha256": "ae44d83baf39ae2cf203d3617d0e9d7846d4a8b379b00c3ebd3734f1cfb5fbf3",
+      "lines": 7162,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "herdsafe_forecast_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260925/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py",
+    "sha256": "12ad317ecac6c07fb2c2e10bf4820ecd1fd4551a5a36aa0e34ab93b2c33c2693",
+    "lines": 5942,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3587,
+        "_v92_os.environ.get('V92_SELL_LIB')"
+      ],
+      [
+        3590,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260925/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py"
+    ],
+    "gate": {
+      "sha256": "12ad317ecac6c07fb2c2e10bf4820ecd1fd4551a5a36aa0e34ab93b2c33c2693",
+      "lines": 5942,
+      "external_calls": [
+        {
+          "line": 3587,
+          "call": "_v92_os.environ.get('V92_SELL_LIB')"
+        },
+        {
+          "line": 3590,
+          "call": "open(path)"
+        }
+      ],
+      "nonstdlib": [],
+      "dependency_pass": false
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "install_water_repair_local_patch",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": false
+  },
+  {
+    "path": "analysis/daily_scan/20260925/extracted/cha22-agent/main.py",
+    "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+    "lines": 7482,
+    "imports": [
+      "__future__",
+      "base64",
+      "collections",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "zlib"
+    ],
+    "external_calls": [],
+    "aliases": [
+      "analysis/daily_scan/20260925/extracted/cha22-agent/main.py",
+      "analysis/daily_scan/20260925/extracted/demand-preserving-turn-sale-timing/main.py",
+      "analysis/daily_scan/20260925/extracted/kaggriculture-master-engine-v3/main.py",
+      "analysis/daily_scan/20260925/extracted/kaggriculture-multi-route-farming-agent/main.py"
+    ],
+    "gate": {
+      "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "lines": 7482,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "ig_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+    "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b",
+    "lines": 7482,
+    "imports": [
+      "__future__",
+      "base64",
+      "collections",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "zlib"
+    ],
+    "external_calls": [],
+    "aliases": [
+      "analysis/daily_scan/20260925/extracted/kaggriculture/main.py"
+    ],
+    "gate": {
+      "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b",
+      "lines": 7482,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "ig_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py",
+    "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+    "lines": 7376,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3599,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py"
+    ],
+    "gate": {
+      "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+      "lines": 7376,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "_final_sell_block_reorder_entrypoint",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260925/extracted/kaggriculture-population-robust-economy/main.py",
+    "sha256": "3ec06d07c1076dd8fdfe444cb5e19f1789f1e4f8d66597db3b3f70a5e80895fc",
+    "lines": 5540,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3367,
+        "_v92_os.environ.get('V92_SELL_LIB')"
+      ],
+      [
+        3370,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260925/extracted/kaggriculture-population-robust-economy/main.py"
+    ],
+    "gate": {
+      "sha256": "3ec06d07c1076dd8fdfe444cb5e19f1789f1e4f8d66597db3b3f70a5e80895fc",
+      "lines": 5540,
+      "external_calls": [
+        {
+          "line": 3367,
+          "call": "_v92_os.environ.get('V92_SELL_LIB')"
+        },
+        {
+          "line": 3370,
+          "call": "open(path)"
+        }
+      ],
+      "nonstdlib": [],
+      "dependency_pass": false
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": false
+  },
+  {
+    "path": "analysis/daily_scan/20260925/extracted/kaggriculture-utils-v1/main.py",
+    "sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+    "lines": 3366,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "zlib"
+    ],
+    "external_calls": [],
+    "aliases": [
+      "analysis/daily_scan/20260925/extracted/kaggriculture-utils-v1/main.py"
+    ],
+    "gate": {
+      "sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+      "lines": 3366,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260925/extracted/the-2965-master-hybrid-engine/main.py",
+    "sha256": "cda529cb6b359fc4a9ab124d4d7950d5912bd5de846dcec4be70ca83b7150b2d",
+    "lines": 7374,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3593,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260925/extracted/the-2965-master-hybrid-engine/main.py"
+    ],
+    "gate": {
+      "sha256": "cda529cb6b359fc4a9ab124d4d7950d5912bd5de846dcec4be70ca83b7150b2d",
+      "lines": 7374,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "v7_hr_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  },
+  {
+    "path": "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+    "sha256": "8378f73c82db7624ce5d0369cf896aa0761a662af147b119f67254f1f8634c56",
+    "lines": 7455,
+    "imports": [
+      "__future__",
+      "base64",
+      "copy",
+      "itertools",
+      "json",
+      "math",
+      "os",
+      "random",
+      "zlib"
+    ],
+    "external_calls": [
+      [
+        3592,
+        "open(path)"
+      ]
+    ],
+    "aliases": [
+      "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py"
+    ],
+    "gate": {
+      "sha256": "8378f73c82db7624ce5d0369cf896aa0761a662af147b119f67254f1f8634c56",
+      "lines": 7455,
+      "external_calls": [],
+      "nonstdlib": [],
+      "dependency_pass": true
+    },
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "hs4_ig_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "static_pass": true
+  }
+]

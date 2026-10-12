@@ -1,0 +1,42 @@
+{
+  "candidates": {
+    "a": {
+      "different_actions_vs_c26": 166,
+      "invalid": 0,
+      "missing": 0,
+      "n_target": 41,
+      "pass_dev": false,
+      "score": 0.6845794392523364,
+      "vs_c26": {
+        "lower95": -0.018691588785046728,
+        "point": 0.004672897196261682,
+        "target_point": -0.024390243902439025
+      },
+      "vs_d157": {
+        "lower95": -0.018691588785046728,
+        "point": 0.02570093457943925,
+        "target_point": 0.0
+      }
+    },
+    "b": {
+      "different_actions_vs_c26": 22,
+      "invalid": 0,
+      "missing": 0,
+      "n_target": 41,
+      "pass_dev": false,
+      "score": 0.6799065420560748,
+      "vs_c26": {
+        "lower95": 0.0,
+        "point": 0.0,
+        "target_point": 0.0
+      },
+      "vs_d157": {
+        "lower95": -0.018691588785046728,
+        "point": 0.02102803738317757,
+        "target_point": 0.024390243902439025
+      }
+    }
+  },
+  "freeze_sha256": "f86818c897f38befcb632500a9ef2a6ef0676db5e55365f13ea5d2906db9d44f",
+  "n_dev": 214
+}

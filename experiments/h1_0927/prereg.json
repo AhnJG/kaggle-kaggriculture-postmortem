@@ -1,0 +1,67 @@
+{
+  "id": "H1-0927",
+  "frozen_at_kst": "2026-09-27T16:19:26+09:00",
+  "work_order": {
+    "path": "coordination/proposals/claude/20260927-H1-CODEX.md",
+    "sha256": "bfcd18d8152f015cfbcf1e061881fdcf1192116983c4a35c317f5bcc85d26b6c"
+  },
+  "parent": {
+    "path": "releases/round2-v074/main.py",
+    "sha256": "860a502c36f9a9f700c93125e6828f41378f50d74fa130f62a09f911316ea19c",
+    "bytes": 494522
+  },
+  "variant_path": "experiments/h1_0927/h1.py",
+  "construction": "exact parent bytes followed only by the H1 wrapper",
+  "detector": {
+    "step": 92,
+    "own_minus_rival_money": [87, 90],
+    "previous_own_action": ["SELL", "WHEAT", 3],
+    "sticky": true,
+    "false_behavior": "return the exact parent action object"
+  },
+  "lead": {
+    "active_steps_inclusive": [144, 717],
+    "lookahead_steps_inclusive": [1, 4],
+    "items": ["MILK", "STRAWBERRY", "WOOL"],
+    "constraints": ["current_shed_inventory", "max_10_market_orders", "price_at_least_2"],
+    "credit": "subtract each advanced unit at its native original step"
+  },
+  "opponents": {
+    "O127": {
+      "path": "releases/public-newmeta-127ed3e6-exact/main.py",
+      "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652"
+    },
+    "PUB01": {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+      "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"
+    },
+    "PUB12": {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py",
+      "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e"
+    },
+    "D": {
+      "path": "releases/public-dpnew-55be5d5f-exact/main.py",
+      "sha256": "55be5d5f124c8daaaa63c1a29ba4aab096004909666f04748007603c67b7d2a8"
+    }
+  },
+  "seeds": [14400, 14401, 14402, 14403, 14404, 14405],
+  "seats": [0, 1],
+  "worker_count": 1,
+  "games": {
+    "fp": {
+      "O127": 12,
+      "PUB01": 6,
+      "PUB12": 6,
+      "total": 24
+    },
+    "effect_D": 12,
+    "candidate_total": 36,
+    "parent_matched_total": 36
+  },
+  "frozen_gates": {
+    "fp": "all 24 candidate games have activation=0 and candidate act_sha equals matched parent act_sha",
+    "effect": "all 12 candidate games vs D have activation=1 and candidate paired score minus parent paired score is greater than 0",
+    "verdict": "PASS only if both fp and effect pass; otherwise FAIL"
+  },
+  "forbidden": ["submission", "download", "holdout seeds 9000-9599", "existing-file modification", "post-result detector change", "post-result gate change"]
+}

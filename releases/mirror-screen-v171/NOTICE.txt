@@ -1,0 +1,14 @@
+EXP-023 mirror-screen-v171
+
+main.py is byte-identical to experiments/exp023_mirror_screen/variants/v171.py.
+It derives from the frozen public Kaggriculture v9/3 lineage and retains the
+full Apache License 2.0 text and upstream attribution inside main.py.
+
+Credited upstream contributors named in the retained source include
+thomastschinkel, yhay81, destbreso, aurax7, tetsutani, prvsiyan,
+Dmitrii Gluzdov, and Ahmed Berat Ozer. The EXP-023 single change is
+_DP_H = 8 -> 9, generated as frozen variant v171.
+
+Source artifact:
+experiments/exp023_mirror_screen/variants/v171.py
+SHA-256: 496460f81869ebbd1bf80f3dd3c9440ef72c41819a831ee39a16f180d7c0bd5d

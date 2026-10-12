@@ -1,0 +1,42 @@
+{
+  "experiment_id": "EXP-021-H2-PRIME",
+  "frozen_at": "2026-09-26T00:48:05+09:00",
+  "authorization": "Coordinator decision; human approved 2026-09-26 00:40 KST",
+  "separation": "Separate arm and disjoint seeds from EXP-021 v2 four-arm experiment. Criteria are frozen before any H2-prime game.",
+  "v2_reference": {"path": "experiments/mirror_edge_20260926/preregistration-v2.json", "sha256": "6d52219747ac476a45d2242d3e7d2621b50b6edc46720cc11250ebe33493d442"},
+  "variant": {"path": "experiments/mirror_edge_20260926/variants/H2prime/main.py", "sha256": "b75819d19e780805131314b57a5c6ae0d3c6c006edb28da1847e7a0920f08ff8", "parent_sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"},
+  "runner": {"path": "tools/mirror_edge_exp021_v2.py", "sha256": "7c76ae7783f4af1bda01241918639ddf8d7f2ff484425de257b544da04e4edd3"},
+  "parent": {"path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py", "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"},
+  "opponent_o": {"path": "releases/public-newmeta-127ed3e6-exact/main.py", "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652"},
+  "dp": {"path": "releases/public-tetsutani-demand-preserving-0924-exact/main.py", "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a"},
+  "public_gate_two_selection": "Existing frozen public-guard rank, first two after excluding O and DP.",
+  "public_gate_two": [
+    {"path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py", "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd"},
+    {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py", "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"}
+  ],
+  "mutation": {
+    "priority_a": "If actual step-0 action contains SELL WHEAT with positive quantity, decrement the first such order by one.",
+    "priority_b": "Otherwise decrement the last BUY_PRODUCT WHEAT with positive quantity by one.",
+    "quote": "q0 is the step-0 WHEAT market quote.",
+    "expected_difference": "rival money minus our money: +q0 for one fewer SELL, -q0 for one fewer BUY_PRODUCT.",
+    "mirror": "At step 1, after parent processing, abs((rival money - our money) - expected_difference) <= 2; if true set _RACE_STATE[player].level=24."
+  },
+  "telemetry_gate": {
+    "seed": 5800,
+    "o": "Both seats, 2 games. Each requires absolute cash difference >=1, our_mirror=1, opponent _RACE_REPORT.race_mirror=0.",
+    "nonmirror": "DP and the two frozen public files, both seats, 6 games. Each requires our_mirror=0.",
+    "reuse": "The two O gate games use the first screen seed and are included in the 100-game screen; they are not discarded or rerun.",
+    "failure": "Any failure => STOP H2-prime without modification. The four-arm v2 experiment continues independently."
+  },
+  "invalid": "Our arm exception, caught_errors, timeout, steps !=720, or either status !=DONE. Opponent-side caught_errors are recorded but do not invalidate.",
+  "statistics": "Both seats. Parent comparisons use empirical paired seed-level differences. Paired 95% lower endpoint uses t_(0.975,n-1). Primary O uses Wilson 99% lower bound with z=2.576 and effective successes wins+0.5*draws.",
+  "screen": {"seeds": [5800, 5849], "seats": [0, 1], "games": 100, "pass": "score rate >=0.60"},
+  "confirmation": {
+    "primary_o": {"seeds": [5850, 6049], "seats": [0, 1], "games": 400, "pass": "Wilson 99% lower bound z=2.576 >0.55"},
+    "dp_noninferiority": {"seeds": [6050, 6149], "seats": [0, 1], "games_per_agent": 200, "pass": "paired arm-parent delta 95% lower endpoint >-0.05"},
+    "guard": {"seeds": [6150, 6159], "seats": [0, 1], "files": "same public_guard_15 in v2", "games_per_file_per_agent": 20, "pass": "zero files where arm score rate is more than 0.10 below parent"},
+    "runtime": "all H2-prime games: exception 0, max step <0.5s, empirical p99 <0.10s",
+    "activation": "against nonclone DP and public guard opponents, our mirror activation rate <=2%"
+  },
+  "forbidden": ["post-result rule/seed/sample/criterion changes", "submission", "Kaggle download", "seed 9000-9599", "CP1/CP2 episode", "engine/RNG wrapper", "experiments/search_20260925 write", "launchd manipulation"]
+}

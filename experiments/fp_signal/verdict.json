@@ -1,0 +1,1097 @@
+{
+  "plan_sha256": "ea3a457031ac0374489054376cb168f8157084027d4cc92f19e275e37be0659e",
+  "cohort_sha256": "f6af6ad57b4858173531b7de9878a1664760eafe9f1b633b09f67fd2512dd999",
+  "n": 43,
+  "half_n": [
+    21,
+    22
+  ],
+  "wdl": {
+    "W": 18,
+    "L": 25
+  },
+  "opponent_submissions": 42,
+  "checks": [
+    {
+      "step": 240,
+      "feature": "opp_money_ahead",
+      "early": {
+        "L_true": 2,
+        "W_true": 1,
+        "L_false": 9,
+        "W_false": 9,
+        "loss_rate_true": 0.6666666666666666,
+        "loss_rate_false": 0.5,
+        "risk_difference": 0.16666666666666663,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 2,
+        "W_true": 0,
+        "L_false": 12,
+        "W_false": 8,
+        "loss_rate_true": 1.0,
+        "loss_rate_false": 0.6,
+        "risk_difference": 0.4,
+        "fisher_two_sided": 0.5151515151515151
+      },
+      "pooled": {
+        "L_true": 4,
+        "W_true": 1,
+        "L_false": 21,
+        "W_false": 17,
+        "loss_rate_true": 0.8,
+        "loss_rate_false": 0.5526315789473685,
+        "risk_difference": 0.24736842105263157,
+        "fisher_two_sided": 0.38011506360910785
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 240,
+      "feature": "opp_cow_sheep_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 240,
+      "feature": "opp_straw_tomato_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 240,
+      "feature": "wool_inv_gt_10000",
+      "early": {
+        "L_true": 8,
+        "W_true": 8,
+        "L_false": 3,
+        "W_false": 2,
+        "loss_rate_true": 0.5,
+        "loss_rate_false": 0.6,
+        "risk_difference": -0.09999999999999998,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 9,
+        "W_true": 6,
+        "L_false": 5,
+        "W_false": 2,
+        "loss_rate_true": 0.6,
+        "loss_rate_false": 0.7142857142857143,
+        "risk_difference": -0.11428571428571432,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 17,
+        "W_true": 14,
+        "L_false": 8,
+        "W_false": 4,
+        "loss_rate_true": 0.5483870967741935,
+        "loss_rate_false": 0.6666666666666666,
+        "risk_difference": -0.11827956989247312,
+        "fisher_two_sided": 0.7314867989853809
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 240,
+      "feature": "milk_inv_gt_10000",
+      "early": {
+        "L_true": 5,
+        "W_true": 3,
+        "L_false": 6,
+        "W_false": 7,
+        "loss_rate_true": 0.625,
+        "loss_rate_false": 0.46153846153846156,
+        "risk_difference": 0.16346153846153844,
+        "fisher_two_sided": 0.6594427244582043
+      },
+      "late": {
+        "L_true": 7,
+        "W_true": 3,
+        "L_false": 7,
+        "W_false": 5,
+        "loss_rate_true": 0.7,
+        "loss_rate_false": 0.5833333333333334,
+        "risk_difference": 0.11666666666666659,
+        "fisher_two_sided": 0.6749226006191951
+      },
+      "pooled": {
+        "L_true": 12,
+        "W_true": 6,
+        "L_false": 13,
+        "W_false": 12,
+        "loss_rate_true": 0.6666666666666666,
+        "loss_rate_false": 0.52,
+        "risk_difference": 0.1466666666666666,
+        "fisher_two_sided": 0.3684385178242663
+      },
+      "eligible": true,
+      "pass": false
+    },
+    {
+      "step": 240,
+      "feature": "straw_inv_gt_10000",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 384,
+      "feature": "opp_money_ahead",
+      "early": {
+        "L_true": 5,
+        "W_true": 3,
+        "L_false": 6,
+        "W_false": 7,
+        "loss_rate_true": 0.625,
+        "loss_rate_false": 0.46153846153846156,
+        "risk_difference": 0.16346153846153844,
+        "fisher_two_sided": 0.6594427244582043
+      },
+      "late": {
+        "L_true": 8,
+        "W_true": 0,
+        "L_false": 6,
+        "W_false": 8,
+        "loss_rate_true": 1.0,
+        "loss_rate_false": 0.42857142857142855,
+        "risk_difference": 0.5714285714285714,
+        "fisher_two_sided": 0.017712731025424523
+      },
+      "pooled": {
+        "L_true": 13,
+        "W_true": 3,
+        "L_false": 12,
+        "W_false": 15,
+        "loss_rate_true": 0.8125,
+        "loss_rate_false": 0.4444444444444444,
+        "risk_difference": 0.3680555555555556,
+        "fisher_two_sided": 0.026142771481578408
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 384,
+      "feature": "opp_cow_sheep_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 384,
+      "feature": "opp_straw_tomato_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 384,
+      "feature": "wool_inv_gt_10000",
+      "early": {
+        "L_true": 7,
+        "W_true": 7,
+        "L_false": 4,
+        "W_false": 3,
+        "loss_rate_true": 0.5,
+        "loss_rate_false": 0.5714285714285714,
+        "risk_difference": -0.0714285714285714,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 9,
+        "W_true": 8,
+        "L_false": 5,
+        "W_false": 0,
+        "loss_rate_true": 0.5294117647058824,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.47058823529411764,
+        "fisher_two_sided": 0.11536416799574695
+      },
+      "pooled": {
+        "L_true": 16,
+        "W_true": 15,
+        "L_false": 9,
+        "W_false": 3,
+        "loss_rate_true": 0.5161290322580645,
+        "loss_rate_false": 0.75,
+        "risk_difference": -0.2338709677419355,
+        "fisher_two_sided": 0.19114604228196488
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 384,
+      "feature": "milk_inv_gt_10000",
+      "early": {
+        "L_true": 9,
+        "W_true": 8,
+        "L_false": 2,
+        "W_false": 2,
+        "loss_rate_true": 0.5294117647058824,
+        "loss_rate_false": 0.5,
+        "risk_difference": 0.02941176470588236,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 9,
+        "W_true": 6,
+        "L_false": 5,
+        "W_false": 2,
+        "loss_rate_true": 0.6,
+        "loss_rate_false": 0.7142857142857143,
+        "risk_difference": -0.11428571428571432,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 18,
+        "W_true": 14,
+        "L_false": 7,
+        "W_false": 4,
+        "loss_rate_true": 0.5625,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": -0.07386363636363635,
+        "fisher_two_sided": 0.7361975568979181
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 384,
+      "feature": "straw_inv_gt_10000",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 480,
+      "feature": "opp_money_ahead",
+      "early": {
+        "L_true": 6,
+        "W_true": 3,
+        "L_false": 5,
+        "W_false": 7,
+        "loss_rate_true": 0.6666666666666666,
+        "loss_rate_false": 0.4166666666666667,
+        "risk_difference": 0.24999999999999994,
+        "fisher_two_sided": 0.3869969040247678
+      },
+      "late": {
+        "L_true": 10,
+        "W_true": 0,
+        "L_false": 4,
+        "W_false": 8,
+        "loss_rate_true": 1.0,
+        "loss_rate_false": 0.3333333333333333,
+        "risk_difference": 0.6666666666666667,
+        "fisher_two_sided": 0.0016887137630171687
+      },
+      "pooled": {
+        "L_true": 16,
+        "W_true": 3,
+        "L_false": 9,
+        "W_false": 15,
+        "loss_rate_true": 0.8421052631578947,
+        "loss_rate_false": 0.375,
+        "risk_difference": 0.4671052631578947,
+        "fisher_two_sided": 0.004412430034394819
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 480,
+      "feature": "opp_cow_sheep_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 480,
+      "feature": "opp_straw_tomato_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 480,
+      "feature": "wool_inv_gt_10000",
+      "early": {
+        "L_true": 10,
+        "W_true": 10,
+        "L_false": 1,
+        "W_false": 0,
+        "loss_rate_true": 0.5,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.5,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 13,
+        "W_true": 8,
+        "L_false": 1,
+        "W_false": 0,
+        "loss_rate_true": 0.6190476190476191,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.38095238095238093,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 23,
+        "W_true": 18,
+        "L_false": 2,
+        "W_false": 0,
+        "loss_rate_true": 0.5609756097560976,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.4390243902439024,
+        "fisher_two_sided": 0.5016611295681064
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 480,
+      "feature": "milk_inv_gt_10000",
+      "early": {
+        "L_true": 10,
+        "W_true": 9,
+        "L_false": 1,
+        "W_false": 1,
+        "loss_rate_true": 0.5263157894736842,
+        "loss_rate_false": 0.5,
+        "risk_difference": 0.02631578947368418,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 9,
+        "W_true": 7,
+        "L_false": 5,
+        "W_false": 1,
+        "loss_rate_true": 0.5625,
+        "loss_rate_false": 0.8333333333333334,
+        "risk_difference": -0.27083333333333337,
+        "fisher_two_sided": 0.3511586452762923
+      },
+      "pooled": {
+        "L_true": 19,
+        "W_true": 16,
+        "L_false": 6,
+        "W_false": 2,
+        "loss_rate_true": 0.5428571428571428,
+        "loss_rate_false": 0.75,
+        "risk_difference": -0.20714285714285718,
+        "fisher_two_sided": 0.4340809494405339
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 480,
+      "feature": "straw_inv_gt_10000",
+      "early": {
+        "L_true": 4,
+        "W_true": 1,
+        "L_false": 7,
+        "W_false": 9,
+        "loss_rate_true": 0.8,
+        "loss_rate_false": 0.4375,
+        "risk_difference": 0.36250000000000004,
+        "fisher_two_sided": 0.3107769423558897
+      },
+      "late": {
+        "L_true": 7,
+        "W_true": 1,
+        "L_false": 7,
+        "W_false": 7,
+        "loss_rate_true": 0.875,
+        "loss_rate_false": 0.5,
+        "risk_difference": 0.375,
+        "fisher_two_sided": 0.16732026143790849
+      },
+      "pooled": {
+        "L_true": 11,
+        "W_true": 2,
+        "L_false": 14,
+        "W_false": 16,
+        "loss_rate_true": 0.8461538461538461,
+        "loss_rate_false": 0.4666666666666667,
+        "risk_difference": 0.37948717948717947,
+        "fisher_two_sided": 0.041187096304213196
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 576,
+      "feature": "opp_money_ahead",
+      "early": {
+        "L_true": 8,
+        "W_true": 1,
+        "L_false": 3,
+        "W_false": 9,
+        "loss_rate_true": 0.8888888888888888,
+        "loss_rate_false": 0.25,
+        "risk_difference": 0.6388888888888888,
+        "fisher_two_sided": 0.007518796992481203
+      },
+      "late": {
+        "L_true": 13,
+        "W_true": 0,
+        "L_false": 1,
+        "W_false": 8,
+        "loss_rate_true": 1.0,
+        "loss_rate_false": 0.1111111111111111,
+        "risk_difference": 0.8888888888888888,
+        "fisher_two_sided": 2.8145229383619476e-05
+      },
+      "pooled": {
+        "L_true": 21,
+        "W_true": 1,
+        "L_false": 4,
+        "W_false": 17,
+        "loss_rate_true": 0.9545454545454546,
+        "loss_rate_false": 0.19047619047619047,
+        "risk_difference": 0.7640692640692641,
+        "fisher_two_sided": 2.3064504491841984e-07
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 576,
+      "feature": "opp_cow_sheep_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 576,
+      "feature": "opp_straw_tomato_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 576,
+      "feature": "wool_inv_gt_10000",
+      "early": {
+        "L_true": 10,
+        "W_true": 10,
+        "L_false": 1,
+        "W_false": 0,
+        "loss_rate_true": 0.5,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.5,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 12,
+        "W_true": 8,
+        "L_false": 2,
+        "W_false": 0,
+        "loss_rate_true": 0.6,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.4,
+        "fisher_two_sided": 0.5151515151515151
+      },
+      "pooled": {
+        "L_true": 22,
+        "W_true": 18,
+        "L_false": 3,
+        "W_false": 0,
+        "loss_rate_true": 0.55,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.44999999999999996,
+        "fisher_two_sided": 0.25249169435215946
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 576,
+      "feature": "milk_inv_gt_10000",
+      "early": {
+        "L_true": 9,
+        "W_true": 9,
+        "L_false": 2,
+        "W_false": 1,
+        "loss_rate_true": 0.5,
+        "loss_rate_false": 0.6666666666666666,
+        "risk_difference": -0.16666666666666663,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 9,
+        "W_true": 6,
+        "L_false": 5,
+        "W_false": 2,
+        "loss_rate_true": 0.6,
+        "loss_rate_false": 0.7142857142857143,
+        "risk_difference": -0.11428571428571432,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 18,
+        "W_true": 15,
+        "L_false": 7,
+        "W_false": 3,
+        "loss_rate_true": 0.5454545454545454,
+        "loss_rate_false": 0.7,
+        "risk_difference": -0.15454545454545454,
+        "fisher_two_sided": 0.47993232645589573
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 576,
+      "feature": "straw_inv_gt_10000",
+      "early": {
+        "L_true": 8,
+        "W_true": 7,
+        "L_false": 3,
+        "W_false": 3,
+        "loss_rate_true": 0.5333333333333333,
+        "loss_rate_false": 0.5,
+        "risk_difference": 0.033333333333333326,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 12,
+        "W_true": 2,
+        "L_false": 2,
+        "W_false": 6,
+        "loss_rate_true": 0.8571428571428571,
+        "loss_rate_false": 0.25,
+        "risk_difference": 0.6071428571428571,
+        "fisher_two_sided": 0.008321606154423492
+      },
+      "pooled": {
+        "L_true": 20,
+        "W_true": 9,
+        "L_false": 5,
+        "W_false": 9,
+        "loss_rate_true": 0.6896551724137931,
+        "loss_rate_false": 0.35714285714285715,
+        "risk_difference": 0.332512315270936,
+        "fisher_two_sided": 0.052430009802697006
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 624,
+      "feature": "opp_money_ahead",
+      "early": {
+        "L_true": 10,
+        "W_true": 2,
+        "L_false": 1,
+        "W_false": 8,
+        "loss_rate_true": 0.8333333333333334,
+        "loss_rate_false": 0.1111111111111111,
+        "risk_difference": 0.7222222222222223,
+        "fisher_two_sided": 0.0019052155275065491
+      },
+      "late": {
+        "L_true": 13,
+        "W_true": 1,
+        "L_false": 1,
+        "W_false": 7,
+        "loss_rate_true": 0.9285714285714286,
+        "loss_rate_false": 0.125,
+        "risk_difference": 0.8035714285714286,
+        "fisher_two_sided": 0.00035337899114988895
+      },
+      "pooled": {
+        "L_true": 23,
+        "W_true": 3,
+        "L_false": 2,
+        "W_false": 15,
+        "loss_rate_true": 0.8846153846153846,
+        "loss_rate_false": 0.11764705882352941,
+        "risk_difference": 0.7669683257918551,
+        "fisher_two_sided": 5.903602503473998e-07
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 624,
+      "feature": "opp_cow_sheep_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 624,
+      "feature": "opp_straw_tomato_ahead",
+      "early": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 11,
+        "W_false": 10,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5238095238095238,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 14,
+        "W_false": 8,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.6363636363636364,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 0,
+        "W_true": 0,
+        "L_false": 25,
+        "W_false": 18,
+        "loss_rate_true": null,
+        "loss_rate_false": 0.5813953488372093,
+        "risk_difference": null,
+        "fisher_two_sided": 1.0
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 624,
+      "feature": "wool_inv_gt_10000",
+      "early": {
+        "L_true": 10,
+        "W_true": 10,
+        "L_false": 1,
+        "W_false": 0,
+        "loss_rate_true": 0.5,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.5,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 12,
+        "W_true": 8,
+        "L_false": 2,
+        "W_false": 0,
+        "loss_rate_true": 0.6,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.4,
+        "fisher_two_sided": 0.5151515151515151
+      },
+      "pooled": {
+        "L_true": 22,
+        "W_true": 18,
+        "L_false": 3,
+        "W_false": 0,
+        "loss_rate_true": 0.55,
+        "loss_rate_false": 1.0,
+        "risk_difference": -0.44999999999999996,
+        "fisher_two_sided": 0.25249169435215946
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 624,
+      "feature": "milk_inv_gt_10000",
+      "early": {
+        "L_true": 9,
+        "W_true": 9,
+        "L_false": 2,
+        "W_false": 1,
+        "loss_rate_true": 0.5,
+        "loss_rate_false": 0.6666666666666666,
+        "risk_difference": -0.16666666666666663,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 10,
+        "W_true": 6,
+        "L_false": 4,
+        "W_false": 2,
+        "loss_rate_true": 0.625,
+        "loss_rate_false": 0.6666666666666666,
+        "risk_difference": -0.04166666666666663,
+        "fisher_two_sided": 1.0
+      },
+      "pooled": {
+        "L_true": 19,
+        "W_true": 15,
+        "L_false": 6,
+        "W_false": 3,
+        "loss_rate_true": 0.5588235294117647,
+        "loss_rate_false": 0.6666666666666666,
+        "risk_difference": -0.10784313725490191,
+        "fisher_two_sided": 0.7117016157527247
+      },
+      "eligible": false,
+      "pass": false
+    },
+    {
+      "step": 624,
+      "feature": "straw_inv_gt_10000",
+      "early": {
+        "L_true": 8,
+        "W_true": 7,
+        "L_false": 3,
+        "W_false": 3,
+        "loss_rate_true": 0.5333333333333333,
+        "loss_rate_false": 0.5,
+        "risk_difference": 0.033333333333333326,
+        "fisher_two_sided": 1.0
+      },
+      "late": {
+        "L_true": 12,
+        "W_true": 4,
+        "L_false": 2,
+        "W_false": 4,
+        "loss_rate_true": 0.75,
+        "loss_rate_false": 0.3333333333333333,
+        "risk_difference": 0.4166666666666667,
+        "fisher_two_sided": 0.13650436251055445
+      },
+      "pooled": {
+        "L_true": 20,
+        "W_true": 11,
+        "L_false": 5,
+        "W_false": 7,
+        "loss_rate_true": 0.6451612903225806,
+        "loss_rate_false": 0.4166666666666667,
+        "risk_difference": 0.22849462365591394,
+        "fisher_two_sided": 0.30137777743533484
+      },
+      "eligible": false,
+      "pass": false
+    }
+  ],
+  "verdict": "NO_REPEATED_SIGNAL"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "v1_vs_p1_alperen",
+  "a": "releases/public-goodpjw2008-kaggriculture-melon-threshold-squeeze-2749-exact/main.py",
+  "b": "releases/public-alperen-before-dawn-stock-cash-sales-exact/main.py",
+  "exit": 0,
+  "verdict": "FAILURE",
+  "wins": 0,
+  "draws": 0,
+  "losses": 20,
+  "paired_score": 0.0,
+  "ci95": [
+    0.0,
+    0.0
+  ],
+  "mean_margin": -2522.6,
+  "errors": 0,
+  "games": 20,
+  "seed_values": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "artifact_sha256": {
+    "a": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+    "b": "87142c0e6576d5ca40935a6e51d28818766e424f7173da2f50b558dbe4843b39"
+  },
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "raw": "diag_v1_vs_p1_alperen.json"
+}

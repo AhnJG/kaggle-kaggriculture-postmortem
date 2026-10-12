@@ -1,0 +1,66 @@
+{
+  "all": {
+    "D": 1.0,
+    "D_score": 0.0,
+    "rho": 1.0,
+    "M": 1.3656903765690376,
+    "informative_n": 2,
+    "CI": {
+      "D_025": 1.0,
+      "D_975": 1.0,
+      "rho_025": -1.0,
+      "rho_975": 1.0
+    }
+  },
+  "source_A": {
+    "D": 1.0,
+    "D_score": 0.0,
+    "rho": 1.0,
+    "M": 1.4240506329113924,
+    "informative_n": 1,
+    "CI": {
+      "D_025": 1.0,
+      "D_975": 1.0,
+      "rho_025": 0.0,
+      "rho_975": 1.0
+    }
+  },
+  "variants": {
+    "v000": {
+      "informative_n": 0,
+      "D": 0,
+      "avg_delta_open": 0.0,
+      "avg_delta_closed": 0.0
+    },
+    "v002": {
+      "informative_n": 0,
+      "D": 0,
+      "avg_delta_open": 0.0,
+      "avg_delta_closed": 0.0
+    },
+    "v004": {
+      "informative_n": 2,
+      "D": 1.0,
+      "avg_delta_open": -5.15,
+      "avg_delta_closed": -3.2083333333333335
+    },
+    "v006": {
+      "informative_n": 0,
+      "D": 0,
+      "avg_delta_open": 0.0,
+      "avg_delta_closed": 0.0
+    },
+    "v008": {
+      "informative_n": 0,
+      "D": 0,
+      "avg_delta_open": 0.0,
+      "avg_delta_closed": 0.0
+    },
+    "v010": {
+      "informative_n": 0,
+      "D": 0,
+      "avg_delta_open": 0.0,
+      "avg_delta_closed": 0.0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "purpose": "diagnostic submission-order reference only; not a release gate",
+  "seeds": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009],
+  "seats": "both",
+  "games_per_pair": 20,
+  "pairs": [
+    {"a": "alperen", "b": "lynnsakurai", "a_wdl": [2, 0, 18], "a_score": 0.1},
+    {"a": "alperen", "b": "tetsutani", "a_wdl": [20, 0, 0], "a_score": 1.0},
+    {"a": "alperen", "b": "yhay81-exact", "a_wdl": [20, 0, 0], "a_score": 1.0},
+    {"a": "lynnsakurai", "b": "tetsutani", "a_wdl": [20, 0, 0], "a_score": 1.0},
+    {"a": "lynnsakurai", "b": "yhay81-exact", "a_wdl": [20, 0, 0], "a_score": 1.0},
+    {"a": "tetsutani", "b": "yhay81-exact", "a_wdl": [20, 0, 0], "a_score": 1.0}
+  ],
+  "aggregate": {
+    "lynnsakurai": {"wdl": [58, 0, 2], "score": 0.9666666666666667},
+    "alperen": {"wdl": [42, 0, 18], "score": 0.7},
+    "tetsutani": {"wdl": [20, 0, 40], "score": 0.3333333333333333},
+    "yhay81-exact": {"wdl": [0, 0, 60], "score": 0.0}
+  },
+  "seed_extension": "not performed"
+}

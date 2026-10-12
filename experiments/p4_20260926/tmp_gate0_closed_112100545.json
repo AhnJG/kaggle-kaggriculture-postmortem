@@ -1,0 +1,45 @@
+{
+  "path": "experiments/search_20260925/historical/EXP016/main.py",
+  "sha256": "9d58536d37d02d2587072cd7465fb0244eb3e558cc72521d5c5ad07a94876013",
+  "opponent": "analysis/daily_scan/20260922/extracted/best-agent-ranking/main.py",
+  "opponent_sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+  "seed": 1941885159,
+  "seat": 0,
+  "rewards": [
+    106810.0,
+    107228.0
+  ],
+  "margin": -418.0,
+  "score": 0.0,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "steps": 720,
+  "timing": [
+    {
+      "calls": 719,
+      "max_seconds": 0.06148795899935067,
+      "p99_seconds": 0.005175499944016337,
+      "total_seconds": 0.8660943303257227
+    },
+    {
+      "calls": 719,
+      "max_seconds": 0.05002125003375113,
+      "p99_seconds": 0.005745582981035113,
+      "total_seconds": 0.8784813485108316
+    }
+  ],
+  "exceptions": [
+    [],
+    []
+  ],
+  "caught_errors": [],
+  "identity": null,
+  "wall_seconds": 5.893457000143826,
+  "stdout": "",
+  "action_sha256": [
+    "c88e800c50a91e9c1211ced664a2ef3d92bad50cb54c496261b8d240ba4966a5",
+    "6ce63bb30fde846e8bbf691800ebb39b4da07631c58a1cbc5081d32ffe390f0d"
+  ]
+}

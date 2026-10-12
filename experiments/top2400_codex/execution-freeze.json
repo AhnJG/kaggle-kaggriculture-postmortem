@@ -1,0 +1,13 @@
+{
+  "frozen_at_kst": "2026-09-28 17:31:22 KST",
+  "before_complete_select_result": true,
+  "prereg_sha256": "578f171b6b14b22050f73c275666d901ac0bee97117f9f8aad33d052c008be8d",
+  "candidate_sha256": "320f8bc92726d163e1d6569d8c664c66a5df270e6081236cc6fb5fc6bbd451cf",
+  "runner_sha256": "12f7c843a57726c3b134951eaa7a8643bb536d0a52370e5d290172857308cdb1",
+  "judge_sha256": "6ca9e0f355b960b0122001877c9cd3d23cfa77d4dbbc8cbe2d90247e546499f4",
+  "select_jobs_sha256": "00bb6f5b2f549afd0d37b3046b55c8fac663dc2d088db5de0902a8755e7c44d3",
+  "decision_order": "select lower95 > 0; then U, T, family, O127, V074 and D3 guards; only after all pass, open five-team holdout and require point > 0",
+  "rule_change_from_prereg": "none; thresholds and jobs unchanged",
+  "harness_change": "JSON TAPE loader only; 57 invalid diagnostic rows retained and excluded from result",
+  "holdout_opened": false
+}

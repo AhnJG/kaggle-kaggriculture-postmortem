@@ -1,0 +1,29 @@
+{
+ "G1": {
+  "n": 269,
+  "delta_d157": -0.0613,
+  "lb95": -0.0911,
+  "delta_c26": -0.0911,
+  "changed": 45,
+  "delta_changed": -0.3667,
+  "stage1_pass": false
+ },
+ "G2": {
+  "n": 269,
+  "delta_d157": -0.0465,
+  "lb95": -0.0892,
+  "delta_c26": -0.0762,
+  "changed": 96,
+  "delta_changed": -0.1302,
+  "stage1_pass": false
+ },
+ "G3": {
+  "n": 269,
+  "delta_d157": -0.1097,
+  "lb95": -0.158,
+  "delta_c26": -0.1394,
+  "changed": 127,
+  "delta_changed": -0.2323,
+  "stage1_pass": false
+ }
+}

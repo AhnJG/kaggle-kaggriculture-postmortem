@@ -1,0 +1,67 @@
+{
+  "contract": "coordination/proposals/claude/20260919-F0-LATEST-REBUILD-WORK-ORDER-CODEX.md",
+  "engine": {
+    "version": "1.32.7",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "runtime_limits": {
+    "episode_seconds": 1200,
+    "episode_gate_seconds_80_percent": 960,
+    "per_agent_nominal_seconds": 779,
+    "per_agent_gate_seconds_80_percent": 623.2
+  },
+  "silent_failure_policy": "recorded but excluded from F0 gate verdict",
+  "candidates": {
+    "p2-new": {
+      "verdict": "PASS",
+      "episodes": 22,
+      "candidate_player_runs": 24,
+      "completed_720_done_done": 22,
+      "exceptions": 0,
+      "max_episode_wall_seconds": 3.168,
+      "max_agent_total_seconds_per_player_episode": 0.4219134331215173,
+      "max_episode_p99_turn_ms": 3.8342089392244816,
+      "silent_failure_counters": {
+        "noop_actions": 1380,
+        "shed_discarded": 34,
+        "shed_unsold": 0,
+        "orders_truncated": 0,
+        "sell_unfilled": 2410058,
+        "buy_failed": 2,
+        "hire_failed": 0,
+        "seed_blocked_plant": 6,
+        "hands_length_mismatch_count": 0
+      }
+    },
+    "p3-new": {
+      "verdict": "PASS",
+      "episodes": 22,
+      "candidate_player_runs": 24,
+      "completed_720_done_done": 22,
+      "exceptions": 0,
+      "max_episode_wall_seconds": 3.126,
+      "max_agent_total_seconds_per_player_episode": 0.3982256503077224,
+      "max_episode_p99_turn_ms": 3.313582972623408,
+      "silent_failure_counters": {
+        "noop_actions": 1500,
+        "shed_discarded": 32,
+        "shed_unsold": 0,
+        "orders_truncated": 0,
+        "sell_unfilled": 2410108,
+        "buy_failed": 2,
+        "hire_failed": 0,
+        "seed_blocked_plant": 6,
+        "hands_length_mismatch_count": 0
+      }
+    }
+  },
+  "raw_files": [
+    "p2_new_vs_starter.json",
+    "starter_vs_p2_new.json",
+    "p2_new_self.json",
+    "p3_new_vs_starter.json",
+    "starter_vs_p3_new.json",
+    "p3_new_self.json"
+  ],
+  "note": "Raw instrument files use the generic release silent-failure verdict. This summary applies the F0 contract, which explicitly makes those counters diagnostic only."
+}

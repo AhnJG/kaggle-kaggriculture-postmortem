@@ -1,0 +1,886 @@
+[
+  {
+    "seed": 7,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      23440,
+      3378
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.792,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18000000272877514,
+      "p95": 0.1993329933611676,
+      "p99": 0.3014169924426824,
+      "max": 1.1012500035576522,
+      "total_s": 0.12195008504204452
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 9119.0,
+            "avg_price": 32.685
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22821.0,
+            "avg_price": 20.652
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 598.0,
+            "avg_price": 33.222
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 11,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      20961,
+      3259
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.914,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.1838329917518422,
+      "p95": 0.23312499979510903,
+      "p99": 0.330084003508091,
+      "max": 1.7339580081170425,
+      "total_s": 0.1274255087482743
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 6853.0,
+            "avg_price": 24.563
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22608.0,
+            "avg_price": 20.46
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 479.0,
+            "avg_price": 26.611
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 13,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      27029,
+      3578
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.852,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.1814159913919866,
+      "p95": 0.19975000759586692,
+      "p99": 0.24408299941569567,
+      "max": 1.635041000554338,
+      "total_s": 0.12148488084494602
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 12856.0,
+            "avg_price": 46.079
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22673.0,
+            "avg_price": 20.519
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 798.0,
+            "avg_price": 44.333
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1000,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      27103,
+      3590
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.767,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18212500435765833,
+      "p95": 0.20312500419095159,
+      "p99": 0.2829160075634718,
+      "max": 0.3184999950462952,
+      "total_s": 0.12105002101452556
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 13226.0,
+            "avg_price": 47.405
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22377.0,
+            "avg_price": 20.251
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 810.0,
+            "avg_price": 45.0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1001,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      22584,
+      3335
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.729,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.1805829961085692,
+      "p95": 0.20249999943189323,
+      "p99": 0.3053330001421273,
+      "max": 29.835291003109887,
+      "total_s": 0.1520596281188773
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 8239.0,
+            "avg_price": 29.53
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22845.0,
+            "avg_price": 20.674
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 555.0,
+            "avg_price": 30.833
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1002,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      24973,
+      3458
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 3.036,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18233399896416813,
+      "p95": 0.2989170025102794,
+      "p99": 0.3840830031549558,
+      "max": 14.501917001325637,
+      "total_s": 0.14699675508018117
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 10591.0,
+            "avg_price": 37.961
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22882.0,
+            "avg_price": 20.708
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 678.0,
+            "avg_price": 37.667
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1003,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      24552,
+      3446
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.816,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18041700241155922,
+      "p95": 0.21049998758826405,
+      "p99": 0.30712501029483974,
+      "max": 80.38779099297244,
+      "total_s": 0.20283926722186152
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 10237.0,
+            "avg_price": 36.692
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22815.0,
+            "avg_price": 20.647
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 666.0,
+            "avg_price": 37.0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1004,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      25053,
+      3494
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.909,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18166701192967594,
+      "p95": 0.283041998045519,
+      "p99": 0.3690830053528771,
+      "max": 2.4234160082414746,
+      "total_s": 0.13376465305918828
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 11039.0,
+            "avg_price": 39.566
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22514.0,
+            "avg_price": 20.375
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 714.0,
+            "avg_price": 39.667
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1005,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      21640,
+      3312
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.804,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18120900494977832,
+      "p95": 0.21458299306686968,
+      "p99": 0.3142079949611798,
+      "max": 1.3904160005040467,
+      "total_s": 0.12552738115482498
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 7589.0,
+            "avg_price": 27.201
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22551.0,
+            "avg_price": 20.408
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 532.0,
+            "avg_price": 29.556
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1006,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      25561,
+      3495
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.837,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18166599329560995,
+      "p95": 0.2884999994421378,
+      "p99": 0.3076249995501712,
+      "max": 1.2057499989168718,
+      "total_s": 0.12489276101405267
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 11216.0,
+            "avg_price": 40.201
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22845.0,
+            "avg_price": 20.674
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 715.0,
+            "avg_price": 39.722
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1007,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      23351,
+      3373
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.878,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18120800086762756,
+      "p95": 0.23912500182632357,
+      "p99": 0.31970800773706287,
+      "max": 2.004374997341074,
+      "total_s": 0.12598483759211376
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 8844.0,
+            "avg_price": 31.699
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 23007.0,
+            "avg_price": 20.821
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 593.0,
+            "avg_price": 32.944
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1008,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      20722,
+      3235
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.921,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.18312499742023647,
+      "p95": 0.2468330058036372,
+      "p99": 0.3281660028733313,
+      "max": 1.576999988174066,
+      "total_s": 0.12737174984067678
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 6304.0,
+            "avg_price": 22.595
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22918.0,
+            "avg_price": 20.74
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 455.0,
+            "avg_price": 25.278
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1009,
+    "agents": [
+      "main.py",
+      "starter"
+    ],
+    "rewards": [
+      24017,
+      3418
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.708,
+    "agent_ms": {
+      "n": 719,
+      "p50": 0.1800419995561242,
+      "p95": 0.28820800071116537,
+      "p99": 0.31295898952521384,
+      "max": 1.272624998819083,
+      "total_s": 0.12711470262729563
+    },
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 9766.0,
+            "avg_price": 35.004
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 22751.0,
+            "avg_price": 20.589
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 18,
+        "sell_filled": 18,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 18,
+            "revenue": 638.0,
+            "avg_price": 35.444
+          }
+        }
+      }
+    ]
+  }
+]

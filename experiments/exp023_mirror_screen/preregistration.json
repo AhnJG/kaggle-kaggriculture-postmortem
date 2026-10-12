@@ -1,0 +1,50 @@
+{
+ "id": "EXP-023",
+ "title": "Mirror knife-edge ±1 screening vs 127ed3e6 exact",
+ "frozen_at": "2026-09-26T01:47+09:00",
+ "note": "Criteria fixed before launch; this JSON was written ~1 min after the runner started (first write failed on a syntax error). No results were inspected before writing.",
+ "approved_by": "human 09-26 01:32 KST",
+ "executor": "Claude (cloud Linux x86, 2 workers, kaggle-environments 1.32.7 engine sha bc8a5487…; seed 5008 P vs O reproduced Mac result [97739,97737])",
+ "hypothesis": "Copy-vs-copy games are decided by seat asymmetry with margins <0.2% (EXP-021 P: 94D/3W/3L). A variant whose mirror-game net wealth is +epsilon converts draws to wins.",
+ "parent": {
+  "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+  "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"
+ },
+ "opponent": {
+  "path": "releases/public-newmeta-127ed3e6-exact/main.py",
+  "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652"
+ },
+ "variants": "search_optimize.mutation_specs order (constant/layer round-robin), ALL 186 specs, single change each, build_variant wrapper bytes",
+ "variants_sha256": "63c1196886b06f007c0efd986dddda06bef32ca3cf7218499df226c0de6113d9",
+ "stage1": {
+  "seeds": [
+   7000,
+   7004
+  ],
+  "seats": [
+   0,
+   1
+  ],
+  "games_per_variant": 10,
+  "baseline": "parent same seeds",
+  "baseline_gate": "parent score rate 0.40-0.60 else STOP",
+  "advance": "score rate >= 0.70, invalid 0; rank by score then total margin; at most top 8"
+ },
+ "stage2": {
+  "seeds": [
+   7100,
+   7129
+  ],
+  "seats": [
+   0,
+   1
+  ],
+  "games_per_variant": 60,
+  "pass_rule": "Wilson 95% lower bound > 0.50 and point >= 0.65"
+ },
+ "stage3": "Not run by this card: EXP-021 stage-2 criteria (vs O 400 games Wilson99 lower>0.55; DP paired 200 delta lower95>-0.05; public top-15 guard no drop>0.10; POOLED guard over DP+15 files paired delta lower95>-0.03; runtime) on fresh seeds 7200+, then release+E-5+D3 gate, human submit (retires DP slot).",
+ "invalid": "our side ERROR/INVALID/TIMEOUT or runner exception; opponent-side recorded only",
+ "no_change": "variants whose action digest equals parent in all 10 games are NO_EFFECT",
+ "forbidden": "submission, Kaggle download, holdout seeds 9000-9599, engine/RNG modification, criteria change after results",
+ "seeds_disjoint_from": "2400-2619, 3000-4999, 5000-6799, 9000-9599"
+}

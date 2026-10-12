@@ -1,0 +1,2842 @@
+[
+  {
+    "seed": 1000,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28754,
+      28754
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.373,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2267.0,
+        2267.0,
+        1976.0,
+        1976.0,
+        2375.0,
+        2528.0,
+        9.0,
+        9.0,
+        943.0,
+        1225.0,
+        1277.0,
+        1799.0,
+        2861.0,
+        3683.0,
+        3735.0,
+        4237.0,
+        5379.0,
+        6083.0,
+        10838.0,
+        14172.0,
+        23460.0,
+        24317.0,
+        24367.0,
+        24863.0,
+        25315.0,
+        26771.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2267.0,
+        2267.0,
+        1976.0,
+        1976.0,
+        2375.0,
+        2528.0,
+        9.0,
+        9.0,
+        943.0,
+        1225.0,
+        1277.0,
+        1799.0,
+        2861.0,
+        3683.0,
+        3735.0,
+        4237.0,
+        5379.0,
+        6083.0,
+        10838.0,
+        14172.0,
+        23460.0,
+        24317.0,
+        24367.0,
+        24863.0,
+        25315.0,
+        26771.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1141,
+        "sell_filled": 1141,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1868.0,
+            "avg_price": 36.627
+          },
+          "MELON": {
+            "units": 134,
+            "revenue": 16457.0,
+            "avg_price": 122.813
+          },
+          "WHEAT": {
+            "units": 956,
+            "revenue": 18919.0,
+            "avg_price": 19.79
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1141,
+        "sell_filled": 1141,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1868.0,
+            "avg_price": 36.627
+          },
+          "MELON": {
+            "units": 134,
+            "revenue": 16457.0,
+            "avg_price": 122.813
+          },
+          "WHEAT": {
+            "units": 956,
+            "revenue": 18919.0,
+            "avg_price": 19.79
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1001,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29174,
+      29174
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.309,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2267.0,
+        2267.0,
+        1976.0,
+        1976.0,
+        2367.0,
+        2512.0,
+        2.0,
+        2.0,
+        1092.0,
+        1194.0,
+        1246.0,
+        1830.0,
+        1830.0,
+        3502.0,
+        3834.0,
+        4428.0,
+        4428.0,
+        5789.0,
+        10886.0,
+        14350.0,
+        23120.0,
+        24405.0,
+        24902.0,
+        25458.0,
+        25474.0,
+        26830.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2267.0,
+        2267.0,
+        1976.0,
+        1976.0,
+        2367.0,
+        2512.0,
+        2.0,
+        2.0,
+        1092.0,
+        1194.0,
+        1246.0,
+        1830.0,
+        1830.0,
+        3502.0,
+        3834.0,
+        4428.0,
+        4428.0,
+        5789.0,
+        10886.0,
+        14350.0,
+        23120.0,
+        24405.0,
+        24902.0,
+        25458.0,
+        25474.0,
+        26830.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1165,
+        "sell_filled": 1165,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1703.0,
+            "avg_price": 33.392
+          },
+          "MELON": {
+            "units": 140,
+            "revenue": 16445.0,
+            "avg_price": 117.464
+          },
+          "WHEAT": {
+            "units": 974,
+            "revenue": 19226.0,
+            "avg_price": 19.739
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1165,
+        "sell_filled": 1165,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1703.0,
+            "avg_price": 33.392
+          },
+          "MELON": {
+            "units": 140,
+            "revenue": 16445.0,
+            "avg_price": 117.464
+          },
+          "WHEAT": {
+            "units": 974,
+            "revenue": 19226.0,
+            "avg_price": 19.739
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1002,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28550,
+      28550
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.314,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        689.0,
+        811.0,
+        863.0,
+        1515.0,
+        1577.0,
+        3199.0,
+        3331.0,
+        3963.0,
+        4045.0,
+        5382.0,
+        10346.0,
+        13800.0,
+        22659.0,
+        23887.0,
+        24308.0,
+        24854.0,
+        24926.0,
+        26358.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        689.0,
+        811.0,
+        863.0,
+        1515.0,
+        1577.0,
+        3199.0,
+        3331.0,
+        3963.0,
+        4045.0,
+        5382.0,
+        10346.0,
+        13800.0,
+        22659.0,
+        23887.0,
+        24308.0,
+        24854.0,
+        24926.0,
+        26358.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1152,
+        "sell_filled": 1152,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 143,
+            "revenue": 16448.0,
+            "avg_price": 115.021
+          },
+          "WHEAT": {
+            "units": 958,
+            "revenue": 18897.0,
+            "avg_price": 19.725
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1152,
+        "sell_filled": 1152,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 143,
+            "revenue": 16448.0,
+            "avg_price": 115.021
+          },
+          "WHEAT": {
+            "units": 958,
+            "revenue": 18897.0,
+            "avg_price": 19.725
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1003,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29081,
+      29081
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.301,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        922.0,
+        1034.0,
+        1086.0,
+        1590.0,
+        1590.0,
+        3332.0,
+        3664.0,
+        4188.0,
+        4188.0,
+        5624.0,
+        10778.0,
+        14262.0,
+        22895.0,
+        24245.0,
+        24818.0,
+        25248.0,
+        25248.0,
+        26680.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        922.0,
+        1034.0,
+        1086.0,
+        1590.0,
+        1590.0,
+        3332.0,
+        3664.0,
+        4188.0,
+        4188.0,
+        5624.0,
+        10778.0,
+        14262.0,
+        22895.0,
+        24245.0,
+        24818.0,
+        25248.0,
+        25248.0,
+        26680.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19386.0,
+            "avg_price": 19.761
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19386.0,
+            "avg_price": 19.761
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1004,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28544,
+      28544
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.345,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        689.0,
+        811.0,
+        863.0,
+        1515.0,
+        1577.0,
+        3199.0,
+        3331.0,
+        3963.0,
+        4045.0,
+        5376.0,
+        10340.0,
+        13794.0,
+        22653.0,
+        23881.0,
+        24302.0,
+        24848.0,
+        24920.0,
+        26352.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        689.0,
+        811.0,
+        863.0,
+        1515.0,
+        1577.0,
+        3199.0,
+        3331.0,
+        3963.0,
+        4045.0,
+        5376.0,
+        10340.0,
+        13794.0,
+        22653.0,
+        23881.0,
+        24302.0,
+        24848.0,
+        24920.0,
+        26352.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1152,
+        "sell_filled": 1152,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 143,
+            "revenue": 16448.0,
+            "avg_price": 115.021
+          },
+          "WHEAT": {
+            "units": 958,
+            "revenue": 18891.0,
+            "avg_price": 19.719
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1152,
+        "sell_filled": 1152,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 143,
+            "revenue": 16448.0,
+            "avg_price": 115.021
+          },
+          "WHEAT": {
+            "units": 958,
+            "revenue": 18891.0,
+            "avg_price": 19.719
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1005,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28968,
+      28968
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.333,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2267.0,
+        2267.0,
+        1976.0,
+        1976.0,
+        2370.0,
+        2515.0,
+        1.0,
+        1.0,
+        984.0,
+        1186.0,
+        1238.0,
+        1870.0,
+        2032.0,
+        3504.0,
+        3636.0,
+        4248.0,
+        4500.0,
+        5781.0,
+        10669.0,
+        14103.0,
+        23108.0,
+        24408.0,
+        24677.0,
+        25203.0,
+        25427.0,
+        26871.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2267.0,
+        2267.0,
+        1976.0,
+        1976.0,
+        2370.0,
+        2515.0,
+        1.0,
+        1.0,
+        984.0,
+        1186.0,
+        1238.0,
+        1870.0,
+        2032.0,
+        3504.0,
+        3636.0,
+        4248.0,
+        4500.0,
+        5781.0,
+        10669.0,
+        14103.0,
+        23108.0,
+        24408.0,
+        24677.0,
+        25203.0,
+        25427.0,
+        26871.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1157,
+        "sell_filled": 1157,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1651.0,
+            "avg_price": 32.373
+          },
+          "MELON": {
+            "units": 138,
+            "revenue": 16449.0,
+            "avg_price": 119.196
+          },
+          "WHEAT": {
+            "units": 968,
+            "revenue": 19178.0,
+            "avg_price": 19.812
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1157,
+        "sell_filled": 1157,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1651.0,
+            "avg_price": 32.373
+          },
+          "MELON": {
+            "units": 138,
+            "revenue": 16449.0,
+            "avg_price": 119.196
+          },
+          "WHEAT": {
+            "units": 968,
+            "revenue": 19178.0,
+            "avg_price": 19.812
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1006,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28766,
+      28766
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.322,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2253.0,
+        2385.0,
+        6.0,
+        6.0,
+        839.0,
+        961.0,
+        1013.0,
+        1567.0,
+        1567.0,
+        3349.0,
+        3481.0,
+        4055.0,
+        4055.0,
+        5438.0,
+        10478.0,
+        13942.0,
+        22712.0,
+        23997.0,
+        24494.0,
+        25050.0,
+        25066.0,
+        26422.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2253.0,
+        2385.0,
+        6.0,
+        6.0,
+        839.0,
+        961.0,
+        1013.0,
+        1567.0,
+        1567.0,
+        3349.0,
+        3481.0,
+        4055.0,
+        4055.0,
+        5438.0,
+        10478.0,
+        13942.0,
+        22712.0,
+        23997.0,
+        24494.0,
+        25050.0,
+        25066.0,
+        26422.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1156,
+        "sell_filled": 1156,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1505.0,
+            "avg_price": 29.51
+          },
+          "MELON": {
+            "units": 140,
+            "revenue": 16445.0,
+            "avg_price": 117.464
+          },
+          "WHEAT": {
+            "units": 965,
+            "revenue": 19006.0,
+            "avg_price": 19.695
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1156,
+        "sell_filled": 1156,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1505.0,
+            "avg_price": 29.51
+          },
+          "MELON": {
+            "units": 140,
+            "revenue": 16445.0,
+            "avg_price": 117.464
+          },
+          "WHEAT": {
+            "units": 965,
+            "revenue": 19006.0,
+            "avg_price": 19.695
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1007,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29116,
+      29116
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.301,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2311.0,
+        2450.0,
+        7.0,
+        7.0,
+        1002.0,
+        1114.0,
+        1166.0,
+        1670.0,
+        1670.0,
+        3412.0,
+        3744.0,
+        4250.0,
+        4250.0,
+        5659.0,
+        10813.0,
+        14297.0,
+        22930.0,
+        24280.0,
+        24853.0,
+        25283.0,
+        25283.0,
+        26715.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2311.0,
+        2450.0,
+        7.0,
+        7.0,
+        1002.0,
+        1114.0,
+        1166.0,
+        1670.0,
+        1670.0,
+        3412.0,
+        3744.0,
+        4250.0,
+        4250.0,
+        5659.0,
+        10813.0,
+        14297.0,
+        22930.0,
+        24280.0,
+        24853.0,
+        25283.0,
+        25283.0,
+        26715.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1613.0,
+            "avg_price": 31.627
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19323.0,
+            "avg_price": 19.697
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1613.0,
+            "avg_price": 31.627
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19323.0,
+            "avg_price": 19.697
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1008,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29011,
+      29091
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.347,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2267.0,
+        2267.0,
+        1976.0,
+        1976.0,
+        2370.0,
+        2515.0,
+        1.0,
+        1.0,
+        984.0,
+        1106.0,
+        1158.0,
+        1790.0,
+        1952.0,
+        3424.0,
+        3556.0,
+        4168.0,
+        4420.0,
+        5722.0,
+        10629.0,
+        14099.0,
+        23131.0,
+        24451.0,
+        24720.0,
+        25246.0,
+        25470.0,
+        26914.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2267.0,
+        2267.0,
+        1976.0,
+        1976.0,
+        2370.0,
+        2515.0,
+        1.0,
+        1.0,
+        984.0,
+        1186.0,
+        1238.0,
+        1870.0,
+        2032.0,
+        3504.0,
+        3636.0,
+        4248.0,
+        4500.0,
+        5802.0,
+        10709.0,
+        14179.0,
+        23211.0,
+        24531.0,
+        24800.0,
+        25326.0,
+        25550.0,
+        26994.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1153,
+        "sell_filled": 1153,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1651.0,
+            "avg_price": 32.373
+          },
+          "MELON": {
+            "units": 138,
+            "revenue": 16449.0,
+            "avg_price": 119.196
+          },
+          "WHEAT": {
+            "units": 964,
+            "revenue": 19221.0,
+            "avg_price": 19.939
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1157,
+        "sell_filled": 1157,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1651.0,
+            "avg_price": 32.373
+          },
+          "MELON": {
+            "units": 138,
+            "revenue": 16449.0,
+            "avg_price": 119.196
+          },
+          "WHEAT": {
+            "units": 968,
+            "revenue": 19301.0,
+            "avg_price": 19.939
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1009,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29136,
+      29146
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.319,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        928.0,
+        1030.0,
+        1082.0,
+        1586.0,
+        1586.0,
+        3328.0,
+        3660.0,
+        4184.0,
+        4184.0,
+        5671.0,
+        10833.0,
+        14317.0,
+        22950.0,
+        24300.0,
+        24873.0,
+        25303.0,
+        25303.0,
+        26735.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        928.0,
+        1040.0,
+        1092.0,
+        1596.0,
+        1596.0,
+        3338.0,
+        3670.0,
+        4194.0,
+        4194.0,
+        5681.0,
+        10843.0,
+        14327.0,
+        22960.0,
+        24310.0,
+        24883.0,
+        25313.0,
+        25313.0,
+        26745.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19451.0,
+            "avg_price": 19.828
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19451.0,
+            "avg_price": 19.828
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1010,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28529,
+      28529
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.322,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        689.0,
+        811.0,
+        863.0,
+        1515.0,
+        1577.0,
+        3199.0,
+        3331.0,
+        3963.0,
+        4045.0,
+        5361.0,
+        10325.0,
+        13779.0,
+        22638.0,
+        23866.0,
+        24287.0,
+        24833.0,
+        24905.0,
+        26337.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        689.0,
+        811.0,
+        863.0,
+        1515.0,
+        1577.0,
+        3199.0,
+        3331.0,
+        3963.0,
+        4045.0,
+        5361.0,
+        10325.0,
+        13779.0,
+        22638.0,
+        23866.0,
+        24287.0,
+        24833.0,
+        24905.0,
+        26337.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1152,
+        "sell_filled": 1152,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 143,
+            "revenue": 16448.0,
+            "avg_price": 115.021
+          },
+          "WHEAT": {
+            "units": 958,
+            "revenue": 18876.0,
+            "avg_price": 19.704
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1152,
+        "sell_filled": 1152,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 143,
+            "revenue": 16448.0,
+            "avg_price": 115.021
+          },
+          "WHEAT": {
+            "units": 958,
+            "revenue": 18876.0,
+            "avg_price": 19.704
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1011,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29162,
+      29162
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.291,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        928.0,
+        1040.0,
+        1092.0,
+        1596.0,
+        1596.0,
+        3338.0,
+        3670.0,
+        4194.0,
+        4194.0,
+        5686.0,
+        10857.0,
+        14343.0,
+        22976.0,
+        24326.0,
+        24899.0,
+        25329.0,
+        25329.0,
+        26761.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        928.0,
+        1040.0,
+        1092.0,
+        1596.0,
+        1596.0,
+        3338.0,
+        3670.0,
+        4194.0,
+        4194.0,
+        5686.0,
+        10857.0,
+        14343.0,
+        22976.0,
+        24326.0,
+        24899.0,
+        25329.0,
+        25329.0,
+        26761.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19467.0,
+            "avg_price": 19.844
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19467.0,
+            "avg_price": 19.844
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1012,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29184,
+      29184
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.336,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        928.0,
+        1040.0,
+        1092.0,
+        1596.0,
+        1596.0,
+        3338.0,
+        3670.0,
+        4194.0,
+        4194.0,
+        5686.0,
+        10866.0,
+        14361.0,
+        22994.0,
+        24348.0,
+        24921.0,
+        25351.0,
+        25351.0,
+        26783.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        928.0,
+        1040.0,
+        1092.0,
+        1596.0,
+        1596.0,
+        3338.0,
+        3670.0,
+        4194.0,
+        4194.0,
+        5686.0,
+        10866.0,
+        14361.0,
+        22994.0,
+        24348.0,
+        24921.0,
+        25351.0,
+        25351.0,
+        26783.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19489.0,
+            "avg_price": 19.866
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19489.0,
+            "avg_price": 19.866
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1013,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28600,
+      28680
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.333,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        1.0,
+        1.0,
+        708.0,
+        830.0,
+        882.0,
+        1514.0,
+        1756.0,
+        3228.0,
+        3360.0,
+        3972.0,
+        4220.0,
+        5458.0,
+        10346.0,
+        13780.0,
+        22785.0,
+        24033.0,
+        24302.0,
+        24828.0,
+        25052.0,
+        26484.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        1.0,
+        1.0,
+        708.0,
+        910.0,
+        962.0,
+        1594.0,
+        1836.0,
+        3308.0,
+        3440.0,
+        4052.0,
+        4300.0,
+        5538.0,
+        10426.0,
+        13860.0,
+        22865.0,
+        24113.0,
+        24382.0,
+        24908.0,
+        25132.0,
+        26564.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1150,
+        "sell_filled": 1150,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1460.0,
+            "avg_price": 28.627
+          },
+          "MELON": {
+            "units": 137,
+            "revenue": 16442.0,
+            "avg_price": 120.015
+          },
+          "WHEAT": {
+            "units": 962,
+            "revenue": 18928.0,
+            "avg_price": 19.676
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1154,
+        "sell_filled": 1154,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1460.0,
+            "avg_price": 28.627
+          },
+          "MELON": {
+            "units": 137,
+            "revenue": 16442.0,
+            "avg_price": 120.015
+          },
+          "WHEAT": {
+            "units": 966,
+            "revenue": 19008.0,
+            "avg_price": 19.677
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1014,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28882,
+      28705
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.307,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2253.0,
+        2385.0,
+        6.0,
+        6.0,
+        833.0,
+        945.0,
+        997.0,
+        1571.0,
+        1571.0,
+        3333.0,
+        3585.0,
+        4155.0,
+        4155.0,
+        5497.0,
+        10594.0,
+        14058.0,
+        22828.0,
+        24113.0,
+        24610.0,
+        25166.0,
+        25182.0,
+        26538.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2253.0,
+        2385.0,
+        6.0,
+        6.0,
+        833.0,
+        955.0,
+        1007.0,
+        1561.0,
+        1561.0,
+        3343.0,
+        3475.0,
+        4025.0,
+        4025.0,
+        5377.0,
+        10417.0,
+        13881.0,
+        22651.0,
+        23936.0,
+        24433.0,
+        24989.0,
+        25005.0,
+        26361.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1165,
+        "sell_filled": 1165,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1505.0,
+            "avg_price": 29.51
+          },
+          "MELON": {
+            "units": 140,
+            "revenue": 16445.0,
+            "avg_price": 117.464
+          },
+          "WHEAT": {
+            "units": 974,
+            "revenue": 19122.0,
+            "avg_price": 19.632
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1156,
+        "sell_filled": 1156,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1505.0,
+            "avg_price": 29.51
+          },
+          "MELON": {
+            "units": 140,
+            "revenue": 16445.0,
+            "avg_price": 117.464
+          },
+          "WHEAT": {
+            "units": 965,
+            "revenue": 18945.0,
+            "avg_price": 19.632
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1015,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29158,
+      29158
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.398,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2311.0,
+        2450.0,
+        7.0,
+        7.0,
+        1008.0,
+        1120.0,
+        1172.0,
+        1676.0,
+        1676.0,
+        3418.0,
+        3750.0,
+        4274.0,
+        4274.0,
+        5701.0,
+        10855.0,
+        14339.0,
+        22972.0,
+        24322.0,
+        24895.0,
+        25325.0,
+        25325.0,
+        26757.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2311.0,
+        2450.0,
+        7.0,
+        7.0,
+        1008.0,
+        1120.0,
+        1172.0,
+        1676.0,
+        1676.0,
+        3418.0,
+        3750.0,
+        4274.0,
+        4274.0,
+        5701.0,
+        10855.0,
+        14339.0,
+        22972.0,
+        24322.0,
+        24895.0,
+        25325.0,
+        25325.0,
+        26757.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1613.0,
+            "avg_price": 31.627
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19365.0,
+            "avg_price": 19.74
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1613.0,
+            "avg_price": 31.627
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19365.0,
+            "avg_price": 19.74
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1016,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29222,
+      29222
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.28,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2308.0,
+        2440.0,
+        1.0,
+        1.0,
+        918.0,
+        1100.0,
+        1152.0,
+        1576.0,
+        1576.0,
+        3398.0,
+        3730.0,
+        4174.0,
+        4174.0,
+        5746.0,
+        10931.0,
+        14441.0,
+        23004.0,
+        24357.0,
+        25006.0,
+        25370.0,
+        25370.0,
+        26802.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2308.0,
+        2440.0,
+        1.0,
+        1.0,
+        918.0,
+        1100.0,
+        1152.0,
+        1576.0,
+        1576.0,
+        3398.0,
+        3730.0,
+        4174.0,
+        4174.0,
+        5746.0,
+        10931.0,
+        14441.0,
+        23004.0,
+        24357.0,
+        25006.0,
+        25370.0,
+        25370.0,
+        26802.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1184,
+        "sell_filled": 1184,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1505.0,
+            "avg_price": 29.51
+          },
+          "MELON": {
+            "units": 151,
+            "revenue": 16456.0,
+            "avg_price": 108.98
+          },
+          "WHEAT": {
+            "units": 982,
+            "revenue": 19531.0,
+            "avg_price": 19.889
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1184,
+        "sell_filled": 1184,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1505.0,
+            "avg_price": 29.51
+          },
+          "MELON": {
+            "units": 151,
+            "revenue": 16456.0,
+            "avg_price": 108.98
+          },
+          "WHEAT": {
+            "units": 982,
+            "revenue": 19531.0,
+            "avg_price": 19.889
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1017,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      29096,
+      29096
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.319,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        922.0,
+        1034.0,
+        1086.0,
+        1590.0,
+        1590.0,
+        3332.0,
+        3664.0,
+        4188.0,
+        4188.0,
+        5639.0,
+        10793.0,
+        14277.0,
+        22910.0,
+        24260.0,
+        24833.0,
+        25263.0,
+        25263.0,
+        26695.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1939.0,
+        1939.0,
+        2302.0,
+        2430.0,
+        7.0,
+        7.0,
+        922.0,
+        1034.0,
+        1086.0,
+        1590.0,
+        1590.0,
+        3332.0,
+        3664.0,
+        4188.0,
+        4188.0,
+        5639.0,
+        10793.0,
+        14277.0,
+        22910.0,
+        24260.0,
+        24833.0,
+        25263.0,
+        25263.0,
+        26695.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19401.0,
+            "avg_price": 19.777
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1177,
+        "sell_filled": 1177,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 145,
+            "revenue": 16450.0,
+            "avg_price": 113.448
+          },
+          "WHEAT": {
+            "units": 981,
+            "revenue": 19401.0,
+            "avg_price": 19.777
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1018,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28536,
+      28536
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.32,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        702.0,
+        824.0,
+        876.0,
+        1518.0,
+        1670.0,
+        3142.0,
+        3274.0,
+        3896.0,
+        4058.0,
+        5387.0,
+        10275.0,
+        13719.0,
+        22695.0,
+        23997.0,
+        24285.0,
+        24811.0,
+        25045.0,
+        26401.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        702.0,
+        824.0,
+        876.0,
+        1518.0,
+        1670.0,
+        3142.0,
+        3274.0,
+        3896.0,
+        4058.0,
+        5387.0,
+        10275.0,
+        13719.0,
+        22695.0,
+        23997.0,
+        24285.0,
+        24811.0,
+        25045.0,
+        26401.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1147,
+        "sell_filled": 1147,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1448.0,
+            "avg_price": 28.392
+          },
+          "MELON": {
+            "units": 134,
+            "revenue": 16439.0,
+            "avg_price": 122.679
+          },
+          "WHEAT": {
+            "units": 962,
+            "revenue": 18949.0,
+            "avg_price": 19.698
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1147,
+        "sell_filled": 1147,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1448.0,
+            "avg_price": 28.392
+          },
+          "MELON": {
+            "units": 134,
+            "revenue": 16439.0,
+            "avg_price": 122.679
+          },
+          "WHEAT": {
+            "units": 962,
+            "revenue": 18949.0,
+            "avg_price": 19.698
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1019,
+    "agents": [
+      "experiments/candidates/v2c_b3_day8.py",
+      "experiments/candidates/v2c_b3_day8.py"
+    ],
+    "rewards": [
+      28544,
+      28544
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.315,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        689.0,
+        811.0,
+        863.0,
+        1515.0,
+        1577.0,
+        3199.0,
+        3331.0,
+        3963.0,
+        4045.0,
+        5376.0,
+        10340.0,
+        13794.0,
+        22653.0,
+        23881.0,
+        24302.0,
+        24848.0,
+        24920.0,
+        26352.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2506.0,
+        2328.0,
+        2265.0,
+        2265.0,
+        1892.0,
+        1892.0,
+        2247.0,
+        2375.0,
+        2.0,
+        2.0,
+        689.0,
+        811.0,
+        863.0,
+        1515.0,
+        1577.0,
+        3199.0,
+        3331.0,
+        3963.0,
+        4045.0,
+        5376.0,
+        10340.0,
+        13794.0,
+        22653.0,
+        23881.0,
+        24302.0,
+        24848.0,
+        24920.0,
+        26352.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1152,
+        "sell_filled": 1152,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 143,
+            "revenue": 16448.0,
+            "avg_price": 115.021
+          },
+          "WHEAT": {
+            "units": 958,
+            "revenue": 18891.0,
+            "avg_price": 19.719
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1152,
+        "sell_filled": 1152,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 51,
+            "revenue": 1435.0,
+            "avg_price": 28.137
+          },
+          "MELON": {
+            "units": 143,
+            "revenue": 16448.0,
+            "avg_price": 115.021
+          },
+          "WHEAT": {
+            "units": 958,
+            "revenue": 18891.0,
+            "avg_price": 19.719
+          }
+        }
+      }
+    ]
+  }
+]

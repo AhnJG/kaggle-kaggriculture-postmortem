@@ -1,0 +1,347 @@
+{
+  "verdict": "PASS",
+  "schema_ok": true,
+  "runtime_ok": true,
+  "entrypoint_name": "agent",
+  "results_vs_starter_20": {
+    "W": 20,
+    "D": 0,
+    "L": 0
+  },
+  "episodes": 22,
+  "candidate_player_runs": 24,
+  "completed_720_done_done": 22,
+  "exceptions": 0,
+  "max_episode_wall_seconds": 3.61,
+  "max_agent_total_seconds_per_player_episode": 0.39317321887938306,
+  "max_episode_p99_turn_ms": 3.6325420005596243,
+  "max_turn_ms": 83.48695799941197,
+  "silent_failure_counters": {
+    "noop_actions": 1380,
+    "shed_discarded": 40,
+    "shed_unsold": 0,
+    "orders_truncated": 0,
+    "sell_unfilled": 2409580,
+    "buy_failed": 6,
+    "hire_failed": 0,
+    "seed_blocked_plant": 6,
+    "hands_length_mismatch_count": 0
+  },
+  "per_episode": [
+    {
+      "seat": "seat0",
+      "seed": 1000,
+      "rewards": [
+        163066,
+        3592
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.072
+    },
+    {
+      "seat": "seat0",
+      "seed": 1001,
+      "rewards": [
+        156002,
+        3622
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 1.973
+    },
+    {
+      "seat": "seat0",
+      "seed": 1002,
+      "rewards": [
+        140966,
+        3668
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 1.99
+    },
+    {
+      "seat": "seat0",
+      "seed": 1003,
+      "rewards": [
+        153130,
+        3762
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 1.982
+    },
+    {
+      "seat": "seat0",
+      "seed": 1004,
+      "rewards": [
+        159755,
+        3431
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 1.999
+    },
+    {
+      "seat": "seat0",
+      "seed": 1005,
+      "rewards": [
+        174889,
+        3510
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 1.966
+    },
+    {
+      "seat": "seat0",
+      "seed": 1006,
+      "rewards": [
+        206744,
+        3506
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.116
+    },
+    {
+      "seat": "seat0",
+      "seed": 1007,
+      "rewards": [
+        165387,
+        3421
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.08
+    },
+    {
+      "seat": "seat0",
+      "seed": 1008,
+      "rewards": [
+        181497,
+        3425
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.01
+    },
+    {
+      "seat": "seat0",
+      "seed": 1009,
+      "rewards": [
+        148771,
+        3580
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 1.983
+    },
+    {
+      "seat": "seat1",
+      "seed": 1000,
+      "rewards": [
+        3592,
+        163066
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.108
+    },
+    {
+      "seat": "seat1",
+      "seed": 1001,
+      "rewards": [
+        3622,
+        156002
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.04
+    },
+    {
+      "seat": "seat1",
+      "seed": 1002,
+      "rewards": [
+        3668,
+        140966
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.041
+    },
+    {
+      "seat": "seat1",
+      "seed": 1003,
+      "rewards": [
+        3762,
+        153130
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.027
+    },
+    {
+      "seat": "seat1",
+      "seed": 1004,
+      "rewards": [
+        3431,
+        159755
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 1.985
+    },
+    {
+      "seat": "seat1",
+      "seed": 1005,
+      "rewards": [
+        3510,
+        174889
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.014
+    },
+    {
+      "seat": "seat1",
+      "seed": 1006,
+      "rewards": [
+        3506,
+        206744
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.208
+    },
+    {
+      "seat": "seat1",
+      "seed": 1007,
+      "rewards": [
+        3421,
+        165387
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.052
+    },
+    {
+      "seat": "seat1",
+      "seed": 1008,
+      "rewards": [
+        3425,
+        181497
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 2.049
+    },
+    {
+      "seat": "seat1",
+      "seed": 1009,
+      "rewards": [
+        3580,
+        148771
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 1.96
+    },
+    {
+      "seat": "self",
+      "seed": 1000,
+      "rewards": [
+        67333,
+        67333
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 3.385
+    },
+    {
+      "seat": "self",
+      "seed": 1001,
+      "rewards": [
+        98126,
+        98126
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ],
+      "steps": 720,
+      "wall_seconds": 3.61
+    }
+  ],
+  "raw_files": [
+    "v1_vs_starter.json",
+    "starter_vs_v1.json",
+    "v1_self.json"
+  ],
+  "main_py_sha256": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+}

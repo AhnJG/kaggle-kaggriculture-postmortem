@@ -1,0 +1,56 @@
+{
+  "experiment_id": "EXP-021-MIRROR-EDGE-V2",
+  "frozen_at": "2026-09-26T00:48:05+09:00",
+  "authorization": "Coordinator decision; human approved 2026-09-26 00:40 KST",
+  "revision_reason": "H2 telemetry gate 실패. 결과 관측 전 수정",
+  "revision_scope": "The designated v1 telemetry smoke was observed, including H2 failure. No Stage 1 screen score-rate result beyond those mandatory smoke games was observed before this v2 freeze.",
+  "preservation": {
+    "v1_path": "experiments/mirror_edge_20260926/preregistration.json",
+    "v1_sha256": "bc72d03d5f88b22cab72e7c26105a31e88ff9d8fc9fce474406bd8968d42f487",
+    "existing_games": "Keep all 12 v1 smoke rows append-only. Reuse the 10 rows belonging to P, H1a, H1b, H3, and H4 in Stage 1; retain but exclude the two H2 rows.",
+    "stop_report": "coordination/reports/codex/20260926-0013-EXP021-STAGE1.md"
+  },
+  "workers": 5,
+  "inputs": {
+    "parent": {"path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py", "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"},
+    "opponent_o": {"path": "releases/public-newmeta-127ed3e6-exact/main.py", "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652", "hosted_submission_id": 56549720, "human_snapshot_rating": 2314.7},
+    "dp": {"path": "releases/public-tetsutani-demand-preserving-0924-exact/main.py", "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a", "hosted_submission_id": 56518910},
+    "engine": {"path": ".venv/lib/python3.13/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.py", "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e", "version": "1.32.7"},
+    "arms": {
+      "H1a": {"path": "experiments/mirror_edge_20260926/variants/H1a/main.py", "sha256": "08c52e4cbde5504056f0b0787b79b4c0cd528a6e9210c65c6a36d297666fd452", "change": "_RACE_HORIZON_MIRROR=32"},
+      "H1b": {"path": "experiments/mirror_edge_20260926/variants/H1b/main.py", "sha256": "529f7055a5f6d920d4b67a6677dcb7f63433bf4744f02f961d54b6dbfe92defc", "change": "_RACE_HORIZON_MIRROR=40"},
+      "H3": {"path": "experiments/mirror_edge_20260926/variants/H3/main.py", "sha256": "d1b8eba503970ee46fbc226c49153bd5a557c40fb7589ffd20293711e05f0f6a", "change": "_RACE_HORIZON_ESCALATED=32"},
+      "H4": {"path": "experiments/mirror_edge_20260926/variants/H4/main.py", "sha256": "960ed270a81ec7c878a2be03ed3ab27343860bb81ffb0e95c80688cbe5a559f9", "change": "mirror-gated step-717 terminal liquidation"}
+    },
+    "public_guard_15": [
+      {"path": "releases/public-newmeta-127ed3e6-exact/main.py", "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652"},
+      {"path": "releases/public-tetsutani-demand-preserving-0924-exact/main.py", "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a"},
+      {"path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py", "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py", "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"},
+      {"path": "analysis/daily_scan/20260922/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py", "sha256": "0565e742904024379315cfc4d3228616a214c7939d0c7804f494bc4e3d4700c7"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py", "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689"},
+      {"path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py", "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py", "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd"},
+      {"path": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py", "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py", "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py", "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py", "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py", "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de"},
+      {"path": "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py", "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py", "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e"}
+    ]
+  },
+  "invalid": "Our arm/parent exception, caught_errors, timeout, steps != 720, or either status != DONE. Opponent-side caught_errors are recorded but do not invalidate.",
+  "rng_and_statistics": "No engine/RNG wrapper. Both seats. Paired comparisons use empirical seed-level differences after averaging both seats. Paired 95% lower endpoint uses t_(0.975,n-1). Primary O uses Wilson 99% lower bound with z=2.576 and effective successes wins+0.5*draws.",
+  "stage1": {"seeds": [5000, 5049], "seats": [0, 1], "games_per_agent": 100, "total_games": 500, "baseline_stop": "parent score rate outside inclusive [0.45,0.55]", "arm_pass": "score rate >= 0.60"},
+  "stage2": {
+    "primary_o": {"seeds": [5050, 5249], "seats": [0, 1], "games_per_arm": 400, "pass": "Wilson 99% lower bound z=2.576 > 0.55"},
+    "dp_noninferiority": {"seeds": [5250, 5349], "seats": [0, 1], "games_per_agent": 200, "pass": "paired delta score-rate 95% lower endpoint > -0.05"},
+    "guard": {"seeds": [5350, 5359], "seats": [0, 1], "files": 15, "games_per_file_per_agent": 20, "pass": "zero files where arm score rate is more than 0.10 below parent"},
+    "runtime": "all card games: candidate/parent exception 0, max step <0.5s, empirical p99 <0.10s",
+    "activation": "against nonclone opponents H1a/H1b/H4 mirror activation <=2%; H3 is exempt",
+    "p4": "source A closed-loop criterion from v1; N/A and excluded if unavailable"
+  },
+  "stage3_and_final": {"combination_seeds": [5400, 5599], "final_o_seeds": [5600, 5799], "seats": [0, 1], "selection": "highest Stage 2 primary lower bound, tie by DP delta; winner's-curse warning if final point estimate drops >0.05"},
+  "forbidden": ["submission", "Kaggle download", "seed 9000-9599", "CP1/CP2 episode", "BOARD/KILLS/HYPOTHESES direct edit", "experiments/search_20260925 write", "search-loop/launchd manipulation", "post-result threshold/seed/sample change", "engine/RNG wrapper"]
+}

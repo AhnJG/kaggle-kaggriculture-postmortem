@@ -1,0 +1,15 @@
+{
+  "status": "STOP",
+  "gate": "unit-step0-action",
+  "command": "python3 -m pytest -q tests/test_mirror_edge_exp022.py",
+  "tests_passed": 2,
+  "tests_failed": 1,
+  "failed_test": "test_step0_mutation_is_exactly_one_unit_and_persisted",
+  "error": "KeyError: 'step'",
+  "location": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py:6409",
+  "cause": "The new unit harness directly called the parent for seat 1 using env.reset(2)'s initial observation, which did not contain the step field required by the parent.",
+  "candidate_evaluated": false,
+  "smoke_games_run": 0,
+  "screen_games_run": 0,
+  "action": "Stopped without repairing or rerunning, as required by the EXP-022 pre-gate contract."
+}

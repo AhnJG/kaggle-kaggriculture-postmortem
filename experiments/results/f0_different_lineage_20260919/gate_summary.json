@@ -1,0 +1,99 @@
+{
+  "contract": "coordination/proposals/claude/20260919-F0-DIFFERENT-LINEAGE-WORK-ORDER-CODEX.md",
+  "resumed_by": "claude (Codex 사용량 제한으로 중단, 사람 지시 2026-09-19로 이어받음)",
+  "resume_doc": "coordination/proposals/claude/20260919-F0-DIFFERENT-LINEAGE-RESUME-CLAUDE.md",
+  "host": {
+    "d1_seat0_gate": "macOS native (Darwin arm64, Codex 실행분, 이어받기 전 완료)",
+    "remaining_runs": "macOS native (Darwin 25.6.0 arm64, Sonoma/Sequoia arm64, 8 vCPU), .venv/bin/python 3.13.14"
+  },
+  "engine": {
+    "version": "1.32.7",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "runtime_limits": {
+    "episode_seconds": 1200,
+    "episode_gate_seconds_80_percent": 960,
+    "per_agent_nominal_seconds": 779,
+    "per_agent_gate_seconds_80_percent": 623.2
+  },
+  "silent_failure_policy": "recorded but excluded from F0 gate verdict",
+  "candidates": {
+    "d1_hesoponyo": {
+      "verdict": "PASS",
+      "episodes": 22,
+      "candidate_player_runs": 24,
+      "completed_720_done_done": 22,
+      "exceptions": 0,
+      "max_episode_wall_seconds": 335.11,
+      "max_agent_total_seconds_per_player_episode": 166.7004389896756,
+      "max_episode_p99_turn_ms": 285.95154196955264,
+      "runtime_note": "신경망 추론. Mac 턴 p99 최대 285.95ms (1000ms 턴 한도 내, 여유 약 3.5배). hosted vCPU 1.6은 Mac arm64보다 느릴 수 있음 — 새 기준을 만들지 않고 사실만 기록.",
+      "silent_failure_counters": {
+        "noop_actions": 982,
+        "shed_discarded": 131,
+        "shed_unsold": 343,
+        "orders_truncated": 0,
+        "sell_unfilled": 0,
+        "buy_failed": 4,
+        "hire_failed": 0,
+        "seed_blocked_plant": 0,
+        "hands_length_mismatch_count": 0
+      }
+    },
+    "d2_salemali7": {
+      "verdict": "PASS",
+      "note": "notebook 내 과거 기대 main.py SHA(f029…d19, 주석상 더 이상 필요 없다고 표시)와 실제 원문 %%writefile 본문 SHA(3b1c…8fe9) 불일치. manifest.json preflight=BLOCKED_SHA_MISMATCH로 기록. 원문은 수정하지 않았고 측정은 계속함(Codex 판단 유지, work order §2 지시대로).",
+      "episodes": 22,
+      "candidate_player_runs": 24,
+      "completed_720_done_done": 22,
+      "exceptions": 0,
+      "max_episode_wall_seconds": 2.549,
+      "max_agent_total_seconds_per_player_episode": 0.11244970071129501,
+      "max_episode_p99_turn_ms": 0.626874971203506,
+      "silent_failure_counters": {
+        "noop_actions": 17761,
+        "shed_discarded": 0,
+        "shed_unsold": 0,
+        "orders_truncated": 0,
+        "sell_unfilled": 7219,
+        "buy_failed": 152,
+        "hire_failed": 4,
+        "seed_blocked_plant": 72,
+        "hands_length_mismatch_count": 0
+      }
+    },
+    "d3_aasim2003": {
+      "verdict": "PASS",
+      "episodes": 22,
+      "candidate_player_runs": 24,
+      "completed_720_done_done": 22,
+      "exceptions": 0,
+      "max_episode_wall_seconds": 2.771,
+      "max_agent_total_seconds_per_player_episode": 0.4050468991044909,
+      "max_episode_p99_turn_ms": 1.3546659611165524,
+      "silent_failure_counters": {
+        "noop_actions": 3265,
+        "shed_discarded": 2800,
+        "shed_unsold": 22,
+        "orders_truncated": 0,
+        "sell_unfilled": 537,
+        "buy_failed": 0,
+        "hire_failed": 0,
+        "seed_blocked_plant": 0,
+        "hands_length_mismatch_count": 0
+      }
+    }
+  },
+  "raw_files": [
+    "d1_vs_starter_seat0.json",
+    "starter_vs_d1_seat1.json",
+    "d1_self.json",
+    "d2_vs_starter_seat0.json",
+    "starter_vs_d2_seat1.json",
+    "d2_self.json",
+    "d3_vs_starter_seat0.json",
+    "starter_vs_d3_seat1.json",
+    "d3_self.json"
+  ],
+  "note": "Raw instrument files use the generic release silent-failure verdict (FAIL). This summary applies the F0 contract, which explicitly makes those counters diagnostic only. d1_vs_starter_seat0.json is Codex's pre-handoff output (macOS native, unmodified). All other raw files were produced by Claude resuming after Codex's usage-limit stop, same engine SHA and same host family (macOS native)."
+}

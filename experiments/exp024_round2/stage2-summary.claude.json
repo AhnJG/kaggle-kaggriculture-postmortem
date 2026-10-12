@@ -1,0 +1,160 @@
+{
+  "verdict": "PASS",
+  "parent_o1_score": 0.75,
+  "parent_o1_floor": 0.73,
+  "parent_o2_score": 0.5,
+  "jobs": 720,
+  "raw_sha256": "e4e3c667e7c2de9470655fa58f57738763e2c144aab1a0af32669868c7989440",
+  "passed": [
+    "v111",
+    "v169",
+    "v074"
+  ],
+  "results": [
+    {
+      "vid": "v111",
+      "opponents": {
+        "O1-127ed3e6": {
+          "n": 60,
+          "wins": 51,
+          "draws": 0,
+          "losses": 9,
+          "score_rate": 0.85,
+          "wilson95_lower": 0.7388517410884039,
+          "invalid": 0,
+          "mean_margin": 243.13333333333333,
+          "max_step": 0.2123648320000484
+        },
+        "O2-v171": {
+          "n": 60,
+          "wins": 51,
+          "draws": 0,
+          "losses": 9,
+          "score_rate": 0.85,
+          "wilson95_lower": 0.7388517410884039,
+          "invalid": 0,
+          "mean_margin": 242.86666666666667,
+          "max_step": 0.2508185090000552
+        }
+      },
+      "invalid": 0,
+      "passed": true
+    },
+    {
+      "vid": "v169",
+      "opponents": {
+        "O1-127ed3e6": {
+          "n": 60,
+          "wins": 42,
+          "draws": 12,
+          "losses": 6,
+          "score_rate": 0.8,
+          "wilson95_lower": 0.6821795390818299,
+          "invalid": 0,
+          "mean_margin": 29.266666666666666,
+          "max_step": 0.25182401899996876
+        },
+        "O2-v171": {
+          "n": 60,
+          "wins": 22,
+          "draws": 34,
+          "losses": 4,
+          "score_rate": 0.65,
+          "wilson95_lower": 0.5236238380947751,
+          "invalid": 0,
+          "mean_margin": 2.6333333333333333,
+          "max_step": 0.21255162800002836
+        }
+      },
+      "invalid": 0,
+      "passed": true
+    },
+    {
+      "vid": "v104",
+      "opponents": {
+        "O1-127ed3e6": {
+          "n": 60,
+          "wins": 38,
+          "draws": 14,
+          "losses": 8,
+          "score_rate": 0.75,
+          "wilson95_lower": 0.627676890545152,
+          "invalid": 0,
+          "mean_margin": 84.3,
+          "max_step": 0.178391916999999
+        },
+        "O2-v171": {
+          "n": 60,
+          "wins": 22,
+          "draws": 30,
+          "losses": 8,
+          "score_rate": 0.6166666666666667,
+          "wilson95_lower": 0.4901736454040314,
+          "invalid": 0,
+          "mean_margin": 59.96666666666667,
+          "max_step": 0.17963091199999326
+        }
+      },
+      "invalid": 0,
+      "passed": false
+    },
+    {
+      "vid": "v121",
+      "opponents": {
+        "O1-127ed3e6": {
+          "n": 60,
+          "wins": 38,
+          "draws": 6,
+          "losses": 16,
+          "score_rate": 0.6833333333333333,
+          "wilson95_lower": 0.5576599505698346,
+          "invalid": 0,
+          "mean_margin": 29.933333333333334,
+          "max_step": 0.27174961299988354
+        },
+        "O2-v171": {
+          "n": 60,
+          "wins": 12,
+          "draws": 32,
+          "losses": 16,
+          "score_rate": 0.4666666666666667,
+          "wilson95_lower": 0.34627701540988,
+          "invalid": 0,
+          "mean_margin": 0.9666666666666667,
+          "max_step": 0.18724616600002264
+        }
+      },
+      "invalid": 0,
+      "passed": false
+    },
+    {
+      "vid": "v074",
+      "opponents": {
+        "O1-127ed3e6": {
+          "n": 60,
+          "wins": 48,
+          "draws": 8,
+          "losses": 4,
+          "score_rate": 0.8666666666666667,
+          "wilson95_lower": 0.758346054099279,
+          "invalid": 0,
+          "mean_margin": 29.4,
+          "max_step": 0.18436581499963722
+        },
+        "O2-v171": {
+          "n": 60,
+          "wins": 28,
+          "draws": 28,
+          "losses": 4,
+          "score_rate": 0.7,
+          "wilson95_lower": 0.5749105303360957,
+          "invalid": 0,
+          "mean_margin": 2.6666666666666665,
+          "max_step": 0.17445120899992617
+        }
+      },
+      "invalid": 0,
+      "passed": true
+    }
+  ]
+}

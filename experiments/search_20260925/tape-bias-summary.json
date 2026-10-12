@@ -1,0 +1,1125 @@
+{
+  "available": true,
+  "mode": "public-proxy",
+  "direction_agreement": 0.25,
+  "informative_n": 4,
+  "bias_n": 40,
+  "comparisons": [
+    {
+      "episode": "112012348",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112020287",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112024716",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112030409",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112060036",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112066951",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112087315",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112092954",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112100545",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112112949",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112113621",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112127646",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112127764",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112140157",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112146996",
+      "open": 1.0,
+      "closed": 0.0,
+      "informative": true,
+      "direction_agrees": false,
+      "magnitude_difference": 1.0
+    },
+    {
+      "episode": "112183595",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112192260",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112209938",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112221460",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112230478",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112232517",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112239357",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112248734",
+      "open": 0.0,
+      "closed": 1.0,
+      "informative": true,
+      "direction_agrees": false,
+      "magnitude_difference": 1.0
+    },
+    {
+      "episode": "112248866",
+      "open": 0.0,
+      "closed": -1.0,
+      "informative": true,
+      "direction_agrees": false,
+      "magnitude_difference": 1.0
+    },
+    {
+      "episode": "112251251",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112257468",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112264236",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112288107",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112304227",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112323443",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112355616",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112378698",
+      "open": -1.0,
+      "closed": -1.0,
+      "informative": true,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112380668",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112402324",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112419731",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112426365",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112428706",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112429899",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112442325",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    },
+    {
+      "episode": "112449621",
+      "open": 0.0,
+      "closed": 0.0,
+      "informative": false,
+      "direction_agrees": true,
+      "magnitude_difference": 0.0
+    }
+  ],
+  "excluded": [
+    {
+      "episode": "112334923",
+      "seat": 0,
+      "seed": 1749733911,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112334923.json.gz",
+      "raw_sha256": "a961c54304ee6714bb2231a3bd9047fb687730b1cdb1fcc60281b6fb3b33d762",
+      "bin": "2200-2400",
+      "team_lb_score": 2248.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112395495",
+      "seat": 1,
+      "seed": 202004413,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112395495.json.gz",
+      "raw_sha256": "477cf4079153695d4a16361d97cd188b59b5c1d24dffd3e5e5cb38461f18f849",
+      "bin": "2200-2400",
+      "team_lb_score": 2312.0,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112400304",
+      "seat": 1,
+      "seed": 1852385180,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112400304.json.gz",
+      "raw_sha256": "ef9b4135a38d4bd60d5f6af58d73f70e7d4f58e89d4b13285ecc7f69f9c8f77c",
+      "bin": "2200-2400",
+      "team_lb_score": 2248.5,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112400475",
+      "seat": 0,
+      "seed": 2110707562,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112400475.json.gz",
+      "raw_sha256": "60c228d6f519d85a34b1bba7d8937018022a4044d5401f847e787b9a53c8c14d",
+      "bin": "2200-2400",
+      "team_lb_score": 2374.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 66,
+      "closest_file": "a-smaller-market-shock"
+    },
+    {
+      "episode": "112425476",
+      "seat": 1,
+      "seed": 1441598779,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112425476.json.gz",
+      "raw_sha256": "73169923b28ab9183aa9f144b9dda0b8783c9eaeba6218e6fee3df74b1cb030b",
+      "bin": "2200-2400",
+      "team_lb_score": 2332.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112465931",
+      "seat": 0,
+      "seed": 966876669,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112465931.json.gz",
+      "raw_sha256": "c748b021aa4f862db60e76c1fcd059dd4c7a835cf3e9e0a4207f240d38578cdb",
+      "bin": "2200-2400",
+      "team_lb_score": 2240.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112516061",
+      "seat": 0,
+      "seed": 143815079,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112516061.json.gz",
+      "raw_sha256": "cad640b650b0e55a1d100667da33d1abf88b4d99d64c58a0be66b998546157f6",
+      "bin": "2200-2400",
+      "team_lb_score": 2335.4,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 1,
+      "closest_file": "C2"
+    },
+    {
+      "episode": "112620228",
+      "seat": 1,
+      "seed": 412143527,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112620228.json.gz",
+      "raw_sha256": "cb5d2ff57f452a2886ddfa98dbc1f32af1d35011ed578cb154ffcf990d75c42b",
+      "bin": "2200-2400",
+      "team_lb_score": 2211.6,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112633718",
+      "seat": 0,
+      "seed": 1985032032,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112633718.json.gz",
+      "raw_sha256": "0d98ab9a49a1047f7a868f8f33bdd26937243810ddb6781dad4f3892c57140c6",
+      "bin": "2200-2400",
+      "team_lb_score": 2367.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112384954",
+      "seat": 0,
+      "seed": 914324823,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112384954.json.gz",
+      "raw_sha256": "80e8ecffbbdefe4a7599088a966539198acdaebf0b7087ad9902f67313e881a9",
+      "bin": "2400-2600",
+      "team_lb_score": 2416.4,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 1,
+      "closest_file": "C2"
+    },
+    {
+      "episode": "112438712",
+      "seat": 0,
+      "seed": 321044190,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112438712.json.gz",
+      "raw_sha256": "f33a0364670ee4dde4f39dd81802608944f1318923f5abe646250b0d33b159ca",
+      "bin": "2400-2600",
+      "team_lb_score": 2546.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 1,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112475682",
+      "seat": 1,
+      "seed": 77847379,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112475682.json.gz",
+      "raw_sha256": "6420d736bacee87fc9ac5611386ae0c451af70cdff0c81c61d94e73ca79a658b",
+      "bin": "2400-2600",
+      "team_lb_score": 2580.3,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112477717",
+      "seat": 1,
+      "seed": 242433330,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112477717.json.gz",
+      "raw_sha256": "b138471e6bc80d79de8e7a4f17a22a9485cbc024a524ae67475a496a4893a950",
+      "bin": "2400-2600",
+      "team_lb_score": 2446.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112510022",
+      "seat": 1,
+      "seed": 170819101,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112510022.json.gz",
+      "raw_sha256": "89b9151f34da9ba35fba17a95c6848ffbc4b346082e7a115f641058057ce5c17",
+      "bin": "2400-2600",
+      "team_lb_score": 2575.7,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112525340",
+      "seat": 1,
+      "seed": 1063127115,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112525340.json.gz",
+      "raw_sha256": "cd38eeefffcfac80e29c535e96bb8d2104a61f3e1cfe7b44ca86e65211a46c88",
+      "bin": "2400-2600",
+      "team_lb_score": 2413.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 1,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112559640",
+      "seat": 0,
+      "seed": 1458281981,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112559640.json.gz",
+      "raw_sha256": "6e324066258afeb1e63da76489c33a0f09d62d63361ad2233831af5b5bdeea46",
+      "bin": "2400-2600",
+      "team_lb_score": 2593.2,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112568369",
+      "seat": 1,
+      "seed": 1139637365,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112568369.json.gz",
+      "raw_sha256": "b28eb9193a511bd6593fcffe1406c686668efbd7fa2c3202425ee15aed2516eb",
+      "bin": "2400-2600",
+      "team_lb_score": 2403.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 7,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112391892",
+      "seat": 0,
+      "seed": 734439885,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112391892.json.gz",
+      "raw_sha256": "46210e49315ac7acb4b3d3a325b70dc2cab819b25ff947c41ec365f80c3fb5e1",
+      "bin": "2600+",
+      "team_lb_score": 2767.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112421968",
+      "seat": 0,
+      "seed": 1866070100,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112421968.json.gz",
+      "raw_sha256": "c1446e679774aa349cd6d76d13d4424324535147e752c17fae910c2cb28fc8f0",
+      "bin": "2600+",
+      "team_lb_score": 2804.5,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112430341",
+      "seat": 1,
+      "seed": 608399575,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112430341.json.gz",
+      "raw_sha256": "ddfa9f643d57b56ef6cd60e0a55a7ad4dfe8f0f08f62c013e71c8d00f70d6c66",
+      "bin": "2600+",
+      "team_lb_score": 2672.1,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112528510",
+      "seat": 1,
+      "seed": 1993917587,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112528510.json.gz",
+      "raw_sha256": "0bc8e0d8a07473d4377f9471f9434b4abf6d662e86eeb4027856acd3cf0a14e4",
+      "bin": "2600+",
+      "team_lb_score": 2612.6,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112540560",
+      "seat": 1,
+      "seed": 511910398,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112540560.json.gz",
+      "raw_sha256": "f793c94b5517fd1bba401084f2c9948da6976360f61ff0b1e3935e2b3486488a",
+      "bin": "2600+",
+      "team_lb_score": 2614.7,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 49,
+      "closest_file": "a-smaller-market-shock"
+    },
+    {
+      "episode": "112595070",
+      "seat": 1,
+      "seed": 1732065794,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112595070.json.gz",
+      "raw_sha256": "c2fe4465721b708be17046efa948ea5a3efca3c2d30406cd7f24347c686c7291",
+      "bin": "2600+",
+      "team_lb_score": 2716.7,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 1,
+      "closest_file": "C4"
+    },
+    {
+      "episode": "112648677",
+      "seat": 1,
+      "seed": 1957678150,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112648677.json.gz",
+      "raw_sha256": "4640397f4dd8a0a7a70f48528503018e1d312d74c6d118bc6ecd27ef6688d4d3",
+      "bin": "2600+",
+      "team_lb_score": 2619.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112659357",
+      "seat": 1,
+      "seed": 1440525531,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112659357.json.gz",
+      "raw_sha256": "68223e2e7ac8c5ac7a28d983150306f72c4195a00e2d282ef6200c0570c74a59",
+      "bin": "2600+",
+      "team_lb_score": 2622.7,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112659802",
+      "seat": 0,
+      "seed": 1169130180,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112659802.json.gz",
+      "raw_sha256": "5b6ea5350372de9483c2b306f187181b4965d4d6f47ba40cef82a8528e05c153",
+      "bin": "2600+",
+      "team_lb_score": 2994.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112661886",
+      "seat": 1,
+      "seed": 18234873,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112661886.json.gz",
+      "raw_sha256": "1e54f649cb7f7a5de5adda670515407477f93a2600c6bac5a90e9f492afd5cc4",
+      "bin": "2600+",
+      "team_lb_score": 2622.2,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112672875",
+      "seat": 0,
+      "seed": 893323276,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112672875.json.gz",
+      "raw_sha256": "e3a1b9c8172c3b165bed4a78cd8374e6458f3a3a0521553725bb57259611a1a5",
+      "bin": "2600+",
+      "team_lb_score": 2996.1,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112691147",
+      "seat": 0,
+      "seed": 522399589,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112691147.json.gz",
+      "raw_sha256": "8d03caa76e8c73f7db97a17c772e07a9fa1d7260e9ee0627c7b2a87c820ce10d",
+      "bin": "2600+",
+      "team_lb_score": 2641.6,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112704274",
+      "seat": 0,
+      "seed": 81721131,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112704274.json.gz",
+      "raw_sha256": "5ea49377cb7cf220eb231648c44c7b727335273c8e3c5df53c4090bf930b8788",
+      "bin": "2600+",
+      "team_lb_score": 2719.1,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 0,
+      "closest_file": "C1"
+    },
+    {
+      "episode": "112707413",
+      "seat": 0,
+      "seed": 551611541,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112707413.json.gz",
+      "raw_sha256": "917b74c8546595cdc4dbc3e8e157877192e62edbc16ba8622d8e2ee06f165633",
+      "bin": "2600+",
+      "team_lb_score": 2686.5,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 121,
+      "closest_file": "herd-safe-v3-experimental-risk-aware-feed"
+    }
+  ],
+  "exclusion_rate": 0.5166666666666667,
+  "selected": [
+    {
+      "episode": "112424459",
+      "seat": 0,
+      "seed": 730198261,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112424459.json.gz",
+      "raw_sha256": "b207e74db5ba8aed7621d9f7d49b8dcf85bf9447a83fbc96e5655e5b8d328c4c",
+      "bin": "2200-2400",
+      "team_lb_score": 2226.2,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112470708",
+      "seat": 0,
+      "seed": 1218281402,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112470708.json.gz",
+      "raw_sha256": "07dad8aae8974f74911fe24b0ac7ff987ad3662dc898ddd5318ec96bfcadbf8b",
+      "bin": "2200-2400",
+      "team_lb_score": 2365.6,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112484167",
+      "seat": 1,
+      "seed": 1027466353,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112484167.json.gz",
+      "raw_sha256": "a1c7bacaffd53536e0ce40e46e388bd3eeb2590192566f7618db8cc0f3a91e17",
+      "bin": "2200-2400",
+      "team_lb_score": 2320.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "a-smaller-market-shock",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-a-smaller-market-shock-exact/main.py"
+    },
+    {
+      "episode": "112505482",
+      "seat": 0,
+      "seed": 1921592845,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112505482.json.gz",
+      "raw_sha256": "2df6d86f466e25078f8581d062a1aca15058aca9937e8e6b6c080aeb64973a24",
+      "bin": "2200-2400",
+      "team_lb_score": 2273.0,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "herd-safe-v3-experimental-risk-aware-feed",
+      "opponent": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py"
+    },
+    {
+      "episode": "112506056",
+      "seat": 1,
+      "seed": 1562646685,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112506056.json.gz",
+      "raw_sha256": "1b19ac237a8031133a67587117085652d46a08d6e119306ad2b26a88e1179860",
+      "bin": "2200-2400",
+      "team_lb_score": 2222.3,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "C1",
+      "opponent": "releases/public-nathanjacob-pipe16-exact/main.py"
+    },
+    {
+      "episode": "112524993",
+      "seat": 1,
+      "seed": 1482775551,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112524993.json.gz",
+      "raw_sha256": "53af7e771591528baf96faaec225dd7df129c83c12415987c48a55298fdaf1bd",
+      "bin": "2200-2400",
+      "team_lb_score": 2285.1,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112572229",
+      "seat": 1,
+      "seed": 1976735803,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112572229.json.gz",
+      "raw_sha256": "72a2c4ad58708306d801685012fb3c2cfe5c59c55bf5d3bff516430c4699e25b",
+      "bin": "2200-2400",
+      "team_lb_score": 2320.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "a-smaller-market-shock",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-a-smaller-market-shock-exact/main.py"
+    },
+    {
+      "episode": "112634086",
+      "seat": 0,
+      "seed": 522888172,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112634086.json.gz",
+      "raw_sha256": "19a029607ebd9ad1d7b25ec19919e0934356e0da2b070d713df79d8082161664",
+      "bin": "2200-2400",
+      "team_lb_score": 2380.6,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "herd-safe-v3-experimental-risk-aware-feed",
+      "opponent": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py"
+    },
+    {
+      "episode": "112649927",
+      "seat": 1,
+      "seed": 808090855,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112649927.json.gz",
+      "raw_sha256": "66404258696727cf3f7d0ea57f001860121341d715eb292cb6628f30d300ed57",
+      "bin": "2200-2400",
+      "team_lb_score": 2276.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "DP-0924-exact",
+      "opponent": "releases/public-tetsutani-demand-preserving-0924-exact/main.py"
+    },
+    {
+      "episode": "112655629",
+      "seat": 0,
+      "seed": 395018650,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112655629.json.gz",
+      "raw_sha256": "b84bf82ffcf5591236efe81f857d53919f1ba8021cace331905a77e454e83a25",
+      "bin": "2200-2400",
+      "team_lb_score": 2293.4,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112665472",
+      "seat": 1,
+      "seed": 886905482,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112665472.json.gz",
+      "raw_sha256": "08e62f6dd11a810b722baa4178c7585292ad3fc926e999713dd7012b2dc062c1",
+      "bin": "2200-2400",
+      "team_lb_score": 2301.0,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "C1",
+      "opponent": "releases/public-nathanjacob-pipe16-exact/main.py"
+    },
+    {
+      "episode": "112375310",
+      "seat": 1,
+      "seed": 409847380,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112375310.json.gz",
+      "raw_sha256": "c0e1065759359f7e2911adc9d564a4f30e47f6792ca84bf76de7038a0bdb1931",
+      "bin": "2400-2600",
+      "team_lb_score": 2419.1,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "multi-route",
+      "opponent": "analysis/daily_scan/20260922/extracted/kaggriculture-multi-route-farming-agent/main.py"
+    },
+    {
+      "episode": "112389758",
+      "seat": 0,
+      "seed": 1030073093,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112389758.json.gz",
+      "raw_sha256": "6b66d59a06e0af022fc4787dd1f9c70c846805615d2edae9cbee8ead9d84b9f7",
+      "bin": "2400-2600",
+      "team_lb_score": 2533.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112433891",
+      "seat": 0,
+      "seed": 19917494,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112433891.json.gz",
+      "raw_sha256": "553a36b9568db3730f764353855c333ab5c0fe444cc9b8b29de47d4b3cffd0bd",
+      "bin": "2400-2600",
+      "team_lb_score": 2540.7,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "DP-0924-exact",
+      "opponent": "releases/public-tetsutani-demand-preserving-0924-exact/main.py"
+    },
+    {
+      "episode": "112493607",
+      "seat": 1,
+      "seed": 2092205716,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112493607.json.gz",
+      "raw_sha256": "92711aca556fefeb98c62fd55c8e60b236886d9b956519964b9539b31866c318",
+      "bin": "2400-2600",
+      "team_lb_score": 2549.7,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "DP-0924-exact",
+      "opponent": "releases/public-tetsutani-demand-preserving-0924-exact/main.py"
+    },
+    {
+      "episode": "112501246",
+      "seat": 0,
+      "seed": 1148162069,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112501246.json.gz",
+      "raw_sha256": "9f95e566d34c1fcf9c6dbd7a264507ca1f58093ab6f8858a8931db575eb26dbf",
+      "bin": "2400-2600",
+      "team_lb_score": 2424.0,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112516225",
+      "seat": 1,
+      "seed": 528264869,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112516225.json.gz",
+      "raw_sha256": "c6ca535d4632fc8d3b052e72c02f6e7f9da69bd181af159ec261515a11e87b94",
+      "bin": "2400-2600",
+      "team_lb_score": 2402.2,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "C4",
+      "opponent": "releases/public-ozer-v53-exact/main.py"
+    },
+    {
+      "episode": "112534200",
+      "seat": 1,
+      "seed": 132054359,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112534200.json.gz",
+      "raw_sha256": "31f2dff5721a7ca2ab62fa6adab8db9d7f692b5fd6415defae861c19086a982b",
+      "bin": "2400-2600",
+      "team_lb_score": 2460.7,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "DP-0924-exact",
+      "opponent": "releases/public-tetsutani-demand-preserving-0924-exact/main.py"
+    },
+    {
+      "episode": "112550063",
+      "seat": 0,
+      "seed": 1996437183,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112550063.json.gz",
+      "raw_sha256": "e9790b7015d10f1d03e458bb92e4cb973aa4240630536ad42cbbab0782fec8ca",
+      "bin": "2400-2600",
+      "team_lb_score": 2485.3,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "DP-0924-exact",
+      "opponent": "releases/public-tetsutani-demand-preserving-0924-exact/main.py"
+    },
+    {
+      "episode": "112576817",
+      "seat": 1,
+      "seed": 71526348,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112576817.json.gz",
+      "raw_sha256": "c1b78ccac95017e0f245bc7988cd15fce13547ba496c9c740a2b3510345b1046",
+      "bin": "2400-2600",
+      "team_lb_score": 2462.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112581922",
+      "seat": 1,
+      "seed": 1482550985,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112581922.json.gz",
+      "raw_sha256": "72e5a4feb043559a34cd628341c5a20279b968643aab9b570223f8d822e5ae57",
+      "bin": "2400-2600",
+      "team_lb_score": 2485.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "DP-0924-exact",
+      "opponent": "releases/public-tetsutani-demand-preserving-0924-exact/main.py"
+    },
+    {
+      "episode": "112615218",
+      "seat": 0,
+      "seed": 1421785832,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112615218.json.gz",
+      "raw_sha256": "fb4955315c545cce9c2e16dc83f7cf33d1ab8cbd1da4c94b1fe140daf1e9d78d",
+      "bin": "2400-2600",
+      "team_lb_score": 2462.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112622183",
+      "seat": 0,
+      "seed": 870564849,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112622183.json.gz",
+      "raw_sha256": "77f2ade4d02d3e996419dd563de655332e21a73e6de282a01056adbcac732202",
+      "bin": "2400-2600",
+      "team_lb_score": 2474.5,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "multi-route",
+      "opponent": "analysis/daily_scan/20260922/extracted/kaggriculture-multi-route-farming-agent/main.py"
+    },
+    {
+      "episode": "112405383",
+      "seat": 1,
+      "seed": 761005144,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112405383.json.gz",
+      "raw_sha256": "36bd151036ed0142acd78b15f4f34b8463f1d9ff2234ab940cbb0b990a0b9ed5",
+      "bin": "2600+",
+      "team_lb_score": 2616.7,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112471270",
+      "seat": 0,
+      "seed": 2121015868,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112471270.json.gz",
+      "raw_sha256": "e48f77c687b30c5f903211a747b23db85f0b5aa9a574537eff1564237830ee6f",
+      "bin": "2600+",
+      "team_lb_score": 2639.4,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "herd-safe-v3-experimental-risk-aware-feed",
+      "opponent": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py"
+    },
+    {
+      "episode": "112472731",
+      "seat": 1,
+      "seed": 944595086,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112472731.json.gz",
+      "raw_sha256": "e533b814271a9059cf0db7e23b63726f1e2df33aa21d82c731a6a7f03e2ea131",
+      "bin": "2600+",
+      "team_lb_score": 2624.6,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "herd-safe-v3-experimental-risk-aware-feed",
+      "opponent": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py"
+    },
+    {
+      "episode": "112503688",
+      "seat": 0,
+      "seed": 1298256157,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112503688.json.gz",
+      "raw_sha256": "e576de5f7038f935074d8399d81352a0101ac89fade5024220cbb6b6e675a96b",
+      "bin": "2600+",
+      "team_lb_score": 2749.9,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "C2",
+      "opponent": "releases/public-thomastschinkel-metav4-v13-exact/main.py"
+    },
+    {
+      "episode": "112538865",
+      "seat": 1,
+      "seed": 1864724047,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112538865.json.gz",
+      "raw_sha256": "3d10401f374342e9346745ee5422fd4de27a14e0a28da0097b69dd9d3450e8f7",
+      "bin": "2600+",
+      "team_lb_score": 2695.4,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "more-wheat-smarter-sales",
+      "opponent": "releases/public-dmitriigluzdov-kaggriculture-more-wheat-smarter-sales-exact/main.py"
+    },
+    {
+      "episode": "112695746",
+      "seat": 0,
+      "seed": 2121493479,
+      "raw": "private_artifacts/dp_hosted_20260924/raw/112695746.json.gz",
+      "raw_sha256": "2d3ade348e3ca6267f0725669e16f9291ab416c586f572817310d76533fdbf2c",
+      "bin": "2600+",
+      "team_lb_score": 2637.8,
+      "source": "team highest LB, not opponent submission rating",
+      "prefix_len": 143,
+      "closest_file": "herd-safe-v3-experimental-risk-aware-feed",
+      "opponent": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py"
+    }
+  ],
+  "values": {
+    "C1": {
+      "2200-2400": 0.22727272727272727,
+      "2400-2600": 0.0,
+      "2600+": 0.16666666666666666
+    },
+    "EXP016": {
+      "2200-2400": 0.36363636363636365,
+      "2400-2600": 0.16666666666666666,
+      "2600+": 0.16666666666666666
+    },
+    "EXP017": {
+      "2200-2400": 0.36363636363636365,
+      "2400-2600": 0.16666666666666666,
+      "2600+": 0.16666666666666666
+    },
+    "DP": {
+      "2200-2400": 0.5909090909090909,
+      "2400-2600": 0.5,
+      "2600+": 0.5
+    },
+    "YHAY": {
+      "2200-2400": 0.0,
+      "2400-2600": 0.0,
+      "2600+": 0.0
+    },
+    "P2": {
+      "2200-2400": 0.09090909090909091,
+      "2400-2600": 0.08333333333333333,
+      "2600+": 0.0
+    },
+    "EXP007": {
+      "2200-2400": 0.0,
+      "2400-2600": 0.0,
+      "2600+": 0.0
+    },
+    "EXP006": {
+      "2200-2400": 0.0,
+      "2400-2600": 0.0,
+      "2600+": 0.0
+    }
+  }
+}

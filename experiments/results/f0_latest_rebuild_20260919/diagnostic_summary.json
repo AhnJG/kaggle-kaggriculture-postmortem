@@ -1,0 +1,32 @@
+{
+  "contract": "diagnostic only; seeds 2000-2009; both seats; no seed extension",
+  "comparisons": {
+    "p2-new_vs_p2-old": {
+      "wins": 0,
+      "draws": 20,
+      "losses": 0,
+      "paired_score": 0.5,
+      "errors": 0,
+      "mean_margin": 0.0,
+      "raw": "p2_new_vs_p2_old.json"
+    },
+    "p3-new_vs_p3-old": {
+      "wins": 20,
+      "draws": 0,
+      "losses": 0,
+      "paired_score": 1.0,
+      "errors": 0,
+      "mean_margin": 415.6,
+      "raw": "p3_new_vs_p3_old.json"
+    },
+    "p2-new_vs_p3-new": {
+      "wins": 20,
+      "draws": 0,
+      "losses": 0,
+      "paired_score": 1.0,
+      "errors": 0,
+      "mean_margin": 2665.2,
+      "raw": "p2_new_vs_p3_new.json"
+    }
+  }
+}

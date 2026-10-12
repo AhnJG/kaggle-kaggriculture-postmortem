@@ -1,0 +1,89 @@
+{
+  "id": "LATE-0928",
+  "hypothesis_id": "HYP-0038",
+  "test_id": "TEST-LATE-0928-SCREEN",
+  "created_before_screen": true,
+  "parent": {
+    "path": "releases/round2-v074/main.py",
+    "sha256": "860a502c36f9a9f700c93125e6828f41378f50d74fa130f62a09f911316ea19c"
+  },
+  "cause_table": {
+    "path": "experiments/late_0928/cause_table.json",
+    "sha256": "e51afef8a99d17765b2b459c1f2592f8cb754b83e2fbb6848f6f7d15222c6246",
+    "verdict": "d157 improves margin mainly by lowering opponent cash through late shared-market path changes, not by increasing own cash"
+  },
+  "candidates": [
+    {
+      "id": "l576_closure1",
+      "path": "experiments/late_0928/candidates/l576_closure1.py",
+      "sha256": "bf67f5d9da233c84b7029321d932fc9849d57c1c6600e25e6677a719b8657424",
+      "one_change": "from step 576, apply one additional _s793_reorder fixed-sell closure pass",
+      "mechanism": "change late SELL timing/order so the shared market path suppresses the opponent, matching the d157 source difference while preserving the early policy",
+      "falsification": "127_near lower95 <= 0, other point < -0.02, no action effect, runtime failure, or either closed-loop 127/guard point < -0.03"
+    },
+    {
+      "id": "l648_closure1",
+      "path": "experiments/late_0928/candidates/l648_closure1.py",
+      "sha256": "3376ef5bc5fab5e8b34b006390f04eb9e84cd68ac28a0a252dfb79348e354621",
+      "one_change": "from step 648, apply one additional _s793_reorder fixed-sell closure pass",
+      "mechanism": "target the interval where the hosted loss cash gap had widened while reducing exposure relative to the step-576 candidate",
+      "falsification": "same frozen screen gates as l576_closure1"
+    },
+    {
+      "id": "l576_wool_first",
+      "path": "experiments/late_0928/candidates/l576_wool_first.py",
+      "sha256": "25c4e374bebe593eb9089f94c23f3f6f802c964813d629c17b3676bf60fd6b86",
+      "one_change": "from step 576, move an existing WOOL SELL before other SELL items without changing quantities or non-SELL slots",
+      "mechanism": "test the item-specific alternative suggested by high-value WOOL timing shifts in the exact fill trace",
+      "falsification": "same frozen screen gates as l576_closure1"
+    }
+  ],
+  "fixed": {
+    "engine": "kaggle-environments==1.32.7",
+    "seats": "as recorded for open-loop; both for closed-loop",
+    "workers_open_loop": 5,
+    "workers_runtime": 1,
+    "early_action_identity": {
+      "path": "experiments/late_0928/preflight_identity.json",
+      "sha256": "6a55ad01efe254e058049c532fc0e3d1513544526f6ed001bf5c9c3e7414fff4",
+      "episode": 114044162,
+      "steps": [0, 575],
+      "required_mismatches": 0
+    }
+  },
+  "panels": {
+    "open_loop": {
+      "jobs": "experiments/late_0928/jobs-open.json",
+      "jobs_sha256": "4293442ee47de0ff8f43da1f167730eeb7175df8afaf8ccd8b4a633e08766d97",
+      "candidate_games": 615,
+      "per_candidate": {"127_near": 112, "other": 93},
+      "parent_baseline": "experiments/exp033_tapes/games-cloud.jsonl P rows"
+    },
+    "runtime": {
+      "jobs": "experiments/late_0928/jobs-runtime.json",
+      "jobs_sha256": "e2771f1e34aee4066eda3952fa2930b2c7807be37acae0da27ab931d22da797d",
+      "worker_count": 1,
+      "episodes": [113691353, 113708065, 113717551, 113734191, 113747263]
+    },
+    "closed_loop": {
+      "jobs": "experiments/late_0928/jobs-closed-kaggle.json",
+      "jobs_sha256": "86d10578197487f504dd3b6d9f5f5cf8f391afb1049795bd96811785b3aa47fa",
+      "total_games_including_parent": 1520,
+      "127_exact": {"path": "releases/public-newmeta-127ed3e6-exact/main.py", "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652", "seeds": "14100..14149", "seats": [0, 1]},
+      "guard": {"manifest": "experiments/late_0928/guard23.json", "sha256": "aed965505ab2dda96434cb00e80e2d8f7c3b3d4553939d9bfc41074a5f92b2b6", "bots": 23, "seeds": "14200..14204", "seats": [0, 1]},
+      "55be": {"path": "releases/public-dpnew-55be5d5f-exact/main.py", "sha256": "55be5d5f124c8daaaa63c1a29ba4aab096004909666f04748007603c67b7d2a8", "seeds": "14300..14324", "seats": [0, 1], "criterion": "report only"}
+    }
+  },
+  "bootstrap": {"unit": "tape episode paired candidate-minus-v074 score", "draws": 10000, "seed": 928001, "interval": "percentile two-sided 95%, use lower endpoint"},
+  "thresholds": {
+    "invalid_eq": 0,
+    "action_effect_games_gt": 0,
+    "open_127_lower95_gt": 0.0,
+    "open_other_point_ge": -0.02,
+    "closed_127_point_ge": -0.03,
+    "closed_guard_point_ge": -0.03,
+    "runtime_max_step_lt": 0.8
+  },
+  "selection": "A candidate is full PASS only if every frozen threshold passes. Until closed-loop results exist, an open/runtime pass is PENDING_CLOSED_LOOP, not PASS. Among full PASS candidates select highest open 127_near point, then highest other point, then lexicographic id.",
+  "prohibitions": ["no threshold changes", "no seed additions", "no candidate additions", "no holdout 9000..9599", "no release", "no submission", "no Kaggle download"]
+}

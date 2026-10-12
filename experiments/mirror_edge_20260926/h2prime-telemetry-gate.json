@@ -1,0 +1,27 @@
+{
+  "status": "STOP",
+  "reason": "FROZEN_WRAPPER_TELEMETRY_IMPLEMENTATION_ERROR",
+  "detail": "The wrapper referenced undefined global _json while recording the parent step-0 action. Every gate game recorded _ME_REPORT.wrapper_errors=1, mutation_count=0, and is candidate-side invalid. Per the frozen gate, H2-prime is not modified or rerun.",
+  "games": 8,
+  "invalid": 8,
+  "runtime": {
+    "games": 8,
+    "calls": 5752,
+    "max_step_seconds": 0.050430583069100976,
+    "p99_step_seconds": 0.003892499953508377,
+    "invalid_games": 8,
+    "candidate_exceptions": 0,
+    "candidate_caught_errors": 8,
+    "opponent_caught_error_games": 0
+  },
+  "keys": [
+    "h2prime-stage1|H2prime|5800|1|127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+    "h2prime-stage1|H2prime|5800|0|127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+    "h2prime-gate-nonmirror|H2prime|5800|1|1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+    "h2prime-gate-nonmirror|H2prime|5800|0|178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+    "h2prime-gate-nonmirror|H2prime|5800|0|1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+    "h2prime-gate-nonmirror|H2prime|5800|0|4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+    "h2prime-gate-nonmirror|H2prime|5800|1|178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+    "h2prime-gate-nonmirror|H2prime|5800|1|4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"
+  ]
+}

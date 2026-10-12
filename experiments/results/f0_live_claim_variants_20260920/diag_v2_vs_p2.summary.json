@@ -1,0 +1,36 @@
+{
+  "name": "v2_vs_p2",
+  "a": "releases/public-seyitkaangunes-kaggriculture-2820-score-exact/main.py",
+  "b": "releases/public-lynnsakurai-farming-score-v2-exact/main.py",
+  "exit": 0,
+  "verdict": "FAILURE",
+  "wins": 0,
+  "draws": 0,
+  "losses": 20,
+  "paired_score": 0.0,
+  "ci95": [
+    0.0,
+    0.0
+  ],
+  "mean_margin": -1487.4,
+  "errors": 0,
+  "games": 20,
+  "seed_values": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "artifact_sha256": {
+    "a": "fa9e47d81de5020847c1dbc7ca10d058b227be66deea7c019040fb12a1d99f19",
+    "b": "cddf51ea4e5bac24e5118b12b78f771a92055e17064e062b0267724822b8a94d"
+  },
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "raw": "diag_v2_vs_p2.json"
+}

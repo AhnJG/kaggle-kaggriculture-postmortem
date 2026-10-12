@@ -1,0 +1,9 @@
+{
+  "verdict": "STOP",
+  "reason": "H2_TELEMETRY_NOT_ACTIVATED",
+  "stage1_games_completed": 12,
+  "stage1_games_planned": 600,
+  "stage1_score_rate": null,
+  "report": "coordination/reports/codex/20260926-0013-EXP021-STAGE1.md",
+  "preregistration_sha256": "bc72d03d5f88b22cab72e7c26105a31e88ff9d8fc9fce474406bd8968d42f487"
+}

@@ -1,0 +1,189 @@
+{
+  "games": 28,
+  "item_table": [],
+  "max_step": 0.1877845840062946,
+  "mean_margin_delta": 994.7857142857143,
+  "mean_money_delta_by_step": {
+    "576": -28.571428571428573,
+    "648": -80.07142857142857,
+    "696": -9.0,
+    "719": -46.857142857142854
+  },
+  "paired_score_delta": 0.7857142857142857,
+  "pairs": 14,
+  "pairs_detail": [
+    {
+      "d157_score": 1.0,
+      "episode": 113691353,
+      "label": "127ed3e6 (prefix 393)",
+      "margin_delta": 1408.0,
+      "money_delta_576": 35.0,
+      "money_delta_648": 379.0,
+      "money_delta_696": 432.0,
+      "money_delta_719": 628.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 113708065,
+      "label": "127ed3e6 (prefix 80)",
+      "margin_delta": 2100.0,
+      "money_delta_576": -449.0,
+      "money_delta_648": -274.0,
+      "money_delta_696": -28.0,
+      "money_delta_719": -224.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 113717551,
+      "label": "127ed3e6 (prefix 121)",
+      "margin_delta": 186.0,
+      "money_delta_576": 266.0,
+      "money_delta_648": 39.0,
+      "money_delta_696": -128.0,
+      "money_delta_719": -155.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 113734191,
+      "label": "127ed3e6 (prefix 312)",
+      "margin_delta": 2124.0,
+      "money_delta_576": 284.0,
+      "money_delta_648": 463.0,
+      "money_delta_696": 608.0,
+      "money_delta_719": 710.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 113747263,
+      "label": "127ed3e6 (prefix 361)",
+      "margin_delta": 1258.0,
+      "money_delta_576": 73.0,
+      "money_delta_648": 222.0,
+      "money_delta_696": 98.0,
+      "money_delta_719": 187.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 0.0,
+      "episode": 113755568,
+      "label": "127ed3e6 (prefix 151)",
+      "margin_delta": -13.0,
+      "money_delta_576": -133.0,
+      "money_delta_648": -159.0,
+      "money_delta_696": -146.0,
+      "money_delta_719": -173.0,
+      "score_delta": 0.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 0.0,
+      "episode": 113838573,
+      "label": "127ed3e6 (prefix 649)",
+      "margin_delta": -44.0,
+      "money_delta_576": -683.0,
+      "money_delta_648": -1105.0,
+      "money_delta_696": -726.0,
+      "money_delta_719": -517.0,
+      "score_delta": 0.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 113873289,
+      "label": "127ed3e6 (prefix 80)",
+      "margin_delta": 1334.0,
+      "money_delta_576": -57.0,
+      "money_delta_648": 5.0,
+      "money_delta_696": -448.0,
+      "money_delta_719": -732.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 0.0,
+      "episode": 113933999,
+      "label": "127ed3e6 (prefix 418)",
+      "margin_delta": 102.0,
+      "money_delta_576": 1.0,
+      "money_delta_648": -23.0,
+      "money_delta_696": 291.0,
+      "money_delta_719": -83.0,
+      "score_delta": 0.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 113954577,
+      "label": "127ed3e6 (prefix 361)",
+      "margin_delta": 1680.0,
+      "money_delta_576": 262.0,
+      "money_delta_648": 299.0,
+      "money_delta_696": 331.0,
+      "money_delta_719": 261.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 113971704,
+      "label": "127ed3e6 (prefix 121)",
+      "margin_delta": 1387.0,
+      "money_delta_576": 288.0,
+      "money_delta_648": -100.0,
+      "money_delta_696": -98.0,
+      "money_delta_719": -364.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 114005612,
+      "label": "127ed3e6 (prefix 393)",
+      "margin_delta": 546.0,
+      "money_delta_576": 13.0,
+      "money_delta_648": -144.0,
+      "money_delta_696": -113.0,
+      "money_delta_719": 173.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 114020174,
+      "label": "127ed3e6 (prefix 121)",
+      "margin_delta": 1404.0,
+      "money_delta_576": -84.0,
+      "money_delta_648": -198.0,
+      "money_delta_696": -177.0,
+      "money_delta_719": -224.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    },
+    {
+      "d157_score": 1.0,
+      "episode": 114044162,
+      "label": "127ed3e6 (prefix 217)",
+      "margin_delta": 455.0,
+      "money_delta_576": -216.0,
+      "money_delta_648": -525.0,
+      "money_delta_696": -22.0,
+      "money_delta_719": -143.0,
+      "score_delta": 1.0,
+      "v074_score": 0.0
+    }
+  ],
+  "score": {
+    "d157": 0.7857142857142857,
+    "v074": 0.0
+  },
+  "valid": true
+}

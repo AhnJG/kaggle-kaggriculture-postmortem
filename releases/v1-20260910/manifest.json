@@ -1,0 +1,48 @@
+{
+  "candidate_id": "v1-20260910",
+  "built_at": "2026-09-10T20:32+09:00",
+  "purpose": "슬롯 2/2 채우기 + hosted n 확보. 성능 가설 없음. 로컬↔레이팅 상관축을 세우기 위해 현 상태 main.py 를 그대로 올린다 (RESET_2026-09-10 §1a: 제출은 하루 5개, 최종 평가는 마지막 2개).",
+  "artifact": {
+    "file": "releases/v1-20260910/submission.tar.gz",
+    "sha256": "723f8fd81f3dd010e90581da96adff9ccb25081833aa5cba054027a13d98eb4a",
+    "bytes": 10540,
+    "contents": [
+      "main.py"
+    ],
+    "format": "tar.gz (루트에 main.py)"
+  },
+  "alternate_artifact": {
+    "file": "main.py",
+    "sha256": "d6cdb83ffdb27d2614330b20d438a6a20e82c7f4a72ead5ca8be897859de0b59",
+    "bytes": 31297,
+    "note": "tar.gz 가 Error 나면 이 단일 파일로 재제출"
+  },
+  "source_commit": "4709b1e",
+  "engine": {
+    "package": "kaggle-environments==1.32.7",
+    "kaggriculture_py_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "verified": true,
+    "verified_where": "클라우드 컨테이너 pip 설치본. ENGINE_LOCK 값과 일치"
+  },
+  "build_command": "tar -czf releases/v1-20260910/submission.tar.gz main.py",
+  "checklist_7_5": {
+    "Identity": "PASS — 제출 tar 안의 main.py sha256 = d6cdb83f… = 성능 측정에 쓴 파일",
+    "Schema": "PASS — 루트 main.py, main.py:728 def agent(obs, config=None), 720스텝 2시드 status DONE/DONE, 코드 경로에 raise 0건(문자열 2건은 주석)",
+    "Runtime": "PASS — 719콜 기준 p50 0.205ms / p95 0.268 / p99 0.29~0.32 / max 0.694ms, 에피소드 wall 3.4s vs 예산 1,200s (0.3%)",
+    "Isolation": "PASS — 저장소 밖 빈 폴더에 tar 풀고 python3 -c 'import main' 성공 (Linux VM 및 클라우드 컨테이너 양쪽)",
+    "License": "PASS — main.py 는 자체 코드. 외부 코드·상대 봇·데이터 미포함",
+    "Ledger": "PASS — submission ID 56145245 (2026-09-10 13:36:45 UTC, PENDING) ↔ artifact 723f8fd8…eb4a, evidence/HOSTED_LEDGER.md 기록 완료"
+  },
+  "hypothesis": "성능 가설 없음. 계측 목적 제출.",
+  "slot_accounting": "활성 1/2 -> 2/2. 은퇴시키는 에이전트 없음 (v0 56068891 는 유지)",
+  "known_limitations": [
+    "v0 대비 구조 변화 없음 — 규칙 기반 실행기. RESET §3 에 따라 다음 버전부터 테이프 라우터로 전환"
+  ],
+  "submission": {
+    "id": 56145245,
+    "submitted_at_utc": "2026-09-10T13:36:45.783Z",
+    "status_at_record": "SubmissionStatus.PENDING",
+    "daily_quota_remaining_after": 4,
+    "active_slots": "2/2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "purpose": "diagnostic submission-order reference only; not a release gate",
+  "seeds": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009],
+  "seats": "both",
+  "games_per_pair": 20,
+  "seed_extension": "not performed",
+  "pairs": [
+    {"a": "d1_hesoponyo", "b": "p2_lynnsakurai", "a_wdl": [0, 0, 20], "a_score": 0.0, "a_ci95": [0.0, 0.0], "mean_margin": -45163.3, "errors": 0},
+    {"a": "d1_hesoponyo", "b": "yhay81-exact", "a_wdl": [2, 0, 18], "a_score": 0.1, "a_ci95": [-0.1262, 0.3262], "mean_margin": -35783.4, "errors": 0},
+    {"a": "d2_salemali7", "b": "p2_lynnsakurai", "a_wdl": [0, 0, 20], "a_score": 0.0, "a_ci95": [0.0, 0.0], "mean_margin": -31317.9, "errors": 0},
+    {"a": "d2_salemali7", "b": "yhay81-exact", "a_wdl": [0, 0, 20], "a_score": 0.0, "a_ci95": [0.0, 0.0], "mean_margin": -23840.7, "errors": 0},
+    {"a": "d3_aasim2003", "b": "p2_lynnsakurai", "a_wdl": [0, 0, 20], "a_score": 0.0, "a_ci95": [0.0, 0.0], "mean_margin": -83555.6, "errors": 0},
+    {"a": "d3_aasim2003", "b": "yhay81-exact", "a_wdl": [0, 0, 20], "a_score": 0.0, "a_ci95": [0.0, 0.0], "mean_margin": -79868.4, "errors": 0}
+  ],
+  "aggregate_vs_p2_and_yhay81": {
+    "d1_hesoponyo": {"wdl": [2, 0, 38], "score": 0.05},
+    "d2_salemali7": {"wdl": [0, 0, 40], "score": 0.0},
+    "d3_aasim2003": {"wdl": [0, 0, 40], "score": 0.0}
+  },
+  "note": "P1(alperen)·P3(tetsutani)와 비교는 이번 작업 범위 밖. 세 다른-계보 후보 모두 P2(lynnsakurai)·yhay81-exact 상대로 열세. D1이 유일하게 yhay81-exact 상대 2승을 기록했으나 CI 상한 0.326 < 0.5로 열세 판정."
+}

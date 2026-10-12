@@ -1,0 +1,9 @@
+EXP-024 round2-v074
+
+main.py is byte-identical to experiments/exp024_round2/variants/v074.py.
+Parent: releases/mirror-screen-v171/main.py (EXP-023 v171, _DP_H 8->9).
+Single EXP-024 change: V9_RACE_DEFAULT 44 -> 45 (appended wrapper; parent bytes unchanged).
+It derives from the frozen public Kaggriculture v9/3 lineage and retains the full Apache License 2.0
+text and upstream attribution inside main.py. Credited upstream contributors named in the retained
+source include thomastschinkel, yhay81, destbreso, aurax7, tetsutani, prvsiyan, Dmitrii Gluzdov,
+and Ahmed Berat Ozer.

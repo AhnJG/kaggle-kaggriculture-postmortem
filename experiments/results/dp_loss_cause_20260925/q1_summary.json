@@ -1,0 +1,987 @@
+{
+  "episodes": 319,
+  "cash_checks": 288360,
+  "groups": [
+    {
+      "tier": "1-herd-full",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "CARROT",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -391.0,
+      "median_op_lb": 2306.5,
+      "episodes": [
+        "112711443"
+      ]
+    },
+    {
+      "tier": "1-herd-full",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "purchase-or-other",
+      "excluded_submission": false,
+      "count": 8,
+      "margin_sum": -9662.0,
+      "median_op_lb": 2328.15,
+      "episodes": [
+        "112606102",
+        "112673766",
+        "112689600",
+        "112739528",
+        "112786680",
+        "112797220",
+        "112819173",
+        "112849930"
+      ]
+    },
+    {
+      "tier": "1-herd-full",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "purchase-or-other",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -380.0,
+      "median_op_lb": 2355.0,
+      "episodes": [
+        "112610013"
+      ]
+    },
+    {
+      "tier": "1-herd-full",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "CARROT",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -799.0,
+      "median_op_lb": 2321.7,
+      "episodes": [
+        "112809304"
+      ]
+    },
+    {
+      "tier": "1-herd-full",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -1979.0,
+      "median_op_lb": 2321.05,
+      "episodes": [
+        "112774818",
+        "112820851"
+      ]
+    },
+    {
+      "tier": "1-herd-full",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -1189.0,
+      "median_op_lb": 2306.8,
+      "episodes": [
+        "112801535"
+      ]
+    },
+    {
+      "tier": "1-herd-full",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -93.0,
+      "median_op_lb": 2371.0,
+      "episodes": [
+        "112739129"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -9.0,
+      "median_op_lb": 2411.7,
+      "episodes": [
+        "112761382"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 4,
+      "margin_sum": -2078.0,
+      "median_op_lb": 2477.05,
+      "episodes": [
+        "112493607",
+        "112694693",
+        "112795924",
+        "112830224"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": true,
+      "count": 2,
+      "margin_sum": -840.0,
+      "median_op_lb": 2430.2,
+      "episodes": [
+        "112717208",
+        "112837776"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "purchase-or-other",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -283.0,
+      "median_op_lb": 2485.9,
+      "episodes": [
+        "112581922"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "FERTILIZER",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -56.0,
+      "median_op_lb": 2545.0,
+      "episodes": [
+        "112734737"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -154.0,
+      "median_op_lb": 2490.9,
+      "episodes": [
+        "112666107"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "FERTILIZER",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -20.0,
+      "median_op_lb": 2485.3,
+      "episodes": [
+        "112550063"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": false,
+      "count": 3,
+      "margin_sum": -772.0,
+      "median_op_lb": 2466.1,
+      "episodes": [
+        "112534200",
+        "112730129",
+        "112755668"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -1314.0,
+      "median_op_lb": 2332.8,
+      "episodes": [
+        "112649927",
+        "112745317"
+      ]
+    },
+    {
+      "tier": "2-dp-prefix",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -150.0,
+      "median_op_lb": 2540.7,
+      "episodes": [
+        "112433891"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "CARROT",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -364.0,
+      "median_op_lb": 2248.6,
+      "episodes": [
+        "112845059"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "FERTILIZER",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -2065.0,
+      "median_op_lb": 2351.8,
+      "episodes": [
+        "112848651"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "FERTILIZER",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -1824.0,
+      "median_op_lb": 2117.1,
+      "episodes": [
+        "112637958"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "MELON",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -1507.0,
+      "median_op_lb": 2267.1,
+      "episodes": [
+        "112809288"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": false,
+      "count": 7,
+      "margin_sum": -84177.0,
+      "median_op_lb": 1846.8,
+      "episodes": [
+        "112365216",
+        "112376507",
+        "112500660",
+        "112538554",
+        "112665472",
+        "112718324",
+        "112721602"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": true,
+      "count": 3,
+      "margin_sum": -42534.0,
+      "median_op_lb": 2062.1,
+      "episodes": [
+        "112591941",
+        "112593238",
+        "112785430"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "WHEAT",
+      "excluded_submission": false,
+      "count": 6,
+      "margin_sum": -6689.0,
+      "median_op_lb": 2327.8,
+      "episodes": [
+        "112692487",
+        "112693726",
+        "112754357",
+        "112777939",
+        "112812317",
+        "112824088"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -821.0,
+      "median_op_lb": 2244.0,
+      "episodes": [
+        "112484167",
+        "112517179"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -281.0,
+      "median_op_lb": 2223.8,
+      "episodes": [
+        "112785895"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "purchase-or-other",
+      "excluded_submission": false,
+      "count": 6,
+      "margin_sum": -2448.0,
+      "median_op_lb": 2207.35,
+      "episodes": [
+        "112514360",
+        "112585566",
+        "112612854",
+        "112693499",
+        "112703093",
+        "112709303"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "purchase-or-other",
+      "excluded_submission": true,
+      "count": 2,
+      "margin_sum": -1540.0,
+      "median_op_lb": 2362.05,
+      "episodes": [
+        "112644922",
+        "112831148"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "FERTILIZER",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -981.0,
+      "median_op_lb": 2395.8,
+      "episodes": [
+        "112713946"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -902.0,
+      "median_op_lb": 2218.85,
+      "episodes": [
+        "112407792",
+        "112839292"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -279.0,
+      "median_op_lb": 1864.6,
+      "episodes": [
+        "112813104"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -4660.0,
+      "median_op_lb": 2211.6,
+      "episodes": [
+        "112620228"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "WHEAT",
+      "excluded_submission": false,
+      "count": 4,
+      "margin_sum": -22198.0,
+      "median_op_lb": 2340.2,
+      "episodes": [
+        "112400304",
+        "112400475",
+        "112425476",
+        "112831159"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 6,
+      "margin_sum": -6282.0,
+      "median_op_lb": 2307.1000000000004,
+      "episodes": [
+        "112506056",
+        "112516061",
+        "112572229",
+        "112655629",
+        "112689728",
+        "112752001"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "CARROT",
+      "excluded_submission": false,
+      "count": 8,
+      "margin_sum": -2597.0,
+      "median_op_lb": 2263.2,
+      "episodes": [
+        "112470708",
+        "112677295",
+        "112686706",
+        "112689996",
+        "112698204",
+        "112706604",
+        "112725270",
+        "112787554"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "MELON",
+      "excluded_submission": true,
+      "count": 2,
+      "margin_sum": -4907.0,
+      "median_op_lb": 2209.05,
+      "episodes": [
+        "112741830",
+        "112787163"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": false,
+      "count": 5,
+      "margin_sum": -570.0,
+      "median_op_lb": 2304.7,
+      "episodes": [
+        "112356610",
+        "112439574",
+        "112683299",
+        "112694897",
+        "112817380"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -668.0,
+      "median_op_lb": 1966.3,
+      "episodes": [
+        "112612322"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": false,
+      "count": 6,
+      "margin_sum": -1542.0,
+      "median_op_lb": 2205.25,
+      "episodes": [
+        "112412551",
+        "112594199",
+        "112679635",
+        "112691347",
+        "112692965",
+        "112834655"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -58.0,
+      "median_op_lb": 2157.4,
+      "episodes": [
+        "112680225"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "TOMATO",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -1744.0,
+      "median_op_lb": 2186.8999999999996,
+      "episodes": [
+        "112680813",
+        "112724117"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "TOMATO",
+      "excluded_submission": true,
+      "count": 2,
+      "margin_sum": -3074.0,
+      "median_op_lb": 2090.5,
+      "episodes": [
+        "112606478",
+        "112655718"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "WHEAT",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -986.0,
+      "median_op_lb": 2367.9,
+      "episodes": [
+        "112633718"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 6,
+      "margin_sum": -5499.0,
+      "median_op_lb": 2343.75,
+      "episodes": [
+        "112317890",
+        "112388980",
+        "112707649",
+        "112711758",
+        "112718056",
+        "112723121"
+      ]
+    },
+    {
+      "tier": "3-upset-lt2400",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -200.0,
+      "median_op_lb": 1875.5,
+      "episodes": [
+        "112614665"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "EGG",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -781.0,
+      "median_op_lb": 2490.2,
+      "episodes": [
+        "112692564"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "FERTILIZER",
+      "excluded_submission": false,
+      "count": 4,
+      "margin_sum": -13224.0,
+      "median_op_lb": 2640.5,
+      "episodes": [
+        "112430341",
+        "112471270",
+        "112655779",
+        "112691147"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": false,
+      "count": 12,
+      "margin_sum": -191968.0,
+      "median_op_lb": 2571.3500000000004,
+      "episodes": [
+        "112475682",
+        "112559640",
+        "112638963",
+        "112639591",
+        "112659357",
+        "112718703",
+        "112721227",
+        "112763540",
+        "112775866",
+        "112786445",
+        "112830628",
+        "112844995"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "WHEAT",
+      "excluded_submission": false,
+      "count": 13,
+      "margin_sum": -43924.0,
+      "median_op_lb": 2479.6,
+      "episodes": [
+        "112375310",
+        "112389758",
+        "112391892",
+        "112438712",
+        "112477717",
+        "112501246",
+        "112622183",
+        "112682641",
+        "112704274",
+        "112715836",
+        "112801409",
+        "112812722",
+        "112850237"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 7,
+      "margin_sum": -15207.0,
+      "median_op_lb": 2601.8,
+      "episodes": [
+        "112538865",
+        "112695746",
+        "112710093",
+        "112714653",
+        "112776302",
+        "112795803",
+        "112842104"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": true,
+      "count": 2,
+      "margin_sum": -1115.0,
+      "median_op_lb": 2638.8,
+      "episodes": [
+        "112641458",
+        "112769657"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "purchase-or-other",
+      "excluded_submission": false,
+      "count": 10,
+      "margin_sum": -14125.0,
+      "median_op_lb": 2605.85,
+      "episodes": [
+        "112472731",
+        "112528510",
+        "112687646",
+        "112695895",
+        "112714784",
+        "112754137",
+        "112780317",
+        "112822827",
+        "112830863",
+        "112847912"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "0",
+      "largest_sales_deficit_item": "purchase-or-other",
+      "excluded_submission": true,
+      "count": 2,
+      "margin_sum": -132.0,
+      "median_op_lb": 2581.8,
+      "episodes": [
+        "112595644",
+        "112640303"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "CARROT",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -10470.0,
+      "median_op_lb": 2706.8,
+      "episodes": [
+        "112707413",
+        "112797326"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "MELON",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -23762.0,
+      "median_op_lb": 2996.1,
+      "episodes": [
+        "112672875"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "MILK",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -1163.0,
+      "median_op_lb": 2527.6,
+      "episodes": [
+        "112766997"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": false,
+      "count": 4,
+      "margin_sum": -44425.0,
+      "median_op_lb": 2885.2,
+      "episodes": [
+        "112421968",
+        "112707911",
+        "112785181",
+        "112845383"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "WHEAT",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -16577.0,
+      "median_op_lb": 2804.75,
+      "episodes": [
+        "112540560",
+        "112659802"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "1",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 3,
+      "margin_sum": -6470.0,
+      "median_op_lb": 2566.5,
+      "episodes": [
+        "112576817",
+        "112595070",
+        "112623685"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "CARROT",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -684.0,
+      "median_op_lb": 2499.25,
+      "episodes": [
+        "112298534",
+        "112790594"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "CARROT",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -732.0,
+      "median_op_lb": 2604.1,
+      "episodes": [
+        "112687510"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "MELON",
+      "excluded_submission": false,
+      "count": 2,
+      "margin_sum": -7818.0,
+      "median_op_lb": 2612.15,
+      "episodes": [
+        "112664231",
+        "112810593"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": false,
+      "count": 10,
+      "margin_sum": -14172.0,
+      "median_op_lb": 2554.05,
+      "episodes": [
+        "112503688",
+        "112510022",
+        "112516225",
+        "112648677",
+        "112656808",
+        "112661886",
+        "112684238",
+        "112690355",
+        "112726449",
+        "112849618"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "STRAWBERRY",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -639.0,
+      "median_op_lb": 2466.5,
+      "episodes": [
+        "112639126"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "TOMATO",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -1681.0,
+      "median_op_lb": 2462.9,
+      "episodes": [
+        "112615218"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "WHEAT",
+      "excluded_submission": false,
+      "count": 1,
+      "margin_sum": -200.0,
+      "median_op_lb": 2403.8,
+      "episodes": [
+        "112568369"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": false,
+      "count": 3,
+      "margin_sum": -1910.0,
+      "median_op_lb": 2475.1,
+      "episodes": [
+        "112525340",
+        "112774422",
+        "112780683"
+      ]
+    },
+    {
+      "tier": "4-other",
+      "first_negative_period": "2",
+      "largest_sales_deficit_item": "WOOL",
+      "excluded_submission": true,
+      "count": 1,
+      "margin_sum": -813.0,
+      "median_op_lb": 2728.2,
+      "episodes": [
+        "112599843"
+      ]
+    }
+  ],
+  "screening": {
+    "refresh": [
+      "112606102",
+      "112673766",
+      "112739528",
+      "112774818",
+      "112786680",
+      "112797220",
+      "112819173",
+      "112820851"
+    ],
+    "carrot": [
+      "112606102",
+      "112673766",
+      "112689600",
+      "112711443",
+      "112739129",
+      "112739528",
+      "112774818",
+      "112797220",
+      "112820851"
+    ]
+  },
+  "field": {
+    "weighted_nondraw_denominators": {
+      "all": 865.0,
+      "eligible": 743.0
+    },
+    "unsampled_draw_headers": 19,
+    "herd_share_all": 0.02589595375722543,
+    "herd_share_eligible": 0.02611036339165545,
+    "dp_prefix_share_all": 0.03452793834296724,
+    "dp_prefix_share_eligible": 0.03750560789591745
+  }
+}

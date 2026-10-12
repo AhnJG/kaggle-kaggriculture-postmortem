@@ -1,0 +1,3 @@
+# Kaggriculture 고정 의존성 — 이 버전 외에는 실험 결과를 인정하지 않는다.
+# 검증: python3 -c "import kaggle_environments as k; print(k.version())"
+kaggle-environments==1.32.7

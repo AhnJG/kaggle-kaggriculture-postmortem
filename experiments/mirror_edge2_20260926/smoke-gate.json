@@ -1,0 +1,211 @@
+{
+  "status": "STOP",
+  "o_checks": [
+    false,
+    false
+  ],
+  "nonmirror_checks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "o_action_log": [
+    {
+      "seat": 0,
+      "candidate": {
+        "wrapper_calls": 719,
+        "wrapper_errors": 0,
+        "mutation_count": 1,
+        "mutation_kind": "LAST_BUY_PRODUCT_WHEAT_MINUS_1",
+        "q0": 25.0,
+        "expected_cash_difference": -25.0,
+        "parent_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",5],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "modified_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",4],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "first_turn_cash_difference": -28.0,
+        "native_race_mirror": 0,
+        "our_mirror": 0,
+        "level24_set_count": 0
+      },
+      "opponent_race_report": {
+        "race_clone_turns": 40,
+        "race_horizon_turns": 40,
+        "race_lost_races": 0,
+        "race_escalations": 0,
+        "race_errors": 0,
+        "cs_decision": "shoprule@150",
+        "cs_ev": "",
+        "cs_rewrites": 0,
+        "cs_broken": 0,
+        "cs_credit": 0,
+        "cs_sold": 0,
+        "cs_errors": 0,
+        "race_mirror": 0
+      },
+      "opponent_step1_horizon": 8,
+      "horizon_basis": "frozen opponent _RACE_HORIZON_CLONE=8 and race_mirror=0"
+    },
+    {
+      "seat": 1,
+      "candidate": {
+        "wrapper_calls": 719,
+        "wrapper_errors": 0,
+        "mutation_count": 1,
+        "mutation_kind": "LAST_BUY_PRODUCT_WHEAT_MINUS_1",
+        "q0": 25.0,
+        "expected_cash_difference": -25.0,
+        "parent_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",5],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "modified_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",4],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "first_turn_cash_difference": -28.0,
+        "native_race_mirror": 0,
+        "our_mirror": 0,
+        "level24_set_count": 0
+      },
+      "opponent_race_report": {
+        "race_clone_turns": 40,
+        "race_horizon_turns": 40,
+        "race_lost_races": 0,
+        "race_escalations": 0,
+        "race_errors": 0,
+        "cs_decision": "shoprule@150",
+        "cs_ev": "",
+        "cs_rewrites": 0,
+        "cs_broken": 0,
+        "cs_credit": 0,
+        "cs_sold": 0,
+        "cs_errors": 0,
+        "race_mirror": 0
+      },
+      "opponent_step1_horizon": 8,
+      "horizon_basis": "frozen opponent _RACE_HORIZON_CLONE=8 and race_mirror=0"
+    }
+  ],
+  "nonmirror_rows": [
+    {
+      "opponent": "releases/public-tetsutani-demand-preserving-0924-exact/main.py",
+      "seat": 0,
+      "valid": true,
+      "candidate": {
+        "wrapper_calls": 719,
+        "wrapper_errors": 0,
+        "mutation_count": 1,
+        "mutation_kind": "LAST_BUY_PRODUCT_WHEAT_MINUS_1",
+        "q0": 25.0,
+        "expected_cash_difference": -25.0,
+        "parent_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",5],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "modified_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",4],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "first_turn_cash_difference": -28.0,
+        "native_race_mirror": 0,
+        "our_mirror": 0,
+        "level24_set_count": 0
+      }
+    },
+    {
+      "opponent": "releases/public-tetsutani-demand-preserving-0924-exact/main.py",
+      "seat": 1,
+      "valid": true,
+      "candidate": {
+        "wrapper_calls": 719,
+        "wrapper_errors": 0,
+        "mutation_count": 1,
+        "mutation_kind": "LAST_BUY_PRODUCT_WHEAT_MINUS_1",
+        "q0": 25.0,
+        "expected_cash_difference": -25.0,
+        "parent_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",5],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "modified_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",4],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "first_turn_cash_difference": -28.0,
+        "native_race_mirror": 0,
+        "our_mirror": 0,
+        "level24_set_count": 0
+      }
+    },
+    {
+      "opponent": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py",
+      "seat": 0,
+      "valid": true,
+      "candidate": {
+        "wrapper_calls": 719,
+        "wrapper_errors": 0,
+        "mutation_count": 1,
+        "mutation_kind": "LAST_BUY_PRODUCT_WHEAT_MINUS_1",
+        "q0": 25.0,
+        "expected_cash_difference": -25.0,
+        "parent_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",5],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "modified_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",4],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "first_turn_cash_difference": -28.0,
+        "native_race_mirror": 0,
+        "our_mirror": 0,
+        "level24_set_count": 0
+      }
+    },
+    {
+      "opponent": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py",
+      "seat": 1,
+      "valid": true,
+      "candidate": {
+        "wrapper_calls": 719,
+        "wrapper_errors": 0,
+        "mutation_count": 1,
+        "mutation_kind": "LAST_BUY_PRODUCT_WHEAT_MINUS_1",
+        "q0": 25.0,
+        "expected_cash_difference": -25.0,
+        "parent_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",5],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "modified_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",4],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "first_turn_cash_difference": -28.0,
+        "native_race_mirror": 0,
+        "our_mirror": 0,
+        "level24_set_count": 0
+      }
+    },
+    {
+      "opponent": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+      "seat": 0,
+      "valid": true,
+      "candidate": {
+        "wrapper_calls": 719,
+        "wrapper_errors": 0,
+        "mutation_count": 1,
+        "mutation_kind": "LAST_BUY_PRODUCT_WHEAT_MINUS_1",
+        "q0": 25.0,
+        "expected_cash_difference": -25.0,
+        "parent_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",5],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "modified_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",4],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "first_turn_cash_difference": -28.0,
+        "native_race_mirror": 0,
+        "our_mirror": 0,
+        "level24_set_count": 0
+      }
+    },
+    {
+      "opponent": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+      "seat": 1,
+      "valid": true,
+      "candidate": {
+        "wrapper_calls": 719,
+        "wrapper_errors": 0,
+        "mutation_count": 1,
+        "mutation_kind": "LAST_BUY_PRODUCT_WHEAT_MINUS_1",
+        "q0": 25.0,
+        "expected_cash_difference": -25.0,
+        "parent_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",5],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "modified_step0_action_json": "{\"farmer\":[\"PASS\"],\"hands\":[],\"market\":[[\"BUY_PRODUCT\",\"WHEAT\",4],[\"BUY_SEED\",\"WHEAT\",1]]}",
+        "first_turn_cash_difference": -28.0,
+        "native_race_mirror": 0,
+        "our_mirror": 0,
+        "level24_set_count": 0
+      }
+    }
+  ],
+  "runtime": {
+    "games": 8,
+    "calls": 5752,
+    "max_step_seconds": 0.11400291603058577,
+    "p99_step_seconds": 0.003535208059474826,
+    "invalid_games": 0,
+    "candidate_exceptions": 0,
+    "candidate_caught_errors": 0,
+    "opponent_caught_error_games": 0
+  }
+}

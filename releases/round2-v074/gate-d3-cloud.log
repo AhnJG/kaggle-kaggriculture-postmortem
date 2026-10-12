@@ -1,0 +1,29 @@
+10062/1 step0=0.125s max=0.152s max_after0=0.152s total=1.34s
+10117/0 step0=0.111s max=0.125s max_after0=0.125s total=1.25s
+10117/1 step0=0.121s max=0.131s max_after0=0.131s total=1.23s
+10118/0 step0=0.124s max=0.149s max_after0=0.149s total=1.38s
+10118/1 step0=0.106s max=0.114s max_after0=0.114s total=1.11s
+10119/0 step0=0.156s max=0.156s max_after0=0.103s total=1.21s
+10124/0 step0=0.106s max=0.106s max_after0=0.101s total=1.28s
+10194/0 step0=0.131s max=0.131s max_after0=0.120s total=1.19s
+10198/0 step0=0.116s max=0.119s max_after0=0.119s total=1.31s
+10198/1 step0=0.114s max=0.120s max_after0=0.120s total=1.22s
+10200/0 step0=0.143s max=0.143s max_after0=0.130s total=1.29s
+10210/0 step0=0.103s max=0.114s max_after0=0.114s total=1.28s
+10222/0 step0=0.098s max=0.119s max_after0=0.119s total=1.20s
+10237/0 step0=0.131s max=0.178s max_after0=0.178s total=1.41s
+10407/1 step0=0.131s max=0.131s max_after0=0.015s total=1.07s
+Traceback (most recent call last):
+  File "/home/claude/d3root/experiments/d3_gate_v2/measure_gate_v2.py", line 115, in <module>
+    if __name__ == '__main__': main()
+                               ^^^^^^
+  File "/home/claude/d3root/experiments/d3_gate_v2/measure_gate_v2.py", line 102, in main
+    s1 = json.loads((ROOT/'experiments/search_20260925/stage1-summary.json').read_text())['runtime']
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/claude/d3root/experiments/search_20260925/stage1-summary.json'

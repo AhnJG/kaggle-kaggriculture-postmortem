@@ -1,0 +1,61 @@
+{
+  "candidate_id": "f0-mirror-lead-exp014",
+  "purpose": "EXP-014 variant: P2 main.py bytes unchanged + card appendix A appended verbatim (\\n\\n separator).",
+  "card": {
+    "path": "experiments/cards/EXP-014-mirror-sale-lead.md",
+    "sha256": "419ed1d07cfa93ee7fd8575d6d3e29b7474a25b35ef33e330f3f5f077ef4df1c",
+    "expected_entry_callable": "_mirror_lead_agent"
+  },
+  "parent": {
+    "release": "releases/public-lynnsakurai-farming-score-v2-exact",
+    "main_py_sha256": "cddf51ea4e5bac24e5118b12b78f771a92055e17064e062b0267724822b8a94d",
+    "tar_sha256": "1178ffa0614673a58fb1ee5b2a44003eecd5640634d6f3471e84ac92c1fbf388",
+    "main_py_bytes": 349247,
+    "parent_bytes_unchanged": true
+  },
+  "appended": {
+    "bytes": 1481,
+    "separator": "\\n\\n",
+    "sha256": "1bdc32362cd8ebf5f7b1be75d72305aa6ed0032b62acf13619b92310b7a30cce",
+    "source": "card appendix A python block, verbatim"
+  },
+  "artifact": {
+    "file": "submission.tar.gz",
+    "sha256": "be529b5cce50c53e738b79094e41852d8195b4f03cb8a391fd1c9ddee1600d29",
+    "bytes": 143294,
+    "members": {
+      "main.py": "f2196b3958651bec800158f0c1bf7aa11a104c892075429fbf983afc38d19460"
+    },
+    "tar_rule": "tools/build_public_exact.py archive_main(gzip_file=True, tar_format=GNU); mtime=0 uid=gid=0 mode=0644 gzip mtime=0; reproduces parent tar SHA 1178ffa0…"
+  },
+  "checks": {
+    "date": "2026-09-20",
+    "host": "Cowork Linux VM (aarch64), CPython 3.12.14 via uv venv, kaggle-environments 1.32.7",
+    "engine_sha256_ok": "kaggriculture.py bc8a5487…653e / kaggriculture.json a82c89c1…6867 == ENGINE_LOCK",
+    "last_callable": {
+      "main.py": "_mirror_lead_agent",
+      "tar/main.py": "_mirror_lead_agent",
+      "expected": "_mirror_lead_agent",
+      "result": "PASS"
+    },
+    "mirror_off_equals_P2": {
+      "seed": 3000,
+      "seats": "both",
+      "opponents": [
+        "goodpjw2008",
+        "seyitkaangunes",
+        "tetsutani",
+        "yhay81"
+      ],
+      "result": "PASS: 719/719 actions identical to P2 in every game, mirror_games=0, exceptions 0",
+      "note": "Alperen at seed 3000 turns mirror mode ON (P2 and Alperen act identically through step 161), so the work-order's Alperen check could not test OFF behaviour"
+    },
+    "mirror_on_vs_P2": {
+      "seed": 3000,
+      "seats": "both",
+      "result": "PASS: mirror_games=1 mirror_turns=574 errors=0 exceptions=0 status DONE/DONE steps=720"
+    },
+    "scope": "build verification only; no evaluation matrix was run; local single-seed outputs are not performance evidence"
+  },
+  "submitted": false
+}

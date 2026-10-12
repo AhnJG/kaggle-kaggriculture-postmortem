@@ -1,0 +1,399 @@
+{
+  "verdict": "FAIL",
+  "selected": null,
+  "prereg_sha256": "d384cb94c69918383e30450472fba72c9c9389107aa5fde67f8bbbdccb75452d",
+  "games_sha256": "60e8078be0ccbd83ec47fe0591b1b3ff15b4475acfe9cc83bad1d3cb873fa170",
+  "gates": {
+    "all_26_boundary_valid": true,
+    "all_26_internal_errors_zero": false,
+    "primary_action_effect": true,
+    "primary_margin_improves": true,
+    "primary_sheep_preserved": true,
+    "primary_wool_units_preserved": true,
+    "primary_fertilizer_units_preserved": false,
+    "closed_each_delta_ge_zero": true
+  },
+  "pairs": [
+    {
+      "opponent": "T114208752",
+      "seed": 213621582,
+      "seat": 0,
+      "parent_score": 0,
+      "candidate_score": 1,
+      "delta": 1,
+      "parent_margin": -3066.0,
+      "candidate_margin": 2627.0,
+      "action_identical": false,
+      "candidate_changes": 44
+    },
+    {
+      "opponent": "T114201386",
+      "seed": 909966899,
+      "seat": 0,
+      "parent_score": 0,
+      "candidate_score": 0,
+      "delta": 0,
+      "parent_margin": -35.0,
+      "candidate_margin": -35.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "T114196974",
+      "seed": 1184940812,
+      "seat": 0,
+      "parent_score": 0,
+      "candidate_score": 0,
+      "delta": 0,
+      "parent_margin": -313.0,
+      "candidate_margin": -313.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "T114188155",
+      "seed": 2046553329,
+      "seat": 1,
+      "parent_score": 0,
+      "candidate_score": 0,
+      "delta": 0,
+      "parent_margin": -81.0,
+      "candidate_margin": -81.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "T114179140",
+      "seed": 1355106862,
+      "seat": 1,
+      "parent_score": 0,
+      "candidate_score": 0,
+      "delta": 0,
+      "parent_margin": -947.0,
+      "candidate_margin": -947.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "V074",
+      "seed": 15080,
+      "seat": 0,
+      "parent_score": 1,
+      "candidate_score": 1,
+      "delta": 0,
+      "parent_margin": 378.0,
+      "candidate_margin": 378.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "V074",
+      "seed": 15080,
+      "seat": 1,
+      "parent_score": 1,
+      "candidate_score": 1,
+      "delta": 0,
+      "parent_margin": 378.0,
+      "candidate_margin": 378.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "O127",
+      "seed": 15080,
+      "seat": 0,
+      "parent_score": 1,
+      "candidate_score": 1,
+      "delta": 0,
+      "parent_margin": 409.0,
+      "candidate_margin": 409.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "O127",
+      "seed": 15080,
+      "seat": 1,
+      "parent_score": 1,
+      "candidate_score": 1,
+      "delta": 0,
+      "parent_margin": 409.0,
+      "candidate_margin": 409.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "D",
+      "seed": 15080,
+      "seat": 0,
+      "parent_score": 1,
+      "candidate_score": 1,
+      "delta": 0,
+      "parent_margin": 66.0,
+      "candidate_margin": 66.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "D",
+      "seed": 15080,
+      "seat": 1,
+      "parent_score": 1,
+      "candidate_score": 1,
+      "delta": 0,
+      "parent_margin": 66.0,
+      "candidate_margin": 66.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "d157",
+      "seed": 15080,
+      "seat": 0,
+      "parent_score": 0.5,
+      "candidate_score": 0.5,
+      "delta": 0.0,
+      "parent_margin": 0.0,
+      "candidate_margin": 0.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    },
+    {
+      "opponent": "d157",
+      "seed": 15080,
+      "seat": 1,
+      "parent_score": 0.5,
+      "candidate_score": 0.5,
+      "delta": 0.0,
+      "parent_margin": 0.0,
+      "candidate_margin": 0.0,
+      "action_identical": true,
+      "candidate_changes": 0
+    }
+  ],
+  "closed_deltas": {
+    "V074": 0.0,
+    "O127": 0.0,
+    "D": 0.0,
+    "d157": 0.0
+  },
+  "primary": {
+    "parent_margin": -3066.0,
+    "candidate_margin": 2627.0,
+    "margin_delta": 5693.0,
+    "own_cash_delta": 2511.0,
+    "rival_cash_delta": -3182.0,
+    "parent_wool": 326,
+    "candidate_wool": 326,
+    "parent_fertilizer": 397,
+    "candidate_fertilizer": 386
+  },
+  "internal_errors": [
+    {
+      "key": "P|T114208752|213621582|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 1
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|T114208752|213621582|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 1
+        }
+      }
+    },
+    {
+      "key": "P|T114201386|909966899|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 8
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|T114201386|909966899|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 8
+        }
+      }
+    },
+    {
+      "key": "P|T114196974|1184940812|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 10
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|T114196974|1184940812|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 10
+        }
+      }
+    },
+    {
+      "key": "P|T114179140|1355106862|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 7
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|T114179140|1355106862|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 7
+        }
+      }
+    },
+    {
+      "key": "P|V074|15080|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "P|V074|15080|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|V074|15080|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|V074|15080|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "P|O127|15080|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "P|O127|15080|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|O127|15080|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|O127|15080|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "P|D|15080|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "P|D|15080|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|D|15080|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|D|15080|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "P|d157|15080|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "P|d157|15080|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|d157|15080|0",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    },
+    {
+      "key": "SHEEP_DELIVERY|d157|15080|1",
+      "errors": {
+        "_S839_REPORT": {
+          "errors": 9
+        }
+      }
+    }
+  ],
+  "total_new_games": 37,
+  "trace_games": 11,
+  "smoke_games": 26,
+  "workers": 1,
+  "remaining_budget_unused": 3,
+  "full_execution_enabled": false,
+  "full_jobs": 1960,
+  "d3_jobs": 30,
+  "caveats": [
+    "Five hosted defeats selected for diagnosis; no field win-rate claim.",
+    "One closed-loop seed in both seats, inactive mechanism there, cannot establish non-inferiority.",
+    "Inherited caught errors are separate from zero boundary exceptions.",
+    "Fertilizer conservation alone fails independently of how inherited errors are interpreted."
+  ]
+}

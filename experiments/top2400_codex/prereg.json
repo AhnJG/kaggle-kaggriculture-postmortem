@@ -1,0 +1,65 @@
+{
+  "id": "TOP2400-CODEX-ORDER-0928",
+  "hypothesis_id": "HYP-0016",
+  "test_id": "TEST-TOP2400-ORDER-0928",
+  "parent": "releases/exp035-d157/main.py",
+  "parent_sha256": "94a46c1196853577418bba1766fd347279aa8d213cea8812086d73c5f01c918e",
+  "candidate": "experiments/top2400_codex/d157_order_swap.py",
+  "candidate_sha256": "320f8bc92726d163e1d6569d8c664c66a5df270e6081236cc6fb5fc6bbd451cf",
+  "suffix_sha256": "857e1e4fdd4ad0746c333b056c17af39c07efcd22c69198ff672e911a481f6a4",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "one_change": "For steps 144..718, swap an existing adjacent BUY_PRODUCT WHEAT then SELL WHEAT pair when pre-action shed WHEAT covers the SELL quantity and planned PICKUP; preserve both quantities and all other commands.",
+  "fixed": [
+    "d157 source bytes",
+    "production and worker actions",
+    "order quantities and count",
+    "other market orders",
+    "seeds, seats, tapes, opponents",
+    "all decision gates"
+  ],
+  "mechanism": "Selected top opponents often SELL WHEAT then BUY_PRODUCT WHEAT in one turn. Engine executes slots and quotes per unit; order reversal may depress the shared WHEAT quote during opposing SELL and recover the inventory in the later BUY slot. This tests d157's own order pair only, not a rival market tape graft.",
+  "prior_evidence": "experiments/top2400_codex/select_loss_fills.jsonl: 20 selected d157 losses exact-state parity; experiments/top2400_codex/select_loss_summary.json: top 30,891 filled WHEAT buys and 35,298 filled WHEAT sells, d157 6,687 and 10,920. Difference in requested counts alone is not causal.",
+  "selection": {
+    "team_split": "experiments/exp041_top2400/team-split.json",
+    "select_teams": 19,
+    "select_tapes": 595,
+    "holdout_teams": 5,
+    "holdout_tapes": 148,
+    "holdout_access": "jobs constructed from metadata only; no holdout results inspected before candidate, parameters, jobs and rules freeze"
+  },
+  "smoke": {
+    "jobs": 40,
+    "workers": 1,
+    "maximum_games": 60,
+    "advance_if": "40/40 valid DONE/DONE, 719 candidate actions each, no agent errors, at least one candidate action SHA differs from paired d157; no tuning on smoke results"
+  },
+  "decision": {
+    "invalid": "any missing/invalid/mismatched required job blocks PASS",
+    "select": "episode paired score delta mean, 10000 episode bootstrap resamples seed 9282400; lower 2.5 percentile strictly > 0",
+    "holdout": "after select PASS only, 5-team holdout tape point paired score delta strictly > 0; report per-team values, no retuning",
+    "U": "paired point delta >= 0 over all 136 d157 hosted opponent tapes",
+    "T": "paired point delta >= 0 over all 350 EXP-033 tapes",
+    "family": "pooled paired point delta >= 0 over D, HL63, M2965, FJ1010, d157 family arena; all 25 seeds both seats",
+    "O127": "candidate score >= d157 score - 0.02 over 25 seeds both seats",
+    "V074": "candidate score >= d157 score - 0.02 over 25 seeds both seats",
+    "D3": "1-worker measured candidate max step < 0.8 seconds; 719 actions; errors 0",
+    "success": "all gates true => LOCAL_SUPPORTED pending independent review; submission remains unauthorized",
+    "failure": "any numeric gate false => LOCAL_FAILED for this exact one-change artifact; no tuning against holdout"
+  },
+  "jobs_sha256": {
+    "jobs-smoke.json": "c8f56ac0acf7763c423bcce3da47eae17f6f7c6b5debdc37f7014840190d14a9",
+    "jobs-select.json": "00bb6f5b2f549afd0d37b3046b55c8fac663dc2d088db5de0902a8755e7c44d3",
+    "jobs-holdout.json": "06d68c188af9cea97d670fb428da50e3a0de816a3f61d94a2d28b60408a0f2d8",
+    "jobs-u.json": "eaf4b96215c3a1cbc889ad7b2f6ff3a1f7d917bdeb18d865af2a3f248f7c7fc8",
+    "jobs-t.json": "73b9ee1264b68e37c704a072616ac3122ce446495f553470624babfbd8378195",
+    "jobs-family.json": "eaab5fdedef561e4ef3de26456d509b599beba14cb5fdcb3fc066efe8b9773e4",
+    "jobs-guard.json": "1e366a95b577d59392f7968e815bcbe5bce8c348b2b75b86758d38838db38e5f"
+  },
+  "input_manifest_sha256": "de6fd32f2c1e7c550f0695601aef3fab17a9c6e65d6df434a89605f2432c5f7d",
+  "source_metadata_sha256": {
+    "experiments/exp041_top2400/meta.json": "9da0fbada8ff4b0f7b58ddc5db3a060ce1b7364bb2d69a2eb944a326bc7fa990",
+    "experiments/exp041_top2400/team-split.json": "8f1184bd86e4697e3f240d76bab00372822a4632455b43b4a3fa55ab18e94e39",
+    "experiments/exp039_camargin/meta-u.json": "47d6a900be16e7a88b2ee0c0a4feeef08cf7716739e8e7e0e185e0269b7d7047",
+    "experiments/exp033_tapes/meta.json": "910861d007357f7bfd070103ad0c13b817743fb7d22ed5092bb6a053e55a3774"
+  }
+}

@@ -1,0 +1,3253 @@
+{
+  "gates": [
+    {
+      "path": "analysis/daily_scan/20260924/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py",
+      "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+      "lines": 6917,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py"
+      ],
+      "gate": {
+        "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+        "lines": 6917,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "_cxd_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.13005683314986527,
+        "max_game_p99": 0.006653625052422285,
+        "max_rss_bytes": 403668992
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/demand-preserving-turn-sale-timing/main.py",
+      "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "lines": 7333,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3593,
+          "_v92_os.environ.get('V92_SELL_LIB')"
+        ],
+        [
+          3596,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/demand-preserving-turn-sale-timing/main.py",
+        "analysis/daily_scan/20260924/extracted/kaggriculture-frontier-the-moon-counts-melons/main.py",
+        "analysis/daily_scan/20260924/extracted/kaggriculture-frontier-the-soil-remembers-rain/main.py"
+      ],
+      "gate": {
+        "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+        "lines": 7333,
+        "external_calls": [
+          {
+            "line": 3593,
+            "call": "_v92_os.environ.get('V92_SELL_LIB')"
+          },
+          {
+            "line": 3596,
+            "call": "open(path)"
+          }
+        ],
+        "nonstdlib": [],
+        "dependency_pass": false
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "_final_sell_block_reorder_entrypoint",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": false,
+      "runtime_gate": {
+        "n": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "score": null,
+        "invalid": 0,
+        "max_step": 0,
+        "max_game_p99": 0,
+        "max_rss_bytes": 0
+      },
+      "gate_pass": false
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py",
+      "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01",
+      "lines": 7158,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py"
+      ],
+      "gate": {
+        "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01",
+        "lines": 7158,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "herdsafe_forecast_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.12824620911851525,
+        "max_game_p99": 0.006883917143568397,
+        "max_rss_bytes": 403750912
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+      "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+      "lines": 7046,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+        "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-lb-2700/main.py",
+        "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-submit/main.py"
+      ],
+      "gate": {
+        "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+        "lines": 7046,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "opening_liquidity_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.12199604092165828,
+        "max_game_p99": 0.00918708392418921,
+        "max_rss_bytes": 400474112
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-autonomous-ai-farming-agent/main.py",
+      "sha256": "2993cf9241b467bbfa317cf8ba13216f4f2b49070c5632984eb2704eb88a2435",
+      "lines": 6852,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-autonomous-ai-farming-agent/main.py",
+        "analysis/daily_scan/20260925/extracted/kaggriculture-autonomous-ai-farming-agent/main.py"
+      ],
+      "gate": {
+        "sha256": "2993cf9241b467bbfa317cf8ba13216f4f2b49070c5632984eb2704eb88a2435",
+        "lines": 6852,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "_cxd_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.11948629096150398,
+        "max_game_p99": 0.0059932079166173935,
+        "max_rss_bytes": 401981440
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-hack/main.py",
+      "sha256": "dc5433c7996f3f18bc766083a3b6b0ef22ba290cf917fd680ee41c62b8de734d",
+      "lines": 2625,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "zlib"
+      ],
+      "external_calls": [],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-hack/main.py"
+      ],
+      "gate": {
+        "sha256": "dc5433c7996f3f18bc766083a3b6b0ef22ba290cf917fd680ee41c62b8de734d",
+        "lines": 2625,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.1057284998241812,
+        "max_game_p99": 0.00448358291760087,
+        "max_rss_bytes": 402489344
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py",
+      "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689",
+      "lines": 7340,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3598,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py"
+      ],
+      "gate": {
+        "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689",
+        "lines": 7340,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "_final_sell_block_reorder_entrypoint",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.0958792909514159,
+        "max_game_p99": 0.006736708804965019,
+        "max_rss_bytes": 404881408
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py",
+      "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d",
+      "lines": 7046,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py"
+      ],
+      "gate": {
+        "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d",
+        "lines": 7046,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "opening_liquidity_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.1057691250462085,
+        "max_game_p99": 0.006752458866685629,
+        "max_rss_bytes": 401637376
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py",
+      "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e",
+      "lines": 7046,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py"
+      ],
+      "gate": {
+        "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e",
+        "lines": 7046,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "opening_liquidity_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.11451079207472503,
+        "max_game_p99": 0.009708791971206665,
+        "max_rss_bytes": 401883136
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py",
+      "sha256": "f6175fd1bc3850f74185e7a813bb5a87d54e7e15212c874133dafc6e1ce91d34",
+      "lines": 8157,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3594,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py"
+      ],
+      "gate": {
+        "sha256": "f6175fd1bc3850f74185e7a813bb5a87d54e7e15212c874133dafc6e1ce91d34",
+        "lines": 8157,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "v15_submission_entry",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.13908495916984975,
+        "max_game_p99": 0.010014875093474984,
+        "max_rss_bytes": 404242432
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-k0013-v46-advance6/main.py",
+      "sha256": "45628c719dc967f81655c19f70e579c55a5758b9fe75a5fcdad9193eebf6a017",
+      "lines": 3630,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "zlib"
+      ],
+      "external_calls": [],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-k0013-v46-advance6/main.py"
+      ],
+      "gate": {
+        "sha256": "45628c719dc967f81655c19f70e579c55a5758b9fe75a5fcdad9193eebf6a017",
+        "lines": 3630,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.08770545804873109,
+        "max_game_p99": 0.005038582952693105,
+        "max_rss_bytes": 398770176
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py",
+      "sha256": "0957bac0892defe4416cd8fcd774174e7177eef75b9ad4fff6ce184051bcdd75",
+      "lines": 7846,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py"
+      ],
+      "gate": {
+        "sha256": "0957bac0892defe4416cd8fcd774174e7177eef75b9ad4fff6ce184051bcdd75",
+        "lines": 7846,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "v16_submission_entry",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.10433949995785952,
+        "max_game_p99": 0.007923166966065764,
+        "max_rss_bytes": 403161088
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-master-engine-v3/main.py",
+      "sha256": "9f5e8924c61e9f70dc7f665bd95c0519163ce3d262010feb9659ebf8b558216c",
+      "lines": 6446,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3112,
+          "_v92_os.environ.get('V92_SELL_LIB')"
+        ],
+        [
+          3115,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-master-engine-v3/main.py"
+      ],
+      "gate": {
+        "sha256": "9f5e8924c61e9f70dc7f665bd95c0519163ce3d262010feb9659ebf8b558216c",
+        "lines": 6446,
+        "external_calls": [
+          {
+            "line": 3112,
+            "call": "_v92_os.environ.get('V92_SELL_LIB')"
+          },
+          {
+            "line": 3115,
+            "call": "open(path)"
+          }
+        ],
+        "nonstdlib": [],
+        "dependency_pass": false
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "_terminal_liquidation_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": false,
+      "runtime_gate": {
+        "n": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "score": null,
+        "invalid": 0,
+        "max_step": 0,
+        "max_game_p99": 0,
+        "max_rss_bytes": 0
+      },
+      "gate_pass": false
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py",
+      "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+      "lines": 7035,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3602,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py"
+      ],
+      "gate": {
+        "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+        "lines": 7035,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "rescue_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.12084724986925721,
+        "max_game_p99": 0.01063133287243545,
+        "max_rss_bytes": 403292160
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py",
+      "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3",
+      "lines": 6829,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3370,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py"
+      ],
+      "gate": {
+        "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3",
+        "lines": 6829,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "opening_liquidity_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.11275066691450775,
+        "max_game_p99": 0.00977854197844863,
+        "max_rss_bytes": 404078592
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py",
+      "sha256": "939c445771d83901f27478561d0cc3137133e2233b3ef266f26277aa0b2c7714",
+      "lines": 8407,
+      "imports": [
+        "__future__",
+        "base64",
+        "collections",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "zlib"
+      ],
+      "external_calls": [],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py"
+      ],
+      "gate": {
+        "sha256": "939c445771d83901f27478561d0cc3137133e2233b3ef266f26277aa0b2c7714",
+        "lines": 8407,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "_v350_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "score": 1.0,
+        "invalid": 0,
+        "max_step": 0.17873229179531336,
+        "max_game_p99": 0.009044250007718801,
+        "max_rss_bytes": 407207936
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py",
+      "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+      "lines": 7804,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py",
+        "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-submit/main.py"
+      ],
+      "gate": {
+        "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+        "lines": 7804,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "v15_submission_entry",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.08562762499786913,
+        "max_game_p99": 0.006759459152817726,
+        "max_rss_bytes": 401915904
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py",
+      "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de",
+      "lines": 7088,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3602,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py"
+      ],
+      "gate": {
+        "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de",
+        "lines": 7088,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.11735883308574557,
+        "max_game_p99": 0.008502499898895621,
+        "max_rss_bytes": 401620992
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v57-funding-order-invariant/main.py",
+      "sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+      "lines": 6986,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/kaggriculture-v57-funding-order-invariant/main.py"
+      ],
+      "gate": {
+        "sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+        "lines": 6986,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "v57_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.13783774990588427,
+        "max_game_p99": 0.008010916877537966,
+        "max_rss_bytes": 400949248
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/order-book-v3-response-improvement/main.py",
+      "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+      "lines": 6985,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/order-book-v3-response-improvement/main.py"
+      ],
+      "gate": {
+        "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+        "lines": 6985,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "orderbook_response_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.12493537506088614,
+        "max_game_p99": 0.008311666082590818,
+        "max_rss_bytes": 402980864
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py",
+      "sha256": "1d8c562280d9bbd12f34e58dcd0d85a074b27622a3ee4a50ff8904b7b8130c27",
+      "lines": 2063,
+      "imports": [
+        "base64",
+        "zlib"
+      ],
+      "external_calls": [],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py"
+      ],
+      "gate": {
+        "sha256": "1d8c562280d9bbd12f34e58dcd0d85a074b27622a3ee4a50ff8904b7b8130c27",
+        "lines": 2063,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.0957206659950316,
+        "max_game_p99": 0.012484458042308688,
+        "max_rss_bytes": 419102720
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py",
+      "sha256": "2d7227833871cf92e574115dfa2e8a39d0c1304dc63b019789b352c4fea36fce",
+      "lines": 2114,
+      "imports": [
+        "base64",
+        "zlib"
+      ],
+      "external_calls": [],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py"
+      ],
+      "gate": {
+        "sha256": "2d7227833871cf92e574115dfa2e8a39d0c1304dc63b019789b352c4fea36fce",
+        "lines": 2114,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "pioneers_candidate3_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.1071772500872612,
+        "max_game_p99": 0.011346666142344475,
+        "max_rss_bytes": 420085760
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py",
+      "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+      "lines": 7058,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3593,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py"
+      ],
+      "gate": {
+        "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+        "lines": 7058,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.11944833397865295,
+        "max_game_p99": 0.009370042011141777,
+        "max_rss_bytes": 402554880
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+      "sha256": "ae44d83baf39ae2cf203d3617d0e9d7846d4a8b379b00c3ebd3734f1cfb5fbf3",
+      "lines": 7162,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py"
+      ],
+      "gate": {
+        "sha256": "ae44d83baf39ae2cf203d3617d0e9d7846d4a8b379b00c3ebd3734f1cfb5fbf3",
+        "lines": 7162,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "herdsafe_forecast_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.10007954202592373,
+        "max_game_p99": 0.010631625074893236,
+        "max_rss_bytes": 402604032
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py",
+      "sha256": "12ad317ecac6c07fb2c2e10bf4820ecd1fd4551a5a36aa0e34ab93b2c33c2693",
+      "lines": 5942,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3587,
+          "_v92_os.environ.get('V92_SELL_LIB')"
+        ],
+        [
+          3590,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260925/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py"
+      ],
+      "gate": {
+        "sha256": "12ad317ecac6c07fb2c2e10bf4820ecd1fd4551a5a36aa0e34ab93b2c33c2693",
+        "lines": 5942,
+        "external_calls": [
+          {
+            "line": 3587,
+            "call": "_v92_os.environ.get('V92_SELL_LIB')"
+          },
+          {
+            "line": 3590,
+            "call": "open(path)"
+          }
+        ],
+        "nonstdlib": [],
+        "dependency_pass": false
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "install_water_repair_local_patch",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": false,
+      "runtime_gate": {
+        "n": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "score": null,
+        "invalid": 0,
+        "max_step": 0,
+        "max_game_p99": 0,
+        "max_rss_bytes": 0
+      },
+      "gate_pass": false
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/cha22-agent/main.py",
+      "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "lines": 7482,
+      "imports": [
+        "__future__",
+        "base64",
+        "collections",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "zlib"
+      ],
+      "external_calls": [],
+      "aliases": [
+        "analysis/daily_scan/20260925/extracted/cha22-agent/main.py",
+        "analysis/daily_scan/20260925/extracted/demand-preserving-turn-sale-timing/main.py",
+        "analysis/daily_scan/20260925/extracted/kaggriculture-master-engine-v3/main.py",
+        "analysis/daily_scan/20260925/extracted/kaggriculture-multi-route-farming-agent/main.py"
+      ],
+      "gate": {
+        "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+        "lines": 7482,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "ig_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "score": 1.0,
+        "invalid": 0,
+        "max_step": 0.13248512498103082,
+        "max_game_p99": 0.00660079182125628,
+        "max_rss_bytes": 398049280
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+      "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b",
+      "lines": 7482,
+      "imports": [
+        "__future__",
+        "base64",
+        "collections",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "zlib"
+      ],
+      "external_calls": [],
+      "aliases": [
+        "analysis/daily_scan/20260925/extracted/kaggriculture/main.py"
+      ],
+      "gate": {
+        "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b",
+        "lines": 7482,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "ig_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "score": 1.0,
+        "invalid": 0,
+        "max_step": 0.14515633299015462,
+        "max_game_p99": 0.008280792040750384,
+        "max_rss_bytes": 401244160
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py",
+      "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+      "lines": 7376,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3599,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py"
+      ],
+      "gate": {
+        "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+        "lines": 7376,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "_final_sell_block_reorder_entrypoint",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.08572795800864697,
+        "max_game_p99": 0.0068712919019162655,
+        "max_rss_bytes": 402620416
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture-population-robust-economy/main.py",
+      "sha256": "3ec06d07c1076dd8fdfe444cb5e19f1789f1e4f8d66597db3b3f70a5e80895fc",
+      "lines": 5540,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3367,
+          "_v92_os.environ.get('V92_SELL_LIB')"
+        ],
+        [
+          3370,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260925/extracted/kaggriculture-population-robust-economy/main.py"
+      ],
+      "gate": {
+        "sha256": "3ec06d07c1076dd8fdfe444cb5e19f1789f1e4f8d66597db3b3f70a5e80895fc",
+        "lines": 5540,
+        "external_calls": [
+          {
+            "line": 3367,
+            "call": "_v92_os.environ.get('V92_SELL_LIB')"
+          },
+          {
+            "line": 3370,
+            "call": "open(path)"
+          }
+        ],
+        "nonstdlib": [],
+        "dependency_pass": false
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": false,
+      "runtime_gate": {
+        "n": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "score": null,
+        "invalid": 0,
+        "max_step": 0,
+        "max_game_p99": 0,
+        "max_rss_bytes": 0
+      },
+      "gate_pass": false
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture-utils-v1/main.py",
+      "sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+      "lines": 3366,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "zlib"
+      ],
+      "external_calls": [],
+      "aliases": [
+        "analysis/daily_scan/20260925/extracted/kaggriculture-utils-v1/main.py"
+      ],
+      "gate": {
+        "sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+        "lines": 3366,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.08800825010985136,
+        "max_game_p99": 0.004196041962131858,
+        "max_rss_bytes": 397688832
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/the-2965-master-hybrid-engine/main.py",
+      "sha256": "cda529cb6b359fc4a9ab124d4d7950d5912bd5de846dcec4be70ca83b7150b2d",
+      "lines": 7374,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3593,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260925/extracted/the-2965-master-hybrid-engine/main.py"
+      ],
+      "gate": {
+        "sha256": "cda529cb6b359fc4a9ab124d4d7950d5912bd5de846dcec4be70ca83b7150b2d",
+        "lines": 7374,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "v7_hr_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "score": 1.0,
+        "invalid": 0,
+        "max_step": 0.14371916581876576,
+        "max_game_p99": 0.007511666975915432,
+        "max_rss_bytes": 401604608
+      },
+      "gate_pass": true
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+      "sha256": "8378f73c82db7624ce5d0369cf896aa0761a662af147b119f67254f1f8634c56",
+      "lines": 7455,
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "itertools",
+        "json",
+        "math",
+        "os",
+        "random",
+        "zlib"
+      ],
+      "external_calls": [
+        [
+          3592,
+          "open(path)"
+        ]
+      ],
+      "aliases": [
+        "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py"
+      ],
+      "gate": {
+        "sha256": "8378f73c82db7624ce5d0369cf896aa0761a662af147b119f67254f1f8634c56",
+        "lines": 7455,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "cleanroom": {
+        "passed": true,
+        "entry": {
+          "entry": "hs4_ig_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "static_pass": true,
+      "runtime_gate": {
+        "n": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "score": 0.0,
+        "invalid": 0,
+        "max_step": 0.07737949979491532,
+        "max_game_p99": 0.005004874896258116,
+        "max_rss_bytes": 400310272
+      },
+      "gate_pass": true
+    }
+  ],
+  "screening": [
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+      "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b",
+      "summary": {
+        "n": 80,
+        "wins": 32,
+        "draws": 40,
+        "losses": 8,
+        "score": 0.65,
+        "invalid": 0,
+        "max_step": 0.16479020798578858,
+        "max_game_p99": 0.010786083992570639,
+        "max_rss_bytes": 408207360
+      },
+      "dp": {
+        "n": 40,
+        "wins": 32,
+        "draws": 0,
+        "losses": 8,
+        "score": 0.8,
+        "invalid": 0,
+        "max_step": 0.16479020798578858,
+        "max_game_p99": 0.010786083992570639,
+        "max_rss_bytes": 408207360
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 0,
+        "draws": 40,
+        "losses": 0,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.14797458401881158,
+        "max_game_p99": 0.0098365000449121,
+        "max_rss_bytes": 395001856
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 74,
+        "draws": 72,
+        "losses": 14,
+        "score": 0.6875,
+        "invalid": 0,
+        "max_step": 0.19150283304043114,
+        "max_game_p99": 0.01193616702221334,
+        "max_rss_bytes": 409436160
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 70,
+        "draws": 0,
+        "losses": 10,
+        "score": 0.875,
+        "invalid": 0,
+        "max_step": 0.17274945811368525,
+        "max_game_p99": 0.01193616702221334,
+        "max_rss_bytes": 409436160
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 4,
+        "draws": 72,
+        "losses": 4,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.19150283304043114,
+        "max_game_p99": 0.008739041863009334,
+        "max_rss_bytes": 396525568
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/cha22-agent/main.py",
+      "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "summary": {
+        "n": 80,
+        "wins": 32,
+        "draws": 40,
+        "losses": 8,
+        "score": 0.65,
+        "invalid": 0,
+        "max_step": 0.19682062487117946,
+        "max_game_p99": 0.01170558319427073,
+        "max_rss_bytes": 410075136
+      },
+      "dp": {
+        "n": 40,
+        "wins": 32,
+        "draws": 0,
+        "losses": 8,
+        "score": 0.8,
+        "invalid": 0,
+        "max_step": 0.19682062487117946,
+        "max_game_p99": 0.01170558319427073,
+        "max_rss_bytes": 410075136
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 0,
+        "draws": 40,
+        "losses": 0,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.1965184579603374,
+        "max_game_p99": 0.009659125003963709,
+        "max_rss_bytes": 394559488
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 74,
+        "draws": 72,
+        "losses": 14,
+        "score": 0.6875,
+        "invalid": 0,
+        "max_step": 0.18080545798875391,
+        "max_game_p99": 0.013152792118489742,
+        "max_rss_bytes": 410124288
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 70,
+        "draws": 0,
+        "losses": 10,
+        "score": 0.875,
+        "invalid": 0,
+        "max_step": 0.1680352077819407,
+        "max_game_p99": 0.010094207944348454,
+        "max_rss_bytes": 410124288
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 4,
+        "draws": 72,
+        "losses": 4,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.18080545798875391,
+        "max_game_p99": 0.013152792118489742,
+        "max_rss_bytes": 394887168
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/the-2965-master-hybrid-engine/main.py",
+      "sha256": "cda529cb6b359fc4a9ab124d4d7950d5912bd5de846dcec4be70ca83b7150b2d",
+      "summary": {
+        "n": 80,
+        "wins": 37,
+        "draws": 0,
+        "losses": 43,
+        "score": 0.4625,
+        "invalid": 0,
+        "max_step": 0.159489416051656,
+        "max_game_p99": 0.012251875130459666,
+        "max_rss_bytes": 415760384
+      },
+      "dp": {
+        "n": 40,
+        "wins": 25,
+        "draws": 0,
+        "losses": 15,
+        "score": 0.625,
+        "invalid": 0,
+        "max_step": 0.159489416051656,
+        "max_game_p99": 0.011475291103124619,
+        "max_rss_bytes": 415760384
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 12,
+        "draws": 0,
+        "losses": 28,
+        "score": 0.3,
+        "invalid": 0,
+        "max_step": 0.1562897078692913,
+        "max_game_p99": 0.012251875130459666,
+        "max_rss_bytes": 407797760
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 77,
+        "draws": 0,
+        "losses": 83,
+        "score": 0.48125,
+        "invalid": 0,
+        "max_step": 0.18254137504845858,
+        "max_game_p99": 0.017050999915227294,
+        "max_rss_bytes": 410943488
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 60,
+        "draws": 0,
+        "losses": 20,
+        "score": 0.75,
+        "invalid": 0,
+        "max_step": 0.18254137504845858,
+        "max_game_p99": 0.017050999915227294,
+        "max_rss_bytes": 410943488
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 17,
+        "draws": 0,
+        "losses": 63,
+        "score": 0.2125,
+        "invalid": 0,
+        "max_step": 0.17745049996301532,
+        "max_game_p99": 0.01236549997702241,
+        "max_rss_bytes": 406454272
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+      "sha256": "8378f73c82db7624ce5d0369cf896aa0761a662af147b119f67254f1f8634c56",
+      "summary": {
+        "n": 80,
+        "wins": 31,
+        "draws": 0,
+        "losses": 49,
+        "score": 0.3875,
+        "invalid": 0,
+        "max_step": 0.34653533389791846,
+        "max_game_p99": 0.023226625053212047,
+        "max_rss_bytes": 410222592
+      },
+      "dp": {
+        "n": 40,
+        "wins": 21,
+        "draws": 0,
+        "losses": 19,
+        "score": 0.525,
+        "invalid": 0,
+        "max_step": 0.21014320803806186,
+        "max_game_p99": 0.023226625053212047,
+        "max_rss_bytes": 410222592
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 10,
+        "draws": 0,
+        "losses": 30,
+        "score": 0.25,
+        "invalid": 0,
+        "max_step": 0.34653533389791846,
+        "max_game_p99": 0.01892970805056393,
+        "max_rss_bytes": 405110784
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 58,
+        "draws": 0,
+        "losses": 102,
+        "score": 0.3625,
+        "invalid": 0,
+        "max_step": 0.14718750002793968,
+        "max_game_p99": 0.017923542065545917,
+        "max_rss_bytes": 412172288
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 42,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.525,
+        "invalid": 0,
+        "max_step": 0.14693749998696148,
+        "max_game_p99": 0.01097687496803701,
+        "max_rss_bytes": 412172288
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 16,
+        "draws": 0,
+        "losses": 64,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.14718750002793968,
+        "max_game_p99": 0.017923542065545917,
+        "max_rss_bytes": 406388736
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py",
+      "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689",
+      "summary": {
+        "n": 80,
+        "wins": 9,
+        "draws": 38,
+        "losses": 33,
+        "score": 0.35,
+        "invalid": 0,
+        "max_step": 0.19217612501233816,
+        "max_game_p99": 0.01532379211857915,
+        "max_rss_bytes": 412516352
+      },
+      "dp": {
+        "n": 40,
+        "wins": 1,
+        "draws": 38,
+        "losses": 1,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.16784958401694894,
+        "max_game_p99": 0.010239792056381702,
+        "max_rss_bytes": 412516352
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.19217612501233816,
+        "max_game_p99": 0.01532379211857915,
+        "max_rss_bytes": 408371200
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 13,
+        "draws": 74,
+        "losses": 73,
+        "score": 0.3125,
+        "invalid": 0,
+        "max_step": 0.16934249992482364,
+        "max_game_p99": 0.010711792157962918,
+        "max_rss_bytes": 413810688
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 3,
+        "draws": 74,
+        "losses": 3,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.15488887508399785,
+        "max_game_p99": 0.010711792157962918,
+        "max_rss_bytes": 413810688
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 10,
+        "draws": 0,
+        "losses": 70,
+        "score": 0.125,
+        "invalid": 0,
+        "max_step": 0.16934249992482364,
+        "max_game_p99": 0.009658041875809431,
+        "max_rss_bytes": 410468352
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+      "sha256": "ae44d83baf39ae2cf203d3617d0e9d7846d4a8b379b00c3ebd3734f1cfb5fbf3",
+      "summary": {
+        "n": 80,
+        "wins": 27,
+        "draws": 0,
+        "losses": 53,
+        "score": 0.3375,
+        "invalid": 0,
+        "max_step": 0.2926949579268694,
+        "max_game_p99": 0.01768904202617705,
+        "max_rss_bytes": 411074560
+      },
+      "dp": {
+        "n": 40,
+        "wins": 19,
+        "draws": 0,
+        "losses": 21,
+        "score": 0.475,
+        "invalid": 0,
+        "max_step": 0.16168729215860367,
+        "max_game_p99": 0.014620166970416903,
+        "max_rss_bytes": 411074560
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.2926949579268694,
+        "max_game_p99": 0.01768904202617705,
+        "max_rss_bytes": 406044672
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py",
+      "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01",
+      "summary": {
+        "n": 80,
+        "wins": 27,
+        "draws": 0,
+        "losses": 53,
+        "score": 0.3375,
+        "invalid": 0,
+        "max_step": 0.17823254084214568,
+        "max_game_p99": 0.012757416814565659,
+        "max_rss_bytes": 409042944
+      },
+      "dp": {
+        "n": 40,
+        "wins": 19,
+        "draws": 0,
+        "losses": 21,
+        "score": 0.475,
+        "invalid": 0,
+        "max_step": 0.1740190840791911,
+        "max_game_p99": 0.01190133299678564,
+        "max_rss_bytes": 409042944
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.17823254084214568,
+        "max_game_p99": 0.012757416814565659,
+        "max_rss_bytes": 406749184
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py",
+      "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+      "summary": {
+        "n": 80,
+        "wins": 19,
+        "draws": 10,
+        "losses": 51,
+        "score": 0.3,
+        "invalid": 0,
+        "max_step": 0.17912070802412927,
+        "max_game_p99": 0.01906816614791751,
+        "max_rss_bytes": 410419200
+      },
+      "dp": {
+        "n": 40,
+        "wins": 11,
+        "draws": 10,
+        "losses": 19,
+        "score": 0.4,
+        "invalid": 0,
+        "max_step": 0.16429187497124076,
+        "max_game_p99": 0.012979582883417606,
+        "max_rss_bytes": 410419200
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.17912070802412927,
+        "max_game_p99": 0.01906816614791751,
+        "max_rss_bytes": 406634496
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py",
+      "sha256": "939c445771d83901f27478561d0cc3137133e2233b3ef266f26277aa0b2c7714",
+      "summary": {
+        "n": 80,
+        "wins": 14,
+        "draws": 0,
+        "losses": 66,
+        "score": 0.175,
+        "invalid": 0,
+        "max_step": 0.18502229102887213,
+        "max_game_p99": 0.018930749967694283,
+        "max_rss_bytes": 414105600
+      },
+      "dp": {
+        "n": 40,
+        "wins": 10,
+        "draws": 0,
+        "losses": 30,
+        "score": 0.25,
+        "invalid": 0,
+        "max_step": 0.14977966714650393,
+        "max_game_p99": 0.018930749967694283,
+        "max_rss_bytes": 414105600
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 4,
+        "draws": 0,
+        "losses": 36,
+        "score": 0.1,
+        "invalid": 0,
+        "max_step": 0.18502229102887213,
+        "max_game_p99": 0.015851458068937063,
+        "max_rss_bytes": 400228352
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py",
+      "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e",
+      "summary": {
+        "n": 80,
+        "wins": 13,
+        "draws": 0,
+        "losses": 67,
+        "score": 0.1625,
+        "invalid": 0,
+        "max_step": 0.3312718339730054,
+        "max_game_p99": 0.05109308403916657,
+        "max_rss_bytes": 408797184
+      },
+      "dp": {
+        "n": 40,
+        "wins": 7,
+        "draws": 0,
+        "losses": 33,
+        "score": 0.175,
+        "invalid": 0,
+        "max_step": 0.20110845798626542,
+        "max_game_p99": 0.05109308403916657,
+        "max_rss_bytes": 408797184
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 6,
+        "draws": 0,
+        "losses": 34,
+        "score": 0.15,
+        "invalid": 0,
+        "max_step": 0.3312718339730054,
+        "max_game_p99": 0.013282750034704804,
+        "max_rss_bytes": 406863872
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py",
+      "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+      "summary": {
+        "n": 80,
+        "wins": 13,
+        "draws": 0,
+        "losses": 67,
+        "score": 0.1625,
+        "invalid": 0,
+        "max_step": 0.1639089158270508,
+        "max_game_p99": 0.01781679200939834,
+        "max_rss_bytes": 412254208
+      },
+      "dp": {
+        "n": 40,
+        "wins": 7,
+        "draws": 0,
+        "losses": 33,
+        "score": 0.175,
+        "invalid": 0,
+        "max_step": 0.1639089158270508,
+        "max_game_p99": 0.01781679200939834,
+        "max_rss_bytes": 412254208
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 6,
+        "draws": 0,
+        "losses": 34,
+        "score": 0.15,
+        "invalid": 0,
+        "max_step": 0.16205258294939995,
+        "max_game_p99": 0.011295458069071174,
+        "max_rss_bytes": 406175744
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py",
+      "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3",
+      "summary": {
+        "n": 80,
+        "wins": 13,
+        "draws": 0,
+        "losses": 67,
+        "score": 0.1625,
+        "invalid": 0,
+        "max_step": 0.23133750003762543,
+        "max_game_p99": 0.03260508389212191,
+        "max_rss_bytes": 409976832
+      },
+      "dp": {
+        "n": 40,
+        "wins": 7,
+        "draws": 0,
+        "losses": 33,
+        "score": 0.175,
+        "invalid": 0,
+        "max_step": 0.23133750003762543,
+        "max_game_p99": 0.03260508389212191,
+        "max_rss_bytes": 409976832
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 6,
+        "draws": 0,
+        "losses": 34,
+        "score": 0.15,
+        "invalid": 0,
+        "max_step": 0.17864595889113843,
+        "max_game_p99": 0.01593708316795528,
+        "max_rss_bytes": 405323776
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+      "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+      "summary": {
+        "n": 80,
+        "wins": 13,
+        "draws": 0,
+        "losses": 67,
+        "score": 0.1625,
+        "invalid": 0,
+        "max_step": 0.20562041690573096,
+        "max_game_p99": 0.020565041108056903,
+        "max_rss_bytes": 408666112
+      },
+      "dp": {
+        "n": 40,
+        "wins": 7,
+        "draws": 0,
+        "losses": 33,
+        "score": 0.175,
+        "invalid": 0,
+        "max_step": 0.15484029217623174,
+        "max_game_p99": 0.016473375027999282,
+        "max_rss_bytes": 408666112
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 6,
+        "draws": 0,
+        "losses": 34,
+        "score": 0.15,
+        "invalid": 0,
+        "max_step": 0.20562041690573096,
+        "max_game_p99": 0.020565041108056903,
+        "max_rss_bytes": 406372352
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py",
+      "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d",
+      "summary": {
+        "n": 80,
+        "wins": 13,
+        "draws": 0,
+        "losses": 67,
+        "score": 0.1625,
+        "invalid": 0,
+        "max_step": 0.2254117908887565,
+        "max_game_p99": 0.013041249942034483,
+        "max_rss_bytes": 410140672
+      },
+      "dp": {
+        "n": 40,
+        "wins": 7,
+        "draws": 0,
+        "losses": 33,
+        "score": 0.175,
+        "invalid": 0,
+        "max_step": 0.17932000011205673,
+        "max_game_p99": 0.012288874946534634,
+        "max_rss_bytes": 410140672
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 6,
+        "draws": 0,
+        "losses": 34,
+        "score": 0.15,
+        "invalid": 0,
+        "max_step": 0.2254117908887565,
+        "max_game_p99": 0.013041249942034483,
+        "max_rss_bytes": 406913024
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py",
+      "sha256": "2d7227833871cf92e574115dfa2e8a39d0c1304dc63b019789b352c4fea36fce",
+      "summary": {
+        "n": 80,
+        "wins": 12,
+        "draws": 0,
+        "losses": 68,
+        "score": 0.15,
+        "invalid": 0,
+        "max_step": 0.3181767088826746,
+        "max_game_p99": 0.023415209027007222,
+        "max_rss_bytes": 428883968
+      },
+      "dp": {
+        "n": 40,
+        "wins": 4,
+        "draws": 0,
+        "losses": 36,
+        "score": 0.1,
+        "invalid": 0,
+        "max_step": 0.1677335409913212,
+        "max_game_p99": 0.020794125040993094,
+        "max_rss_bytes": 428556288
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.3181767088826746,
+        "max_game_p99": 0.023415209027007222,
+        "max_rss_bytes": 428883968
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py",
+      "sha256": "1d8c562280d9bbd12f34e58dcd0d85a074b27622a3ee4a50ff8904b7b8130c27",
+      "summary": {
+        "n": 80,
+        "wins": 12,
+        "draws": 0,
+        "losses": 68,
+        "score": 0.15,
+        "invalid": 0,
+        "max_step": 0.18962308298796415,
+        "max_game_p99": 0.025749542051926255,
+        "max_rss_bytes": 430194688
+      },
+      "dp": {
+        "n": 40,
+        "wins": 4,
+        "draws": 0,
+        "losses": 36,
+        "score": 0.1,
+        "invalid": 0,
+        "max_step": 0.18962308298796415,
+        "max_game_p99": 0.025749542051926255,
+        "max_rss_bytes": 430194688
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.12422533286735415,
+        "max_game_p99": 0.01700516720302403,
+        "max_rss_bytes": 426409984
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py",
+      "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de",
+      "summary": {
+        "n": 80,
+        "wins": 10,
+        "draws": 0,
+        "losses": 70,
+        "score": 0.125,
+        "invalid": 0,
+        "max_step": 0.1636389170307666,
+        "max_game_p99": 0.01267954078502953,
+        "max_rss_bytes": 409763840
+      },
+      "dp": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.1636389170307666,
+        "max_game_p99": 0.010751834139227867,
+        "max_rss_bytes": 409763840
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.152022915892303,
+        "max_game_p99": 0.01267954078502953,
+        "max_rss_bytes": 405782528
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py",
+      "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+      "summary": {
+        "n": 80,
+        "wins": 10,
+        "draws": 0,
+        "losses": 70,
+        "score": 0.125,
+        "invalid": 0,
+        "max_step": 0.29510441585443914,
+        "max_game_p99": 0.024835417047142982,
+        "max_rss_bytes": 413548544
+      },
+      "dp": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.29510441585443914,
+        "max_game_p99": 0.024835417047142982,
+        "max_rss_bytes": 413548544
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.21418604208156466,
+        "max_game_p99": 0.023984125116840005,
+        "max_rss_bytes": 406241280
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py",
+      "sha256": "f6175fd1bc3850f74185e7a813bb5a87d54e7e15212c874133dafc6e1ce91d34",
+      "summary": {
+        "n": 80,
+        "wins": 7,
+        "draws": 0,
+        "losses": 73,
+        "score": 0.0875,
+        "invalid": 0,
+        "max_step": 0.1746396250091493,
+        "max_game_p99": 0.01778683392331004,
+        "max_rss_bytes": 412123136
+      },
+      "dp": {
+        "n": 40,
+        "wins": 3,
+        "draws": 0,
+        "losses": 37,
+        "score": 0.075,
+        "invalid": 0,
+        "max_step": 0.16962758405134082,
+        "max_game_p99": 0.01778683392331004,
+        "max_rss_bytes": 412123136
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 4,
+        "draws": 0,
+        "losses": 36,
+        "score": 0.1,
+        "invalid": 0,
+        "max_step": 0.1746396250091493,
+        "max_game_p99": 0.015530374832451344,
+        "max_rss_bytes": 407027712
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/order-book-v3-response-improvement/main.py",
+      "sha256": "8045c8872406044cb0b6bf9f80e440f07c250e325618894f4a91141af6d3b6ad",
+      "summary": {
+        "n": 80,
+        "wins": 5,
+        "draws": 0,
+        "losses": 75,
+        "score": 0.0625,
+        "invalid": 0,
+        "max_step": 0.19412775011733174,
+        "max_game_p99": 0.011722541879862547,
+        "max_rss_bytes": 408485888
+      },
+      "dp": {
+        "n": 40,
+        "wins": 3,
+        "draws": 0,
+        "losses": 37,
+        "score": 0.075,
+        "invalid": 0,
+        "max_step": 0.19412775011733174,
+        "max_game_p99": 0.011474667116999626,
+        "max_rss_bytes": 408485888
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.16644500009715557,
+        "max_game_p99": 0.011722541879862547,
+        "max_rss_bytes": 405127168
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py",
+      "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+      "summary": {
+        "n": 80,
+        "wins": 5,
+        "draws": 0,
+        "losses": 75,
+        "score": 0.0625,
+        "invalid": 0,
+        "max_step": 0.15076229092665017,
+        "max_game_p99": 0.017099417047575116,
+        "max_rss_bytes": 410992640
+      },
+      "dp": {
+        "n": 40,
+        "wins": 1,
+        "draws": 0,
+        "losses": 39,
+        "score": 0.025,
+        "invalid": 0,
+        "max_step": 0.14124300004914403,
+        "max_game_p99": 0.017099417047575116,
+        "max_rss_bytes": 410992640
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 4,
+        "draws": 0,
+        "losses": 36,
+        "score": 0.1,
+        "invalid": 0,
+        "max_step": 0.15076229092665017,
+        "max_game_p99": 0.011823375010862947,
+        "max_rss_bytes": 408502272
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py",
+      "sha256": "0957bac0892defe4416cd8fcd774174e7177eef75b9ad4fff6ce184051bcdd75",
+      "summary": {
+        "n": 80,
+        "wins": 5,
+        "draws": 0,
+        "losses": 75,
+        "score": 0.0625,
+        "invalid": 0,
+        "max_step": 0.24783291714265943,
+        "max_game_p99": 0.026592457899823785,
+        "max_rss_bytes": 412516352
+      },
+      "dp": {
+        "n": 40,
+        "wins": 1,
+        "draws": 0,
+        "losses": 39,
+        "score": 0.025,
+        "invalid": 0,
+        "max_step": 0.24783291714265943,
+        "max_game_p99": 0.012961458181962371,
+        "max_rss_bytes": 412516352
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 4,
+        "draws": 0,
+        "losses": 36,
+        "score": 0.1,
+        "invalid": 0,
+        "max_step": 0.2372386660426855,
+        "max_game_p99": 0.026592457899823785,
+        "max_rss_bytes": 405471232
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-hack/main.py",
+      "sha256": "dc5433c7996f3f18bc766083a3b6b0ef22ba290cf917fd680ee41c62b8de734d",
+      "summary": {
+        "n": 80,
+        "wins": 4,
+        "draws": 0,
+        "losses": 76,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.17419645795598626,
+        "max_game_p99": 0.007348167011514306,
+        "max_rss_bytes": 412073984
+      },
+      "dp": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.16166870784945786,
+        "max_game_p99": 0.007348167011514306,
+        "max_rss_bytes": 412073984
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.17419645795598626,
+        "max_game_p99": 0.006065750028938055,
+        "max_rss_bytes": 397459456
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture-utils-v1/main.py",
+      "sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+      "summary": {
+        "n": 80,
+        "wins": 4,
+        "draws": 0,
+        "losses": 76,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.19307679100893438,
+        "max_game_p99": 0.007029499858617783,
+        "max_rss_bytes": 408141824
+      },
+      "dp": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.19307679100893438,
+        "max_game_p99": 0.006957542151212692,
+        "max_rss_bytes": 408141824
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.18487300002016127,
+        "max_game_p99": 0.007029499858617783,
+        "max_rss_bytes": 391970816
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-k0013-v46-advance6/main.py",
+      "sha256": "45628c719dc967f81655c19f70e579c55a5758b9fe75a5fcdad9193eebf6a017",
+      "summary": {
+        "n": 80,
+        "wins": 4,
+        "draws": 0,
+        "losses": 76,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.2144189579412341,
+        "max_game_p99": 0.006790083134546876,
+        "max_rss_bytes": 407650304
+      },
+      "dp": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.15661929198540747,
+        "max_game_p99": 0.006790083134546876,
+        "max_rss_bytes": 407650304
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.2144189579412341,
+        "max_game_p99": 0.006750958971679211,
+        "max_rss_bytes": 393871360
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/a-song-of-ice-and-fire-fixed-flexible/main.py",
+      "sha256": "a16e0e9b40c489972630a0b9d04f30e9c1cab03159fa78676db74277d84d82ab",
+      "summary": {
+        "n": 80,
+        "wins": 3,
+        "draws": 0,
+        "losses": 77,
+        "score": 0.0375,
+        "invalid": 0,
+        "max_step": 0.27674412494525313,
+        "max_game_p99": 0.01717454195022583,
+        "max_rss_bytes": 409255936
+      },
+      "dp": {
+        "n": 40,
+        "wins": 1,
+        "draws": 0,
+        "losses": 39,
+        "score": 0.025,
+        "invalid": 0,
+        "max_step": 0.16362483310513198,
+        "max_game_p99": 0.00975508289411664,
+        "max_rss_bytes": 409255936
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.27674412494525313,
+        "max_game_p99": 0.01717454195022583,
+        "max_rss_bytes": 405848064
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v57-funding-order-invariant/main.py",
+      "sha256": "2ee689fdc58f38b7bf6b80b8d3f48129d19b47201dbee51fdcbd977498a5106f",
+      "summary": {
+        "n": 80,
+        "wins": 3,
+        "draws": 0,
+        "losses": 77,
+        "score": 0.0375,
+        "invalid": 0,
+        "max_step": 0.36880824994295835,
+        "max_game_p99": 0.0103109588380903,
+        "max_rss_bytes": 410681344
+      },
+      "dp": {
+        "n": 40,
+        "wins": 1,
+        "draws": 0,
+        "losses": 39,
+        "score": 0.025,
+        "invalid": 0,
+        "max_step": 0.36481241695582867,
+        "max_game_p99": 0.00930220796726644,
+        "max_rss_bytes": 410681344
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.36880824994295835,
+        "max_game_p99": 0.0103109588380903,
+        "max_rss_bytes": 399441920
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-autonomous-ai-farming-agent/main.py",
+      "sha256": "2993cf9241b467bbfa317cf8ba13216f4f2b49070c5632984eb2704eb88a2435",
+      "summary": {
+        "n": 80,
+        "wins": 3,
+        "draws": 0,
+        "losses": 77,
+        "score": 0.0375,
+        "invalid": 0,
+        "max_step": 0.2664452919270843,
+        "max_game_p99": 0.028557833982631564,
+        "max_rss_bytes": 410435584
+      },
+      "dp": {
+        "n": 40,
+        "wins": 1,
+        "draws": 0,
+        "losses": 39,
+        "score": 0.025,
+        "invalid": 0,
+        "max_step": 0.2664452919270843,
+        "max_game_p99": 0.028557833982631564,
+        "max_rss_bytes": 410435584
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 2,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.05,
+        "invalid": 0,
+        "max_step": 0.19137566699646413,
+        "max_game_p99": 0.009963709162548184,
+        "max_rss_bytes": 398327808
+      }
+    }
+  ],
+  "finalists": [
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+      "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b",
+      "summary": {
+        "n": 80,
+        "wins": 32,
+        "draws": 40,
+        "losses": 8,
+        "score": 0.65,
+        "invalid": 0,
+        "max_step": 0.16479020798578858,
+        "max_game_p99": 0.010786083992570639,
+        "max_rss_bytes": 408207360
+      },
+      "dp": {
+        "n": 40,
+        "wins": 32,
+        "draws": 0,
+        "losses": 8,
+        "score": 0.8,
+        "invalid": 0,
+        "max_step": 0.16479020798578858,
+        "max_game_p99": 0.010786083992570639,
+        "max_rss_bytes": 408207360
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 0,
+        "draws": 40,
+        "losses": 0,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.14797458401881158,
+        "max_game_p99": 0.0098365000449121,
+        "max_rss_bytes": 395001856
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 74,
+        "draws": 72,
+        "losses": 14,
+        "score": 0.6875,
+        "invalid": 0,
+        "max_step": 0.19150283304043114,
+        "max_game_p99": 0.01193616702221334,
+        "max_rss_bytes": 409436160
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 70,
+        "draws": 0,
+        "losses": 10,
+        "score": 0.875,
+        "invalid": 0,
+        "max_step": 0.17274945811368525,
+        "max_game_p99": 0.01193616702221334,
+        "max_rss_bytes": 409436160
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 4,
+        "draws": 72,
+        "losses": 4,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.19150283304043114,
+        "max_game_p99": 0.008739041863009334,
+        "max_rss_bytes": 396525568
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/cha22-agent/main.py",
+      "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "summary": {
+        "n": 80,
+        "wins": 32,
+        "draws": 40,
+        "losses": 8,
+        "score": 0.65,
+        "invalid": 0,
+        "max_step": 0.19682062487117946,
+        "max_game_p99": 0.01170558319427073,
+        "max_rss_bytes": 410075136
+      },
+      "dp": {
+        "n": 40,
+        "wins": 32,
+        "draws": 0,
+        "losses": 8,
+        "score": 0.8,
+        "invalid": 0,
+        "max_step": 0.19682062487117946,
+        "max_game_p99": 0.01170558319427073,
+        "max_rss_bytes": 410075136
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 0,
+        "draws": 40,
+        "losses": 0,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.1965184579603374,
+        "max_game_p99": 0.009659125003963709,
+        "max_rss_bytes": 394559488
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 74,
+        "draws": 72,
+        "losses": 14,
+        "score": 0.6875,
+        "invalid": 0,
+        "max_step": 0.18080545798875391,
+        "max_game_p99": 0.013152792118489742,
+        "max_rss_bytes": 410124288
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 70,
+        "draws": 0,
+        "losses": 10,
+        "score": 0.875,
+        "invalid": 0,
+        "max_step": 0.1680352077819407,
+        "max_game_p99": 0.010094207944348454,
+        "max_rss_bytes": 410124288
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 4,
+        "draws": 72,
+        "losses": 4,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.18080545798875391,
+        "max_game_p99": 0.013152792118489742,
+        "max_rss_bytes": 394887168
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/the-2965-master-hybrid-engine/main.py",
+      "sha256": "cda529cb6b359fc4a9ab124d4d7950d5912bd5de846dcec4be70ca83b7150b2d",
+      "summary": {
+        "n": 80,
+        "wins": 37,
+        "draws": 0,
+        "losses": 43,
+        "score": 0.4625,
+        "invalid": 0,
+        "max_step": 0.159489416051656,
+        "max_game_p99": 0.012251875130459666,
+        "max_rss_bytes": 415760384
+      },
+      "dp": {
+        "n": 40,
+        "wins": 25,
+        "draws": 0,
+        "losses": 15,
+        "score": 0.625,
+        "invalid": 0,
+        "max_step": 0.159489416051656,
+        "max_game_p99": 0.011475291103124619,
+        "max_rss_bytes": 415760384
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 12,
+        "draws": 0,
+        "losses": 28,
+        "score": 0.3,
+        "invalid": 0,
+        "max_step": 0.1562897078692913,
+        "max_game_p99": 0.012251875130459666,
+        "max_rss_bytes": 407797760
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 77,
+        "draws": 0,
+        "losses": 83,
+        "score": 0.48125,
+        "invalid": 0,
+        "max_step": 0.18254137504845858,
+        "max_game_p99": 0.017050999915227294,
+        "max_rss_bytes": 410943488
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 60,
+        "draws": 0,
+        "losses": 20,
+        "score": 0.75,
+        "invalid": 0,
+        "max_step": 0.18254137504845858,
+        "max_game_p99": 0.017050999915227294,
+        "max_rss_bytes": 410943488
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 17,
+        "draws": 0,
+        "losses": 63,
+        "score": 0.2125,
+        "invalid": 0,
+        "max_step": 0.17745049996301532,
+        "max_game_p99": 0.01236549997702241,
+        "max_rss_bytes": 406454272
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+      "sha256": "8378f73c82db7624ce5d0369cf896aa0761a662af147b119f67254f1f8634c56",
+      "summary": {
+        "n": 80,
+        "wins": 31,
+        "draws": 0,
+        "losses": 49,
+        "score": 0.3875,
+        "invalid": 0,
+        "max_step": 0.34653533389791846,
+        "max_game_p99": 0.023226625053212047,
+        "max_rss_bytes": 410222592
+      },
+      "dp": {
+        "n": 40,
+        "wins": 21,
+        "draws": 0,
+        "losses": 19,
+        "score": 0.525,
+        "invalid": 0,
+        "max_step": 0.21014320803806186,
+        "max_game_p99": 0.023226625053212047,
+        "max_rss_bytes": 410222592
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 10,
+        "draws": 0,
+        "losses": 30,
+        "score": 0.25,
+        "invalid": 0,
+        "max_step": 0.34653533389791846,
+        "max_game_p99": 0.01892970805056393,
+        "max_rss_bytes": 405110784
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 58,
+        "draws": 0,
+        "losses": 102,
+        "score": 0.3625,
+        "invalid": 0,
+        "max_step": 0.14718750002793968,
+        "max_game_p99": 0.017923542065545917,
+        "max_rss_bytes": 412172288
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 42,
+        "draws": 0,
+        "losses": 38,
+        "score": 0.525,
+        "invalid": 0,
+        "max_step": 0.14693749998696148,
+        "max_game_p99": 0.01097687496803701,
+        "max_rss_bytes": 412172288
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 16,
+        "draws": 0,
+        "losses": 64,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.14718750002793968,
+        "max_game_p99": 0.017923542065545917,
+        "max_rss_bytes": 406388736
+      }
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py",
+      "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689",
+      "summary": {
+        "n": 80,
+        "wins": 9,
+        "draws": 38,
+        "losses": 33,
+        "score": 0.35,
+        "invalid": 0,
+        "max_step": 0.19217612501233816,
+        "max_game_p99": 0.01532379211857915,
+        "max_rss_bytes": 412516352
+      },
+      "dp": {
+        "n": 40,
+        "wins": 1,
+        "draws": 38,
+        "losses": 1,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.16784958401694894,
+        "max_game_p99": 0.010239792056381702,
+        "max_rss_bytes": 412516352
+      },
+      "newmeta": {
+        "n": 40,
+        "wins": 8,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.2,
+        "invalid": 0,
+        "max_step": 0.19217612501233816,
+        "max_game_p99": 0.01532379211857915,
+        "max_rss_bytes": 408371200
+      },
+      "confirmation": {
+        "n": 160,
+        "wins": 13,
+        "draws": 74,
+        "losses": 73,
+        "score": 0.3125,
+        "invalid": 0,
+        "max_step": 0.16934249992482364,
+        "max_game_p99": 0.010711792157962918,
+        "max_rss_bytes": 413810688
+      },
+      "confirmation_dp": {
+        "n": 80,
+        "wins": 3,
+        "draws": 74,
+        "losses": 3,
+        "score": 0.5,
+        "invalid": 0,
+        "max_step": 0.15488887508399785,
+        "max_game_p99": 0.010711792157962918,
+        "max_rss_bytes": 413810688
+      },
+      "confirmation_newmeta": {
+        "n": 80,
+        "wins": 10,
+        "draws": 0,
+        "losses": 70,
+        "score": 0.125,
+        "invalid": 0,
+        "max_step": 0.16934249992482364,
+        "max_game_p99": 0.009658041875809431,
+        "max_rss_bytes": 410468352
+      }
+    }
+  ],
+  "parent": "PENDING_CALIBRATION"
+}

@@ -1,0 +1,240 @@
+{
+ "verdict": "SUCCESS",
+ "selected": "v171",
+ "bootstrap": {
+  "draws": 2000,
+  "seed": 23023,
+  "unit": "opponent x seed, both seats averaged"
+ },
+ "jobs_sha256": "b0e58b9a5c68c65109f09cb584a64ec4b104c8741730581f553e63644ead41e3",
+ "games_sha256": "8a8bbe0f8c4865d80851107ec88bbdd97e18341417ac0847020ca89fc7297a49",
+ "results": [
+  {
+   "vid": "v171",
+   "A": {
+    "n": 400,
+    "W": 260,
+    "D": 126,
+    "L": 14,
+    "score": 0.8075,
+    "wilson99_lower": 0.7518675320912463,
+    "pass": true
+   },
+   "B": {
+    "paired_games": 200,
+    "seed_clusters": 100,
+    "delta": 0.025,
+    "bootstrap95_lower": -0.005,
+    "pass": true
+   },
+   "C": {
+    "files": 14,
+    "deltas": {
+     "PUB00": 0.05,
+     "PUB01": 0.0,
+     "PUB02": 0.0,
+     "PUB03": 0.1,
+     "PUB04": 0.25,
+     "PUB05": 0.0,
+     "PUB06": 0.0,
+     "PUB07": 0.0,
+     "PUB08": 0.0,
+     "PUB09": 0.0,
+     "PUB10": 0.0,
+     "PUB11": 0.0,
+     "PUB12": 0.0,
+     "PUB13": 0.1
+    },
+    "bad_files": [],
+    "pass": true
+   },
+   "D": {
+    "paired_games": 480,
+    "opponent_seed_clusters": 240,
+    "delta": 0.03125,
+    "bootstrap95_lower": 0.010416666666666666,
+    "pass": true
+   },
+   "E": {
+    "games": 880,
+    "invalid": 0,
+    "max_step": 0.42753454204648733,
+    "pass": true
+   },
+   "passed": true
+  },
+  {
+   "vid": "v173",
+   "A": {
+    "n": 400,
+    "W": 220,
+    "D": 96,
+    "L": 84,
+    "score": 0.67,
+    "wilson99_lower": 0.607094582327803,
+    "pass": true
+   },
+   "B": {
+    "paired_games": 200,
+    "seed_clusters": 100,
+    "delta": 0.0,
+    "bootstrap95_lower": -0.03,
+    "pass": true
+   },
+   "C": {
+    "files": 14,
+    "deltas": {
+     "PUB00": -0.05,
+     "PUB01": 0.0,
+     "PUB02": 0.0,
+     "PUB03": 0.0,
+     "PUB04": 0.35,
+     "PUB05": 0.0,
+     "PUB06": 0.0,
+     "PUB07": 0.0,
+     "PUB08": 0.0,
+     "PUB09": 0.0,
+     "PUB10": 0.0,
+     "PUB11": 0.0,
+     "PUB12": 0.0,
+     "PUB13": 0.0
+    },
+    "bad_files": [],
+    "pass": true
+   },
+   "D": {
+    "paired_games": 480,
+    "opponent_seed_clusters": 240,
+    "delta": 0.0125,
+    "bootstrap95_lower": -0.004166666666666667,
+    "pass": true
+   },
+   "E": {
+    "games": 880,
+    "invalid": 0,
+    "max_step": 0.5011567499022931,
+    "pass": false
+   },
+   "passed": false
+  },
+  {
+   "vid": "v111",
+   "A": {
+    "n": 400,
+    "W": 334,
+    "D": 0,
+    "L": 66,
+    "score": 0.835,
+    "wilson99_lower": 0.7818027615510471,
+    "pass": true
+   },
+   "B": {
+    "paired_games": 200,
+    "seed_clusters": 100,
+    "delta": 0.02,
+    "bootstrap95_lower": -0.045,
+    "pass": true
+   },
+   "C": {
+    "files": 14,
+    "deltas": {
+     "PUB00": 0.0,
+     "PUB01": -0.25,
+     "PUB02": -0.25,
+     "PUB03": 0.15,
+     "PUB04": 0.25,
+     "PUB05": -0.05,
+     "PUB06": -0.4,
+     "PUB07": -0.25,
+     "PUB08": -0.4,
+     "PUB09": -0.3,
+     "PUB10": -0.4,
+     "PUB11": -0.2,
+     "PUB12": -0.2,
+     "PUB13": -0.3
+    },
+    "bad_files": [
+     "PUB01",
+     "PUB02",
+     "PUB06",
+     "PUB07",
+     "PUB08",
+     "PUB09",
+     "PUB10",
+     "PUB11",
+     "PUB12",
+     "PUB13"
+    ],
+    "pass": false
+   },
+   "D": {
+    "paired_games": 480,
+    "opponent_seed_clusters": 240,
+    "delta": -0.1,
+    "bootstrap95_lower": -0.15625,
+    "pass": false
+   },
+   "E": {
+    "games": 880,
+    "invalid": 0,
+    "max_step": 0.381399333011359,
+    "pass": true
+   },
+   "passed": false
+  },
+  {
+   "vid": "v074",
+   "A": {
+    "n": 400,
+    "W": 180,
+    "D": 196,
+    "L": 24,
+    "score": 0.695,
+    "wilson99_lower": 0.6329171949450065,
+    "pass": true
+   },
+   "B": {
+    "paired_games": 200,
+    "seed_clusters": 100,
+    "delta": 0.0,
+    "bootstrap95_lower": -0.03,
+    "pass": true
+   },
+   "C": {
+    "files": 14,
+    "deltas": {
+     "PUB00": 0.0,
+     "PUB01": 0.0,
+     "PUB02": 0.0,
+     "PUB03": 0.0,
+     "PUB04": 0.15,
+     "PUB05": 0.0,
+     "PUB06": 0.0,
+     "PUB07": 0.0,
+     "PUB08": 0.0,
+     "PUB09": 0.0,
+     "PUB10": 0.0,
+     "PUB11": 0.0,
+     "PUB12": 0.0,
+     "PUB13": 0.1
+    },
+    "bad_files": [],
+    "pass": true
+   },
+   "D": {
+    "paired_games": 480,
+    "opponent_seed_clusters": 240,
+    "delta": 0.010416666666666666,
+    "bootstrap95_lower": -0.00625,
+    "pass": true
+   },
+   "E": {
+    "games": 880,
+    "invalid": 0,
+    "max_step": 0.549854083918035,
+    "pass": false
+   },
+   "passed": false
+  }
+ ]
+}

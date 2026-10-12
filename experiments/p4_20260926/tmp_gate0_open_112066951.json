@@ -1,0 +1,45 @@
+{
+  "path": "experiments/search_20260925/historical/EXP016/main.py",
+  "sha256": "9d58536d37d02d2587072cd7465fb0244eb3e558cc72521d5c5ad07a94876013",
+  "opponent": "experiments/p4_20260926/tapes/fa038de27f5272c3e6f3-0.py",
+  "opponent_sha256": "7f93844a6dff427e535e2f4408524d7bb29dae40eeaf864aa6ea8da990b6d89e",
+  "seed": 1489016719,
+  "seat": 1,
+  "rewards": [
+    90966.0,
+    92241.0
+  ],
+  "margin": 1275.0,
+  "score": 1.0,
+  "statuses": [
+    "DONE",
+    "DONE"
+  ],
+  "steps": 720,
+  "timing": [
+    {
+      "calls": 719,
+      "max_seconds": 0.04259712481871247,
+      "p99_seconds": 0.0061105829663574696,
+      "total_seconds": 0.8620975117664784
+    },
+    {
+      "calls": 719,
+      "max_seconds": 0.00030562514439225197,
+      "p99_seconds": 0.0001379579771310091,
+      "total_seconds": 0.014595310902222991
+    }
+  ],
+  "exceptions": [
+    [],
+    []
+  ],
+  "caught_errors": [],
+  "identity": null,
+  "wall_seconds": 5.540845416951925,
+  "stdout": "",
+  "action_sha256": [
+    "e9775671b2c92ed376e772efb8c2ac86c9da690a9250b0b7630b69885a3fad9e",
+    "d6af9ac5587d15e65ec39dd1a21866015ca025e417c993d6fdf3a9f8a7df2ae0"
+  ]
+}

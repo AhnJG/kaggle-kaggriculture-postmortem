@@ -1,0 +1,34 @@
+{
+  "approved": "human 09-26",
+  "workers": 5,
+  "submission": "forbidden",
+  "proposal": {
+    "path": "coordination/proposals/claude/20260926-EXP024-ROUND2-CODEX.md",
+    "sha256": "0ec28add627955589faf00aa5bd68f5b3e671433e4508bdd8ce52762c83ea1ec"
+  },
+  "parent": {
+    "path": "releases/mirror-screen-v171/main.py",
+    "sha256": "496460f81869ebbd1bf80f3dd3c9440ef72c41819a831ee39a16f180d7c0bd5d"
+  },
+  "o1": {
+    "path": "releases/public-newmeta-127ed3e6-exact/main.py",
+    "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652"
+  },
+  "o2": {
+    "path": "releases/mirror-screen-v171/main.py",
+    "sha256": "496460f81869ebbd1bf80f3dd3c9440ef72c41819a831ee39a16f180d7c0bd5d"
+  },
+  "engine": {
+    "version": "1.32.7",
+    "path": "~/kaggle/Kaggriculture/.venv/lib/python3.13/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "variants": {
+    "path": "experiments/exp024_round2/variants.json",
+    "sha256": "bb40a5dfe46639a8dcb32ca1027f60db835f3ee2c7b57c0e7e1e3c91e79af00d"
+  },
+  "jobs_step0": {
+    "path": "experiments/exp024_round2/jobs-step0.json",
+    "sha256": "3b8f387f35275117aeb5e5ac2afa9125e0f5ed96653f4d91bcbbaa800c6e9ca2"
+  }
+}

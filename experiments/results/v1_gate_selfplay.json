@@ -1,0 +1,200 @@
+[
+  {
+    "seed": 7,
+    "agents": [
+      "main.py",
+      "main.py"
+    ],
+    "rewards": [
+      18872,
+      18872
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 4.588,
+    "agent_ms": null,
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 5758.0,
+            "avg_price": 20.638
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 21614.0,
+            "avg_price": 19.56
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 5758.0,
+            "avg_price": 20.638
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 21614.0,
+            "avg_price": 19.56
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 11,
+    "agents": [
+      "main.py",
+      "main.py"
+    ],
+    "rewards": [
+      18320,
+      18320
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 4.407,
+    "agent_ms": null,
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 5000.0,
+            "avg_price": 17.921
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 21820.0,
+            "avg_price": 19.747
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 5000.0,
+            "avg_price": 17.921
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 21820.0,
+            "avg_price": 19.747
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 13,
+    "agents": [
+      "main.py",
+      "main.py"
+    ],
+    "rewards": [
+      18601,
+      18601
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 4.447,
+    "agent_ms": null,
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 5296.0,
+            "avg_price": 18.982
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 21805.0,
+            "avg_price": 19.733
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 1384,
+        "sell_filled": 1384,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 279,
+            "revenue": 5296.0,
+            "avg_price": 18.982
+          },
+          "WHEAT": {
+            "units": 1105,
+            "revenue": 21805.0,
+            "avg_price": 19.733
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "experiment_id": "EXP-021-MIRROR-EDGE",
+  "frozen_at": "2026-09-26T00:07:57+09:00",
+  "card": {
+    "path": "coordination/proposals/claude/20260925-EXP021-MIRROR-EDGE-CODEX.md",
+    "sha256": "9ad97acf0d8bc766f3d0e1691fd15872f3670373d64236850508fa27124f6c62"
+  },
+  "git_head_at_freeze": "20ce94cb35e92fc141846ce7c2bae713abd45f33",
+  "workers": 5,
+  "engine": {
+    "version": "1.32.7",
+    "path": ".venv/lib/python3.13/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "rng_contract": "Do not wrap or modify engine/RNG. End-of-day weed generation consumes one shared RNG before shop unlock; different planting can change later shop order. Comparisons remain same-seed and same-seat, both seats, with empirical paired differences clustered by seed."
+  },
+  "inputs": {
+    "parent": {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+      "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"
+    },
+    "opponent_o": {
+      "path": "releases/public-newmeta-127ed3e6-exact/main.py",
+      "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "hosted_submission_id": 56549720
+    },
+    "dp_0924": {
+      "path": "releases/public-tetsutani-demand-preserving-0924-exact/main.py",
+      "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "hosted_submission_id": 56518910
+    },
+    "public_guard_definition": "Existing SEARCH-LOOP section 4 implementation: eligible calibration public pool, ranked by maximum lineage votes across 20260922-20260925 descending, then sha256 descending; first 15.",
+    "public_guard_15": [
+      {"votes": 115, "path": "releases/public-newmeta-127ed3e6-exact/main.py", "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652"},
+      {"votes": 107, "path": "releases/public-tetsutani-demand-preserving-0924-exact/main.py", "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a"},
+      {"votes": 76, "path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py", "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd"},
+      {"votes": 66, "path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py", "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"},
+      {"votes": 66, "path": "analysis/daily_scan/20260922/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py", "sha256": "0565e742904024379315cfc4d3228616a214c7939d0c7804f494bc4e3d4700c7"},
+      {"votes": 65, "path": "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py", "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689"},
+      {"votes": 59, "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py", "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"},
+      {"votes": 59, "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py", "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd"},
+      {"votes": 49, "path": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py", "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01"},
+      {"votes": 41, "path": "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py", "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3"},
+      {"votes": 35, "path": "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py", "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35"},
+      {"votes": 12, "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py", "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d"},
+      {"votes": 9, "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py", "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de"},
+      {"votes": 9, "path": "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py", "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f"},
+      {"votes": 7, "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py", "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e"}
+    ]
+  },
+  "arms": {
+    "H1a": {"change": "_RACE_HORIZON_MIRROR = 32", "activation": "step 1 cash-equality mirror detection only"},
+    "H1b": {"change": "_RACE_HORIZON_MIRROR = 40", "activation": "step 1 cash-equality mirror detection only"},
+    "H2": {"change": "decrement the first step-0 SELL order by one unit; after parent step-1 processing, detect rival_money = own_money + forfeited step-0 quote within 0.5 and set _RACE_STATE[player].level = 24", "activation": "step-0 decrement for every opponent; mirror mode only on adjusted cash detection"},
+    "H3": {"change": "_RACE_HORIZON_ESCALATED = 32", "activation": "clone detection followed by race-lost escalation only"},
+    "H4": {"change": "on mirror detection at step 717 replace market orders using the parent's terminal liquidation rule over projected shed; parent step-718 behavior remains", "activation": "mirror detection only"}
+  },
+  "telemetry": {
+    "smoke": "Before the remainder of Stage 1, run parent and every arm against O at seed 5000 in both seats. These 12 games are included in Stage 1 and are not extra samples.",
+    "common": ["wrapper_calls", "wrapper_errors", "race_mirror", "race_clone_turns", "race_horizon_turns", "race_lost_races", "race_escalations"],
+    "H1a_H1b": ["mirror_detected_games", "horizon_32_or_40_turns"],
+    "H2": ["step0_sell_units_removed", "adjusted_mirror_detected_games", "first_turn_cash_difference", "level24_set_count"],
+    "H3": ["escalated_32_set_count", "horizon_32_turns"],
+    "H4": ["step717_liquidation_games", "step717_sell_units"],
+    "smoke_pass": "No candidate-side invalid or wrapper error; each arm-specific mutation counter is positive across its two games. H2 additionally requires absolute first-turn cash difference >= 1 in each game. Parent requires two valid games and exposed race telemetry."
+  },
+  "validity": {
+    "invalid": "candidate/parent-side exception, candidate/parent-side caught error counter, candidate/parent-side timeout, steps != 720, or either final status != DONE",
+    "opponent_caught_errors": "record separately; do not invalidate and do not exclude from adjudication",
+    "runtime": "candidate/parent-side calls only; across every card game max step < 0.5 seconds and empirical p99 over all calls < 0.10 seconds; zero candidate/parent exceptions",
+    "timeout_detection": "worker subprocess timeout or engine non-DONE status; either is invalid"
+  },
+  "statistics": {
+    "score": "win=1, draw=0.5, loss=0 from our seat",
+    "paired_unit": "For parent-vs-arm comparisons, average both seats within each seed, then compute empirical paired differences across seeds.",
+    "paired_se": "sample standard deviation of seed-level paired differences divided by sqrt(number of seeds); no fixed-environment variance formula",
+    "paired_lower95": "mean paired difference minus t_(0.975, n-1) times paired SE",
+    "wilson_primary": "99% Wilson lower bound with z=2.576 over game scores, treating a draw as half success via effective successes wins + 0.5*draws, as required by the card's 5-arm correction"
+  },
+  "stages": {
+    "stage1": {
+      "opponent": "opponent_o",
+      "seeds": [5000, 5049],
+      "seats": [0, 1],
+      "games_per_agent": 100,
+      "total_games": 600,
+      "baseline_stop": "parent score rate outside inclusive [0.45, 0.55]",
+      "arm_pass": "score rate >= 0.60; only passing arms enter Stage 2",
+      "no_passing_arms": "FAIL and no Stage 2. The card's narrower all-arms-below-0.55 statement is recorded but does not relax the explicit >=0.60 advancement threshold."
+    },
+    "stage2": {
+      "primary_o": {"seeds": [5050, 5249], "seats": [0, 1], "games_per_arm": 400, "pass": "99% Wilson lower bound > 0.55"},
+      "dp_noninferiority": {"seeds": [5250, 5349], "seats": [0, 1], "games_per_agent": 200, "paired_parent": true, "pass": "paired delta score-rate 95% lower bound > -0.05"},
+      "public_guard": {"seeds": [5350, 5359], "seats": [0, 1], "games_per_file_per_agent": 20, "files": 15, "games_per_arm_including_parent_pair": 600, "pass": "zero files with arm score rate more than 0.10 below parent"},
+      "hosted_panel": {"source": "P4 source A closed-loop hosted seed and seat", "pass": "mean paired delta-margin 95% lower bound > -(parent mean absolute margin * 0.05)", "if_unavailable": "N/A and excluded from adjudication"},
+      "activation": {"nonclone_scope": "DP plus the 15 guard files, excluding any opponent whose sha256 equals O", "pass_H1a_H1b_H2_H4": "mirror activation rate <= 0.02"},
+      "runtime": "all card games satisfy frozen runtime validity"
+    },
+    "stage3": {
+      "condition": "If at least two arms pass every Stage 2 criterion, create exactly one low-interference combination and rerun the full Stage 2 criteria on seeds 5400-5599 as specified by the card.",
+      "stop_if_choice_not_determined": "If more than one low-interference combination is possible and the card does not determine which one, STOP and report before creating or running a combination."
+    },
+    "final_confirmation": {
+      "seeds": [5600, 5799],
+      "seats": [0, 1],
+      "games": 400,
+      "opponent": "opponent_o",
+      "selection": "highest Stage 2 primary lower bound; tie-break by larger DP noninferiority delta",
+      "winner_curse_warning": "point estimate more than 0.05 below Stage 2 point estimate; warning only, verdict unchanged"
+    }
+  },
+  "forbidden": [
+    "submission",
+    "Kaggle download",
+    "seeds 9000-9599",
+    "tape-holdout-policy CP1/CP2 episodes",
+    "BOARD/KILLS/HYPOTHESES direct edits",
+    "writes under experiments/search_20260925",
+    "search-loop resume or launchd manipulation",
+    "post-result threshold, seed, or sample changes",
+    "engine or RNG wrapper"
+  ]
+}

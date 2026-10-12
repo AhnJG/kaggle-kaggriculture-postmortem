@@ -1,0 +1,17 @@
+{
+  "reason": "INFRA-BUG-001 nested wrapper repair before valid Screen",
+  "approved_scope": "proposal permits infrastructure bug repair with record",
+  "workers": 5,
+  "submission": "forbidden",
+  "proposal_sha256": "0ec28add627955589faf00aa5bd68f5b3e671433e4508bdd8ce52762c83ea1ec",
+  "parent_sha256": "496460f81869ebbd1bf80f3dd3c9440ef72c41819a831ee39a16f180d7c0bd5d",
+  "o1_sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "gen_sha256": "1b8c5df66457a4c0971006365e4f4674fd5434fdf3970634cdb786eb97f720e8",
+  "runner_sha256": "d6e5b4790a573020a6dce5ea3800e789511393d5c5939c81a1f3381c3c3c93fa",
+  "variants_sha256": "61ef032436fa20bc2e2938bac552ea7efec66d8eb8ea4fbc3405e24dc277f8a1",
+  "mutation_specs": 186,
+  "seeds": [8000, 8004],
+  "seats": [0, 1],
+  "opponents": ["O1-127ed3e6", "O2-v171"]
+}

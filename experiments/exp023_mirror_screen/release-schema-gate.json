@@ -1,0 +1,32 @@
+{
+ "candidate_sha256": "496460f81869ebbd1bf80f3dd3c9440ef72c41819a831ee39a16f180d7c0bd5d",
+ "seed": 2300,
+ "rows": [
+  {
+   "seat": 0,
+   "calls": 719,
+   "schema_errors": 0,
+   "hands_length_mismatches": 0,
+   "statuses": [
+    "DONE",
+    "DONE"
+   ],
+   "steps": 720
+  },
+  {
+   "seat": 1,
+   "calls": 719,
+   "schema_errors": 0,
+   "hands_length_mismatches": 0,
+   "statuses": [
+    "DONE",
+    "DONE"
+   ],
+   "steps": 720
+  }
+ ],
+ "calls": 1438,
+ "schema_errors": 0,
+ "hands_length_mismatches": 0,
+ "passed": true
+}

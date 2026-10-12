@@ -1,0 +1,30 @@
+{
+  "opponent:BUY_THEN_SELL": {
+    "steps": 32,
+    "sell_filled": 376,
+    "buy_filled": 374,
+    "net_cash": 400,
+    "concurrent_other_wheat_sell_steps": 25
+  },
+  "d157:BUY_THEN_SELL": {
+    "steps": 44,
+    "sell_filled": 202,
+    "buy_filled": 387,
+    "net_cash": -6258,
+    "concurrent_other_wheat_sell_steps": 29
+  },
+  "opponent:SELL_THEN_BUY": {
+    "steps": 67,
+    "sell_filled": 925,
+    "buy_filled": 1461,
+    "net_cash": -22337,
+    "concurrent_other_wheat_sell_steps": 33
+  },
+  "d157:SELL_THEN_BUY": {
+    "steps": 39,
+    "sell_filled": 182,
+    "buy_filled": 261,
+    "net_cash": -2649,
+    "concurrent_other_wheat_sell_steps": 34
+  }
+}

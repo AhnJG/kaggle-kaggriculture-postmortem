@@ -1,0 +1,76 @@
+{
+ "stage": "stage2",
+ "baseline": {
+  "score": 0.3875,
+  "margin": -46.3125,
+  "n": 160
+ },
+ "selected": [
+  "w067",
+  "w129",
+  "w060",
+  "w034"
+ ],
+ "results": [
+  {
+   "vid": "w067",
+   "n": 160,
+   "invalid": 0,
+   "no_effect": false,
+   "score": 0.78125,
+   "dscore": 0.39375,
+   "dmargin": 431.7375,
+   "max_step": 0.19216675008647144,
+   "dscore_lower95": 0.315625,
+   "pass": true
+  },
+  {
+   "vid": "w129",
+   "n": 160,
+   "invalid": 0,
+   "no_effect": false,
+   "score": 0.534375,
+   "dscore": 0.146875,
+   "dmargin": 145.3125,
+   "max_step": 0.18681620806455612,
+   "dscore_lower95": 0.09375,
+   "pass": true
+  },
+  {
+   "vid": "w060",
+   "n": 160,
+   "invalid": 0,
+   "no_effect": false,
+   "score": 0.4375,
+   "dscore": 0.05,
+   "dmargin": 65.55625,
+   "max_step": 0.19216350000351667,
+   "dscore_lower95": 0.0125,
+   "pass": true
+  },
+  {
+   "vid": "w034",
+   "n": 160,
+   "invalid": 0,
+   "no_effect": false,
+   "score": 0.41875,
+   "dscore": 0.03125,
+   "dmargin": 22.825,
+   "max_step": 0.22570804203860462,
+   "dscore_lower95": 0.00625,
+   "pass": true
+  },
+  {
+   "vid": "w048",
+   "n": 160,
+   "invalid": 0,
+   "no_effect": false,
+   "score": 0.4125,
+   "dscore": 0.025,
+   "dmargin": 12.35625,
+   "max_step": 0.18762604193761945,
+   "dscore_lower95": -0.01875,
+   "pass": false
+  }
+ ]
+}

@@ -1,0 +1,3042 @@
+[
+  {
+    "seed": 1000,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      29650,
+      29650
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.292,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1487.0,
+        1487.0,
+        3.0,
+        3.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        332.0,
+        866.0,
+        801.0,
+        801.0,
+        3880.0,
+        7426.0,
+        10801.0,
+        12525.0,
+        16264.0,
+        18233.0,
+        20079.0,
+        20739.0,
+        22082.0,
+        23394.0,
+        24108.0,
+        24834.0,
+        25038.0,
+        27252.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1487.0,
+        1487.0,
+        3.0,
+        3.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        332.0,
+        866.0,
+        801.0,
+        801.0,
+        3880.0,
+        7426.0,
+        10801.0,
+        12525.0,
+        16264.0,
+        18233.0,
+        20079.0,
+        20739.0,
+        22082.0,
+        23394.0,
+        24108.0,
+        24834.0,
+        25038.0,
+        27252.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 215.0,
+            "avg_price": 35.833
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11889.0,
+            "avg_price": 237.78
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12305.0,
+            "avg_price": 20.44
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 215.0,
+            "avg_price": 35.833
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11889.0,
+            "avg_price": 237.78
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12305.0,
+            "avg_price": 20.44
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1001,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      31271,
+      31271
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.338,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1487.0,
+        1487.0,
+        3.0,
+        3.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        332.0,
+        866.0,
+        840.0,
+        840.0,
+        3988.0,
+        7623.0,
+        11107.0,
+        12915.0,
+        16825.0,
+        18881.0,
+        20933.0,
+        21687.0,
+        23195.0,
+        24507.0,
+        25293.0,
+        26130.0,
+        26334.0,
+        28706.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1487.0,
+        1487.0,
+        3.0,
+        3.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        332.0,
+        866.0,
+        840.0,
+        840.0,
+        3988.0,
+        7623.0,
+        11107.0,
+        12915.0,
+        16825.0,
+        18881.0,
+        20933.0,
+        21687.0,
+        23195.0,
+        24507.0,
+        25293.0,
+        26130.0,
+        26334.0,
+        28706.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 215.0,
+            "avg_price": 35.833
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 13470.0,
+            "avg_price": 269.4
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12345.0,
+            "avg_price": 20.507
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 215.0,
+            "avg_price": 35.833
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 13470.0,
+            "avg_price": 269.4
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12345.0,
+            "avg_price": 20.507
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1002,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      29796,
+      29796
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.281,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        424.0,
+        3208.0,
+        6021.0,
+        10201.0,
+        11204.0,
+        15768.0,
+        17038.0,
+        19674.0,
+        20813.0,
+        21934.0,
+        22436.0,
+        23870.0,
+        25036.0,
+        25036.0,
+        26911.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        424.0,
+        3208.0,
+        6021.0,
+        10201.0,
+        11204.0,
+        15768.0,
+        17038.0,
+        19674.0,
+        20813.0,
+        21934.0,
+        22436.0,
+        23870.0,
+        25036.0,
+        25036.0,
+        26911.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 12706.0,
+            "avg_price": 254.12
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11315.0,
+            "avg_price": 20.573
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 12706.0,
+            "avg_price": 254.12
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11315.0,
+            "avg_price": 20.573
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1003,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      29973,
+      29973
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.303,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        813.0,
+        813.0,
+        3912.0,
+        7494.0,
+        10882.0,
+        12610.0,
+        16369.0,
+        18355.0,
+        20201.0,
+        20867.0,
+        22228.0,
+        23540.0,
+        24269.0,
+        25025.0,
+        25229.0,
+        27501.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        813.0,
+        813.0,
+        3912.0,
+        7494.0,
+        10882.0,
+        12610.0,
+        16369.0,
+        18355.0,
+        20201.0,
+        20867.0,
+        22228.0,
+        23540.0,
+        24269.0,
+        25025.0,
+        25229.0,
+        27501.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 12090.0,
+            "avg_price": 241.8
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12438.0,
+            "avg_price": 20.661
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 12090.0,
+            "avg_price": 241.8
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12438.0,
+            "avg_price": 20.661
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1004,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      25246,
+      25246
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.271,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        381.0,
+        381.0,
+        3073.0,
+        5731.0,
+        9648.0,
+        10449.0,
+        14580.0,
+        15577.0,
+        17582.0,
+        18432.0,
+        19036.0,
+        19538.0,
+        20749.0,
+        21563.0,
+        21563.0,
+        22933.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        381.0,
+        381.0,
+        3073.0,
+        5731.0,
+        9648.0,
+        10449.0,
+        14580.0,
+        15577.0,
+        17582.0,
+        18432.0,
+        19036.0,
+        19538.0,
+        20749.0,
+        21563.0,
+        21563.0,
+        22933.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 8274.0,
+            "avg_price": 165.48
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11197.0,
+            "avg_price": 20.358
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 8274.0,
+            "avg_price": 165.48
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11197.0,
+            "avg_price": 20.358
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1005,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      30168,
+      30168
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.289,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1487.0,
+        1487.0,
+        3.0,
+        1.0,
+        1.0,
+        15.0,
+        5.0,
+        5.0,
+        331.0,
+        959.0,
+        828.0,
+        828.0,
+        4039.0,
+        7566.0,
+        10932.0,
+        12682.0,
+        16569.0,
+        18491.0,
+        20411.0,
+        21102.0,
+        22495.0,
+        23807.0,
+        24539.0,
+        25290.0,
+        25494.0,
+        27740.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1487.0,
+        1487.0,
+        3.0,
+        1.0,
+        1.0,
+        15.0,
+        5.0,
+        5.0,
+        331.0,
+        959.0,
+        828.0,
+        828.0,
+        4039.0,
+        7566.0,
+        10932.0,
+        12682.0,
+        16569.0,
+        18491.0,
+        20411.0,
+        21102.0,
+        22495.0,
+        23807.0,
+        24539.0,
+        25290.0,
+        25494.0,
+        27740.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 890,
+        "sell_filled": 890,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 215.0,
+            "avg_price": 35.833
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 12419.0,
+            "avg_price": 248.38
+          },
+          "WHEAT": {
+            "units": 599,
+            "revenue": 12303.0,
+            "avg_price": 20.539
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 890,
+        "sell_filled": 890,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 215.0,
+            "avg_price": 35.833
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 12419.0,
+            "avg_price": 248.38
+          },
+          "WHEAT": {
+            "units": 599,
+            "revenue": 12303.0,
+            "avg_price": 20.539
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1006,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      28261,
+      28261
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.311,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        410.0,
+        3164.0,
+        5921.0,
+        10011.0,
+        10937.0,
+        15330.0,
+        16507.0,
+        18909.0,
+        19947.0,
+        20899.0,
+        21401.0,
+        22765.0,
+        23821.0,
+        23821.0,
+        25541.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        410.0,
+        3164.0,
+        5921.0,
+        10011.0,
+        10937.0,
+        15330.0,
+        16507.0,
+        18909.0,
+        19947.0,
+        20899.0,
+        21401.0,
+        22765.0,
+        23821.0,
+        23821.0,
+        25541.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11171.0,
+            "avg_price": 223.42
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11315.0,
+            "avg_price": 20.573
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11171.0,
+            "avg_price": 223.42
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11315.0,
+            "avg_price": 20.573
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1007,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      27360,
+      27360
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.329,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        2.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        247.0,
+        781.0,
+        789.0,
+        789.0,
+        3752.0,
+        7138.0,
+        10361.0,
+        12055.0,
+        15534.0,
+        17302.0,
+        18794.0,
+        19396.0,
+        20417.0,
+        21729.0,
+        22338.0,
+        23013.0,
+        23137.0,
+        25166.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        2.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        247.0,
+        781.0,
+        789.0,
+        789.0,
+        3752.0,
+        7138.0,
+        10361.0,
+        12055.0,
+        15534.0,
+        17302.0,
+        18794.0,
+        19396.0,
+        20417.0,
+        21729.0,
+        22338.0,
+        23013.0,
+        23137.0,
+        25166.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 879,
+        "sell_filled": 879,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 233,
+            "revenue": 15919.0,
+            "avg_price": 68.322
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 9719.0,
+            "avg_price": 194.38
+          },
+          "WHEAT": {
+            "units": 590,
+            "revenue": 12108.0,
+            "avg_price": 20.522
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 879,
+        "sell_filled": 879,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 233,
+            "revenue": 15919.0,
+            "avg_price": 68.322
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 9719.0,
+            "avg_price": 194.38
+          },
+          "WHEAT": {
+            "units": 590,
+            "revenue": 12108.0,
+            "avg_price": 20.522
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1008,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      29872,
+      29872
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.343,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1487.0,
+        1487.0,
+        3.0,
+        1.0,
+        1.0,
+        15.0,
+        5.0,
+        5.0,
+        331.0,
+        959.0,
+        828.0,
+        828.0,
+        4039.0,
+        7568.0,
+        10918.0,
+        12651.0,
+        16497.0,
+        18391.0,
+        20237.0,
+        20897.0,
+        22240.0,
+        23552.0,
+        24269.0,
+        25004.0,
+        25208.0,
+        27444.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1487.0,
+        1487.0,
+        3.0,
+        1.0,
+        1.0,
+        15.0,
+        5.0,
+        5.0,
+        331.0,
+        959.0,
+        828.0,
+        828.0,
+        4039.0,
+        7568.0,
+        10918.0,
+        12651.0,
+        16497.0,
+        18391.0,
+        20237.0,
+        20897.0,
+        22240.0,
+        23552.0,
+        24269.0,
+        25004.0,
+        25208.0,
+        27444.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 890,
+        "sell_filled": 890,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 215.0,
+            "avg_price": 35.833
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 12110.0,
+            "avg_price": 242.2
+          },
+          "WHEAT": {
+            "units": 599,
+            "revenue": 12316.0,
+            "avg_price": 20.561
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 890,
+        "sell_filled": 890,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 215.0,
+            "avg_price": 35.833
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 12110.0,
+            "avg_price": 242.2
+          },
+          "WHEAT": {
+            "units": 599,
+            "revenue": 12316.0,
+            "avg_price": 20.561
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1009,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      30906,
+      30906
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.301,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        838.0,
+        838.0,
+        3989.0,
+        7634.0,
+        11104.0,
+        12897.0,
+        16768.0,
+        18800.0,
+        20789.0,
+        21513.0,
+        22966.0,
+        24278.0,
+        25040.0,
+        25844.0,
+        26048.0,
+        28379.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        838.0,
+        838.0,
+        3989.0,
+        7634.0,
+        11104.0,
+        12897.0,
+        16768.0,
+        18800.0,
+        20789.0,
+        21513.0,
+        22966.0,
+        24278.0,
+        25040.0,
+        25844.0,
+        26048.0,
+        28379.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 13088.0,
+            "avg_price": 261.76
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12373.0,
+            "avg_price": 20.553
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 13088.0,
+            "avg_price": 261.76
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12373.0,
+            "avg_price": 20.553
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1010,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      28542,
+      28542
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.268,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        410.0,
+        3164.0,
+        5928.0,
+        10031.0,
+        10971.0,
+        15405.0,
+        16580.0,
+        19015.0,
+        20072.0,
+        21052.0,
+        21554.0,
+        22932.0,
+        24012.0,
+        24012.0,
+        25772.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        410.0,
+        3164.0,
+        5928.0,
+        10031.0,
+        10971.0,
+        15405.0,
+        16580.0,
+        19015.0,
+        20072.0,
+        21052.0,
+        21554.0,
+        22932.0,
+        24012.0,
+        24012.0,
+        25772.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11499.0,
+            "avg_price": 229.98
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11268.0,
+            "avg_price": 20.487
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11499.0,
+            "avg_price": 229.98
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11268.0,
+            "avg_price": 20.487
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1011,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      29261,
+      29261
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.325,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        820.0,
+        820.0,
+        3934.0,
+        7518.0,
+        10902.0,
+        12626.0,
+        16341.0,
+        18285.0,
+        20050.0,
+        20671.0,
+        21942.0,
+        23254.0,
+        23935.0,
+        24607.0,
+        24811.0,
+        26947.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        820.0,
+        820.0,
+        3934.0,
+        7518.0,
+        10902.0,
+        12626.0,
+        16341.0,
+        18285.0,
+        20050.0,
+        20671.0,
+        21942.0,
+        23254.0,
+        23935.0,
+        24607.0,
+        24811.0,
+        26947.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11443.0,
+            "avg_price": 228.86
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12373.0,
+            "avg_price": 20.553
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11443.0,
+            "avg_price": 228.86
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12373.0,
+            "avg_price": 20.553
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1012,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      31799,
+      31799
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.328,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        842.0,
+        842.0,
+        4005.0,
+        7688.0,
+        11220.0,
+        13061.0,
+        17045.0,
+        19152.0,
+        21263.0,
+        22041.0,
+        23589.0,
+        24901.0,
+        25703.0,
+        26567.0,
+        26771.0,
+        29186.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        842.0,
+        842.0,
+        4005.0,
+        7688.0,
+        11220.0,
+        13061.0,
+        17045.0,
+        19152.0,
+        21263.0,
+        22041.0,
+        23589.0,
+        24901.0,
+        25703.0,
+        26567.0,
+        26771.0,
+        29186.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 13905.0,
+            "avg_price": 278.1
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12449.0,
+            "avg_price": 20.679
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 13905.0,
+            "avg_price": 278.1
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12449.0,
+            "avg_price": 20.679
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1013,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      30181,
+      30118
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.274,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        444.0,
+        3265.0,
+        6126.0,
+        10358.0,
+        11394.0,
+        16010.0,
+        17302.0,
+        19974.0,
+        21128.0,
+        22271.0,
+        22773.0,
+        24215.0,
+        25393.0,
+        25393.0,
+        27282.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        177.0,
+        327.0,
+        381.0,
+        3202.0,
+        6063.0,
+        10295.0,
+        11331.0,
+        15947.0,
+        17239.0,
+        19911.0,
+        21065.0,
+        22208.0,
+        22710.0,
+        24152.0,
+        25330.0,
+        25330.0,
+        27219.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 13088.0,
+            "avg_price": 261.76
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11318.0,
+            "avg_price": 20.578
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 870,
+        "sell_filled": 870,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 13088.0,
+            "avg_price": 261.76
+          },
+          "WHEAT": {
+            "units": 547,
+            "revenue": 11255.0,
+            "avg_price": 20.576
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1014,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      28814,
+      28814
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.284,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        419.0,
+        3188.0,
+        5974.0,
+        10111.0,
+        11078.0,
+        15551.0,
+        16766.0,
+        19254.0,
+        20328.0,
+        21335.0,
+        21837.0,
+        23221.0,
+        24306.0,
+        24306.0,
+        26060.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        419.0,
+        3188.0,
+        5974.0,
+        10111.0,
+        11078.0,
+        15551.0,
+        16766.0,
+        19254.0,
+        20328.0,
+        21335.0,
+        21837.0,
+        23221.0,
+        24306.0,
+        24306.0,
+        26060.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11724.0,
+            "avg_price": 234.48
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11315.0,
+            "avg_price": 20.573
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11724.0,
+            "avg_price": 234.48
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11315.0,
+            "avg_price": 20.573
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1015,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      29186,
+      29186
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.305,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        2.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        247.0,
+        781.0,
+        814.0,
+        814.0,
+        3829.0,
+        7298.0,
+        10645.0,
+        12440.0,
+        16128.0,
+        18004.0,
+        19759.0,
+        20476.0,
+        21686.0,
+        22998.0,
+        23686.0,
+        24482.0,
+        24606.0,
+        26808.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        2.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        247.0,
+        781.0,
+        814.0,
+        814.0,
+        3829.0,
+        7298.0,
+        10645.0,
+        12440.0,
+        16128.0,
+        18004.0,
+        19759.0,
+        20476.0,
+        21686.0,
+        22998.0,
+        23686.0,
+        24482.0,
+        24606.0,
+        26808.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 879,
+        "sell_filled": 879,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 233,
+            "revenue": 15919.0,
+            "avg_price": 68.322
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11548.0,
+            "avg_price": 230.96
+          },
+          "WHEAT": {
+            "units": 590,
+            "revenue": 12105.0,
+            "avg_price": 20.517
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 879,
+        "sell_filled": 879,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 233,
+            "revenue": 15919.0,
+            "avg_price": 68.322
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11548.0,
+            "avg_price": 230.96
+          },
+          "WHEAT": {
+            "units": 590,
+            "revenue": 12105.0,
+            "avg_price": 20.517
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1016,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      27293,
+      27293
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.343,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        798.0,
+        798.0,
+        3865.0,
+        7383.0,
+        10671.0,
+        12308.0,
+        15848.0,
+        17713.0,
+        19215.0,
+        19709.0,
+        20748.0,
+        22060.0,
+        22637.0,
+        23143.0,
+        23347.0,
+        25241.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        798.0,
+        798.0,
+        3865.0,
+        7383.0,
+        10671.0,
+        12308.0,
+        15848.0,
+        17713.0,
+        19215.0,
+        19709.0,
+        20748.0,
+        22060.0,
+        22637.0,
+        23143.0,
+        23347.0,
+        25241.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 9399.0,
+            "avg_price": 187.98
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12449.0,
+            "avg_price": 20.679
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 9399.0,
+            "avg_price": 187.98
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12449.0,
+            "avg_price": 20.679
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1017,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      29761,
+      29761
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.303,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        827.0,
+        827.0,
+        3951.0,
+        7536.0,
+        10946.0,
+        12689.0,
+        16451.0,
+        18425.0,
+        20271.0,
+        20926.0,
+        22252.0,
+        23564.0,
+        24268.0,
+        24979.0,
+        25183.0,
+        27379.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        246.0,
+        864.0,
+        827.0,
+        827.0,
+        3951.0,
+        7536.0,
+        10946.0,
+        12689.0,
+        16451.0,
+        18425.0,
+        20271.0,
+        20926.0,
+        22252.0,
+        23564.0,
+        24268.0,
+        24979.0,
+        25183.0,
+        27379.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11965.0,
+            "avg_price": 239.3
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12351.0,
+            "avg_price": 20.517
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 893,
+        "sell_filled": 893,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 235,
+            "revenue": 15921.0,
+            "avg_price": 67.749
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11965.0,
+            "avg_price": 239.3
+          },
+          "WHEAT": {
+            "units": 602,
+            "revenue": 12351.0,
+            "avg_price": 20.517
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1018,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      28689,
+      28689
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.281,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        410.0,
+        3164.0,
+        5928.0,
+        10037.0,
+        10985.0,
+        15432.0,
+        16641.0,
+        19129.0,
+        20203.0,
+        21210.0,
+        21712.0,
+        23096.0,
+        24181.0,
+        24181.0,
+        25935.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        390.0,
+        410.0,
+        3164.0,
+        5928.0,
+        10037.0,
+        10985.0,
+        15432.0,
+        16641.0,
+        19129.0,
+        20203.0,
+        21210.0,
+        21712.0,
+        23096.0,
+        24181.0,
+        24181.0,
+        25935.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11599.0,
+            "avg_price": 231.98
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11315.0,
+            "avg_price": 20.573
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 11599.0,
+            "avg_price": 231.98
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11315.0,
+            "avg_price": 20.573
+          }
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1019,
+    "agents": [
+      "experiments/candidates/v2c_c2_strawberry15.py",
+      "experiments/candidates/v2c_c2_strawberry15.py"
+    ],
+    "rewards": [
+      25763,
+      25763
+    ],
+    "statuses": [
+      "DONE",
+      "DONE"
+    ],
+    "steps": 720,
+    "wall_seconds": 2.284,
+    "agent_ms": null,
+    "daily_min_cash": [
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        381.0,
+        381.0,
+        3073.0,
+        5731.0,
+        9657.0,
+        10458.0,
+        14589.0,
+        15586.0,
+        17591.0,
+        18456.0,
+        19109.0,
+        19611.0,
+        20861.0,
+        21750.0,
+        21750.0,
+        23257.0
+      ],
+      [
+        2832.0,
+        2674.0,
+        2246.0,
+        1858.0,
+        1485.0,
+        1485.0,
+        5.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        1.0,
+        261.0,
+        381.0,
+        381.0,
+        3073.0,
+        5731.0,
+        9657.0,
+        10458.0,
+        14589.0,
+        15586.0,
+        17591.0,
+        18456.0,
+        19109.0,
+        19611.0,
+        20861.0,
+        21750.0,
+        21750.0,
+        23257.0
+      ]
+    ],
+    "players": [
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 8757.0,
+            "avg_price": 175.14
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11231.0,
+            "avg_price": 20.42
+          }
+        }
+      },
+      {
+        "noop_actions": 0,
+        "blocked_moves": 0,
+        "shed_discarded": 0,
+        "orders_truncated": 0,
+        "sell_requested": 873,
+        "sell_filled": 873,
+        "sell_unfilled": 0,
+        "buy_failed": 0,
+        "exceptions": 0,
+        "realized_sell": {
+          "CARROT": {
+            "units": 6,
+            "revenue": 204.0,
+            "avg_price": 34.0
+          },
+          "MELON": {
+            "units": 267,
+            "revenue": 15965.0,
+            "avg_price": 59.794
+          },
+          "STRAWBERRY": {
+            "units": 50,
+            "revenue": 8757.0,
+            "avg_price": 175.14
+          },
+          "WHEAT": {
+            "units": 550,
+            "revenue": 11231.0,
+            "avg_price": 20.42
+          }
+        }
+      }
+    ]
+  }
+]

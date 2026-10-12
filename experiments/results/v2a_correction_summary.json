@@ -1,0 +1,67 @@
+{
+  "evidence": "[LOCAL]",
+  "experiment": "KAGRI-016 EXP-003 pre-stage correction gate",
+  "verdict": "FAILURE",
+  "gate_rule": "correction 4-bot mean final bank >= source parent and correction self-play counters clean",
+  "gate_passed": false,
+  "engine_version": "1.32.7",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "runner_sha256": "e6da4580d72169f656329c62f1827fbf3796678b08beab60c4c9befa3422f936",
+  "instrument_sha256": "e7d93c77d386889215deee3c5287e43efbf26634e43d90985ce7c87a9e732a6f",
+  "source_parent": {
+    "path": "experiments/candidates/v2c_c3_strawberry30.py",
+    "sha256": "adf8e798a11ec461f2d9c95aa0ed34927ebf0c122684ec94852b30f8ded37855"
+  },
+  "correction": {
+    "path": "experiments/candidates/v2a_parent.py",
+    "sha256": "753ef229d3a7b65c6068da6b132b4189bc37b3a0e543617aa66b3e0cb3120e02",
+    "change": "MELON 30 -> 3; STRAWBERRY 30 -> 57; WHEAT fixed 15"
+  },
+  "seeds": "1000..1049",
+  "seats": "both",
+  "opponents": [
+    "boatlee",
+    "kaitofukami",
+    "raykkretzschmar",
+    "lynnsakurai"
+  ],
+  "games_per_policy": 400,
+  "source_parent_wdl": [0, 0, 400],
+  "correction_wdl": [0, 0, 400],
+  "by_opponent": {
+    "boatlee": {"correction_mean_bank": 28941.84, "source_parent_mean_bank": 30738.43, "delta": -1796.59},
+    "kaitofukami": {"correction_mean_bank": 28589.28, "source_parent_mean_bank": 31821.95, "delta": -3232.67},
+    "raykkretzschmar": {"correction_mean_bank": 28142.13, "source_parent_mean_bank": 26020.68, "delta": 2121.45},
+    "lynnsakurai": {"correction_mean_bank": 31177.41, "source_parent_mean_bank": 28661.62, "delta": 2515.79}
+  },
+  "aggregate": {
+    "correction_mean_bank": 29212.665,
+    "source_parent_mean_bank": 29310.67,
+    "mean_delta": -98.005,
+    "median_matched_game_delta": 313.0
+  },
+  "instrument_gate": {
+    "path": "experiments/results/v2a_parent_gate.json",
+    "seeds": 50,
+    "player_runs": 100,
+    "counter_sums": {
+      "noop_actions": 0,
+      "blocked_moves": 0,
+      "shed_discarded": 0,
+      "orders_truncated": 0,
+      "sell_unfilled": 0,
+      "buy_failed": 0,
+      "exceptions": 0
+    },
+    "min_daily_cash": 0.0,
+    "max_shed": 65,
+    "harvest_blocked_by_shed": "N/A - counter was added to the canonical brief after this gate ran"
+  },
+  "later_stages": {
+    "stage_a": "NOT RUN",
+    "stage_b": "NOT RUN",
+    "stage_c": "NOT RUN",
+    "stage_d": "NOT RUN"
+  },
+  "interpretation": "The exact correction implementation failed the predeclared exploration gate. This does not establish hosted inferiority or kill the broader absorption hypothesis."
+}

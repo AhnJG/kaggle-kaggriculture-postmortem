@@ -1,0 +1,240 @@
+{
+  "verdict": "SUCCESS",
+  "selected": "v074",
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 23023,
+    "unit": "paired seed with both seats averaged; H uses hosted panel row"
+  },
+  "jobs_sha256": "5b7b0232768d9f3ea7c00968e5930c175a8a137c7debacbc33a59f3a17971f8e",
+  "games_sha256": "a3ad29db7ade11789f890f5e81b26bd0ce0e468ce3c536dea91cf737e8f8ec25",
+  "results": [
+    {
+      "vid": "v111",
+      "A": {
+        "n": 400,
+        "W": 339,
+        "D": 2,
+        "L": 59,
+        "score": 0.85,
+        "wilson99_lower": 0.7983182524422096,
+        "pass": true
+      },
+      "A_prime": {
+        "paired_games": 400,
+        "seed_clusters": 200,
+        "delta": 0.065,
+        "bootstrap95_lower": 0.0125,
+        "pass": true
+      },
+      "B": {
+        "paired_games": 200,
+        "seed_clusters": 100,
+        "delta": -0.025,
+        "bootstrap95_lower": -0.105,
+        "pass": false
+      },
+      "C": {
+        "files": 19,
+        "deltas": {
+          "PUB00": 0.1,
+          "PUB01": -0.3,
+          "PUB02": -0.3,
+          "PUB03": 0.0,
+          "PUB04": 0.0,
+          "PUB05": -0.1,
+          "PUB06": -0.3,
+          "PUB07": -0.3,
+          "PUB08": -0.3,
+          "PUB09": -0.3,
+          "PUB10": -0.3,
+          "PUB11": -0.5,
+          "PUB12": -0.4,
+          "PUB13": -0.1,
+          "G2600": 0.0,
+          "G2601": -0.3,
+          "G2602": 0.0,
+          "G2603": -0.1,
+          "G2604": 0.0
+        },
+        "bad_files": [
+          "G2601",
+          "PUB01",
+          "PUB02",
+          "PUB06",
+          "PUB07",
+          "PUB08",
+          "PUB09",
+          "PUB10",
+          "PUB11",
+          "PUB12"
+        ],
+        "pass": false
+      },
+      "D": {
+        "paired_games": 580,
+        "opponent_seed_clusters": 290,
+        "delta": -0.12931034482758622,
+        "bootstrap95_lower": -0.1810344827586207,
+        "pass": false
+      },
+      "H": {
+        "paired_episodes": 121,
+        "delta": -0.10743801652892562,
+        "bootstrap95_lower": -0.18181818181818182,
+        "pass": false
+      },
+      "E": {
+        "games": 1501,
+        "invalid": 0,
+        "max_step": 0.33054629201069474,
+        "pass": true
+      },
+      "passed": false
+    },
+    {
+      "vid": "v169",
+      "A": {
+        "n": 400,
+        "W": 108,
+        "D": 262,
+        "L": 30,
+        "score": 0.5975,
+        "wilson99_lower": 0.5332424897651759,
+        "pass": false
+      },
+      "A_prime": {
+        "paired_games": 400,
+        "seed_clusters": 200,
+        "delta": 0.01,
+        "bootstrap95_lower": -0.01,
+        "pass": true
+      },
+      "B": {
+        "paired_games": 200,
+        "seed_clusters": 100,
+        "delta": 0.0,
+        "bootstrap95_lower": 0.0,
+        "pass": true
+      },
+      "C": {
+        "files": 19,
+        "deltas": {
+          "PUB00": 0.0,
+          "PUB01": 0.0,
+          "PUB02": 0.0,
+          "PUB03": 0.0,
+          "PUB04": 0.0,
+          "PUB05": 0.0,
+          "PUB06": 0.0,
+          "PUB07": 0.0,
+          "PUB08": 0.0,
+          "PUB09": 0.0,
+          "PUB10": 0.0,
+          "PUB11": 0.0,
+          "PUB12": 0.0,
+          "PUB13": 0.0,
+          "G2600": 0.0,
+          "G2601": 0.0,
+          "G2602": 0.0,
+          "G2603": 0.0,
+          "G2604": 0.0
+        },
+        "bad_files": [],
+        "pass": true
+      },
+      "D": {
+        "paired_games": 580,
+        "opponent_seed_clusters": 290,
+        "delta": 0.0,
+        "bootstrap95_lower": 0.0,
+        "pass": true
+      },
+      "H": {
+        "paired_episodes": 121,
+        "delta": 0.0,
+        "bootstrap95_lower": 0.0,
+        "pass": true
+      },
+      "E": {
+        "games": 1501,
+        "invalid": 0,
+        "max_step": 0.3644391249399632,
+        "pass": true
+      },
+      "passed": false
+    },
+    {
+      "vid": "v074",
+      "A": {
+        "n": 400,
+        "W": 207,
+        "D": 166,
+        "L": 27,
+        "score": 0.725,
+        "wilson99_lower": 0.6641703784859356,
+        "pass": true
+      },
+      "A_prime": {
+        "paired_games": 400,
+        "seed_clusters": 200,
+        "delta": 0.1375,
+        "bootstrap95_lower": 0.105,
+        "pass": true
+      },
+      "B": {
+        "paired_games": 200,
+        "seed_clusters": 100,
+        "delta": 0.0,
+        "bootstrap95_lower": -0.03,
+        "pass": true
+      },
+      "C": {
+        "files": 19,
+        "deltas": {
+          "PUB00": 0.0,
+          "PUB01": 0.0,
+          "PUB02": 0.0,
+          "PUB03": 0.0,
+          "PUB04": 0.1,
+          "PUB05": 0.1,
+          "PUB06": 0.0,
+          "PUB07": 0.0,
+          "PUB08": 0.0,
+          "PUB09": 0.0,
+          "PUB10": 0.0,
+          "PUB11": 0.0,
+          "PUB12": 0.0,
+          "PUB13": -0.1,
+          "G2600": 0.0,
+          "G2601": 0.0,
+          "G2602": 0.0,
+          "G2603": 0.0,
+          "G2604": 0.0
+        },
+        "bad_files": [],
+        "pass": true
+      },
+      "D": {
+        "paired_games": 580,
+        "opponent_seed_clusters": 290,
+        "delta": 0.0034482758620689655,
+        "bootstrap95_lower": -0.010344827586206896,
+        "pass": true
+      },
+      "H": {
+        "paired_episodes": 121,
+        "delta": 0.0,
+        "bootstrap95_lower": 0.0,
+        "pass": true
+      },
+      "E": {
+        "games": 1501,
+        "invalid": 0,
+        "max_step": 0.3268282909411937,
+        "pass": true
+      },
+      "passed": true
+    }
+  ]
+}

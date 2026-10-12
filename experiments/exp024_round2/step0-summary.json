@@ -1,0 +1,26 @@
+{
+  "verdict": "PASS",
+  "jobs": 20,
+  "workers": 5,
+  "raw_sha256": "4d63c25bff88c92d934a96436144ec8154967ea186f8eff5838a3253189a0a42",
+  "opponents": {
+    "O1-127ed3e6": {
+      "games": 10,
+      "wins": 7,
+      "draws": 2,
+      "losses": 1,
+      "score_rate": 0.8,
+      "invalid": 0,
+      "max_step": 0.10858733300119638
+    },
+    "O2-v171": {
+      "games": 10,
+      "wins": 1,
+      "draws": 8,
+      "losses": 1,
+      "score_rate": 0.5,
+      "invalid": 0,
+      "max_step": 0.12028583395294845
+    }
+  }
+}

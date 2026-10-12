@@ -1,0 +1,240 @@
+{
+  "verdict": "PASS",
+  "as_of": "2026-09-16T13:26:06.362154+00:00",
+  "cutoff": "2026-09-13T13:26:06.362154+00:00",
+  "teams": [
+    {
+      "rank": 1,
+      "team": "Majkel1337",
+      "team_id": 16718819,
+      "score": "3204.0",
+      "submissions": [
+        {
+          "id": 56216119,
+          "score": "3189.9",
+          "eligible_episodes": 275
+        },
+        {
+          "id": 56156662,
+          "score": "3204.0",
+          "eligible_episodes": 218
+        }
+      ],
+      "unique_episodes": 493
+    },
+    {
+      "rank": 2,
+      "team": "M & M & P & Q",
+      "team_id": 16681125,
+      "score": "3103.2",
+      "submissions": [
+        {
+          "id": 56254996,
+          "score": "3103.2",
+          "eligible_episodes": 180
+        },
+        {
+          "id": 56254995,
+          "score": "3068.5",
+          "eligible_episodes": 158
+        }
+      ],
+      "unique_episodes": 338
+    },
+    {
+      "rank": 3,
+      "team": "DSM",
+      "team_id": 16732748,
+      "score": "3083.4",
+      "submissions": [
+        {
+          "id": 56267093,
+          "score": "3083.4",
+          "eligible_episodes": 105
+        },
+        {
+          "id": 56257064,
+          "score": "3065.0",
+          "eligible_episodes": 166
+        }
+      ],
+      "unique_episodes": 271
+    },
+    {
+      "rank": 4,
+      "team": "SpaTaro",
+      "team_id": 16640510,
+      "score": "3060.4",
+      "submissions": [
+        {
+          "id": 56263693,
+          "score": "2987.8",
+          "eligible_episodes": 127
+        },
+        {
+          "id": 56233892,
+          "score": "3060.4",
+          "eligible_episodes": 269
+        }
+      ],
+      "unique_episodes": 396
+    },
+    {
+      "rank": 5,
+      "team": "Sida Zuo",
+      "team_id": 16664246,
+      "score": "3054.0",
+      "submissions": [
+        {
+          "id": 56263637,
+          "score": "3035.1",
+          "eligible_episodes": 122
+        },
+        {
+          "id": 56257389,
+          "score": "3054.0",
+          "eligible_episodes": 161
+        }
+      ],
+      "unique_episodes": 283
+    },
+    {
+      "rank": 6,
+      "team": "ymg_aq",
+      "team_id": 16732403,
+      "score": "3026.9",
+      "submissions": [
+        {
+          "id": 56265958,
+          "score": "3026.9",
+          "eligible_episodes": 108
+        },
+        {
+          "id": 56265944,
+          "score": "3006.9",
+          "eligible_episodes": 108
+        }
+      ],
+      "unique_episodes": 216
+    },
+    {
+      "rank": 7,
+      "team": "THIRD FARM CLUB",
+      "team_id": 16730524,
+      "score": "3021.7",
+      "submissions": [
+        {
+          "id": 56279316,
+          "score": "676.7",
+          "eligible_episodes": 1
+        },
+        {
+          "id": 56255642,
+          "score": "3025.1",
+          "eligible_episodes": 161
+        }
+      ],
+      "unique_episodes": 162
+    },
+    {
+      "rank": 8,
+      "team": "Orbital Terraformer",
+      "team_id": 16675778,
+      "score": "3016.9",
+      "submissions": [
+        {
+          "id": 56263779,
+          "score": "3016.9",
+          "eligible_episodes": 120
+        },
+        {
+          "id": 56212726,
+          "score": "2999.1",
+          "eligible_episodes": 361
+        }
+      ],
+      "unique_episodes": 481
+    },
+    {
+      "rank": 9,
+      "team": "Excluding",
+      "team_id": 16671741,
+      "score": "3010.7",
+      "submissions": [
+        {
+          "id": 56267341,
+          "score": "3010.7",
+          "eligible_episodes": 100
+        },
+        {
+          "id": 56258178,
+          "score": "3009.5",
+          "eligible_episodes": 156
+        }
+      ],
+      "unique_episodes": 256
+    },
+    {
+      "rank": 10,
+      "team": "Driz Lo",
+      "team_id": 16748733,
+      "score": "3008.2",
+      "submissions": [
+        {
+          "id": 56277070,
+          "score": "2808.8",
+          "eligible_episodes": 35
+        },
+        {
+          "id": 56270137,
+          "score": "3008.2",
+          "eligible_episodes": 92
+        }
+      ],
+      "unique_episodes": 127
+    }
+  ],
+  "metadata_submission_episode_rows": 3023,
+  "unique_inventory_episodes": 2722,
+  "excluded_metadata_rows": [
+    {
+      "submission_id": 56255642,
+      "episode_id": 109681578,
+      "reason": "completed after frozen snapshot"
+    }
+  ],
+  "donor_views": 6,
+  "unique_downloaded_episodes": 5,
+  "total_download_bytes": 171579277,
+  "action_matches": 7190,
+  "state_matches": 7200,
+  "reproduction_episodes": [
+    109675071,
+    109668602,
+    109662252,
+    109669865,
+    109668692
+  ],
+  "donor_outcomes": {
+    "M & M & P & Q": {
+      "wdl": {
+        "W": 3
+      },
+      "exact_action_variants": 3
+    },
+    "Majkel1337": {
+      "wdl": {
+        "L": 1,
+        "W": 2
+      },
+      "exact_action_variants": 3
+    }
+  },
+  "limits": [
+    "API-returned active submission histories, not all historical submissions.",
+    "Team snapshot and per-submission scores queried sequentially.",
+    "Original-game reproduction does not establish a donor policy or new-opponent performance.",
+    "Development episodes are not a held-out evaluation set.",
+    "Replay redistribution/license scope not independently established; raw files remain private."
+  ]
+}

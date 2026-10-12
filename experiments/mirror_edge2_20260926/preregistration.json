@@ -1,0 +1,130 @@
+{
+  "experiment_id": "EXP-022-H2-PRIME-RETEST",
+  "hypothesis_id": "HYP-0006",
+  "test_id": "TEST-EXP022-H2P-20260926",
+  "frozen_at": "2026-09-26T01:20:00+09:00",
+  "authorization": "Human approval: 2026-09-26 01:20 KST",
+  "purpose": "Retest the EXP-021 decision-2 H2-prime hypothesis because EXP-021 did not test it: all 8 gate games hit the wrapper's missing _json import.",
+  "preservation": {
+    "exp021_directory": "experiments/mirror_edge_20260926 (read-only)",
+    "exp021_journal_sha256": "ad5be3d9e314318769d192842ffd51efca05ed2591329e052350bd355f13020e",
+    "exp021_stop_gate_sha256": "7b2bef3e69c85b7d113c7bbbf1837e8661d8dd83558a81438e938f4bb2a9cd91",
+    "exp021_final_report_sha256": "5f0c7c1f0009ce122233417e5592fe3649ff1f2cd2fff756f96518c2dde2e7fc",
+    "exp021_h2prime_prereg_sha256": "bbb20f02d815f4bf693507db5b161338f25d9f1860d79ceddb4eaa79991d63c0"
+  },
+  "card": {
+    "path": "coordination/proposals/claude/20260925-EXP021-MIRROR-EDGE-CODEX.md",
+    "sha256": "9ad97acf0d8bc766f3d0e1691fd15872f3670373d64236850508fa27124f6c62"
+  },
+  "runner": {
+    "path": "tools/mirror_edge_exp022.py",
+    "sha256": "60b8e7a7a95fe9615c3f6b029b70a1ca0e3e65280ab90b145b89a0065080ac61"
+  },
+  "source_h2prime": {
+    "path": "experiments/mirror_edge_20260926/variants/H2prime/main.py",
+    "sha256": "b75819d19e780805131314b57a5c6ae0d3c6c006edb28da1847e7a0920f08ff8"
+  },
+  "variant": {
+    "path": "experiments/mirror_edge2_20260926/variants/H2prime/main.py",
+    "sha256": "cfa854d5758f9e342197437d47c1e3b5f5efad4b50ba4c2492c7e8178c254912",
+    "parent_sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"
+  },
+  "one_change": "Insert exactly one line, `import json as _json`, immediately after the frozen EXP-021 H2-prime wrapper comment. No other candidate byte changes are permitted.",
+  "fixed": [
+    "EXP-021 decision-2 mutation priority and quantity",
+    "EXP-021 decision-2 cash-difference sign and tolerance",
+    "our mirror level=24 rule",
+    "parent, opponents, engine, workers, invalid definition, statistics, thresholds and seeds"
+  ],
+  "workers": 5,
+  "engine": {
+    "path": ".venv/lib/python3.13/site-packages/kaggle_environments/envs/kaggriculture/kaggriculture.py",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "version": "1.32.7"
+  },
+  "inputs": {
+    "parent": {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+      "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"
+    },
+    "opponent_o": {
+      "path": "releases/public-newmeta-127ed3e6-exact/main.py",
+      "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "hosted_submission_id": 56549720
+    },
+    "dp_0924": {
+      "path": "releases/public-tetsutani-demand-preserving-0924-exact/main.py",
+      "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "hosted_submission_id": 56518910
+    },
+    "public_guard_15": [
+      {"path": "releases/public-newmeta-127ed3e6-exact/main.py", "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652"},
+      {"path": "releases/public-tetsutani-demand-preserving-0924-exact/main.py", "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a"},
+      {"path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py", "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py", "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"},
+      {"path": "analysis/daily_scan/20260922/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py", "sha256": "0565e742904024379315cfc4d3228616a214c7939d0c7804f494bc4e3d4700c7"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py", "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689"},
+      {"path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py", "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py", "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd"},
+      {"path": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py", "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py", "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py", "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py", "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py", "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de"},
+      {"path": "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py", "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f"},
+      {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py", "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e"}
+    ]
+  },
+  "mutation_and_mirror": {
+    "priority_a": "If the parent step-0 action contains positive SELL WHEAT, decrement the first such quantity by exactly one.",
+    "priority_b": "Otherwise decrement the last positive BUY_PRODUCT WHEAT quantity by exactly one.",
+    "expected_difference": "rival money minus our money is +q0 for one fewer SELL and -q0 for one fewer BUY_PRODUCT.",
+    "mirror": "At step 1 after parent processing, abs(actual cash difference - expected difference) <= 2; if true set our _RACE_STATE[player].level=24."
+  },
+  "unit_gate": {
+    "seed": 6190,
+    "seats": [0, 1],
+    "pass": "Persist parent and modified step-0 actions and assert exactly one WHEAT order quantity differs by -1; all other fields are identical."
+  },
+  "smoke_public_two": [
+    {"path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py", "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd"},
+    {"path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py", "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341"}
+  ],
+  "smoke_gate": {
+    "seed": 6190,
+    "o": "2 games, both seats: wrapper_errors=0, absolute first-turn cash difference >=1, our_mirror=1, opponent race_mirror=0; frozen opponent then uses initial horizon 8.",
+    "nonmirror": "6 games, both seats against DP and the two frozen public files: our_mirror=0 and wrapper_errors=0.",
+    "failure": "Any failure means STOP without repair."
+  },
+  "invalid": "Our candidate or parent exception, caught error, timeout, steps !=720, or either status !=DONE. Opponent-side counters are recorded but do not invalidate.",
+  "statistics": "Both seats. Score is win + 0.5*draw. Primary uses Wilson 99% lower bound with z=2.576. Parent comparisons use seed-level averages across both seats and t_(0.975,n-1) paired 95% lower endpoints.",
+  "screen": {
+    "candidate_and_parent_seeds": [6200, 6249],
+    "seats": [0, 1],
+    "games_per_agent": 100,
+    "candidate_pass": "score rate >=0.60",
+    "baseline_stop": "parent score rate outside inclusive [0.45,0.55]"
+  },
+  "confirmation": {
+    "primary_o": {"seeds": [6250, 6449], "seats": [0, 1], "games": 400, "pass": "Wilson 99% lower bound z=2.576 >0.55"},
+    "dp_noninferiority": {"seeds": [6450, 6549], "seats": [0, 1], "games_per_agent": 200, "pass": "paired candidate-parent delta 95% lower endpoint >-0.05"},
+    "public_guard": {"seeds": [6550, 6559], "seats": [0, 1], "files": 15, "games_per_file_per_agent": 20, "pass": "zero files where candidate score is more than 0.10 below parent"},
+    "runtime": "All executed candidate/parent games: invalid 0, exception/caught error 0, max step <0.5s, empirical p99 <0.10s",
+    "activation": "Against nonclone DP/public opponents, our_mirror activation rate <=0.02"
+  },
+  "final_confirmation": {
+    "seeds": [6600, 6799],
+    "seats": [0, 1],
+    "games": 400,
+    "warning": "Report a warning if the point estimate is more than 0.05 below confirmation primary."
+  },
+  "success_next": "Build releases/mirror-edge-h2p, run E-5 and experiments/d3_gate_v2/measure_gate_v2.py, then return to the human for submission judgment that would retire DP.",
+  "forbidden": [
+    "submission",
+    "Kaggle download",
+    "seed 9000-9599",
+    "experiments/search_20260925 write",
+    "engine or RNG modification",
+    "post-result threshold, seed, sample or wrapper changes"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "candidate_id": "v0",
+  "built_at": "2026-09-07T13:35+09:00",
+  "purpose": "파이프라인 검증 — validation 통과, submission ID 확보, episode/replay/logs 경로 개통",
+  "artifact": {
+    "file": "releases/v0/submission.tar.gz",
+    "sha256": "aed79ff3cf0c38f94ae4c958f4798fc2aef5ea568ce285f40fb6c4e752985844",
+    "bytes": 9373,
+    "contents": ["main.py"],
+    "format": "tar.gz (루트에 main.py)"
+  },
+  "alternate_artifact": {
+    "file": "main.py",
+    "sha256": "eb64b3c0b97725761ab495b3d37caa5c42c995476ba4603a5bb295bf7852af85",
+    "bytes": 28027,
+    "note": "tar.gz 가 Error 나면 즉시 이 단일 파일로 재제출"
+  },
+  "source_commit": "4ed2d29323202cc6d4d679579457467bcdd11d23",
+  "engine": {
+    "package": "kaggle-environments==1.32.7",
+    "kaggriculture_py_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "verified": true
+  },
+  "build_command": "tar -czf releases/v0/submission.tar.gz main.py",
+  "local_evidence": {
+    "gate_silent_failures": "PASS — 13시드(7,11,13,1000-1009) 전부 P0 CLEAN, 무음 실패 4종+예외 0",
+    "gate_selfplay": "PASS — 3시드 양좌석 DONE, 보상 대칭(stateless 확인)",
+    "gate_arena_vs_starter": "40/0/0, 페어드 1.000, CI [1.000,1.000], 마진 +15,280, 에러 0",
+    "gate_cleanroom": "PASS — 저장소 밖 빈 폴더에서 추출→import→720턴 self-play",
+    "latency": "턴당 p50 0.04ms / p95 0.05 / p99 0.06 / max 0.27 (맥북). 한도 1000ms",
+    "final_bank_range": "17294~20193 (13시드) vs starter 3283~3657"
+  },
+  "hypothesis": "성능 가설 없음. v0 는 성능이 아니라 파이프라인을 검증한다.",
+  "expected_rating": "낮음 — 상위권 터미널 캐시 90~95k 대비 v0 는 17~20k. 사다리 하위권 예상",
+  "slot_accounting": "첫 제출이므로 은퇴시키는 에이전트 없음. 활성 슬롯 0/2 -> 1/2",
+  "known_limitations": [
+    "유닛 액션의 41%가 PASS (NW 25칸만 사용, 면적 1/4)",
+    "BUY_LAND 미사용, 동물/비료/멜론 미사용",
+    "시장 레이어 없음 — 매일 아침 전량 투매",
+    "EPISODE_STEPS/TURNS_PER_DAY/SHED_CAP/MAX_ORDERS 가 모듈 상수 (config 미참조)"
+  ]
+}

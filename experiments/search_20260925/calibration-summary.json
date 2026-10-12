@@ -1,0 +1,606 @@
+{
+  "status": "BLOCKED",
+  "chosen": null,
+  "verdicts": {
+    "a": {
+      "scores": {
+        "C1": 0.0716875,
+        "EXP016": 0.18050000000000002,
+        "EXP017": 0.17368750000000002,
+        "DP": 0.4713125,
+        "YHAY": 0.0,
+        "P2": 0.03162500000000001,
+        "EXP007": 0.0,
+        "EXP006": 0.0
+      },
+      "pair_correct": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "correct": 4,
+      "passed": false
+    },
+    "b": {
+      "scores": {
+        "C1": 0.0524375,
+        "EXP016": 0.1485,
+        "EXP017": 0.1364375,
+        "DP": 0.37356249999999996,
+        "YHAY": 0.0,
+        "P2": 0.020124999999999997,
+        "EXP007": 0.0,
+        "EXP006": 0.0
+      },
+      "pair_correct": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "correct": 4,
+      "passed": false
+    },
+    "c": {
+      "scores": {
+        "C1": 0.09318181818181819,
+        "EXP016": 0.2431818181818182,
+        "EXP017": 0.2431818181818182,
+        "DP": 0.6102272727272727,
+        "YHAY": 0.0,
+        "P2": 0.05227272727272728,
+        "EXP007": 0.0,
+        "EXP006": 0.0
+      },
+      "pair_correct": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "correct": 3,
+      "passed": false
+    },
+    "d": {
+      "scores": {
+        "C1": 0.09377007575757576,
+        "EXP016": 0.2045121212121212,
+        "EXP017": 0.2004246212121212,
+        "DP": 0.49642386363636365,
+        "YHAY": 0.0,
+        "P2": 0.04511136363636364,
+        "EXP007": 0.0,
+        "EXP006": 0.0
+      },
+      "pair_correct": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "correct": 4,
+      "passed": false
+    }
+  },
+  "invalid": 5,
+  "pairs": [
+    [
+      "C1",
+      "EXP016"
+    ],
+    [
+      "EXP017",
+      "EXP016"
+    ],
+    [
+      "EXP017",
+      "DP"
+    ],
+    [
+      "YHAY",
+      "P2"
+    ],
+    [
+      "EXP007",
+      "EXP006"
+    ]
+  ],
+  "provisional_parent": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+  "pool": [
+    {
+      "path": "analysis/daily_scan/20260922/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+      "sha256": "0565e742904024379315cfc4d3228616a214c7939d0c7804f494bc4e3d4700c7",
+      "source_gate": {
+        "sha256": "0565e742904024379315cfc4d3228616a214c7939d0c7804f494bc4e3d4700c7",
+        "lines": 7025,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "rescue_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "releases/public-tetsutani-demand-preserving-0924-exact/main.py",
+      "sha256": "178ae0f727641cf4b618ebb98ade7aa1a1bed7517281aab9849de82a59d8ed3a",
+      "eligible": true,
+      "anchor": true,
+      "environment": "V92_SELL_LIB absent; DP is a fixed baseline, not an external-dependency-free candidate"
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py",
+      "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01",
+      "source_gate": {
+        "sha256": "4f8637a3e33348b98f531de246d353f5d2955b2f85480e3fd02bf4a7874f0d01",
+        "lines": 7158,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "herdsafe_forecast_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py",
+      "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+      "source_gate": {
+        "sha256": "4889137f1adf1f9266b2ad5a6ac6700c40e9be6dfe3654e39db375fb55b71341",
+        "lines": 7046,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "opening_liquidity_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py",
+      "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689",
+      "source_gate": {
+        "sha256": "37d284d4d4d9aff50ee2dce8a6cc2353ce3dddd6534bc7635d6e471310ca6689",
+        "lines": 7340,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "_final_sell_block_reorder_entrypoint",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py",
+      "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d",
+      "source_gate": {
+        "sha256": "29454a13477f827c34615300f90a7bdb074ea3c9bcb948f3372bf95fa1fb207d",
+        "lines": 7046,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "opening_liquidity_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py",
+      "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e",
+      "source_gate": {
+        "sha256": "c4b72e64acede4053c4b41d797afb562ce2aeadf5d9d0cf58e18aed9baa33c9e",
+        "lines": 7046,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "opening_liquidity_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py",
+      "sha256": "f6175fd1bc3850f74185e7a813bb5a87d54e7e15212c874133dafc6e1ce91d34",
+      "source_gate": {
+        "sha256": "f6175fd1bc3850f74185e7a813bb5a87d54e7e15212c874133dafc6e1ce91d34",
+        "lines": 8157,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "v15_submission_entry",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py",
+      "sha256": "0957bac0892defe4416cd8fcd774174e7177eef75b9ad4fff6ce184051bcdd75",
+      "source_gate": {
+        "sha256": "0957bac0892defe4416cd8fcd774174e7177eef75b9ad4fff6ce184051bcdd75",
+        "lines": 7846,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "v16_submission_entry",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py",
+      "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+      "source_gate": {
+        "sha256": "7ac1a2545ea285fa75b6a51b7ea0bbdb5f334f405f20e72b72f8188a1d898a35",
+        "lines": 7035,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "rescue_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py",
+      "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3",
+      "source_gate": {
+        "sha256": "5b6297c51c96f2bd92fe5b8558335f585363f9d96aecb9cb9d4e759d170f13f3",
+        "lines": 6829,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "opening_liquidity_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py",
+      "sha256": "939c445771d83901f27478561d0cc3137133e2233b3ef266f26277aa0b2c7714",
+      "source_gate": {
+        "sha256": "939c445771d83901f27478561d0cc3137133e2233b3ef266f26277aa0b2c7714",
+        "lines": 8407,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "_v350_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py",
+      "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+      "source_gate": {
+        "sha256": "d6565929be5283a5decf00c986359542ee1c106d7819815f8c69ccab35e363dd",
+        "lines": 7804,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "v15_submission_entry",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py",
+      "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de",
+      "source_gate": {
+        "sha256": "d5a192fac67f00da31fe2bc7b747b8c33766bf1024780c53e49f2292a97db2de",
+        "lines": 7088,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py",
+      "sha256": "1d8c562280d9bbd12f34e58dcd0d85a074b27622a3ee4a50ff8904b7b8130c27",
+      "source_gate": {
+        "sha256": "1d8c562280d9bbd12f34e58dcd0d85a074b27622a3ee4a50ff8904b7b8130c27",
+        "lines": 2063,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py",
+      "sha256": "2d7227833871cf92e574115dfa2e8a39d0c1304dc63b019789b352c4fea36fce",
+      "source_gate": {
+        "sha256": "2d7227833871cf92e574115dfa2e8a39d0c1304dc63b019789b352c4fea36fce",
+        "lines": 2114,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "pioneers_candidate3_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py",
+      "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+      "source_gate": {
+        "sha256": "bc8f84641d8e5ae8e083089c79572ed873b0f32dd071572f5efdcf342ec1143f",
+        "lines": 7058,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+      "sha256": "ae44d83baf39ae2cf203d3617d0e9d7846d4a8b379b00c3ebd3734f1cfb5fbf3",
+      "source_gate": {
+        "sha256": "ae44d83baf39ae2cf203d3617d0e9d7846d4a8b379b00c3ebd3734f1cfb5fbf3",
+        "lines": 7162,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "herdsafe_forecast_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "releases/public-newmeta-127ed3e6-exact/main.py",
+      "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+      "eligible": true,
+      "anchor": true,
+      "environment": "V92_SELL_LIB absent; DP is a fixed baseline, not an external-dependency-free candidate"
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+      "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b",
+      "source_gate": {
+        "sha256": "e496a4fe550d26533caa0c284c2915c680e8d339624a1b811165cc74f4c5235b",
+        "lines": 7482,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "ig_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py",
+      "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+      "source_gate": {
+        "sha256": "1dfd463070024f85879d642fc294e1848ccfab00aad3f3980a04b0a8eca37fdd",
+        "lines": 7376,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "_final_sell_block_reorder_entrypoint",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    },
+    {
+      "path": "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py",
+      "sha256": "8378f73c82db7624ce5d0369cf896aa0761a662af147b119f67254f1f8634c56",
+      "source_gate": {
+        "sha256": "8378f73c82db7624ce5d0369cf896aa0761a662af147b119f67254f1f8634c56",
+        "lines": 7455,
+        "external_calls": [],
+        "nonstdlib": [],
+        "dependency_pass": true
+      },
+      "loader": {
+        "passed": true,
+        "entry": {
+          "entry": "hs4_ig_agent",
+          "has_file": false
+        },
+        "error": null
+      },
+      "eligible": true
+    }
+  ],
+  "public_weights": {
+    "a": {
+      "analysis/daily_scan/20260922/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py": 0.027500000000000004,
+      "releases/public-tetsutani-demand-preserving-0924-exact/main.py": 0.15,
+      "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py": 0.027500000000000004,
+      "releases/public-newmeta-127ed3e6-exact/main.py": 0.3,
+      "analysis/daily_scan/20260925/extracted/kaggriculture/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py": 0.027500000000000004,
+      "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py": 0.027500000000000004
+    },
+    "b": {
+      "analysis/daily_scan/20260922/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py": 0.017499999999999998,
+      "releases/public-tetsutani-demand-preserving-0924-exact/main.py": 0.15,
+      "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py": 0.017499999999999998,
+      "releases/public-newmeta-127ed3e6-exact/main.py": 0.5,
+      "analysis/daily_scan/20260925/extracted/kaggriculture/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py": 0.017499999999999998,
+      "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py": 0.017499999999999998
+    },
+    "c": {
+      "analysis/daily_scan/20260922/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py": 0.045454545454545456,
+      "releases/public-tetsutani-demand-preserving-0924-exact/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/herd-safe-v3-experimental-risk-aware-feed/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-7-turn-rescue-historical-lb-2800/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-harvest-ledger/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca20/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-herd-safe-sale-window-race-ca25/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-hybu-submit/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-late-purchase-v16-submit/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-more-wheat-smarter-sales/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-population-robust-economy/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-tetsutani-demand-preserving/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v15stack-nb/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/kaggriculture-v40-challenger/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/pioneers-of-kaggle-town-candidate-2/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/the-2965-master-hybrid-engine/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260924/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py": 0.045454545454545456,
+      "releases/public-newmeta-127ed3e6-exact/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260925/extracted/kaggriculture/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260925/extracted/kaggriculture-harvest-ledger/main.py": 0.045454545454545456,
+      "analysis/daily_scan/20260925/extracted/the-shepherds-ledger-herd-safe-sovereign/main.py": 0.045454545454545456
+    }
+  },
+  "tape_summary": "experiments/search_20260925/tape-bias-summary.json",
+  "policy_sha256": "bcf522f629f19a79328f45ba7fe9de1eee4d93457b3d923c8f758f5bf71b93bc"
+}

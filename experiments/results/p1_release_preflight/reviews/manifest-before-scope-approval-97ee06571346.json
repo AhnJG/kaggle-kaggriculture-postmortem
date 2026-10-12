@@ -1,0 +1,472 @@
+{
+  "manifest_schema_version": 1,
+  "id": "P1-RELEASE-PREFLIGHT-EXP006-A-20260916",
+  "purpose": "baseline release correctness for the actual active parent A artifact; not a performance or hosted-strength claim",
+  "prepared_at_utc": "2026-09-16T08:02:51Z",
+  "updated_at_utc": "2026-09-16T08:26:10Z",
+  "status": "BLOCKED",
+  "status_reasons": [
+    "Claude's 2026-09-16 17:20 KST review inspected the plan specification before this manifest existed, so current-manifest review is still pending",
+    "an independent validator has not been assigned or recorded",
+    "the reproduction target, regression population, seed approval, and runtime cutoff remain unresolved; the draft values below are not execution-authorized"
+  ],
+  "execution_authorized": false,
+  "evidence_boundary": "All future measurements from this manifest are LOCAL. PASS would establish only the listed release checks for this exact artifact and manifest; it would not establish hosted superiority or authorize submission.",
+  "source_of_truth": {
+    "repository_commit_at_draft": "df7890de7eb5ac6425d56bcba16c1281adf95b30",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "sha256": "c687a612a363e04fd41096fa968d63d9f14d30ed449f2852bebcd322a12ec96d"
+      },
+      {
+        "path": "plan/CURRENT.md",
+        "sha256": "af86e4251109333f12eb11789c21da70da1802ad29b12a7aa04bcb194e30ab3b"
+      },
+      {
+        "path": "plan/kaggriculture_deadline_plan_20260915.md",
+        "sha256": "df62f4b6405da86408f14bef4582812d0daad6f378ed7e3fe8b448bcc0f4f238",
+        "sections": [
+          "5.2",
+          "6",
+          "8",
+          "10"
+        ]
+      },
+      {
+        "path": "coordination/BOARD.md",
+        "sha256": "5d31e77d27d8da7d4b2354f9f3002b7caaa942eef0a41ff62745565494b3b9cd"
+      },
+      {
+        "path": "experiments/cards/EXP-006-clone-preempt.md",
+        "sha256": "6be0953114398ca7d7b71a4cdf1dfea4b0e8f1a8a84a07439363f8da34b22788"
+      }
+    ]
+  },
+  "artifact": {
+    "role": "actual parent A",
+    "path": "coordination/proposals/claude/exp006/submission.tar.gz",
+    "sha256": "1c478c249079075d28d0ce7e1fbd5e305007f196c1f1b6b05c8b3b1d4ba59721",
+    "bytes": 169317,
+    "hosted_submission_id_context_only": 56165718,
+    "cleanroom_root": "experiments/results/p1_release_preflight/cleanroom/parent",
+    "cleanroom_precondition": "path must not exist before extraction; do not reuse or overlay a previous extraction",
+    "expected_root_members_exact": [
+      "LICENSE.txt",
+      "actions.json",
+      "main.py",
+      "yh_base.py"
+    ],
+    "expected_member_sha256": {
+      "LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "actions.json": "17d503f2fd20d59f9c0f14024d1e74a8add8bb9b5561d4d908b45deecb5495ef",
+      "main.py": "bba042e04cff32ab53be2c59c2f5cd9053c8de2bf31632e396ca8faa502896b2",
+      "yh_base.py": "d6d74997dc5b483db63d8e39cafa1afeec0f366824e75107e109123f111e866b"
+    },
+    "runtime_entrypoint": "main.py:agent(obs)",
+    "uses_file_dunder": false,
+    "dependency_policy": "Only the four tar members above and Python standard library are expected; any extra member or undeclared import is IDENTITY_MISMATCH."
+  },
+  "engine": {
+    "package": "kaggle-environments",
+    "version": "1.32.7",
+    "python_requires": ">=3.11",
+    "kaggriculture_py_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "kaggriculture_json_sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+    "episode_steps": 720,
+    "agent_calls_per_player": 719,
+    "act_timeout_seconds": 1,
+    "overage_seconds": 60,
+    "local_episode_timeout_seconds": 1200
+  },
+  "measurement_environment": {
+    "python_version": "3.13.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_threads": 1,
+    "required_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "hosted_scheduling_equivalence": "N/A"
+  },
+  "runners": {
+    "primary": {
+      "path": "tools/instrument.py",
+      "sha256": "284dee4cdacfc56aab2125f8a92b41df53e14744cca7a8cafa10b853fb6d0629",
+      "metric_schema_version": 3,
+      "require_pass": true,
+      "capabilities": [
+        "first_call_ms",
+        "hands_length_mismatch_count",
+        "agent_ms_by_player",
+        "combined_agent_cpu_seconds when both players are timed",
+        "gate_verdict_by_player",
+        "parent-only top-level verdict via --gate-agent while preserving both players' counters"
+      ]
+    },
+    "gate_contract": {
+      "path": "tools/gate_contract.py",
+      "sha256": "3a3e423b3e0afadca8860b7bd2ed2d39ba326a824c8c6a23c4491fde6171353c",
+      "schema_version": 1
+    },
+    "builtin_smoke_reference": {
+      "path": "tools/smoke.py",
+      "sha256": "4fa89573a8f662d412067982a3d648b78614ce2944d6778d1c3e21f38ac2262b",
+      "use_for_release_verdict": false,
+      "reason": "It does not instrument the actual tar agent's silent-failure counters."
+    },
+    "missing_required_fields": [],
+    "gate_scope": "For non-self-play cells, --gate-agent selects only the parent A seat for the top-level verdict while both players' counters and player-level verdicts remain in JSON. For self-play, --gate-agent both gates both parent A players.",
+    "tooling_status": "IMPLEMENTED_AND_TESTED_NOT_PREFLIGHT_EXECUTED",
+    "tests": {
+      "focused": "python3 -m pytest -q tests/test_instrument_exp008.py tests/test_gate_contract.py",
+      "focused_result": "26 passed",
+      "full": "python3 -m pytest -q",
+      "full_result": "56 passed",
+      "strict_hypothesis_validation": "PASS: 30 entries",
+      "test_file_sha256": {
+        "tests/test_instrument_exp008.py": "ac3fa0b51fc09aea2ef372254418c3a33d329d47299dab40b095aee79e0a7bce",
+        "tests/test_gate_contract.py": "c5fbe785b7e6cd724a56b55cad5979351176c9adba51e6ba1991f1dcb7600b7b"
+      }
+    }
+  },
+  "opponents": [
+    {
+      "id": "self_parent_A",
+      "kind": "same extracted artifact",
+      "path": "experiments/results/p1_release_preflight/cleanroom/parent/main.py",
+      "sha256": "bba042e04cff32ab53be2c59c2f5cd9053c8de2bf31632e396ca8faa502896b2",
+      "provenance": "actual parent A tar member"
+    },
+    {
+      "id": "builtin_starter_1_32_7",
+      "kind": "engine builtin",
+      "path": "kaggle_environments.envs.kaggriculture.kaggriculture:starter_agent",
+      "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "hash_scope": "containing kaggriculture.py",
+      "provenance": "kaggle-environments==1.32.7"
+    },
+    {
+      "id": "stress_Remielle_108076177",
+      "kind": "frozen hosted action transcript",
+      "path": "private_artifacts/tapes/Remielle_episode-108076177-actions.json",
+      "sha256": "75ea188ed138167b274ce34d20ce3476adfcfe25ee75d6feb7ed4e8de7caa5c4",
+      "seed": 1125321547,
+      "evidence_label": "HOSTED transcript used as LOCAL deterministic stress opponent"
+    },
+    {
+      "id": "exp008_control_today_108079022",
+      "kind": "frozen hosted action transcript",
+      "path": "private_artifacts/tapes/today_episode-108079022-actions.json",
+      "sha256": "b1bd786abd851ac053f617eeebd3e36c91d74af63dde947ecb3f575e52faa637",
+      "seed": 1989066512,
+      "evidence_label": "HOSTED transcript used as LOCAL deterministic EXP-008 control-failure reproduction opponent"
+    }
+  ],
+  "cells": [
+    {
+      "group": "self_play",
+      "scope_status": "PROPOSED_NOT_APPROVED",
+      "opponent_id": "self_parent_A",
+      "seeds": [
+        7,
+        1000,
+        1001
+      ],
+      "seat_layout": "parent_A_vs_parent_A",
+      "episodes": 3,
+      "parent_player_records_gated": 6,
+      "time_parent_seat_by_seed": {
+        "7": 0,
+        "1000": 1,
+        "1001": 0
+      }
+    },
+    {
+      "group": "builtin_smoke",
+      "scope_status": "PROPOSED_NOT_APPROVED",
+      "opponent_id": "builtin_starter_1_32_7",
+      "seeds": [
+        7,
+        1000,
+        1001
+      ],
+      "parent_seats": [
+        0,
+        1
+      ],
+      "episodes": 6,
+      "parent_player_records_gated": 6,
+      "opponent_player_records_recorded_not_gated": 6
+    },
+    {
+      "group": "hosted_loss_stress",
+      "scope_status": "PROPOSED_NOT_APPROVED",
+      "opponent_id": "stress_Remielle_108076177",
+      "seeds": [
+        1125321547
+      ],
+      "parent_seats": [
+        0,
+        1
+      ],
+      "episodes": 2,
+      "parent_player_records_gated": 2,
+      "opponent_player_records_recorded_not_gated": 2
+    },
+    {
+      "group": "exp008_control_failure_reproduction",
+      "scope_status": "DISPUTED_LABEL_AND_PURPOSE",
+      "opponent_id": "exp008_control_today_108079022",
+      "seeds": [
+        1989066512
+      ],
+      "parent_seats": [
+        0,
+        1
+      ],
+      "episodes": 2,
+      "parent_player_records_gated": 2,
+      "opponent_player_records_recorded_not_gated": 2,
+      "historical_schema_2_release_counter_context_not_acceptance": {
+        "per_parent_seat": {
+          "noop_actions": 44,
+          "shed_discarded": 7,
+          "sell_unfilled": 83998,
+          "buy_failed": 0,
+          "hire_failed": 0,
+          "seed_blocked_plant": 0,
+          "orders_truncated": 0,
+          "exceptions": 0
+        },
+        "rule": "EXP-008 control passed its W/D/L G2 but had these schema-2 release counter violations. Do not call it an outcome-failure reproduction. Whether this counter-observation cell belongs in P1b remains unresolved."
+      }
+    }
+  ],
+  "expected_totals": {
+    "status": "PROPOSED_NOT_APPROVED",
+    "episodes": 13,
+    "parent_player_records_gated": 16,
+    "opponent_player_records_recorded_not_gated": 10,
+    "self_play_parent_players_checked": 6
+  },
+  "review_reconciliation": {
+    "claude_review": {
+      "path": "coordination/reports/claude/20260916-1720-P1B-PREFLIGHT-MANIFEST-REVIEW.md",
+      "sha256": "a09ac80ae6f28e6f0985cf16391759d0957474c4bd4bcd73ef06204025ce36ff",
+      "scope": "plan specification review performed before manifest creation",
+      "current_manifest_approval": "N/A"
+    },
+    "reproduction_target": {
+      "status": "UNRESOLVED",
+      "direct_facts": [
+        "EXP-008 target Remielle_108076177 seed 1125321547 failed outcome gate G1 with W/D/L 0/0/2",
+        "EXP-008 control today_108079022 seed 1989066512 passed outcome gate G2 with W/D/L 2/0/0",
+        "the same control cells had historical schema-2 release counter violations: noop_actions=44 and shed_discarded=7 per parent seat"
+      ],
+      "interpretations_requiring_owner_decision": [
+        "target-only outcome-failure reproduction: 2 episodes",
+        "control-only release-counter observation: 2 episodes",
+        "retain both for distinct purposes: 4 episodes"
+      ],
+      "current_draft": "retain both but label them separately; not execution-authorized"
+    },
+    "opponent_population": {
+      "status": "UNRESOLVED",
+      "direct_facts": [
+        "plan section 5.2 requires full opponent artifacts and seeds but does not define the population",
+        "plan section 5.3 preserves the public-4-bot plus 47-tape regression set but does not explicitly assign it to P1b",
+        "the current 13-episode draft is a minimal smoke/stress proposal, not an approved interpretation of the plan"
+      ],
+      "interpretations_requiring_owner_decision": [
+        "13-episode draft subset",
+        "EXP-008-style 326-cell regression population plus the separate self-play/smoke requirements",
+        "another exact preregistered population"
+      ]
+    },
+    "seeds": {
+      "status": "PROPOSED_NOT_APPROVED",
+      "basis": "7, 1000, 1001 are historical release-preflight precedent; plan section 5.2 did not specify them",
+      "rule": "Do not execute until the current manifest reviewer approves the exact list"
+    },
+    "runtime_cutoff": {
+      "status": "UNRESOLVED",
+      "measurements_now_available": [
+        "first_call_ms",
+        "p99_ms",
+        "max_call_ms",
+        "total_s by player",
+        "combined_agent_cpu_seconds",
+        "episode wall_seconds"
+      ],
+      "ambiguity": "70-80 percent may refer to the 1200-second episode budget or the 779-second per-agent nominal ceiling; inherited EXP-006 p99 and CPU limits are separate historical thresholds",
+      "rule": "Record measurements but do not declare runtime PASS until one exact reviewed cutoff set is selected"
+    },
+    "independent_validator": {
+      "status": "UNASSIGNED",
+      "allowed_resolution": "human assignment or an existing non-Codex reviewer designated by the human; no agent is created by this task"
+    }
+  },
+  "acceptance": {
+    "identity": {
+      "tar_sha_mismatch_count": 0,
+      "unexpected_member_count": 0,
+      "missing_member_count": 0,
+      "member_sha_mismatch_count": 0,
+      "artifact_changed_during_run_count": 0
+    },
+    "engine": {
+      "version_mismatch_count": 0,
+      "engine_py_sha_mismatch_count": 0,
+      "engine_json_sha_mismatch_count": 0
+    },
+    "schema": {
+      "root_main_py_count": 1,
+      "callable_agent_count": 1,
+      "agent_positional_obs_supported": true,
+      "file_dunder_reference_count": 0,
+      "hands_length_mismatch_count": 0,
+      "uncaught_agent_exception_count": 0
+    },
+    "completion": {
+      "missing_episode_count": 0,
+      "steps_per_episode": 720,
+      "status_not_done_count": 0,
+      "runner_error_count": 0,
+      "metric_schema_version_mismatch_count": 0
+    },
+    "parent_zero_gate_each_player_record": {
+      "noop_actions": 0,
+      "shed_discarded": 0,
+      "shed_unsold": 0,
+      "orders_truncated": 0,
+      "buy_failed": 0,
+      "hire_failed": 0,
+      "seed_blocked_plant": 0,
+      "exceptions": 0
+    },
+    "diagnostic_not_gating": [
+      "blocked_moves",
+      "sell_unfilled",
+      "gate_diagnostics",
+      "opponent counters outside self-play"
+    ],
+    "runtime": {
+      "status": "UNRESOLVED_NO_PASS_THRESHOLD",
+      "measure_only_fields": [
+        "first_call_ms",
+        "p99",
+        "max",
+        "total_s by player",
+        "combined_agent_cpu_seconds",
+        "wall_seconds"
+      ],
+      "previous_draft_values_retracted_from_acceptance": {
+        "first_call_ms_lte": 800,
+        "p99_ms_lte": 5,
+        "max_call_ms_lt": 1000,
+        "total_agent_cpu_seconds_lte": 5,
+        "wall_seconds_lte": 960,
+        "combined_parent_agent_cpu_seconds_lte": 10
+      },
+      "reason": "Claude review showed that the controlling 70-80 percent budget denominator is not fixed by the plan; these values must not silently become gates"
+    },
+    "isolation": {
+      "preexisting_cleanroom_entry_count": 0,
+      "import_error_count": 0,
+      "undeclared_runtime_dependency_count": 0
+    },
+    "license": {
+      "bundled_license_file_count": 1,
+      "bundled_license_sha_mismatch_count": 0,
+      "unattributed_bundled_external_file_count": 0,
+      "test_opponents_bundled_in_submission_count": 0
+    },
+    "ledger": {
+      "required_before_submission": false,
+      "expected_pre_submission_value": "N/A"
+    }
+  },
+  "verdict_rules": {
+    "PASS": "UNAVAILABLE while any review_reconciliation item is unresolved. After owner decisions and both reviews, PASS requires every frozen cell and parent record, all reviewed numeric criteria, all five pre-submission checklist lines, and unchanged identities.",
+    "FAILURE": "At least one completed, valid cell violates a frozen zero-gate, runtime, schema, isolation, identity, or license acceptance criterion.",
+    "INVALID": "A cell is missing, a run is incomplete, runner output is malformed, a required metric is absent, or execution differs from this manifest.",
+    "ENGINE_MISMATCH": "Installed engine version or either frozen engine SHA differs.",
+    "IDENTITY_MISMATCH": "Tar SHA, member set, member SHA, runner SHA, opponent SHA, or source-of-truth SHA differs.",
+    "BLOCKED": "Execution scope, seeds, runtime threshold, or reviewer assignment is unresolved, or required reviews are incomplete. Do not run a subset as a substitute."
+  },
+  "outputs": {
+    "report": "experiments/results/p1_release_preflight/report.md",
+    "resume": "experiments/results/p1_release_preflight/resume.json",
+    "cell_json_directory": "experiments/results/p1_release_preflight/cells",
+    "aggregate_json": "experiments/results/p1_release_preflight/aggregate.json",
+    "latency_json": "experiments/results/p1_release_preflight/latency.json",
+    "identity_json": "experiments/results/p1_release_preflight/identity.json",
+    "review_directory": "experiments/results/p1_release_preflight/reviews"
+  },
+  "reproduction": {
+    "preconditions": [
+      "manifest status is changed from BLOCKED only after Claude manifest review and an independent validator review are recorded under the frozen review directory",
+      "current-manifest Claude review approves the exact reproduction target, population, seeds, and runtime thresholds",
+      "an assigned independent validator approves the revised manifest and runner SHA",
+      "cleanroom path and output directories do not already exist",
+      "all artifact, engine, runner, opponent, and source-of-truth SHA-256 values match this manifest"
+    ],
+    "extract_argv": [
+      "tar",
+      "-xzf",
+      "coordination/proposals/claude/exp006/submission.tar.gz",
+      "-C",
+      "experiments/results/p1_release_preflight/cleanroom/parent"
+    ],
+    "runner_template_argv": [
+      "python3",
+      "tools/instrument.py",
+      "--a",
+      "<seat-0-agent>",
+      "--b",
+      "<seat-1-agent>",
+      "--seeds",
+      "<one-frozen-seed>",
+      "--steps",
+      "720",
+      "--time-agent",
+      "both",
+      "--gate-agent",
+      "<a-or-b-for-parent; both-for-self-play>",
+      "--json",
+      "<one-cell-output-path>",
+      "--require-pass"
+    ],
+    "execution_note": "Generate one JSON per frozen cell so a failure cannot suppress later cells. Preserve non-zero exits and continue only through a reviewed orchestrator that records every exit code; do not interpret sell_unfilled as a gate failure."
+  },
+  "reviews": {
+    "claude_manifest_review": {
+      "status": "SPEC_REVIEW_RECEIVED_CURRENT_MANIFEST_REVIEW_PENDING",
+      "review_path": "coordination/reports/claude/20260916-1720-P1B-PREFLIGHT-MANIFEST-REVIEW.md",
+      "required_checks": [
+        "cell scope and exact seeds",
+        "zero-gate semantics versus EXP-008 relative gates",
+        "runtime thresholds",
+        "artifact and opponent provenance",
+        "FAIL/N/A correctness-repair handoff"
+      ]
+    },
+    "independent_validator_review": {
+      "status": "PENDING_UNASSIGNED",
+      "must_be_different_from": "Codex manifest author and future execution integrator",
+      "required_checks": [
+        "manifest completeness",
+        "all SHA-256 values",
+        "expected episode/player counts",
+        "runner coverage of every acceptance field",
+        "verdict logic"
+      ]
+    }
+  },
+  "next_action_after_review": "Resolve the five review_reconciliation items, obtain current-manifest Claude and assigned independent-validator approval, then freeze the revised manifest SHA. Execution remains forbidden in this draft."
+}

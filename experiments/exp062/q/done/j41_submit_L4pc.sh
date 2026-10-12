@@ -1,0 +1,1 @@
+bash experiments/exp062/submit62d.sh releases/exp062-L4p 3265b749ee5f7d347331c1f606dc2cb7df4e1c27ab4730ffa52ed15d0511e6c4 releases/exp062-L4p/gate-d3-result-cloud.json "NEW:d157c" 56705818 "EXP-062 final A step2: L4pc = L4p copy (same bytes as L4p 56694892, sha 3265b749); retires L5p 56705818 -> active {L4pc, d157c}"

@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "action_effect_games": 1,
+      "d127_lower95": 0.0,
+      "d127_point": 0.0,
+      "games": 205,
+      "id": "l576_closure1",
+      "invalid": 0,
+      "open_runtime_pass": false,
+      "other_point": 0.0,
+      "runtime_games": 5,
+      "runtime_invalid": 0,
+      "runtime_max_step": 0.05920266592875123,
+      "verdict": "FAIL"
+    },
+    {
+      "action_effect_games": 2,
+      "d127_lower95": 0.0,
+      "d127_point": 0.0,
+      "games": 205,
+      "id": "l648_closure1",
+      "invalid": 0,
+      "open_runtime_pass": false,
+      "other_point": 0.0,
+      "runtime_games": 5,
+      "runtime_invalid": 0,
+      "runtime_max_step": 0.058031124994158745,
+      "verdict": "FAIL"
+    },
+    {
+      "action_effect_games": 180,
+      "d127_lower95": -0.15178571428571427,
+      "d127_point": -0.09375,
+      "games": 205,
+      "id": "l576_wool_first",
+      "invalid": 0,
+      "open_runtime_pass": false,
+      "other_point": -0.06451612903225806,
+      "runtime_games": 5,
+      "runtime_invalid": 0,
+      "runtime_max_step": 0.0603557089343667,
+      "verdict": "FAIL"
+    }
+  ],
+  "selected": null,
+  "selection_rule": "No selection until frozen closed-loop jobs are complete; among full PASS candidates select highest d127 point.",
+  "verdict": "FAIL"
+}

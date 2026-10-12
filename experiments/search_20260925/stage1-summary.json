@@ -1,0 +1,86 @@
+{
+  "runtime": {
+    "n": 1000,
+    "wins": 820,
+    "draws": 2,
+    "losses": 178,
+    "score": 0.821,
+    "invalid": 0,
+    "max_step": 0.750587249873206,
+    "max_game_p99": 0.04413941712118685,
+    "max_rss_bytes": 410468352
+  },
+  "direct": {
+    "n": 80,
+    "wins": 66,
+    "draws": 0,
+    "losses": 14,
+    "score": 0.825,
+    "invalid": 0,
+    "max_step": 0.1531033341307193,
+    "max_game_p99": 0.008171000052243471,
+    "max_rss_bytes": 408961024
+  },
+  "e5": {
+    "n": 20,
+    "wins": 16,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.8,
+    "invalid": 0,
+    "max_step": 0.26649566600099206,
+    "max_game_p99": 0.009602625155821443,
+    "max_rss_bytes": 407158784
+  },
+  "panel": {
+    "n": 47,
+    "wins": 42,
+    "draws": 0,
+    "losses": 5,
+    "score": 0.8936170212765957,
+    "invalid": 0,
+    "max_step": 0.18044924992136657,
+    "max_game_p99": 0.010413124924525619,
+    "max_rss_bytes": 539181056
+  },
+  "throughput": {
+    "duration_seconds": 2094.1872429847717,
+    "initial_5min_games": 132,
+    "last_5min_games": 148,
+    "initial_per_hour": 1584,
+    "late_per_hour": 1776,
+    "ratio": 1.121212121212121,
+    "overall_per_hour": 1719.0439928709745,
+    "longest_continuous_seconds": 2094.1872429847717,
+    "possible_sleep_games": []
+  },
+  "source_gate": {
+    "sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+    "lines": 7482,
+    "external_calls": [],
+    "nonstdlib": [],
+    "dependency_pass": true,
+    "cleanroom": {
+      "passed": true,
+      "entry": {
+        "entry": "ig_agent",
+        "has_file": false
+      },
+      "error": null
+    },
+    "tar_members": [
+      "main.py"
+    ],
+    "tar_main_sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+    "identity_pass": true
+  },
+  "runtime_pass": false,
+  "memory_pass": true,
+  "sustained_pass": true,
+  "reduce_workers_to_5": false,
+  "regression_pass": true,
+  "determinism_pass": true,
+  "source_sha256": "127ed3e62988c0474d386db6527ae8ca9de9bb1fe7004128557ddef67126c652",
+  "tar_sha256": "63e1554c9330557787462eb875960c8c9c9d52c4830251e657a512881625d86b",
+  "verdict": "NOT_ELIGIBLE"
+}

@@ -1,0 +1,36 @@
+10062/1 step0=0.165s max=0.532s max_after0=0.532s total=2.86s
+10117/0 step0=0.171s max=0.402s max_after0=0.402s total=2.73s
+10117/1 step0=0.165s max=0.391s max_after0=0.391s total=2.95s
+10118/0 step0=0.192s max=0.192s max_after0=0.140s total=2.26s
+10118/1 step0=0.218s max=0.218s max_after0=0.088s total=1.97s
+10119/0 step0=0.196s max=0.409s max_after0=0.409s total=3.11s
+10124/0 step0=0.163s max=0.412s max_after0=0.412s total=3.43s
+10194/0 step0=0.187s max=0.240s max_after0=0.240s total=2.28s
+10198/0 step0=0.162s max=0.393s max_after0=0.393s total=2.93s
+10198/1 step0=0.213s max=0.436s max_after0=0.436s total=3.00s
+10200/0 step0=0.189s max=0.362s max_after0=0.362s total=2.95s
+10210/0 step0=0.159s max=0.159s max_after0=0.145s total=2.72s
+10222/0 step0=0.153s max=0.153s max_after0=0.101s total=2.19s
+10237/0 step0=0.158s max=0.209s max_after0=0.209s total=2.44s
+10407/1 step0=0.156s max=0.156s max_after0=0.116s total=2.39s
+{
+ "max_step_incl_step0": 0.5319193609999786,
+ "max_step0": 0.21765647399999466,
+ "max_step_after0": 0.5319193609999786,
+ "max_p99_step": 0.07862175099995738,
+ "max_total_per_game": 3.4282188390005786,
+ "max_overage_per_game": 0,
+ "errors_or_invalid": 0,
+ "dp_mean_step_after0": 0.001927186073073127,
+ "pass_single_max_lt_0_8": true,
+ "pass_step0_lt_0_8": true,
+ "pass_total_lt_30": true,
+ "pass_no_error": true,
+ "pass_engine_sha": true,
+ "stage1_6worker_max_step": null,
+ "stage1_6worker_invalid": null,
+ "pass_6worker_lt_1_0": false,
+ "tolerable_hosted_slowdown_to_1s": 1.8799842106142857,
+ "verdict": "FAIL"
+}
+wrote /home/claude/d3root/experiments/d3_gate_v2/result-c26.json

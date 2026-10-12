@@ -1,0 +1,65 @@
+{
+  "candidate": "refresh",
+  "results": [
+    {
+      "episode": "112606102",
+      "parent_margin": -499.0,
+      "candidate_margin": -499.0,
+      "margin_change": 0.0,
+      "flipped": false
+    },
+    {
+      "episode": "112673766",
+      "parent_margin": -495.0,
+      "candidate_margin": -495.0,
+      "margin_change": 0.0,
+      "flipped": false
+    },
+    {
+      "episode": "112739528",
+      "parent_margin": -1445.0,
+      "candidate_margin": -1445.0,
+      "margin_change": 0.0,
+      "flipped": false
+    },
+    {
+      "episode": "112774818",
+      "parent_margin": -1349.0,
+      "candidate_margin": 635.0,
+      "margin_change": 1984.0,
+      "flipped": true
+    },
+    {
+      "episode": "112786680",
+      "parent_margin": -1897.0,
+      "candidate_margin": 836.0,
+      "margin_change": 2733.0,
+      "flipped": true
+    },
+    {
+      "episode": "112797220",
+      "parent_margin": -707.0,
+      "candidate_margin": -707.0,
+      "margin_change": 0.0,
+      "flipped": false
+    },
+    {
+      "episode": "112819173",
+      "parent_margin": -2130.0,
+      "candidate_margin": -2404.0,
+      "margin_change": -274.0,
+      "flipped": false
+    },
+    {
+      "episode": "112820851",
+      "parent_margin": -630.0,
+      "candidate_margin": 341.0,
+      "margin_change": 971.0,
+      "flipped": true
+    }
+  ],
+  "flipped": 3,
+  "required_flips": 3,
+  "card_sha256": "f2eaac36d5f002316692e2265b95d4b79bc54755563587be426a2a6a32c58686",
+  "freeze_sha256": "12704c262374b21c52507a7cb5aa08d18a89b6ba27f089b2c0e712ead214bcd2"
+}

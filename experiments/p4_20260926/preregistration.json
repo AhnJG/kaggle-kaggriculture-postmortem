@@ -1,0 +1,89 @@
+{
+  "experiment": "p4_20260926",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "design": {
+    "parent": {
+      "path": "analysis/daily_scan/20260925/extracted/kaggriculture/main.py",
+      "sha256_prefix": "e496a4fe"
+    },
+    "variants": [
+      {
+        "id": "v000",
+        "expected_sha256": "25d11c754848bb8ab202f98ecca67cdb085caf9078b3502f591e452b2c10933f"
+      },
+      {
+        "id": "v002",
+        "expected_sha256": "355f593016b9e318f233e5eea274f3cea92caccd36114e5bdd918a2b0dbb06a1"
+      },
+      {
+        "id": "v004",
+        "expected_sha256": "7a609d96fce8f3c2885cbfdc0411814b97b8bb4548e6a4b73a87ec1c3d5c78df"
+      },
+      {
+        "id": "v006",
+        "expected_sha256": "adc0c9259fd33901674a7f188f366395375d6b4d8045a27b9d1e55b27f1fadae"
+      },
+      {
+        "id": "v008",
+        "expected_sha256": "09ea2e57f7135102e46656d2e573ab357c5386cf584a12e18d5e2eec3278fb63"
+      },
+      {
+        "id": "v010",
+        "expected_sha256": "a34b20d1ed1e42a4a07b8964576e24ff46f8abe0d187f49996beb90692c90479"
+      }
+    ],
+    "modes": ["closed", "open"],
+    "episodes": {
+      "source_A": {
+        "manifest": "analysis/exp016_017_hosted_20260924/manifest.json",
+        "summary": "analysis/step91_id/summary.json",
+        "filter": "match_full=True"
+      },
+      "source_B": {
+        "opponents": "analysis/dp_hosted_20260924/opponents.csv",
+        "file_hashes": "analysis/dp_hosted_20260924/file_hashes.json",
+        "raw_dir": "private_artifacts/dp_hosted_20260924/raw/",
+        "filter": "match_full=True",
+        "exclude": ["56502662"],
+        "allow_panel47": true
+      },
+      "common_exclude": {
+        "seeds": [9000, 9599],
+        "tape_holdout_policy": "tape-holdout-policy.json",
+        "non_720_steps": true,
+        "non_default_config": true
+      }
+    },
+    "gate_0": {
+      "description": "Run 10 episodes from Source A using historical/EXP016|EXP017/main.py in both closed and open mode. Must perfectly reproduce hosted reward. If mismatch, STOP."
+    }
+  },
+  "judgment_criteria": {
+    "PASS": {
+      "informative_pairs_min": 60,
+      "D_95_CI_lower_bound_min": 0.65,
+      "D_point_estimate_min": 0.70,
+      "rho_min": 0.6,
+      "action": "Recommend downloading 127ed3e6 replica hosted games. Tell Codex to use tape panel as metric component."
+    },
+    "WEAK": {
+      "D_min": 0.60,
+      "not_PASS": true,
+      "action": "Use tape only as regression gate, not in metric."
+    },
+    "FAIL": {
+      "D_max": 0.60,
+      "rho_max": 0.3,
+      "action": "Discard tape. Only use FULL match opponents. Replica download only for closed-loop confirmation."
+    },
+    "STOP": {
+      "conditions": [
+        "Gate 0 fails",
+        "Exceptions/invalid > 1%",
+        "Prohibited actions violated"
+      ],
+      "action": "Stop and report immediately."
+    },
+    "source_conflict_rule": "If Source A and A+B yield different judgments, Source A is the definitive result."
+  }
+}
