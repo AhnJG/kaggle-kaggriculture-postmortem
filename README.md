@@ -28,18 +28,46 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 
 ## 내 역할
 
-1인 팀이다. 코드와 문서 대부분은 AI 에이전트가 썼고, 나는 **연구 운영자**로서 문제를 정의하고, 에이전트들이 일하는 규칙을 설계하고,
-방향 전환과 제출을 결정했다. 이 저장소가 보여 주려는 것은 봇의 성능보다 이 과정이다.
+> **사람 1명(나)과 LLM 에이전트 4종으로 운영했다.** 코드와 문서 대부분은 에이전트가 썼고, 나는 방향과 규칙과 제출을 정했다.
+> 제출한 봇은 경기 중에 LLM 을 호출하지 않는다. 이 저장소 내용에 대한 책임은 나에게 있다.
 
-**설계한 것**
-- **운영 체계**: 에이전트 셋에게 각자 계획서를 쓰게 한 뒤 서로 검토시켜 정본 하나로 합치는 방식에서 출발했다. 한 작업 폴더를 에이전트별 소유 경로로 나누고,
-  [`AGENTS.md`](AGENTS.md) 계약을 모든 에이전트가 따르게 했다.
-- **증거 규칙**: 측정 없는 주장 금지, 수치에는 재현 명령 필수([FACTS](evidence/FACTS.md)), 이미 죽은 가설은 재검토 조건 없이 다시 꺼내지 않기([KILLS](evidence/KILLS.md)),
-  이전 세션의 결론은 "검증됨" 표시가 있을 때만 사실로 받기, 모호하면 추측하지 말고 멈추기(BLOCKED), 실행마다 독립 검토 붙이기.
-- **역할과 비용 배분**: 판단이 필요 없는 수집·실행은 Antigravity, 판단은 Codex·Claude, 마지막 결정 검토는 외부 모델(GPT-5.6 Sol)에 맡겼다.
-  사용량이 바닥나는 문제가 생기자 지시서를 한 번에 대기·보고하는 형식으로 바꾸게 했다.
+### 누가 무엇을 했나
 
-**주요 결정과 결과**
+학술 논문의 기여 표기 방식([CRediT](https://credit.niso.org/contributor-roles-defined/))을 빌려 나눴다.
+
+| 기여 역할 | 나 | 에이전트 |
+|---|---|---|
+| 구상 | 문제 정의, 목표 설정과 변경(상위 500위 → 최소 동메달 → 지는 상대 이기기), "기존 상위권 전략 흡수" 방향 제기 | 계획서 3종 초안, 대안 제시 |
+| 방법론 | 운영 규칙 설계(아래 "경계"), 평가 방식 전환 결정 | 사전등록 카드 설계(Claude), 하네스·gate 설계(Codex) |
+| 소프트웨어 | 코드 작성은 맡기고 산출물을 승인 | 봇·도구·테스트 작성(대부분 Codex, 마지막 날은 Claude). AI 작성 비율은 따로 측정하지 않았다 |
+| 조사 | — | 실험 실행, 실전 경기 수집, 공개 노트북·토론 수집(Antigravity, Codex) |
+| 검증 | 판정 승인·반려, 사후 기준 완화 거부 | 교차 검토(Codex·Sol·Claude), 재현 확인 |
+| 관리·감독 | 역할 배분과 재배정, 사용량 관리, 제출(09-30 전까지 직접 실행) | 상태 문서(BOARD) 관리, 지시서 작성 |
+| 작성 | 방향 지시와 교정 | 보고서·회고·이 README 초안 |
+
+### 에이전트 구성
+
+| 에이전트 | 모델·도구 | 맡은 일 | 남긴 기록 |
+|---|---|---|---|
+| Claude | Claude Opus 5 → 5.5 (데스크톱·클라우드 세션) | 가설, 사전등록, 판정, red-team, 코디네이터(초기·후반) | 보고 39, 제안·지시서 113 |
+| Codex | OpenAI Codex | 봇 런타임, 하네스, release, 코디네이터(09-15~) | 보고 80, 제안 31 |
+| Gemini → Antigravity | Gemini Pro, Antigravity | 공식 문서·공개 노트북·리플레이 수집, 정해진 경기 실행·집계 | 보고 10 + 86 |
+| Sol | GPT-5.6 (ChatGPT) | 제출 직전 결정에 대한 외부 독립 검토 | 보고 6, 검토 7회 |
+
+각 에이전트의 규칙은 [`AGENTS.md`](AGENTS.md)(공통)와 [`CLAUDE.md`](CLAUDE.md)·[`GEMINI.md`](GEMINI.md)(역할)에, 실제 지시서는 `coordination/proposals_*.md` 에 있다.
+
+### 에이전트가 넘을 수 없게 정한 경계
+
+- **제출은 사람이 한다.** 09-30 에만 시한을 정해 Claude 에 위임했다.
+- **판정 기준은 결과를 보기 전에 숫자로 고정한다.** 결과를 본 뒤 표본을 늘리거나 기준을 바꾸지 않는다.
+- **제안한 에이전트는 자기 결과를 혼자 승인할 수 없다**(`AGENTS.md` §4). 중요한 변경은 제안 → 구현 → 독립 검증 → 사람 승인을 거친다.
+- **수치에는 재현 명령을 붙인다.** 없으면 사실이 아니라 가설로 다룬다. 이전 세션의 결론도 "검증됨" 표시가 있을 때만 사실로 받는다.
+- **이미 죽은 가설(KILL)은 재검토 조건을 인용해야 다시 꺼낸다.** 모호하면 추측하지 말고 BLOCKED 로 멈춘다.
+- **자기 소유 경로 밖의 파일은 고치지 않고 제안만 한다.**
+
+### 주요 결정과 결과
+
+결정은 내가 내렸다. 상당수는 에이전트의 분석과 제안을 받아 승인한 것이며, 근거는 각 행의 기록에 있다.
 
 | 날짜 | 결정 | 결과 | 기록 |
 |---|---|---|---|
@@ -52,7 +80,21 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 | 09-28~29 | 외부 독립 검토자(Sol) 도입. 두 슬롯이 같은 계열이라 함께 무너질 위험이 있다고 보고 한 슬롯을 다른 방식으로 분산 | Sol 7회 검토, 사후 문턱 완화 반대 의견을 채택. 분산 봇 X 는 1658.1 | `coordination/reports_sol.md` |
 | 09-30 | 제출 실행을 Claude 에 위임하고 21:00 KST 를 새 후보 시한으로 고정. 최종 조합 {L4p, d157} 결정 | 마감 시점 활성 두 슬롯 | `coordination/reports_claude.md` 의 `20260930-2335-EXP062-FINAL-A` |
 
-**돌아보면**
+### 에이전트 결과를 어떻게 검증했고, 어디서 틀렸나
+
+검증 장치는 재현 명령, artifact SHA 원장, 독립 검토자, 실전 경기의 tape 재현(163/163 경기 일치 등)이었다. 이 장치들이 잡아낸 에이전트 오류는 다음과 같다.
+- 수집 에이전트가 실전 패배를 분석해 "HIRE 실패 100%", "NOOP 77/77" 같은 주장을 냈지만, 감사해 보니 실제 HIRE 실패는 패배 52판 중 3판이었다(ANL-P1c).
+- 검증 보고에 "실패 0"이라고 적혔지만 좌석(seat) 필터 오류로 1,397건 중 1,028건이 무효였다(EXP-025b).
+- wrapper 가 자기 자신을 참조해 변형 186개가 아무 행동도 하지 않았다. 처음엔 상태 코드만 확인해 놓쳤다가, 행동 수 검사를 추가하고 재실행했다(INFRA-BUG-001).
+- 다른 작업이 코드를 덮어써서 낡은 결과가 섞였다(EXP-001 stale artifact).
+- Claude 의 판단도 틀렸다. DP 0924 점수 예측(2450~2550, 실제 2191.6)이 빗나갔고, "c26 ≥ d157" 판단은 나중에 철회했다.
+
+비용도 컸다. 실험 62개에 조율 문서가 약 440개 쌓였고, Codex 사용량이 소진되고 Claude 컨텍스트가 리셋되는 일이 마지막 날에 겹쳤다.
+같은 대회에서 방향만 정하고 코드를 거의 검토하지 않은 채 에이전트에게 모두 맡긴 참가자는 그 시도가 실패였다고 보고했다([744808](https://www.kaggle.com/competitions/kaggriculture/discussion/744808)).
+에이전트의 출력을 그대로 믿지 않도록 검증 장치를 따로 설계한 것이 이 프로젝트에서 내가 한 일의 중심이다.
+
+### 돌아보면
+
 - 가장 큰 점수 상승 두 번은 공개 최강 봇을 그대로 낸 날이었다. 처음부터 "AlphaGo 처럼 기존 상위권 전략을 흡수하자"는 방향을 제안했고, 이는 상위권이 실제로 쓴 방법(리플레이 행동 복제)과 같은 방향이었다. 그러나 에이전트가 쓴 계획의 "그대로 제출하면 클론이 된다"는 권고와 내가 정한 "규칙기반 + 좁은 ML까지만"(09-06) 범위를 함께 승인했다. 그래서 공개 봇 제출은 8일째에야 나왔고, 행동 복제는 끝내 시도하지 않았다.
 - 사전등록으로 실험 판정은 엄격하게 했지만, 판정을 넘어 제출할 조건은 미리 정하지 않았다. 그 결과 6건 이상을 그때그때 판단했다(최고점도, 실패도 거기서 나왔다).
 - 대회가 끝난 뒤 에이전트에게 [실험 로그](experiments/EXPERIMENT_LOG.md)와 [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md)를 별도로 쓰게 해서
@@ -253,14 +295,15 @@ human working with several LLM agents (Claude, Codex, Gemini/Antigravity, GPT-5.
 Both slots were resubmitted at the deadline and were re-converging from 600; last observed **1622.2, 1,855th of 10,230**
 (2026-10-01); **1686, 1,558th** on 2026-10-12 while final Bradley-Terry evaluation was still running. No medal.
 
-**My role.** Solo team. AI agents wrote most of the code and documents; I acted as the research lead. I set up the
-operating system: plans cross-reviewed by three agents, one shared folder with per-agent ownership, and the agent contract
-([`AGENTS.md`](AGENTS.md)). I also set the evidence rules: no claim without a measurement, a reproduction command for every
-number, no reopening a killed hypothesis without its stated re-test condition, and BLOCKED instead of guessing. The strategic
-calls were mine: abandoning our own executor for tape replay (343.9 → 2188.4), switching the goal to "secure bronze" (2421.6
-the next day), submitting an INCONCLUSIVE experiment (EXP-016, the competition best), adding an external reviewer model, and
-choosing the final pair. In hindsight, I adopted public lineages too late and never pre-registered a submission policy
-separate from experiment verdicts.
+**My role.** One human (me) and four LLM agents (Claude, OpenAI Codex, Gemini/Antigravity, GPT-5.6 "Sol"). The agents wrote
+most of the code and documents; the submitted bots make no LLM calls at play time, and I am accountable for everything here.
+Using CRediT terms: I did conceptualization (problem framing, goal changes), methodology (the agent contract and evidence rules),
+supervision and project administration (role assignment, usage budgeting, submissions), and validation decisions; the agents did
+software, investigation and first drafts. Hard boundaries the agents could not cross: humans submit (delegated only on the last
+day), criteria are frozen before results, a proposer cannot approve its own result, and every number needs a reproduction
+command. Those checks caught several agent errors (a seat-filter bug invalidating 1,028 of 1,397 rows, a self-referencing wrapper
+that silenced 186 variants, unsupported loss-analysis claims). In hindsight, I adopted public lineages too late, never tried the
+behaviour-cloning route my own early question pointed to, and never pre-registered a submission policy separate from verdicts.
 
 **Trajectory.** Hand-written rule-based bot (≈340, 0/0/400 against top public bots) → replaying recorded action tapes like the top
 teams (≈2,190) → rotating exact copies of the strongest public lineage plus a ported sale layer (≈2,420) → one-constant searches
