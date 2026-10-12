@@ -1,7 +1,7 @@
-# Kaggriculture — 솔로 참가 회고: 최고 2425.7, 메달 미획득
+# Kaggriculture — 솔로 참가 회고: 최고 약 150위(은메달권), 메달 미획득
 
 Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026년 9월, 2인 농장 경영 시뮬레이션, 최종 순위 = Bradley-Terry)에
-솔로 팀 **Sian** 으로 참가한 기록이다. 한때 은메달권에 들었지만 마감 직전 슬롯 교체로 점수가 다시 쌓이는 상태에서 끝났다.
+솔로 팀 **Sian** 으로 참가한 기록이다. 한때 약 150위(당시 은메달권)까지 올랐지만 마감 직전 슬롯 교체로 점수가 다시 쌓이는 상태에서 끝났다.
 사람 1명과 LLM 에이전트 여러 개(Claude, Codex, Gemini/Antigravity, GPT-5.6 Sol)가 한 작업 폴더를 나눠 쓰며 운영했다.
 
 **바로 가기** · [실험 로그](experiments/EXPERIMENT_LOG.md) · [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md) ·
@@ -15,7 +15,8 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 | | |
 |---|---|
 | 제출 | 25회 (하루 5회, 최신 2개만 활성·최종 평가) |
-| 대회 중 최고 | **2425.7** — EXP-016, 09-23, 약 808위 / 9,886팀 (당시 동메달선 2346.1) |
+| 최고 순위 | **약 150위** — d157 첫 제출 후 (09-28 무렵, 당시 은메달선 약 505위·2308.7). 본인 관측이며 저장된 스냅샷은 없음 |
+| 최고 점수 | **2425.7** — EXP-016, 09-23, 약 808위 / 9,886팀 (당시 동메달선 2346.1) |
 | 마감 직후 | 1622.2, 1,855위 / 10,230팀 (10-01 05:47 KST, 재제출본이 600점부터 재수렴 중). 동메달선 1852.0 |
 | 최종 평가 중 | **1686점, 1,558위** (10-12 확인. 최종 BT 평가는 10/15 무렵까지 진행) |
 
@@ -47,7 +48,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 | 09-16 | 목표를 "점수 유지"에서 **"최소 동메달"**로 바꾸고, 09-18 공개 최강 계보를 바로 내는 fast lane 승인 | 다음 날 **2421.6, 동메달권** | `coordination/proposals_claude.md` 의 `20260916-BRONZE-TARGET-PLAN` |
 | 09-22 | 사전등록 판정이 INCONCLUSIVE 인 EXP-016 을 실전 실험으로 제출 | **2425.7, 대회 최고** | [EXP-016](experiments/cards/EXP-016-c1-sale-advance.md) |
 | 09-25 | 하루 1실험 대신 "동결한 목표 지표 + 에이전트 자율 탐색 + 사전 고정 holdout" 방식으로 전환 | 지표 calibration 에서 변별력 ≈0 → 루프 중단. 로컬 평가기를 먼저 검증해야 한다는 음성 결과 | `coordination/proposals_claude.md` 의 `20260925-SEARCH-LOOP-CODEX` |
-| 09-27 | "메달권 밖이면 위험 감수"를 "사전 고정 FAIL 은 뒤집지 않는다"보다 우선 | d157 제출 → **2400.9**. 같은 방침의 c26·L4p 는 실전에서 재현 안 됨 | [`experiments/exp035_d157/`](experiments/exp035_d157/) |
+| 09-27 | "메달권 밖이면 위험 감수"를 "사전 고정 FAIL 은 뒤집지 않는다"보다 우선 | d157 제출 → **2400.9, 최고 약 150위**. 같은 방침의 c26·L4p 는 실전에서 재현 안 됨 | [`experiments/exp035_d157/`](experiments/exp035_d157/) |
 | 09-28~29 | 외부 독립 검토자(Sol) 도입. 두 슬롯이 같은 계열이라 함께 무너질 위험이 있다고 보고 한 슬롯을 다른 방식으로 분산 | Sol 7회 검토, 사후 문턱 완화 반대 의견을 채택. 분산 봇 X 는 1658.1 | `coordination/reports_sol.md` |
 | 09-30 | 제출 실행을 Claude 에 위임하고 21:00 KST 를 새 후보 시한으로 고정. 최종 조합 {L4p, d157} 결정 | 마감 시점 활성 두 슬롯 | `coordination/reports_claude.md` 의 `20260930-2335-EXP062-FINAL-A` |
 
@@ -106,7 +107,7 @@ flowchart LR
 | 규칙기반 → tape 재생 계열 전환 | hosted 343.9 → 2188.4 ([RESET](coordination/RESET_2026-09-10.md)) |
 | 그 시점 최강 공개 계보를 exact 로 따라가기 | lynnsakurai v2 2421.6, 127ed3e6 2314.7 |
 | 판매 레이어 이식 (V53 sale-advance → C1) | 2425.7, 대회 최고 ([EXP-016](experiments/cards/EXP-016-c1-sale-advance.md)) |
-| 강한 계보 + 상수 1개 | d157 2400.9 ([EXP-035](experiments/exp035_d157/PREREG.md)) |
+| 강한 계보 + 상수 1개 | d157 2400.9, 최고 약 150위 ([EXP-035](experiments/exp035_d157/PREREG.md)) |
 | hosted 경기를 tape 로 재생해 상대 재현 | 163/163, 136/136, 107/107 경기 일치 |
 | 엔진 소스로 직접 확인 | 상점 해금 3일/8개, 진입점 = 마지막 callable ([FACTS](evidence/FACTS.md)) |
 
@@ -220,7 +221,7 @@ simulation; final ranking by Bradley-Terry over matches between each team's two 
 analysis tools, every bot we derived and submitted, pre-registered experiment cards and verdicts, and the coordination log of a
 human working with several LLM agents (Claude, Codex, Gemini/Antigravity, GPT-5.6 "Sol") in one shared folder.
 
-**Result.** 25 submissions. Best observed rating **2425.7** (EXP-016, ~808th of 9,886, above that day's bronze line of 2346.1).
+**Result.** 25 submissions. Peak rank **~150th** after the first d157 submission (around 2026-09-28, inside the silver zone at the time; self-observed, no saved snapshot). Best observed rating **2425.7** (EXP-016, ~808th of 9,886, above that day's bronze line of 2346.1).
 Both slots were resubmitted at the deadline and were re-converging from 600; last observed **1622.2, 1,855th of 10,230**
 (2026-10-01); **1686, 1,558th** on 2026-10-12 while final Bradley-Terry evaluation was still running. No medal.
 

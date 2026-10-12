@@ -24,7 +24,7 @@
 | `f0-omw-adv-exp017/` | EXP-017 | OneMoreWheat + sale-advance | 2100.2 |
 | `mirror-screen-v171/` | EXP-023 | 127ed3e6 계열 + `_DP_H` 8→9 | 2337.5 |
 | `round2-v074/` | EXP-024 | v171 + `V9_RACE_DEFAULT` 44→45 | 2215.9 |
-| `exp035-d157/` | EXP-035 | 공개 55be5d5f + `_S1002_PASSES` 34→35 | 2400.9 |
+| `exp035-d157/` | EXP-035 | 공개 55be5d5f + `_S1002_PASSES` 34→35 | 2400.9 (최고 약 150위) |
 | `exp039-c26/` | EXP-039 | d157 + `_CA_MARGIN` −15→−26 | 1939.7 |
 | `slot2r-Rc26_107/` | slot2-R | mirror 판이면 route 107, 아니면 c26 | 1658.1 |
 | `exp062-L3p/` … `exp062-L6p/` | EXP-062 | d157 + glut lead K=3…6 | L4p 1800.5 · L5p 1713.7 (L3p·L6p 미제출) |
