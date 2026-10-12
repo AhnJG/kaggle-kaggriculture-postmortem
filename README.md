@@ -5,7 +5,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 사람 1명과 LLM 에이전트 여러 개(Claude, Codex, Gemini/Antigravity, GPT-5.6 Sol)가 한 작업 폴더를 나눠 쓰며 운영했다.
 
 **바로 가기** · [실험 로그](experiments/EXPERIMENT_LOG.md) · [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md) ·
-[멀티에이전트 운영 방식](writeup/multi-agent-workflow.md) · [상위권과 비교](writeup/top-solutions-comparison.md) · [제출한 봇](releases/) · [English summary](#english-summary)
+[멀티에이전트 운영 방식](writeup/multi-agent-workflow.md) · [상위권과 비교](writeup/top-solutions-comparison.md) · [AI 활용 반성](writeup/ai-usage-lessons.md) · [제출한 봇](releases/) · [English summary](#english-summary)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/score_trajectory_dark.png">
@@ -92,6 +92,11 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 비용도 컸다. 실험 62개에 조율 문서가 약 440개 쌓였고, Codex 사용량이 소진되고 Claude 컨텍스트가 리셋되는 일이 마지막 날에 겹쳤다.
 같은 대회에서 방향만 정하고 코드를 거의 검토하지 않은 채 에이전트에게 모두 맡긴 참가자는 그 시도가 실패였다고 보고했다([744808](https://www.kaggle.com/competitions/kaggriculture/discussion/744808)).
 에이전트의 출력을 그대로 믿지 않도록 검증 장치를 따로 설계한 것이 이 프로젝트에서 내가 한 일의 중심이다.
+
+AI 오류 때문에 방향을 잘못 잡거나 실험을 망친 기록 55건(방향·권고 14, 평가기 9, 거짓 주장 11, 도구 버그 10, 운영 7, 이 회고 작성 중 4)과
+반성할 사항 9가지는 [writeup/ai-usage-lessons.md](writeup/ai-usage-lessons.md) 에 모았다. 핵심은 세 가지다.
+에이전트가 만든 평가기와 전략 권고를 검증 없이 규칙으로 굳힌 것, 실행 에이전트의 "실패 0" 같은 자기 보고를 그대로 받은 것,
+그리고 대부분의 오류가 결국 잡혔지만 그 위에 실험과 결정이 이미 쌓인 뒤였다는 것이다.
 
 ### 돌아보면
 
@@ -336,6 +341,8 @@ cloning of top replays: a network that reacts to the state, sometimes followed b
 A tape-family team at ~438th reported that tapes split games 50/50 and that opponents above ~2100 are animal-economy bots, which
 matches our own 0.29–0.50 win rates against 1800–2200 opponents. Our own 09-03 plan had rated replay behaviour cloning as a
 reliable top-tier route, but we dropped it. Details: [`writeup/top-solutions-comparison.md`](writeup/top-solutions-comparison.md).
+
+**AI-usage lessons.** 55 recorded incidents where agent errors misdirected strategy or invalidated experiments, with nine lessons: [`writeup/ai-usage-lessons.md`](writeup/ai-usage-lessons.md).
 
 **Worth reusing.** The agent contract ([`AGENTS.md`](AGENTS.md)), the experiment log format with a CV↔LB table
 ([`experiments/EXPERIMENT_LOG.md`](experiments/EXPERIMENT_LOG.md)), and the multi-agent write-up
