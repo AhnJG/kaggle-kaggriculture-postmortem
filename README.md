@@ -5,7 +5,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 사람 1명과 LLM 에이전트 여러 개(Claude, Codex, Gemini/Antigravity, GPT-5.6 Sol)가 한 작업 폴더를 나눠 쓰며 운영했다.
 
 **바로 가기** · [실험 로그](experiments/EXPERIMENT_LOG.md) · [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md) ·
-[멀티에이전트 운영 방식](writeup/multi-agent-workflow.md) · [제출한 봇](releases/) · [English summary](#english-summary)
+[멀티에이전트 운영 방식](writeup/multi-agent-workflow.md) · [상위권과 비교](writeup/top-solutions-comparison.md) · [제출한 봇](releases/) · [English summary](#english-summary)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/score_trajectory_dark.png">
@@ -53,7 +53,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 | 09-30 | 제출 실행을 Claude 에 위임하고 21:00 KST 를 새 후보 시한으로 고정. 최종 조합 {L4p, d157} 결정 | 마감 시점 활성 두 슬롯 | `coordination/reports_claude.md` 의 `20260930-2335-EXP062-FINAL-A` |
 
 **돌아보면**
-- 가장 큰 점수 상승 두 번은 공개 최강 봇을 그대로 낸 날이었다. 처음부터 "기존 상위권 전략을 흡수하자"는 방향을 제안했지만, 에이전트가 쓴 계획의 "그대로 제출하면 클론이 된다"는 권고와 내가 정한 "규칙기반 + 좁은 ML까지만"(09-06) 범위를 함께 승인했다. 그래서 그 결정이 8일째에야 나왔다.
+- 가장 큰 점수 상승 두 번은 공개 최강 봇을 그대로 낸 날이었다. 처음부터 "AlphaGo 처럼 기존 상위권 전략을 흡수하자"는 방향을 제안했고, 이는 상위권이 실제로 쓴 방법(리플레이 행동 복제)과 같은 방향이었다. 그러나 에이전트가 쓴 계획의 "그대로 제출하면 클론이 된다"는 권고와 내가 정한 "규칙기반 + 좁은 ML까지만"(09-06) 범위를 함께 승인했다. 그래서 공개 봇 제출은 8일째에야 나왔고, 행동 복제는 끝내 시도하지 않았다.
 - 사전등록으로 실험 판정은 엄격하게 했지만, 판정을 넘어 제출할 조건은 미리 정하지 않았다. 그 결과 6건 이상을 그때그때 판단했다(최고점도, 실패도 거기서 나왔다).
 - 대회가 끝난 뒤 에이전트에게 [실험 로그](experiments/EXPERIMENT_LOG.md)와 [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md)를 별도로 쓰게 해서
   내 결정을 포함한 전 과정을 다시 평가했다. 다음 대회용 계약 개정안(AGENTS.md v2)도 거기서 나왔다.
@@ -154,6 +154,26 @@ flowchart LR
 4. **마지막 이틀 동안 슬롯을 6번 교체했다.** 최종 BT 는 활성 제출끼리의 경기만 세고, 재제출은 600점에서 다시 시작한다.
    같은 바이트의 d157 이 09-28엔 2400.9였지만 09-30 재제출본은 다음 날 아침 1622.2였다(리그 전체 하락분도 섞여 있다).
 5. **조율 비용이 컸다.** 실험 62개에 조율 문서 약 440개가 쌓였다. 09-16~18 사흘은 정합성 작업에 쓰는 동안 제출 개선이 없었다.
+
+### 상위권 write-up 과 비교하면
+
+대회 후 공개된 상위권 글 8개(10-12 기준 1·4·5·11·26위 등)를 읽고 비교했다. 위 다섯 가지는 과정의 문제이고, 더 근본적인 차이는 **방식**이었다.
+
+| | 상위권 (1·4·5·11·26위) | 우리 |
+|---|---|---|
+| 정책 | 상위권 리플레이로 학습한 신경망(행동 복제, BC)이 매 턴 상태를 보고 행동 생성. 1·11위는 그 위에 self-play PPO | 공개 계보의 기록된 행동 tape 재생 + 규칙 레이어 |
+| 상대 반응 | 있음 (상태 입력) | tape 는 없음, 덧붙인 레이어만 |
+| 경제 | 첫 턴부터 동물 중심 경제 | 계보가 정한 생산 계획 유지, 생산 변경 실험은 모두 FAIL |
+| 컴퓨트 | 1위는 GPU 수십 장. 4·5·11위는 GPU 1~2장, 5위는 사전학습 약 50분 | 맥북에어 + Kaggle/Colab |
+
+- **천장은 방식에서 정해졌다.** 같은 tape 계열로 438위를 한 팀은 tape 끼리는 5할 승부이고, 2100점 위 상대는 동물을 키우는 경제형 봇이라고 보고했다.
+  우리 최종 봇도 1800–2000점 상대에게 0.45~0.50, 2000–2200점 상대에게 0.29~0.33이었다. 마지막 사흘의 진단과 개선은 tape 계열 안의 싸움이었다.
+- **맞는 방향을 처음에 적어 두고 버렸다.** 09-03 [흡수 전략 문서](plan/kaggriculture_strategy_transfer.md)는 리플레이 행동 복제를 "확실한 상위권"으로 평가하고 2~3주차 후보로 잡았지만,
+  09-06 범위 결정과 09-10 tape 전환 뒤 다시 다루지 않았다. 5위는 마지막 9일, 26위는 마지막 5일에 BC 로 그 자리에 올랐다.
+- **RL 을 막은 KILL(K6)은 반만 맞았다.** 근거는 처음부터 self-play 만 하는 경우였다. 상위권에서 통한 것은 BC 로 출발한 뒤의 PPO 였고, 4·5위는 BC 만으로 충분했다.
+- **같은 엔진 지식을 다르게 썼다.** 주문 절삭 같은 무음 처리를 우리는 검증 gate 에만 썼고, 4위는 실제 체결된 행동만 학습 라벨로 써서 큰 이득을 봤다.
+
+출처와 팀별 요약, 다음 대회에 가져갈 것은 [writeup/top-solutions-comparison.md](writeup/top-solutions-comparison.md).
 
 다음 대회용 체크리스트는 [실험 로그 §9](experiments/EXPERIMENT_LOG.md), 운영 방식 개선안은 [회고 §4](plan/kaggriculture_process_retrospective_claude-opus-5.5.md).
 
@@ -256,6 +276,12 @@ teams (≈2,190) → rotating exact copies of the strongest public lineage plus 
 3. Pre-registered verdicts and submission decisions were not separated; at least six submissions overrode a verdict.
 4. Six slot changes in the last two days restarted ratings from 600.
 5. Coordination overhead (≈440 documents for 62 experiments) outweighed experiment cost.
+
+**Compared with top write-ups.** Every top write-up we read (ranks 1, 4, 5, 11 and 26 as of 2026-10-12) used behaviour
+cloning of top replays: a network that reacts to the state, sometimes followed by self-play PPO. We replayed fixed public tapes.
+A tape-family team at ~438th reported that tapes split games 50/50 and that opponents above ~2100 are animal-economy bots, which
+matches our own 0.29–0.50 win rates against 1800–2200 opponents. Our own 09-03 plan had rated replay behaviour cloning as a
+reliable top-tier route, but we dropped it. Details: [`writeup/top-solutions-comparison.md`](writeup/top-solutions-comparison.md).
 
 **Worth reusing.** The agent contract ([`AGENTS.md`](AGENTS.md)), the experiment log format with a CV↔LB table
 ([`experiments/EXPERIMENT_LOG.md`](experiments/EXPERIMENT_LOG.md)), and the multi-agent write-up
