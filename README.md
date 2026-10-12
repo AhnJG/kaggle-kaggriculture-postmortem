@@ -53,7 +53,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 | 09-30 | 제출 실행을 Claude 에 위임하고 21:00 KST 를 새 후보 시한으로 고정. 최종 조합 {L4p, d157} 결정 | 마감 시점 활성 두 슬롯 | `coordination/reports_claude.md` 의 `20260930-2335-EXP062-FINAL-A` |
 
 **돌아보면**
-- 가장 큰 점수 상승 두 번은 공개 최강 봇을 그대로 낸 날이었다. 그런데 초반의 "규칙기반 + 좁은 ML까지만"(09-06) 방침과 공개 코드를 쓰지 않는 방침 때문에 그 결정이 8일, 17일째로 늦었다.
+- 가장 큰 점수 상승 두 번은 공개 최강 봇을 그대로 낸 날이었다. 처음부터 "기존 상위권 전략을 흡수하자"는 방향을 제안했지만, 에이전트가 쓴 계획의 "그대로 제출하면 클론이 된다"는 권고와 내가 정한 "규칙기반 + 좁은 ML까지만"(09-06) 범위를 함께 승인했다. 그래서 그 결정이 8일째에야 나왔다.
 - 사전등록으로 실험 판정은 엄격하게 했지만, 판정을 넘어 제출할 조건은 미리 정하지 않았다. 그 결과 6건 이상을 그때그때 판단했다(최고점도, 실패도 거기서 나왔다).
 - 대회가 끝난 뒤 에이전트에게 [실험 로그](experiments/EXPERIMENT_LOG.md)와 [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md)를 별도로 쓰게 해서
   내 결정을 포함한 전 과정을 다시 평가했다. 다음 대회용 계약 개정안(AGENTS.md v2)도 거기서 나왔다.
@@ -137,10 +137,18 @@ flowchart LR
 
 ## 왜 메달을 못 땄나
 
-1. **평가기를 검증하기 전에 평가기로 골랐다.** 로컬 지표가 실전 순서를 맞히는지 처음 잰 것은 4주차(09-25)였고 결과는 BLOCKED였다.
+1. **로컬과 실전이 어긋나는 것을 계속 확인했으면서도, 그 어긋남을 해결하기 전에 로컬 지표로 후보를 골랐다.** 어긋남은 처음부터 여러 번 관측했다.
+   - 09-07: v0 이 로컬에서 starter 를 크게 이겼지만 실전 337점이었고, 그래서 판정 기준을 공개 상위 봇 상대로 바꿨다([`AGENTS.md`](AGENTS.md) §7.1).
+   - 09-10: tape 품질과 그 소유자의 실전 순위가 무관했다([FACTS](evidence/FACTS.md) F-T2).
+   - 09-11: 로컬 점수가 실전을 예측하는지 보려고 [EXP-005](experiments/cards/EXP-005-x1-probe.md)를 설계했지만, 안전 기준에 걸려 제출하지 못했다.
+   - 09-23: 같은 계열 형제끼리의 로컬 대결이 실전 순위를 못 맞혔다는 기록을 남겼다([HOSTED_LEDGER](evidence/HOSTED_LEDGER.md)).
+
+   그러나 계약이 요구한 "로컬 · 공개 봇 · 실전" 삼중쌍 표는 끝내 만들지 않았다. 지표 하나를 고정해 체계적으로 검증(calibration)한 것은 09-25가 처음이었고, 결과는 변별력 ≈0(BLOCKED)이었다.
    그 뒤에도 같은 계열 미세 변경을 로컬 지표로 골라 제출했다.
 2. **가장 큰 상승 두 번은 모두 "공개 최강 봇을 그대로 낸 날"이었고, 그 결정이 늦었다.** 대회 시작 후 8일, 17일째였다.
-   공개 코드 파생물을 쓰지 않는다는 초기 방침이 원인이었다.
+   첫 번째가 늦은 이유는 초기 계획이 공개 봇을 기준선·상대·분석 대상으로만 쓰고 그대로 제출하지 말라고 권했기 때문이다.
+   그 근거는 "수천 팀의 클론과 같은 봇이 된다", "공개 포크는 금방 죽은 계통이 된다"였다(Claude 작성, [09-03](plan/kaggriculture_strategy_transfer.md) · [09-06](plan/kaggriculture_master_plan_claude-opus-5.md)).
+   공개 코드 파생물을 허용한 것은 09-11이다. 두 번째는 그 뒤에도 공개 계보 위에 우리 변경을 얹는 실험과 정합성 작업을 먼저 하느라 늦어졌다.
 3. **판정과 제출 결정을 분리하지 않았다.** 사전등록 FAIL·INCONCLUSIVE 를 사람 결정으로 넘어선 제출이 6건 이상이었다(그중 EXP-016이 최고점).
    제출 규칙 자체는 미리 정해 두지 않았다.
 4. **마지막 이틀 동안 슬롯을 6번 교체했다.** 최종 BT 는 활성 제출끼리의 경기만 세고, 재제출은 600점에서 다시 시작한다.
@@ -239,9 +247,12 @@ teams (≈2,190) → rotating exact copies of the strongest public lineage plus 
 (d157, ≈2,400) → late attempts to beat the opponents we were actually losing to.
 
 **Why no medal.**
-1. We optimised against local metrics before checking that they predicted the ladder. Across lineages they did; for small variants
-   within one lineage they almost never did (EXP-017 beat EXP-016 78/0/2 locally, then scored 165.6 lower).
-2. Both big jumps came from submitting the strongest public bot as-is, which we only did on days 8 and 17.
+1. We saw local-vs-ladder mismatches from the first week (v0, tape-quality vs owner rank, the EXP-005 probe design, EXP-016/017),
+   but never built the local/public/hosted comparison table our own contract required, and ran the first systematic calibration only on
+   day 24 (no discriminative power). Meanwhile we kept selecting within-lineage variants with local metrics, which almost never
+   transferred (EXP-017 beat EXP-016 78/0/2 locally, then scored 165.6 lower).
+2. Both big jumps came from submitting the strongest public bot as-is, which we only did on days 8 and 17. The early plan
+   (agent-written, human-approved) advised using public bots only as baselines to avoid becoming "one of thousands of clones".
 3. Pre-registered verdicts and submission decisions were not separated; at least six submissions overrode a verdict.
 4. Six slot changes in the last two days restarted ratings from 600.
 5. Coordination overhead (≈440 documents for 62 experiments) outweighed experiment cost.
