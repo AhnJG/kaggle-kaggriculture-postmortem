@@ -9,7 +9,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/score_trajectory_dark.png">
-  <img alt="팀 점수 추이: 9월 7일 315점에서 9월 10일 tape 재생 봇으로 2188점, 9월 19~23일 동메달선 근처 2420점대, 마감 직전 재제출로 1622점" src="media/score_trajectory_light.png">
+  <img alt="팀 점수 추이: 9월 7일 315점에서 9월 10일 tape 재생 봇으로 2188점, 9월 19~23일 동메달선 근처 2420점대, 마감 직전 재제출로 1622점, 10월 12일 최종 평가 중 1686점" src="media/score_trajectory_light.png">
 </picture>
 
 | | |
@@ -17,13 +17,45 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 | 제출 | 25회 (하루 5회, 최신 2개만 활성·최종 평가) |
 | 대회 중 최고 | **2425.7** — EXP-016, 09-23, 약 808위 / 9,886팀 (당시 동메달선 2346.1) |
 | 마감 직후 | 1622.2, 1,855위 / 10,230팀 (10-01 05:47 KST, 재제출본이 600점부터 재수렴 중). 동메달선 1852.0 |
-| 최종 BT 순위 | 공개 시점 기준 평가 진행 중 |
+| 최종 평가 중 | **1686점, 1,558위** (10-12 확인. 최종 BT 평가는 10/15 무렵까지 진행) |
 
 ## 한 줄 요약
 
 직접 짠 규칙기반 봇(≈340)은 상위 봇에게 400판 중 한 판도 못 이겼다. 상위권처럼 **잘 된 경기의 행동 기록(tape)을 재생하는 봇**으로 바꾸자 2,188점이 됐고,
 그 시점 가장 강한 공개 계보를 골라 판매 레이어를 얹어 2,425.7까지 올랐다. 이후의 미세 개선은 **로컬에서 이긴다고 나와도 실전에서는 재현되지 않았고**,
 마지막 이틀의 잦은 슬롯 교체가 점수를 처음부터 다시 쌓게 만들었다.
+
+## 내 역할
+
+1인 팀이다. 코드와 문서 대부분은 AI 에이전트가 썼고, 나는 **연구 운영자**로서 문제를 정의하고, 에이전트들이 일하는 규칙을 설계하고,
+방향 전환과 제출을 결정했다. 이 저장소가 보여 주려는 것은 봇의 성능보다 이 과정이다.
+
+**설계한 것**
+- **운영 체계**: 에이전트 셋에게 각자 계획서를 쓰게 한 뒤 서로 검토시켜 정본 하나로 합치는 방식에서 출발했다. 한 작업 폴더를 에이전트별 소유 경로로 나누고,
+  [`AGENTS.md`](AGENTS.md) 계약을 모든 에이전트가 따르게 했다.
+- **증거 규칙**: 측정 없는 주장 금지, 수치에는 재현 명령 필수([FACTS](evidence/FACTS.md)), 이미 죽은 가설은 재검토 조건 없이 다시 꺼내지 않기([KILLS](evidence/KILLS.md)),
+  이전 세션의 결론은 "검증됨" 표시가 있을 때만 사실로 받기, 모호하면 추측하지 말고 멈추기(BLOCKED), 실행마다 독립 검토 붙이기.
+- **역할과 비용 배분**: 판단이 필요 없는 수집·실행은 Antigravity, 판단은 Codex·Claude, 마지막 결정 검토는 외부 모델(GPT-5.6 Sol)에 맡겼다.
+  사용량이 바닥나는 문제가 생기자 지시서를 한 번에 대기·보고하는 형식으로 바꾸게 했다.
+
+**주요 결정과 결과**
+
+| 날짜 | 결정 | 결과 | 기록 |
+|---|---|---|---|
+| 09-02~06 | 계획서 3개를 교차 검토해 정본 1개로 합침. 첫 제출은 성능이 아니라 파이프라인 검증용 | 세 계획서 모두에서 경제 모델 오류를 찾아냄. v0 제출 314.8 | [`plan/kaggriculture_final_plan.md`](plan/kaggriculture_final_plan.md) |
+| 09-10 | **RESET**: 직접 짠 실행기를 버리고 tape router 로 전환. 검증 gate 가 HOLD 를 냈지만 공개 9위 무수정본 제출 | 343.9 → **2188.4**. HOLD 는 gate 정의 오류(F-T7)였음 | [`RESET_2026-09-10.md`](coordination/RESET_2026-09-10.md) |
+| 09-16 | 목표를 "점수 유지"에서 **"최소 동메달"**로 바꾸고, 09-18 공개 최강 계보를 바로 내는 fast lane 승인 | 다음 날 **2421.6, 동메달권** | `coordination/proposals_claude.md` 의 `20260916-BRONZE-TARGET-PLAN` |
+| 09-22 | 사전등록 판정이 INCONCLUSIVE 인 EXP-016 을 실전 실험으로 제출 | **2425.7, 대회 최고** | [EXP-016](experiments/cards/EXP-016-c1-sale-advance.md) |
+| 09-25 | 하루 1실험 대신 "동결한 목표 지표 + 에이전트 자율 탐색 + 사전 고정 holdout" 방식으로 전환 | 지표 calibration 에서 변별력 ≈0 → 루프 중단. 로컬 평가기를 먼저 검증해야 한다는 음성 결과 | `coordination/proposals_claude.md` 의 `20260925-SEARCH-LOOP-CODEX` |
+| 09-27 | "메달권 밖이면 위험 감수"를 "사전 고정 FAIL 은 뒤집지 않는다"보다 우선 | d157 제출 → **2400.9**. 같은 방침의 c26·L4p 는 실전에서 재현 안 됨 | [`experiments/exp035_d157/`](experiments/exp035_d157/) |
+| 09-28~29 | 외부 독립 검토자(Sol) 도입. 두 슬롯이 같은 계열이라 함께 무너질 위험이 있다고 보고 한 슬롯을 다른 방식으로 분산 | Sol 7회 검토, 사후 문턱 완화 반대 의견을 채택. 분산 봇 X 는 1658.1 | `coordination/reports_sol.md` |
+| 09-30 | 제출 실행을 Claude 에 위임하고 21:00 KST 를 새 후보 시한으로 고정. 최종 조합 {L4p, d157} 결정 | 마감 시점 활성 두 슬롯 | `coordination/reports_claude.md` 의 `20260930-2335-EXP062-FINAL-A` |
+
+**돌아보면**
+- 가장 큰 점수 상승 두 번은 공개 최강 봇을 그대로 낸 날이었다. 그런데 초반의 "규칙기반 + 좁은 ML까지만"(09-06) 방침과 공개 코드를 쓰지 않는 방침 때문에 그 결정이 8일, 17일째로 늦었다.
+- 사전등록으로 실험 판정은 엄격하게 했지만, 판정을 넘어 제출할 조건은 미리 정하지 않았다. 그 결과 6건 이상을 그때그때 판단했다(최고점도, 실패도 거기서 나왔다).
+- 대회가 끝난 뒤 에이전트에게 [실험 로그](experiments/EXPERIMENT_LOG.md)와 [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md)를 별도로 쓰게 해서
+  내 결정을 포함한 전 과정을 다시 평가했다. 다음 대회용 계약 개정안(AGENTS.md v2)도 거기서 나왔다.
 
 ## 접근 방식
 
@@ -190,7 +222,16 @@ human working with several LLM agents (Claude, Codex, Gemini/Antigravity, GPT-5.
 
 **Result.** 25 submissions. Best observed rating **2425.7** (EXP-016, ~808th of 9,886, above that day's bronze line of 2346.1).
 Both slots were resubmitted at the deadline and were re-converging from 600; last observed **1622.2, 1,855th of 10,230**
-(2026-10-01). No medal. Final Bradley-Terry results were still being computed at publication.
+(2026-10-01); **1686, 1,558th** on 2026-10-12 while final Bradley-Terry evaluation was still running. No medal.
+
+**My role.** Solo team. AI agents wrote most of the code and documents; I acted as the research lead. I set up the
+operating system: plans cross-reviewed by three agents, one shared folder with per-agent ownership, and the agent contract
+([`AGENTS.md`](AGENTS.md)). I also set the evidence rules: no claim without a measurement, a reproduction command for every
+number, no reopening a killed hypothesis without its stated re-test condition, and BLOCKED instead of guessing. The strategic
+calls were mine: abandoning our own executor for tape replay (343.9 → 2188.4), switching the goal to "secure bronze" (2421.6
+the next day), submitting an INCONCLUSIVE experiment (EXP-016, the competition best), adding an external reviewer model, and
+choosing the final pair. In hindsight, I adopted public lineages too late and never pre-registered a submission policy
+separate from experiment verdicts.
 
 **Trajectory.** Hand-written rule-based bot (≈340, 0/0/400 against top public bots) → replaying recorded action tapes like the top
 teams (≈2,190) → rotating exact copies of the strongest public lineage plus a ported sale layer (≈2,420) → one-constant searches
