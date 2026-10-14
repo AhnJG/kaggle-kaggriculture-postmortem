@@ -19,7 +19,7 @@
       },
       "opens_during_agent_calls": [],
       "opens_during_load": [
-        "/sessions/rcw-01343en1bwpdace8ajpioczx/tmp/tmp5af333we/clean_room/main.py"
+        "<tmp>/clean_room/main.py"
       ],
       "modules_imported_during_load": [],
       "modules_imported_during_agent_calls": []
@@ -45,7 +45,7 @@
       },
       "opens_during_agent_calls": [],
       "opens_during_load": [
-        "/sessions/rcw-01343en1bwpdace8ajpioczx/tmp/tmpwgnnfxi0/clean_room/main.py"
+        "<tmp>/clean_room/main.py"
       ],
       "modules_imported_during_load": [],
       "modules_imported_during_agent_calls": []

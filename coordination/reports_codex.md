@@ -2057,7 +2057,7 @@ VERDICT | SCOPE APPROVED / EXECUTION BLOCKED | 13경기 유지, Antigravity 지�
 - prior manifest: `experiments/results/p1_release_preflight/reviews/manifest-before-scope-approval-97ee06571346.json`, SHA `97ee065713465957e119c706b00f5b01c459d2c47dd0900a4bda9d3863af1019`
 - Claude: `coordination/reports/claude/20260916-1745-P1B-CURRENT-MANIFEST-REVIEW.md`
 - independent: `coordination/reports/antigravity/20260916-1746-P1B-INDEPENDENT-VERIFICATION.md`
-- user: “응 초안의 13경기로 진행해.”
+- 사람 승인: 초안의 13경기로 진행
 
 ## Runtime 검토 제안
 
@@ -2582,7 +2582,7 @@ NEXT ACTION 2: Coordinator는 같은 적용 시점에 §B BOARD 문구의 `범�
 
 # EXP-011 사용자 승인 기록
 
-사용자 직접 지시: “BOARD 변경안 적용과 EXP-011 §D-1의 범위 한정을 승인한다. BOARD에는 최신 카드 수정 상태를 반영해라. EXP-011만 구현·검증·실행하고 결과를 보고해라. EXP-013 구현과 실행은 하지 마라. 독립 결과 검토는 Antigravity에 맡길 수 있도록 보고서를 준비해라.”
+사람 지시: BOARD 변경안 적용과 EXP-011 §D-1의 범위 한정 승인. BOARD에 최신 카드 수정 상태 반영. EXP-011만 구현·검증·실행하고 결과 보고. EXP-013 구현과 실행은 하지 않음. 독립 결과 검토는 Antigravity에 맡길 수 있도록 보고서 준비.
 
 승인자: 사용자. 기록일: 2026-09-18 KST (원 메시지의 정확한 wall-clock 시각 N/A; 날짜 전환 뒤 작업 재개). Coordinator: Codex.
 EXP-011 card SHA 8736d403e3fdf870de74060d7d0a7c2660ff311a6aed24b2c8ff5cc503e5dd0e. EXP-013 r3 SHA dabe80a04f89a9f3bde9b8faff198a55108c1f4b1c4f1f809c3db2265ac0cd9f.
@@ -3376,7 +3376,7 @@ VERDICT | Q1 NUMERIC BOUND / Q2 LOCAL ACCOUNTING PASS / Q3 DIAGNOSTIC RECOMMENDE
 
 ### 1.2 상한의 정의와 계산
 
-전체 게임의 자유로운 생산계획까지 포함한 전역 최적 cash는 **N/A**다. 대신 사용자가 허용한 “생산량 고정의 느슨한 상한”을 다음과 같이 계산했다. 이름은 **고정 수확량·소비량·구매량·town demand 조건부 상한**이다.
+전체 게임의 자유로운 생산계획까지 포함한 전역 최적 cash는 **N/A**다. 대신 사람이 허용한 범위인 생산량 고정의 느슨한 상한을 다음과 같이 계산했다. 이름은 **고정 수확량·소비량·구매량·town demand 조건부 상한**이다.
 
 `[ENGINE+계산]` 품목 j에 대해:
 

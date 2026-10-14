@@ -5,7 +5,7 @@
 ## 0. 먼저 할 것
 1. 이 문서 → `coordination/BOARD.md` 현재 절 → `coordination/proposals/claude/20260925-SEARCH-LOOP-CODEX.md` (v2.3) → `coordination/reports/codex/20260925-1846-NEWMETA-EXACT.md` → `experiments/search_20260925/instructions.md`, `calibration-policy.json`.
 2. 루프 상태 확인: `experiments/search_20260925/state.json`, `workflow.log` 끝, `workflow-state.json`/terminal 파일 유무. (19:28 KST 기준 1b tournament screening 1780/2240, RUNNING)
-3. 사람 선호: 한 줄 요약, 상위 모델 권장 시 알림, 모호하면 먼저 질문, 끝에 다음 행동 2개 + 질문 2개, 전문용어는 영어. 에이전트는 제출하지 않는다.
+3. 에이전트는 제출하지 않는다.
 4. 도구: 사람 Mac 은 remote-devices 로 접근 (`$HOME/mnt/Kaggriculture`). **그 VM 셸에는 kaggle_environments 가 없다** — 경기 실행은 Mac 의 루프(`tools/search_loop.py`)나 사람이 터미널에서 돌리는 명령으로만. Claude 는 Kaggle 에 닿지 못함.
 
 ## 1. 현재 상태 (검증된 것)

@@ -1,7 +1,7 @@
 import json,collections
 rows={}
 conflict=0
-for src in ('games.jsonl','/mnt/user-data/uploads/Kaggriculture/experiments/exp023_mirror_screen/games.jsonl'):
+for src in ('games.jsonl',):
     for l in open(src):
         r=json.loads(l)
         if r['key'] in rows and rows[r['key']]['rewards']!=r['rewards']:conflict+=1

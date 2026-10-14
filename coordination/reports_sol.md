@@ -7,7 +7,7 @@
 
 ## `reports/sol/20260930-0010-EXP060-REVIEW.md`
 
-# Sol(GPT-5.6, ChatGPT 채팅 "실험 설계 검토") EXP-060/061 검토 요약 — Claude 가 옮김 (09-30 00:10 KST, M1 결과 보기 전)
+# Sol(GPT-5.6) EXP-060/061 검토 요약 — Claude 가 옮김 (09-30 00:10 KST, M1 결과 보기 전)
 1. 결함: (a) 41×3 screen 후 같은 384판에서 고르면 +0.05 도 선택 편향일 수 있다 → screen/selection/untouched confirm 분리 권고. (b) Y/D/S 는 거칠다(Y 에서 107 0.23) → step 144 가격·재고·돈 등 3–5 특징의 contextual selector 를 CV 로 비교. (c) EXP-061 은 farm 뿐 아니라 cash·재고·상점까지 가까운 경기만. (d) 마감 직전엔 후보 수를 줄이는 편이 기대값이 높다.
 2. 거울판 지렛대: 상대 초반 행동 fingerprint 로 55be 변형 분류 → route 선택(+0.02~0.06), step 144 contextual router(+0.02~0.05), route suffix splice(step 288/360/432 전환, +0.01~0.03).
 3. 편향: 거울판에선 우리 행동이 상대의 경합을 바꾸므로 d157 실전 tape 에 X 를 넣으면 과대평가 위험이 가장 크다. A = X실전 − d157가상, B = X가상 − d157실전. |B − A| 가 후보 이득의 절반 이상이면 tape 효과를 실전 효과로 보지 말 것. 최종 채택은 min(A, B) > 0 우선.
@@ -82,7 +82,7 @@ B) 밤사이 후보(마감 전, L5p 보다 확실히 나을 때만 제출 → L4
 ## `reports/sol/20260930-1945-PLAN-REVIEW3.md`
 
 # Sol 3차 검토 — 행동 계획 (GPT-5.6 Sol, High, 2026-09-30 19:4x KST; Claude 가 옮김)
-요청문: 20260930-1940-SOL-REQUEST3.md. 대화: chatgpt.com/c/6abce644-d568-83e8-a90a-47389ccc0d4e
+요청문: 20260930-1940-SOL-REQUEST3.md.
 1. 결함 ① 20:00 실전 gate 가 약하다(독립 표본 0.72/51 vs 0.62/137, 55be 변형 11판). 상대·seed 짝 또는 상대 유형별 층화 비교, P(L4>d157)>0.8 권고.
    결함 ② 평가 편향: 절대 성능 예측은 불신하되 같은 계열·같은 pool 의 L5−L4 +.037 은 상대적으로 믿을 만. 밤사이 후보는 L5 대비 짝 비교로만 판정.
    결함 ③ {L4,L5} 는 실패 방식을 공유한다. 두 번째 슬롯은 L5 복제보다 메타 오판 보험이 가치가 크다.

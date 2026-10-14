@@ -9,7 +9,7 @@
 
 # KAGRI-018 — 외부 플레이북 검토, ABSORPTION 정정, AGENTS.md 개정
 
-담당: cowork(claude-opus-5) · 사람 승인: **받음** (2026-09-09, 대화)
+담당: cowork(claude-opus-5) · 사람 승인: **받음** (2026-09-09)
 
 ## VERDICT
 

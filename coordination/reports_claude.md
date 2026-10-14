@@ -469,7 +469,7 @@ VERDICT | **manifest 사양 N/A — 미착수, §A 5건 미확정 항목 존재*
 2. **"에피소드 예산(§6)의 70~80%"의 §6이 어느 문서인지 모호하다.** 이 문구는 plan §8에 있는데, plan 자기 자신의 §6은 "새 카드가 반드시 답해야 할 질문"으로 런타임과 무관하다. 실제로 가리키는 것은 **AGENTS.md §6**(턴 1s·overage 60s·에피소드 1,200s, 에이전트당 nominal 상한 719×1s+60s=779s)로 보이지만, 그렇다 해도 "1,200s의 70~80%"(840~960s)인지 "779s의 70~80%"(545~623s)인지 원문이 숫자로 확정하지 않았다. AGENTS §5 "모든 임계는 숫자다" 기준으로 이 항목은 서술형이다 — manifest는 정확한 초 단위 상한 하나를 못박아야 한다.
 3. **self-play 3판·smoke/stress의 seed가 없다.** §5.2 1단계는 "self-play 3판과 양 좌석 smoke/stress"라고만 쓰고 구체적 seed 목록을 주지 않는다. 기존 release manifest(`public-thomas-…/manifest.json`)는 self-play seeds `7,1000,1001`을 실제로 썼으므로 전례는 있지만, 이번 §5.2 원문 자체에는 seed가 박혀 있지 않아 "실행 전 고정" 기준을 충족하지 못한다.
 4. **opponent 모집단이 EXP-008과 같은 326셀(47 tape + 4 public bot)인지 명시가 없다.** §5.2는 "전체 opponent artifact·seed 목록"이라고만 쓴다. plan §5.2 도입부가 "공개 4봇·47 tape는 고정 regression 세트로 보존한다"(§5.3-4)고 한 것과 같은 모집단을 재사용한다는 명시적 연결이 없으면, 다음 검토자가 임의로 부분집합을 고를 위험이 있다(AGENTS §5의 "seed는 리스트로 확정. 실행 후 추가 금지"와 같은 문제).
-5. **"독립 검증자"가 누구인지 지정돼 있지 않다.** BOARD P1b 행은 "Codex / Claude manifest 확인 / 독립 검증자"로 3인 역할을 나눴고 AGENTS §4는 "제안자가 자기 결과를 단독 승인할 수 없다"고 못박는다. Codex가 manifest 작성자이자 실행자이므로, Codex와 다른 제3의 검증자가 필요하다 — 이번 P1 배치에는 Gemini(P1a 담당)·Claude(범위 확인) 둘뿐이고 사용자가 이번 세션에서 "추가 agent는 만들지 마"라고 명시했으므로, 이 역할은 **사람이 직접 맡거나 Gemini가 P1a 완료 후 겸임**하는 방식으로 사람이 결정해야 한다. manifest에 이름이 없으면 Codex 단독 승인이 되어 §4를 위반한다.
+5. **"독립 검증자"가 누구인지 지정돼 있지 않다.** BOARD P1b 행은 "Codex / Claude manifest 확인 / 독립 검증자"로 3인 역할을 나눴고 AGENTS §4는 "제안자가 자기 결과를 단독 승인할 수 없다"고 못박는다. Codex가 manifest 작성자이자 실행자이므로, Codex와 다른 제3의 검증자가 필요하다 — 이번 P1 배치에는 Gemini(P1a 담당)·Claude(범위 확인) 둘뿐이고 이번 세션에서는 사람 지시로 추가 agent를 만들지 않으므로, 이 역할은 **사람이 직접 맡거나 Gemini가 P1a 완료 후 겸임**하는 방식으로 사람이 결정해야 한다. manifest에 이름이 없으면 Codex 단독 승인이 되어 §4를 위반한다.
 
 ## §B. 오늘 18:00 KST 종료 조건 대비 실행 가능성
 
@@ -612,7 +612,7 @@ VERDICT | **REVISED RUNTIME CRITERIA APPROVED (623s parent / 960s shared / 1200s
 - `cells[3].group`: `exp008_control_failure_reproduction` → `exp008_control_counter_violation_stress`, 라벨 텍스트를 "outcome-failure reproduction 아님"으로 재확인 (내 17:45 리뷰 §A 제안과 일치)
 - `acceptance.runtime.*`: 이전 미확정 draft 값(`first_call_ms_lte 800` 등 6개, 근거 없이 gate가 될 뻔한 값)을 `prior_proposed_criteria`로 격하·보존하고, 새 `proposed_criteria`(총 3개: `total_s_by_parent_player_lte 623`, `wall_seconds_lte 960`, `wall_seconds_hard_ceiling_lt 1200`)로 교체
 - `review_reconciliation.*` / `reviews.*`: 상태 전이(`UNRESOLVED`→`APPROVED_BY_USER` 등)와 이번 두 보고서(claude 17:45, antigravity 17:46) 경로·SHA 기록 추가
-- `owner_decision`: 신규 블록, 사람 승인 문구("응 초안의 13경기로 진행해.") 기록
+- `owner_decision`: 신규 블록, 사람 승인(초안의 13경기로 진행) 기록
 - `status_reasons`, `next_action_after_review`, `updated_at_utc`: 위 변경을 반영한 서술 갱신
 
 **변경되지 않음(직접 대조):** `artifact.*`(sha/bytes/멤버 4개), `engine.*`, `runners.primary/gate_contract.sha256`, `opponents[*].sha256`, `cells[*].seeds`, `cells[*].episodes`, `expected_totals.episodes/parent_player_records_gated/opponent_player_records_recorded_not_gated/self_play_parent_players_checked`(13/16/10/6, 직접 합산 재확인 — 3+6+2+2=13, 6+6+2+2=16, 6+2+2=10). Codex 보고서의 "원래 13경기와 seed·좌석·상대를 유지" 주장과 정확히 일치한다.
@@ -1321,9 +1321,12 @@ EXP-013 미승인·미구현, EXP-014 예약, P2 / release zero gate FAIL 유지
 
 # 사용자 승인 기록 — K3 정정 + donor tape fast lane
 
-기록: Claude (Coordinator 역할), 2026-09-18 ≈14:00 UTC. 사람이 채팅으로 아래 문장을 그대로 승인했다.
+기록: Claude (Coordinator 역할), 2026-09-18 ≈14:00 UTC. 사람이 아래 내용을 승인했다.
 
-> (1) `20260918-K3-DONOR-FINAL-DECISION.md` §A-3 K3 정정(D-2 α)을 승인한다. (2) `20260918-DONOR-TAPE-FASTLANE-PLAN.md` §3 fast lane을 §3-1 대상에 한해 2026-09-29까지 적용하고, §3-3 표의 AGENTS §7·§7.1·§7.4 및 BOARD P2 예외를 그 범위로 승인한다. (3) §4 단계 A–D를 승인한다(상위 1–60위 replay 최대 180개 다운로드 포함). 각 hosted 제출은 내가 직접 실행하며, §1-2 기준·§3-2 gate를 바꾸면 자동 진행하지 않고 나에게 돌아온다.
+- (1) `20260918-K3-DONOR-FINAL-DECISION.md` §A-3 K3 정정(D-2 α) 승인.
+- (2) `20260918-DONOR-TAPE-FASTLANE-PLAN.md` §3 fast lane을 §3-1 대상에 한해 2026-09-29까지 적용하고, §3-3 표의 AGENTS §7·§7.1·§7.4 및 BOARD P2 예외를 그 범위로 승인.
+- (3) §4 단계 A–D 승인(상위 1–60위 replay 최대 180개 다운로드 포함).
+- 각 hosted 제출은 사람이 직접 실행한다. §1-2 기준·§3-2 gate를 바꾸면 자동 진행하지 않고 사람에게 돌아온다.
 
 승인 대상 문서 SHA-256:
 - `coordination/proposals/claude/20260918-K3-DONOR-FINAL-DECISION.md` `466aca3f427fecb8424b6b31e4cb3d5c94d87cdd6e57d6341bf38bb1cec69598`
@@ -2517,7 +2520,7 @@ L3 두 슬롯 운용: c26 과 다른 방향의 후보를 넣어 최댓값 기대
 - 실전 패배 원인: 55be 계열 변형이 과잉 구간에서 우리보다 먼저 팜 → L 계열(과잉이면 다음 K step 계획 판매를 당겨 팜)로 대응.
 - S7d(100 seed): 원본(D55) 상대 약점은 L5p(K5)만의 문제. L4p ≈ d157 (D55), VP(선매 변형) 상대 +0.23.
 - S8(Kaggle 2,160판, 오류 0): L5p−L4p −0.058 [−0.104, −0.011], d157−L4p −0.064 [−0.120, −0.004]. L4p 맞대결 d157 0.650, L5p 0.483.
-- S9(Mac 1,880판, 오류 0, 사람 제안 "원본·d157·L5p 모두 이기기"): A11 합격 후보 없음. 최선 X454(양털4·딸기5·우유4) 주 지표 +0.025 < 문턱 +0.03 → L = L4p.
+- S9(Mac 1,880판, 오류 0, 사람 제안: 원본·d157·L5p 모두 이기기): A11 합격 후보 없음. 최선 X454(양털4·딸기5·우유4) 주 지표 +0.025 < 문턱 +0.03 → L = L4p.
 - 포트폴리오: D55·M2965 에서는 d157, VP·L3 계열에서는 L4p 가 강함 → "둘 중 최대"로 서로 보완(Sol 동의).
 
 ## 실전 참고(22:42 수집)

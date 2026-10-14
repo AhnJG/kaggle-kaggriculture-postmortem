@@ -131,12 +131,12 @@ L4pc (최종)     ████████████████ 1593.4   (재
 | 11 | 09-21 11:07 | C1 nathanjacob pipe16 exact | 56426857 | main `827ddf29…` | 공개 pipe16 | vs P2 20/0/0 | 2206.6 | EXP-017 |
 | 12 | 09-22 08:29 | EXP-016 C1 + sale advance | 56458814 | tar `4071f6c5…` | C1 + V53 sale-advance 레이어 | INCONCLUSIVE (P_c2 +6 > 2), 사람 결정 | **2425.7 (≈808위)** → 2265.8 | DP |
 | 13 | 09-23 09:59 | EXP-017 OMW + sale advance | 56490029 | tar `177eedc0…` | OMW + sale-advance | SUCCESS (vs EXP-016 78/0/2) | 1985.2 → 2100.2 → 2010.8 | 127ed3e6 |
-| 14 | 09-24 10:26 | DP 0924 exact | 56518910 | tar `1f88c3e7…` | 공개 tetsutani demand-preserving | 사람 "B안" (step-91 봇 식별 후 exact) | 2069.1 → 2191.6 (예상 2450~2550은 오류로 정정) | v171 |
+| 14 | 09-24 10:26 | DP 0924 exact | 56518910 | tar `1f88c3e7…` | 공개 tetsutani demand-preserving | 사람 결정: B안 (step-91 봇 식별 후 exact) | 2069.1 → 2191.6 (예상 2450~2550은 오류로 정정) | v171 |
 | 15 | 09-25 11:48 | 127ed3e6 exact | 56549720 | tar `63e1554c…` | 공개 newmeta 127ed3e6 | DP80 0.825, D3 v2 PASS | 2165.6 → 2314.7 → 2251.0 | v074 |
 | 16 | 09-26 (시각 미기록) | v171 | 56567563 | tar `998b46c5…` | 127ed3e6 계열 + `_DP_H` 8→9 | EXP-023 Stage 3 SUCCESS | 2337.5 → 2211.7 | d157 |
 | 17 | 09-26 (시각 미기록) | v074 | 56577440 | tar `a8f43236…` | v171 + `V9_RACE_DEFAULT` 44→45 | EXP-024 Stage 3 SUCCESS | 2215.9 → 2068.4 | c26 |
 | 18 | 09-27 12:00 | d157 | 56607884 | tar `4281ea3c…` | 공개 55be5d5f + `_S1002_PASSES` 34→35 | EXP-035 PASS (tape +0.29) + 사람 위험 감수 방침 | 2299.7(12h) / **2400.9(21h)** → 2127.1 | X |
-| 19 | 09-28 08:45 | c26 | 56635330 | tar `8961e03e…` | d157 + `_CA_MARGIN` −15→−26 | EXP-039 FAIL(frozen). 사람 방침 "슬롯2 공격적 후보 허용" 아래 제출 | 717 → 1939.7 → 1925.9 | d157r |
+| 19 | 09-28 08:45 | c26 | 56635330 | tar `8961e03e…` | d157 + `_CA_MARGIN` −15→−26 | EXP-039 FAIL(frozen). 사람 방침(슬롯2 공격적 후보 허용) 아래 제출 | 717 → 1939.7 → 1925.9 | d157r |
 | 20 | 09-29 12:35 | X = Rc26_107 | 56675447 | tar `03bde595…` | c26 + mirror 판에서 route 107 | slot2-R holdout PASS | 1016.9 → 1658.1 | L4p |
 | 21 | 09-29 12:36 | d157r (재제출) | 56675458 | = #18 바이트 | #18 | X와 짝 맞추기 | 831.7 → 1888.4 → 1844.5 | L5p |
 | 22 | 09-30 02:32 (11:32 KST) | L4p | 56694892 | tar `e458957d…` | d157 + glut lead K=4 | EXP-062 S2 하한 −0.002 (기준 "하한 > 0" 미달), 위험 감수 방침 | 600 → 1800.5 → 1784.0 | d157c |
@@ -174,7 +174,7 @@ L4pc (최종)     ████████████████ 1593.4   (재
 ### Phase 3 · 정합성·귀인 작업 (09-16 ~ 09-18)
 - **질문**: 현재 parent가 zero-gate를 통과하나? 실패하면 원인은 무엇인가?
 - **한 일**: P1b actual-tar preflight 13판(LOCAL FAILURE, zero gate 16/16 FAIL). EXP-011 shed-discard 귀인(측정 PASS, 인과 해석은 독립 검토에서 FAIL, EXP-012 사전등록 불가로 종결). EXP-013 hire recovery는 사전등록 r1~r3까지 갔지만 미실행. P1c hosted 77판 감사(추천 가설 0). TOP10 donor 재현(7190/7190 exact).
-- **결정 [사실]**: 09-16 사람이 목표를 "**점수를 지킬 필요 없어. 최소한 동메달을 확보하기 원해**"로 바꿨다. 09-18에는 K3 범위를 "market 기록만 떼어 붙이기 금지"로 좁히고 **F0 fast lane**(공개 노트북 exact 복제를 gate §3-2만으로 제출)을 승인했다.
+- **결정 [사실]**: 09-16 사람이 목표를 **점수 유지에서 최소 동메달 확보로** 바꿨다. 09-18에는 K3 범위를 "market 기록만 떼어 붙이기 금지"로 좁히고 **F0 fast lane**(공개 노트북 exact 복제를 gate §3-2만으로 제출)을 승인했다.
 - **결과 [사실]**: 이 기간에 우리 개선으로 나간 제출은 없다. 활성 슬롯 점수는 1862.6에서 1638.5(2,201위)로 떨어졌다.
 
 ### Phase 4 · F0 fast lane, 공개 exact를 돌려가며 제출 (09-19 ~ 09-24)
@@ -186,11 +186,11 @@ L4pc (최종)     ████████████████ 1593.4   (재
 ### Phase 5 · 동결 지표 탐색 루프 시도 → 상수 knife-edge 탐색 (09-25 ~ 09-27)
 - **질문**: 고정된 자동 평가 지표로 공개 최강 계열을 넘는 변형을 찾을 수 있나?
 - **한 일**: EXP-018(DP 1요인, DP floor 미달 NOT_ELIGIBLE). 127ed3e6 exact 평가(DP80 0.825). runtime gate를 0.25s에서 엔진 한도 기반 **D3 v2**로 재정의(사후 변경으로 기록)하고 제출(2314.7). parent tournament. **metric calibration BLOCKED**(변별력 거의 0, 실행 이상 5) → 루프 정지. EXP-021/022 mirror-edge STOP/FAIL(행동이 parent와 같음). P4/P4b tape fidelity(ρ 0.90, SUCCESS). EXP-023 상수 ±1 screen에서 v171 선택 → 제출(2337.5). EXP-024 round2(INFRA-BUG-001 수정 후) v074 → 제출(2215.9). EXP-025 hosted 107판 검증, ±1 회복 가설 폐기. EXP-026/027 near-clone. 55be5d5f 발견 → EXP-028 HOLD. EXP-029 mirror screen에서 d157 후보. EXP-030/032 FAIL. EXP-033 Kaggle kernel로 tape 실행, hosted 경기 163/163·136/136 재현. **EXP-035 d157 PASS** → 제출(21시간 후 2400.9).
-- **결정 [사실]**: 09-27 20:07 사람 방침 "**메달권 밖이면 위험 감수**"로 Codex의 NO_SUBMISSION 판단을 override했다. 21:36에는 "v171/v074 exact 재제출 금지, 둘째 슬롯은 d157 + 개선"이 나왔다.
+- **결정 [사실]**: 09-27 20:07 사람 방침(**메달권 밖이면 위험 감수**)으로 Codex의 NO_SUBMISSION 판단을 override했다. 21:36에는 v171/v074 exact 재제출 금지, 둘째 슬롯은 d157 + 개선으로 정했다.
 
 ### Phase 6 · d157 개선과 슬롯 분산 (09-28 ~ 09-29)
 - **질문**: d157이 지는 상대를 이기는 변경이 있나? 두 슬롯이 같은 계열이라는 위험은 어떻게 줄이나?
-- **한 일**: EXP-036 d157 ±1 158변형 FAIL(상수 ±1은 tape 상대에게 거의 무효과). EXP-038 55be family 중 d157이 최강. EXP-039 `_CA_MARGIN` grid FAIL(frozen) → 사람 방침 "슬롯2는 공격적 후보 허용"(14:05) 아래 c26 제출(제출 결정 자체의 기록은 원본에 없음). EXP-040~042 LB≥2400 tape 743개 수집·평가(c26−d157 +0.033). EXP-043 oracle NO CLUE. EXP-044~048 판매·상대모형 hook FAIL. EXP-053~055 tomato/Fritz 라인 FAIL. EXP-056 공개 family FAIL. EXP-057 geese FAIL. EXP-058S route 재배정 FAIL. slot2 다양화 검토 끝에 RL 제외, Fritz식 재설계 12변형 전부 FAIL. **slot2-R mirror gating Rc26_107 holdout PASS** → X·d157r 제출.
+- **한 일**: EXP-036 d157 ±1 158변형 FAIL(상수 ±1은 tape 상대에게 거의 무효과). EXP-038 55be family 중 d157이 최강. EXP-039 `_CA_MARGIN` grid FAIL(frozen) → 사람 방침(슬롯2는 공격적 후보 허용, 14:05) 아래 c26 제출(제출 결정 자체의 기록은 원본에 없음). EXP-040~042 LB≥2400 tape 743개 수집·평가(c26−d157 +0.033). EXP-043 oracle NO CLUE. EXP-044~048 판매·상대모형 hook FAIL. EXP-053~055 tomato/Fritz 라인 FAIL. EXP-056 공개 family FAIL. EXP-057 geese FAIL. EXP-058S route 재배정 FAIL. slot2 다양화 검토 끝에 RL 제외, Fritz식 재설계 12변형 전부 FAIL. **slot2-R mirror gating Rc26_107 holdout PASS** → X·d157r 제출.
 - **결정 [사실]**: 09-28 22:10 "**제출하지 않음은 없다. 계속 개선한다.**" 09-29 다른 팀의 전체 경기 기록(farmer+hands+market)을 route로 쓰는 것을 허용하고, 밤사이 무인 운영을 시작했다.
 - **알게 된 것 [사실]**: c26은 tape에서 d157보다 +0.030~+0.033이었지만 hosted에선 1,887~1,940 대 d157 ~2,200으로 반대였다. 공통 상대는 331판 중 0개였다. "c26 ≥ d157" 판단은 team-best LB 편향 때문이었다며 doc 45에서 철회했다.
 
@@ -411,7 +411,7 @@ L4pc (최종)     ████████████████ 1593.4   (재
 ### Phase 4 · F0 fast lane
 
 #### ANL-F0 — donor tape → 공개 exact → lineage (09-18 ~ 09-20)
-- donor tape 재생 full_match **0/52**(첫 분기 ≤32턴이 17팀). → 사람 "§3 A 채택"(공개 노트북 exact).
+- donor tape 재생 full_match **0/52**(첫 분기 ≤32턴이 17팀). → 사람 결정: §3 A 채택(공개 노트북 exact).
 - 공개 exact 3개 gate PASS. round-robin lynnsakurai 0.9667 / alperen 0.70 / tetsutani 0.33 / yhay81 0.00. → **P2 제출 2421.6(동메달권)**, P1 alperen 1471.3.
 - lineage: 추출 가능 37개 중 SAME_FAMILY 34, DIFFERENT 3. DIFFERENT 3개는 6쌍 중 5쌍 0/20으로 둘째 슬롯 후보 부적격.
 - 공개 "2749/2820" 변형은 vs P2 0/20. 이 과정에서 **엔진 진입점 = 마지막 callable**인데 instrument.py가 다른 함수를 테스트하던 결함을 찾아 고쳤다.
@@ -483,7 +483,7 @@ L4pc (최종)     ████████████████ 1593.4   (재
 #### EXP-023 — 상수 ±1 mirror screen → v171
 - **설계**: 1,870 key(상수 하나 ±1). Stage 2는 후보당 60판 vs 127ed3e6. Stage 3은 4,000판(vs 127, vs DP, vs 공개 14). 기준 A~E 사전등록(sha `644e9ba5…`).
 - **결과**: v171(`_DP_H` 8→9) A 0.8075(Wilson99 하한 0.7519), DP Δ +0.025, D +0.031, max 0.43s → **유일하게 전 기준 PASS**. v173·v074는 runtime(E)에서, v111은 C·D에서 FAIL.
-- **판정 → 결정**: SUCCESS → 사람 "v171이 더 뛰어나다고 가정하고 진행" → 제출 → **2337.5** → 2211.7.
+- **판정 → 결정**: SUCCESS → 사람 결정: v171이 더 낫다고 보고 진행 → 제출 → **2337.5** → 2211.7.
 - **근거**: proj 19, `experiments/exp023_mirror_screen/`, `releases/mirror-screen-v171/`
 
 #### EXP-024 — round 2 (v171 parent) → v074
@@ -518,7 +518,7 @@ L4pc (최종)     ████████████████ 1593.4   (재
 #### EXP-035 — d157 제출 판정
 - **사전등록**(20:03, sha `b054c5bf…`): EXP-032 성능(transition 하한 > 0, legacy ≥ −0.10, hosted ≥ −0.10) + runtime A/B + tape.
 - **결과**: tape 127 변형 +0.522(lo95 +0.42), 전체 +0.29. 127 변형 상대 0.228 → 0.750, 127 exact 상대 0.914 → 0.852.
-- **판정 → 결정**: PASS. 그 전에 Codex REVIEW-0927C는 NO_SUBMISSION(d157 EXP-032 FAIL)이었으나, 20:07 사람 "메달권 밖이면 위험 감수"로 뒤집혔다. → 12:00:04Z 제출 → 2299.7(12h) / **2400.9(21h)**.
+- **판정 → 결정**: PASS. 그 전에 Codex REVIEW-0927C는 NO_SUBMISSION(d157 EXP-032 FAIL)이었으나, 20:07 사람 방침(메달권 밖이면 위험 감수)으로 뒤집혔다. → 12:00:04Z 제출 → 2299.7(12h) / **2400.9(21h)**.
 - **기록 순서 문제**: RESULT 문서(21:25 KST)가 제출(21:00:04 KST)보다 늦다. D3 json은 09-27에 FAIL(6-worker 칸 null)이었다가 09-30에 PASS로 재평가됐다(§10).
 - **근거**: `experiments/exp035_d157/PREREG.md`, `RESULT.md`, `releases/exp035-d157/`
 
@@ -536,7 +536,7 @@ L4pc (최종)     ████████████████ 1593.4   (재
 
 #### EXP-039 → c26 — `_CA_MARGIN` grid
 - 4,266행. c26(−26) tape +0.0237, tapeU −0.0037 → **frozen FAIL**.
-- 사람 방침(09-28 14:05): "슬롯2는 공격적 후보 허용". 이 방침 아래 c26을 제출했다(08:45 UTC) → 717 → 1939.7. 제출 결정 자체의 기록은 원본에 없다.
+- 사람 방침(09-28 14:05): 슬롯2는 공격적 후보 허용. 이 방침 아래 c26을 제출했다(08:45 UTC) → 717 → 1939.7. 제출 결정 자체의 기록은 원본에 없다.
 - EXP-042(2400+ tape 742개): c26−d157 **+0.033**(lo95 +0.017). 그러나 hosted에선 c26 1,887~1,940, d157 ~2,200이었다. 공통 상대는 331판 중 0. doc 45는 "c26 ≥ d157" 판단을 team-best LB 편향으로 철회했다.
 - **근거**: `experiments/exp039_camargin/`, `releases/exp039-c26/`, proj 37·43·45
 
@@ -589,7 +589,7 @@ L4pc (최종)     ████████████████ 1593.4   (재
 - **가설**: 과잉(glut) 구간에서 tape가 계획한 MILK/WOOL/STRAWBERRY 판매를 K step 앞당기면(steps 192–695, 가격 ≤ base) 55be 변형에게 덜 진다.
 - **사전등록**: PREREG A1–A12(09-30 08:45). 9상대 pool × 20 seed × 2 seat.
 - **결과**: S1 L3p +0.111, L4p +0.107. S2 L4p +0.060 [−0.002, +0.112] (strict 조건 하한 >0을 0.002 미달). S1+S2 L4p +0.079 [+0.030, +0.126]. S3(새 공개 10봇) L4p +0.002. A8 S5 L5p vs L4p +0.037 [+0.004, +0.068] → L5p 제출. 그런데 A11 S7d/S8(Kaggle 2,160판)에서 **L5p−L4p −0.058 [−0.104, −0.011]**, d157−L4p −0.064. S9(1,880판)에서는 A11 통과 후보가 없었다(X454 +0.025 < +0.03).
-- **판정 → 결정**: L4p는 strict 미달이었지만 A6(09-27 사람 "위험 감수 > 사전 고정 FAIL 불변")으로 11:32 KST 제출. L5p는 20:17 KST 제출 후 역전됐다. 22:50 사람 조합 A = {강한 L, d157 사본} → d157c(22:56) + L4pc(23:24 KST). Sol 7차는 L4p 사본 즉시 제출에 동의하고 X454 사후 완화에 반대했다.
+- **판정 → 결정**: L4p는 strict 미달이었지만 A6(09-27 사람 방침: 위험 감수가 사전 고정 FAIL 불변보다 우선)으로 11:32 KST 제출. L5p는 20:17 KST 제출 후 역전됐다. 22:50 사람 조합 A = {강한 L, d157 사본} → d157c(22:56) + L4pc(23:24 KST). Sol 7차는 L4p 사본 즉시 제출에 동의하고 X454 사후 완화에 반대했다.
 - **실전(09-30 22:42 수집)**: 1600–1800 구간 L4p 0.73 / d157r 0.70, 1800–2000 0.50 / 0.45, 2000–2200 0.29 / 0.33. "1800 이상 상대에게 5할 미만 — 동메달까지 남은 과제."
 - **근거**: proj 59·60, `experiments/exp062/PREREG.md`, `COORD.md`, `releases/exp062-*/`
 
@@ -696,7 +696,7 @@ Kaggle 상위권 기록에서 가장 많이 보는 표다. 제출한 후보마�
 |---|---|---|---|
 | 1 | EXP-014 쌍 submission ID | 표는 56398274/56398276(14:50), 정정 문단은 56398297/56398299(14:51). 앞의 쌍도 실제로 접수됐다면 총 제출은 28건이다. | `evidence/HOSTED_LEDGER.md` |
 | 2 | 시간순 점수 차이 | v0 327.6/330.6/337.2/337.3/347.2, EXP-006 1915.6/1896.9/1862.6, d157 2299.7/2400.9/2345.7/2393, L4p 1784.0/1792/1796.9, L5p 1695/1701.8/1713.7. 관측 시각이 달라서 생긴 차이다. | ledger, registry, proj 29·30·60 |
-| 3 | 판정 → 제출 불일치 | EXP-039 frozen FAIL → c26 제출, L4p strict 미달 → 제출, d157은 Codex NO_SUBMISSION → 제출, EXP-007은 검증자 "제출 불가" → 제출. 모두 사람 결정이거나 사람 방침 아래 제출이었다(c26은 "슬롯2 공격적 후보 허용" 방침만 기록됨). | proj 28·30·59, EXP-007 카드 |
+| 3 | 판정 → 제출 불일치 | EXP-039 frozen FAIL → c26 제출, L4p strict 미달 → 제출, d157은 Codex NO_SUBMISSION → 제출, EXP-007은 검증자 "제출 불가" → 제출. 모두 사람 결정이거나 사람 방침 아래 제출이었다(c26은 슬롯2 공격적 후보 허용 방침만 기록됨). | proj 28·30·59, EXP-007 카드 |
 | 4 | 재제출 KILL vs 실제 재제출 | KILLS 방법론 "같은 봇 재제출로 리롤" 금지 ↔ d157r·d157c·L4pc·yhay81 재제출(포트폴리오·슬롯 순서 목적). | `evidence/KILLS.md` |
 | 5 | 기록 순서 | EXP-035 RESULT(21:25 KST)가 제출(21:00:04 KST)보다 늦다. d157 D3 json은 FAIL(09-27) → PASS(09-30 재평가). | `experiments/exp035_d157/` |
 | 6 | runtime gate 변천 | 0.25s(임의 margin) → 0.5s(tournament 보정) → D3 v2(0.8/1.0s). 127ed3e6은 NOT_ELIGIBLE → PASS(사후 재정의로 기록됨). | proj 13, ledger |
@@ -744,7 +744,7 @@ Kaggle 상위권 기록에서 가장 많이 보는 표다. 제출한 후보마�
 | 09-10 | yhay81 exact 사람 제출 (gate HOLD 예외) | ledger |
 | 09-11 | 공개 코드 파생물을 최종 슬롯에 써도 된다 | EXP-006 카드 |
 | 09-15 | 마감 계획: 09-27 새 전략 중단, 09-28 freeze, 09-29 제출 완료 | `plan/kaggriculture_deadline_plan_20260915.md` |
-| 09-16 | **목표 변경: "점수를 지킬 필요 없어. 최소한 동메달을 확보하기 원해."** | `coordination/proposals/claude/20260916-BRONZE-TARGET-PLAN.md` |
+| 09-16 | **목표 변경: 점수 유지 대신 최소 동메달 확보** | `coordination/proposals/claude/20260916-BRONZE-TARGET-PLAN.md` |
 | 09-18 | EXP-011만 승인, EXP-013 불허. K3 범위 축소, F0 fast lane 승인. 팀 병합 안 함 | `coordination/reports/claude/20260918-FASTLANE-AUTHORIZATION.md` |
 | 09-18~20 | 역할: 단순 수집은 Antigravity, 판단은 Codex. 판단 없는 작업은 모두 Antigravity | BOARD |
 | 09-19 | "§3 A 채택" (공개 노트북 exact) | `coordination/proposals/claude/20260919-F0-STAGE-B-RESULT-DECISION.md` |
