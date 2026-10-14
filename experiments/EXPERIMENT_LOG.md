@@ -448,7 +448,7 @@ L4pc (최종)     ████████████████ 1593.4   (재
 
 #### ANL-STEP91 / DP 0924 (09-24)
 - Antigravity는 prefix 91 상대를 ahmedberatozer V56으로 식별했다(상위 3개 파일이 FULL 26으로 동률). 이후 Claude의 LB teamId 판독에선 우리가 V56에 17-9로 이겼고, 우리를 이긴 쪽은 tetsutani DP 0924(0-7)였다. DP hosted 지도: 884판 666-199-19. 상대 LB가 오를수록 승률이 떨어졌다(<2200 .92 → ≥2800 0).
-- 사람 "B안"으로 DP 0924 exact 제출 → 2191.6. Claude가 예상한 "균형 2450~2550"은 team LB를 상대 레이팅으로 잘못 쓴 오류였다.
+- 사람 결정(B안)으로 DP 0924 exact 제출 → 2191.6. Claude가 예상한 "균형 2450~2550"은 team LB를 상대 레이팅으로 잘못 쓴 오류였다.
 - **근거**: `coordination/reports/antigravity/20260924-1845-STEP91-ID.md`, `20260924-2155-DP-HOSTED-MAP.md`
 
 ### Phase 5 · 동결 지표 루프 → 상수 탐색
