@@ -212,22 +212,22 @@ flowchart LR
 
 ### 상위권 write-up 과 비교하면
 
-대회 후 공개된 상위권 글 8개(10-12 기준 1·4·5·11·26위 등)를 읽고 비교했다. 위 다섯 가지는 과정의 문제이고, 더 근본적인 차이는 **방식**이었다.
+대회 후 공개된 글을 10-12 에 처음 읽고, 최종 순위가 나온 뒤 10-27 에 다시 읽었다(최종 10위 안 8팀 포함 17개, 1위는 예고 글, 2위 글은 못 찾음). 위 다섯 가지는 과정의 문제이고, 더 근본적인 차이는 **방식**이었다.
 
-| | 상위권 (1·4·5·11·26위) | 우리 |
+| | 상위권 (최종 10위 안 8팀) | 우리 |
 |---|---|---|
-| 정책 | 상위권 리플레이로 학습한 신경망(행동 복제, BC)이 매 턴 상태를 보고 행동 생성. 1·11위는 그 위에 self-play PPO | 공개 계보의 기록된 행동 tape 재생 + 규칙 레이어 |
+| 정책 | 상위권 리플레이로 학습한 신경망(행동 복제, BC)이 매 턴 상태를 보고 행동 생성. 1·3·6·10위는 그 위에 self-play PPO | 공개 계보의 기록된 행동 tape 재생 + 규칙 레이어 |
 | 상대 반응 | 있음 (상태 입력) | tape 는 없음, 덧붙인 레이어만 |
 | 경제 | 첫 턴부터 동물 중심 경제(438위 팀 관찰) | 우리 봇도 동물을 키웠지만 규모·작물 구성은 tape 가 정한 대로 고정. 생산 변경 실험은 모두 FAIL |
-| 컴퓨트 | 1위는 GPU 수십 장. 4·5·11위는 GPU 1~2장, 5위는 사전학습 약 50분 | 맥북에어 + Kaggle/Colab |
+| 컴퓨트 | 1·3위는 A100 수십 장. 4위는 A100 약 5.5시간, 7·10위는 RTX 5090 1장(7위는 사전학습 약 50분) | 맥북에어 + Kaggle/Colab |
 
 - **천장은 방식에서 정해졌다.** 같은 tape 계열로 438위를 한 팀은 tape 끼리는 5할 승부이고, 2100점 위 상대는 동물을 키우는 경제형 봇이라고 보고했다.
   우리 최종 봇도 1800–2000점 상대에게 0.45~0.50, 2000–2200점 상대에게 0.29~0.33이었다. 마지막 사흘의 진단과 개선은 tape 계열 안의 싸움이었다.
   다만 우리 봇도 동물을 키웠다(아래 경기에서 15일째 소 6·양 6·거위 5). 그러니 차이를 "동물이 있냐 없냐"로 줄일 수는 없다.
-  상위권 글들이 공통으로 든 차이는 상태를 보고 매 턴 계획을 바꾸는 학습된 정책이었다.
+  상위권 글들이 공통으로 든 차이는 상태를 보고 계획을 다시 세우는 정책이었다. 대부분은 학습된 정책이었고, 32위는 학습 없이 opening book 과 매일 탐색으로 같은 일을 했다.
 - **맞는 방향을 처음에 적어 두고 버렸다.** 09-03 [흡수 전략 문서](plan/kaggriculture_strategy_transfer.md)는 리플레이 행동 복제를 "확실한 상위권"으로 평가하고 2~3주차 후보로 잡았지만,
-  09-06 범위 결정과 09-10 tape 전환 뒤 다시 다루지 않았다. 5위는 마지막 9일, 26위는 마지막 5일에 BC 로 그 자리에 올랐다.
-- **RL 을 막은 KILL(K6)은 반만 맞았다.** 근거는 처음부터 self-play 만 하는 경우였다. 상위권에서 통한 것은 BC 로 출발한 뒤의 PPO 였고, 4·5위는 BC 만으로 충분했다.
+  09-06 범위 결정과 09-10 tape 전환 뒤 다시 다루지 않았다. 7위는 마지막 9일, 9위는 마지막 주에 RL 에서 BC 로 바꿔 그 자리에 올랐다.
+- **RL 을 막은 KILL(K6)은 반만 맞았다.** 근거는 처음부터 self-play 만 하는 경우였다. 상위권에서 통한 것은 BC 로 출발한 뒤의 PPO 였고(3·12위도 처음부터 PPO 는 무너졌다고 보고), 4·5·7위는 BC 만으로 충분했다.
 - **같은 엔진 지식을 다르게 썼다.** 주문 절삭 같은 무음 처리를 우리는 검증 gate 에만 썼고, 4위는 실제 체결된 행동만 학습 라벨로 써서 큰 이득을 봤다.
 
 **실전 패배 한 판** — 2026-09-29, 에피소드 115289957. 왼쪽은 상대(당시 2296점, 이름 가림), 오른쪽은 우리 d157r 이다. 30일을 하루 1장씩 보여 준다.
@@ -344,8 +344,8 @@ teams (≈2,190) → rotating exact copies of the strongest public lineage plus 
 4. Six slot changes in the last two days restarted ratings from 600.
 5. Coordination overhead (≈440 documents for 62 experiments) outweighed experiment cost.
 
-**Compared with top write-ups.** Every top write-up we read (ranks 1, 4, 5, 11 and 26 as of 2026-10-12) used behaviour
-cloning of top replays: a network that reacts to the state, sometimes followed by self-play PPO. We replayed fixed public tapes.
+**Compared with top write-ups.** All eight top-10 teams whose write-ups we read (final ranks; 1st only as a preview, 2nd not found) used behaviour
+cloning of top replays: a network that reacts to the state, sometimes followed by self-play PPO. The 32nd-place team used no ML but replanned daily by search. We replayed fixed public tapes.
 A tape-family team at ~438th reported that tapes split games 50/50 and that opponents above ~2100 are animal-economy bots, which
 matches our own 0.29–0.50 win rates against 1800–2200 opponents. Our own 09-03 plan had rated replay behaviour cloning as a
 reliable top-tier route, but we dropped it. Details: [`writeup/top-solutions-comparison.md`](writeup/top-solutions-comparison.md).
