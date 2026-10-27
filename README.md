@@ -299,7 +299,7 @@ L4p 와 d157 은 같은 두 seed 에서 1승 1패였다. `verify_engine_facts.py
 
 | 제외 | 이유 |
 |---|---|
-| 원시 리플레이·경기 결과(`private_artifacts/`, `analysis/**/replays`, `evidence/raw`, `*.jsonl`, 판정·요약 외 결과 JSON), 약 45GB | 용량. 재수집 가능 |
+| 원시 리플레이·경기 결과(`private_artifacts/`, `analysis/**/replays`, `evidence/raw`, `*.jsonl`, 판정·요약 외 결과 JSON), 약 45GB | 용량. 저장소 밖에 보관([보관 목록](evidence/private_artifacts_summary.md)), 실전 리플레이는 Kaggle 에서 재수집 가능 |
 | 대량 생성된 후보 봇(상수 변형 수천 개)과 Kaggle kernel 출력 | 용량. 생성 스크립트는 포함 |
 | 남이 쓴 공개 노트북 원본(`releases/public-*-exact`, `opponents/`, 원 작업 폴더의 `docs/`, `**/extracted`, 다운로드한 상대 봇) | 우리 저작물이 아님. 출처는 [`environment/LICENSES.md`](environment/LICENSES.md) |
 | 대회 데이터, 리더보드 CSV | 재배포하지 않음 |
