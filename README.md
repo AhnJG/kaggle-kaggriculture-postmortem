@@ -19,12 +19,12 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 
 | | |
 |---|---|
-| 제출 | 25회 (하루 5회, 최신 2개만 활성·최종 평가) |
+| 제출 | 26회 (하루 5회, 최신 2개만 활성·최종 평가). 실험 로그 원장 번호는 25번까지(09-20 같은 분에 낸 두 건이 9a·9b) |
 | 최종 순위 | **1,498위 / 10,148팀 (상위 14.8%)**, 최종 점수 4315.9 ([리더보드 캡처, 10-27](media/final_leaderboard_row.png)). 동메달선은 Kaggle 메달 규칙(상위 10%)상 약 1,015위. 같은 규칙의 금메달 30팀은 리더보드 표시와 일치 |
 | 최고 순위(기록) | **354위** — 09-28 05:27 UTC, 2381.4 (당시 은메달선 약 505위). 같은 날 d157 상승 중 약 150위까지 본 것은 본인 관측이며 스냅샷은 없음 |
 | 최고 점수 | **2425.7** — EXP-016, 09-23, 약 808위 / 9,886팀 (당시 동메달선 2346.1) |
-| 마감 직후 | 1622.2, 1,855위 / 10,230팀 (10-01 05:47 KST, 재제출본이 600점부터 재수렴 중). 동메달선 1852.0 |
-| 최종 순위 확정 전 마지막 실시간 관측 | 1686점, 1,558위 (10-12) |
+| 마감 약 3시간 전 | 1622.2, 1,855위 / 10,230팀 (09-30 20:47 UTC = 10-01 05:47 KST, 마감 09-30 23:59 UTC. 재제출본이 600점부터 재수렴 중). 동메달선 1852.0 |
+| 최종 순위 확정 전 마지막 실시간 관측 | 1686점, 1,558위 (10-12, 본인 관측) |
 
 최종 점수(4315.9)는 최종 Bradley-Terry 척도로 다시 계산된 값이라, 위 그래프와 표의 실시간 점수와 같은 축으로 비교할 수 없다.
 
@@ -92,7 +92,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 
 검증 장치는 재현 명령, artifact SHA 원장, 독립 검토자, 실전 경기의 tape 재현(163/163 경기 일치 등)이었다. 이 장치들이 잡아낸 에이전트 오류는 다음과 같다.
 - 수집 에이전트가 실전 패배를 분석해 "HIRE 실패 100%", "NOOP 77/77" 같은 주장을 냈지만, 감사해 보니 실제 HIRE 실패는 패배 52판 중 3판이었다(ANL-P1c).
-- 검증 보고에 "실패 0"이라고 적혔지만 좌석(seat) 필터 오류로 1,397건 중 1,028건이 무효였다(EXP-025b).
+- 검증 보고에 "실패 0"이라고 적혔지만 좌석(seat) 필터 오류였다. 무작위 8판을 다시 열어 보니 1,397건 중 1,028건이 의심스러웠고, 다시 거르자 유효한 것은 214건뿐이었다(EXP-025b).
 - wrapper 가 자기 자신을 참조해 변형 186개가 아무 행동도 하지 않았다. 처음엔 상태 코드만 확인해 놓쳤다가, 행동 수 검사를 추가하고 재실행했다(INFRA-BUG-001).
 - 다른 작업이 코드를 덮어써서 낡은 결과가 섞였다(EXP-001 stale artifact).
 - Claude 의 판단도 틀렸다. DP 0924 점수 예측(2450~2550, 실제 2191.6)이 빗나갔고, "c26 ≥ d157" 판단은 나중에 철회했다.
@@ -109,7 +109,7 @@ AI 오류 때문에 방향을 잘못 잡거나 실험을 망친 기록 55건(방
 ### 돌아보면
 
 - 가장 큰 점수 상승 두 번은 공개 최강 봇을 그대로 낸 날이었다. 처음부터 AlphaGo처럼 기존 상위권 전략을 흡수하는 방향을 제안했고, 이는 상위권이 실제로 쓴 방법(리플레이 행동 복제)과 같은 방향이었다. 그러나 에이전트가 쓴 계획의 "그대로 제출하면 클론이 된다"는 권고와 내가 정한 규칙기반 + 좁은 ML까지의 범위(09-06)를 함께 승인했다. 그래서 공개 봇 제출은 8일째에야 나왔고, 행동 복제는 끝내 시도하지 않았다.
-- 사전등록으로 실험 판정은 엄격하게 했지만, 판정을 넘어 제출할 조건은 미리 정하지 않았다. 그 결과 6건 이상을 그때그때 판단했다(최고점도, 실패도 거기서 나왔다).
+- 사전등록으로 실험 판정은 엄격하게 했지만, 판정을 넘어 제출할 조건은 미리 정하지 않았다. 그 결과 판정이나 검증자 의견을 넘어선 제출 최소 6건을 그때그때 판단했다(최고점도, 실패도 거기서 나왔다).
 - 대회가 끝난 뒤 에이전트에게 [실험 로그](experiments/EXPERIMENT_LOG.md)와 [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md)를 별도로 쓰게 해서
   내 결정을 포함한 전 과정을 다시 평가했다. 다음 대회용 계약 개정안(AGENTS.md v2)도 거기서 나왔다.
 
@@ -148,7 +148,7 @@ flowchart LR
 |---|---|---|---|
 | 0 계획·측정 장비 | 09-02~06 | 에이전트 셋의 계획서를 교차 검토해 정본화, 엔진 고정, paired arena·무음 실패 계측기 | — |
 | 1 규칙기반 봇 | 09-07~09 | 직접 짠 실행기로 상위 봇을 이길 수 있나? → 공개 4봇 상대 **0/0/400** | 315 → 344 |
-| 2 RESET → tape router | 09-10~15 | 공개 9위 tape router 무수정 복제 → 우리 실행기를 929/11로 압도 | **2188** → 1863 |
+| 2 RESET → tape router | 09-10~15 | 기록된 tape 47개를 그대로 재생해도 우리 실행기를 940쌍 중 929쌍에서 이김 → 공개 9위 tape router 무수정 복제 | **2188** → 1863 |
 | 3 정합성·귀인 | 09-16~18 | release gate·패배 원인 귀인. 측정은 정밀했지만 제출 개선 없음 | 1863 → 1638 |
 | 4 공개 계보 갈아타기 | 09-19~24 | 공개 최강 계보 exact 복제를 돌려가며 제출, 판매 레이어 이식(EXP-016) | **2422 → 2426** |
 | 5 동결 지표 탐색 | 09-25~27 | 자동 탐색용 지표 calibration → 변별력 ≈0으로 중단. 상수 ±1 screen으로 d157 | 2190 → 2401 |
@@ -196,15 +196,15 @@ flowchart LR
    - 09-07: v0 이 로컬에서 starter 를 크게 이겼지만 실전 337점이었고, 그래서 판정 기준을 공개 상위 봇 상대로 바꿨다([`AGENTS.md`](AGENTS.md) §7.1).
    - 09-10: tape 품질과 그 소유자의 실전 순위가 무관했다([FACTS](evidence/FACTS.md) F-T2).
    - 09-11: 로컬 점수가 실전을 예측하는지 보려고 [EXP-005](experiments/cards/EXP-005-x1-probe.md)를 설계했지만, 안전 기준에 걸려 제출하지 못했다.
-   - 09-23: 같은 계열 형제끼리의 로컬 대결이 실전 순위를 못 맞혔다는 기록을 남겼다([HOSTED_LEDGER](evidence/HOSTED_LEDGER.md)).
+   - 09-24: 같은 계열 형제끼리의 로컬 대결이 실전 순위를 못 맞혔다는 기록을 남겼다([HOSTED_LEDGER](evidence/HOSTED_LEDGER.md)).
 
    그러나 계약이 요구한 "로컬 · 공개 봇 · 실전" 삼중쌍 표는 끝내 만들지 않았다. 지표 하나를 고정해 체계적으로 검증(calibration)한 것은 09-25가 처음이었고, 결과는 변별력 ≈0(BLOCKED)이었다.
    그 뒤에도 같은 계열 미세 변경을 로컬 지표로 골라 제출했다.
-2. **가장 큰 상승 두 번은 모두 "공개 최강 봇을 그대로 낸 날"이었고, 그 결정이 늦었다.** 대회 시작 후 8일, 17일째였다.
+2. **가장 큰 상승 두 번은 모두 "공개 최강 봇을 그대로 낸 날"이었고, 그 결정이 늦었다.** 계획을 시작한 09-02 기준 8일째(09-10), 17일째(09-19)였다.
    첫 번째가 늦은 이유는 초기 계획이 공개 봇을 기준선·상대·분석 대상으로만 쓰고 그대로 제출하지 말라고 권했기 때문이다.
    그 근거는 "수천 팀의 클론과 같은 봇이 된다", "공개 포크는 금방 죽은 계통이 된다"였다(Claude 작성, [09-03](plan/kaggriculture_strategy_transfer.md) · [09-06](plan/kaggriculture_master_plan_claude-opus-5.md)).
    공개 코드 파생물을 허용한 것은 09-11이다. 두 번째는 그 뒤에도 공개 계보 위에 우리 변경을 얹는 실험과 정합성 작업을 먼저 하느라 늦어졌다.
-3. **판정과 제출 결정을 분리하지 않았다.** 사전등록 FAIL·INCONCLUSIVE 를 사람 결정으로 넘어선 제출이 6건 이상이었다(그중 EXP-016이 최고점).
+3. **판정과 제출 결정을 분리하지 않았다.** 사전등록 FAIL·INCONCLUSIVE, gate HOLD, 검증자 반대를 사람 결정으로 넘어선 제출이 최소 6건이었다(yhay81 exact, EXP-007, EXP-016, d157, c26, L4p. 그중 EXP-016이 최고점).
    제출 규칙 자체는 미리 정해 두지 않았다.
 4. **마지막 이틀 동안 슬롯을 6번 교체했다.** 최종 BT 는 활성 제출끼리의 경기만 세고, 재제출은 600점에서 다시 시작한다.
    같은 바이트의 d157 이 09-28엔 2400.9였지만 09-30 재제출본은 다음 날 아침 1622.2였다(리그 전체 하락분도 섞여 있다).
@@ -219,7 +219,7 @@ flowchart LR
 | 정책 | 상위권 리플레이로 학습한 신경망(행동 복제, BC)이 매 턴 상태를 보고 행동 생성. 1·3·6·10위는 그 위에 self-play PPO | 공개 계보의 기록된 행동 tape 재생 + 규칙 레이어 |
 | 상대 반응 | 있음 (상태 입력) | tape 는 없음, 덧붙인 레이어만 |
 | 경제 | 첫 턴부터 동물 중심 경제(438위 팀 관찰) | 우리 봇도 동물을 키웠지만 규모·작물 구성은 tape 가 정한 대로 고정. 생산 변경 실험은 모두 FAIL |
-| 컴퓨트 | 1·3위는 A100 수십 장. 4위는 A100 약 5.5시간, 7·10위는 RTX 5090 1장(7위는 사전학습 약 50분) | 맥북에어 + Kaggle/Colab |
+| 컴퓨트 | 1위 A100 최대 17장 + A30 29장, 3위 A100 최대 23장. 4위는 A100 약 5.5시간, 7·10위는 RTX 5090 1장(7위는 사전학습 약 50분) | 맥북에어 + Kaggle 노트북 + 에이전트 클라우드 세션 |
 
 - **천장은 방식에서 정해졌다.** 같은 tape 계열로 438위를 한 팀은 tape 끼리는 5할 승부이고, 2100점 위 상대는 동물을 키우는 경제형 봇이라고 보고했다.
   우리 최종 봇도 1800–2000점 상대에게 0.45~0.50, 2000–2200점 상대에게 0.29~0.33이었다. 마지막 사흘의 진단과 개선은 tape 계열 안의 싸움이었다.
@@ -234,8 +234,8 @@ flowchart LR
 
 <img src="media/hosted_loss_115289957.gif" width="760" alt="실전 패배 경기 재생: 왼쪽 상대 농장과 오른쪽 우리 농장이 30일 동안 작물과 동물을 키우고, 최종 85,898 대 60,699로 진다">
 
-두 농장 모두 소·양·거위를 키웠고, 동물 수는 15일째 상대 소 7·양 3·거위 9, 우리 소 6·양 6·거위 5로 비슷했다.
-눈에 띄는 차이는 작물 구성이었다. 22일째 상대는 토마토 18·당근 24칸을, 우리는 딸기 27칸을 운영했다. 최종 잔고는 85,898 대 60,699였다.
+두 농장 모두 소·양·거위를 키웠고, 동물 수는 GIF 의 Day 16 화면에서 상대 소 7·양 3·거위 9, 우리 소 6·양 6·거위 5로 비슷했다.
+눈에 띄는 차이는 작물 구성이었다. Day 23 화면에서 상대는 토마토 18·당근 24칸을, 우리는 딸기 27·밀 24칸을 운영했다(리플레이 관측값으로 집계). 최종 잔고는 85,898 대 60,699였다.
 한 판이라 원인을 단정할 수는 없다. 그래도 고정된 생산 계획끼리의 차이가 한 판에서 2만 5천 코인까지 벌어질 수 있음을 보여 준다.
 화면은 공식 `kaggle-environments` 시각화로 렌더링했고, 생성 방법은 [`media/make_replay_gif.py`](media/make_replay_gif.py)에 있다.
 
@@ -299,14 +299,14 @@ L4p 와 d157 은 같은 두 seed 에서 1승 1패였다. `verify_engine_facts.py
 
 | 제외 | 이유 |
 |---|---|
-| 원시 리플레이·경기 결과(`private_artifacts/`, `analysis/**/replays`, `evidence/raw`, `*.jsonl`, 판정·요약 외 결과 JSON), 약 45GB | 용량. 저장소 밖에 보관([보관 목록](evidence/private_artifacts_summary.md)), 실전 리플레이는 Kaggle 에서 재수집 가능 |
+| 원시 리플레이·경기 결과(`private_artifacts/`, `analysis/**/replays`, `evidence/raw`, `*.jsonl`, 판정·요약 외 결과 JSON). `private_artifacts/` 만 약 31GB, 9,016파일 | 용량. 저장소 밖에 보관([보관 목록](evidence/private_artifacts_summary.md)), 실전 리플레이는 Kaggle 에서 재수집 가능 |
 | 대량 생성된 후보 봇(상수 변형 수천 개)과 Kaggle kernel 출력 | 용량. 생성 스크립트는 포함 |
 | 남이 쓴 공개 노트북 원본(`releases/public-*-exact`, `opponents/`, 원 작업 폴더의 `docs/`, `**/extracted`, 다운로드한 상대 봇) | 우리 저작물이 아님. 출처는 [`environment/LICENSES.md`](environment/LICENSES.md) |
 | 대회 데이터, 리더보드 CSV | 재배포하지 않음 |
 | 자격증명(`kaggle.json`), 개인 경로·연락처·Kaggle 계정명 | 보안. 로컬 경로는 `~`, 계정명은 `<kaggle_user>` 로 치환 |
 | 일회성 루트 스크립트, `scratch/`, 가상환경 | 정리 |
 
-git 이력은 원래 작업 폴더의 91개 커밋을 가져오지 않고 이 정리본에서 새로 시작했다(이전 이력에 대용량 리플레이가 섞여 있었다).
+git 이력은 원래 작업 폴더의 커밋 이력을 가져오지 않고 이 정리본에서 새로 시작했다(이전 이력에 대용량 리플레이가 섞여 있었다).
 
 ## English summary
 
@@ -315,9 +315,9 @@ simulation; final ranking by Bradley-Terry over matches between each team's two 
 analysis tools, every bot we derived and submitted, pre-registered experiment cards and verdicts, and the coordination log of a
 human working with several LLM agents (Claude, Codex, Gemini/Antigravity, GPT-5.6 "Sol") in one shared folder.
 
-**Result.** 25 submissions. Final **1,498th of 10,148** (score 4315.9 on the final Bradley-Terry scale, not comparable with live ratings; bronze cut ≈1,015th by Kaggle's top-10% rule). Best recorded rank **354th** on 2026-09-28 (inside the silver zone at the time); a later peak of ~150th that day was self-observed with no saved snapshot. Best observed rating **2425.7** (EXP-016, ~808th of 9,886, above that day's bronze line of 2346.1).
-Both slots were resubmitted at the deadline and were re-converging from 600; last observed **1622.2, 1,855th of 10,230**
-(2026-10-01); last live reading before the final standings was 1686, 1,558th (2026-10-12). No medal.
+**Result.** 26 submissions. Final **1,498th of 10,148** (score 4315.9 on the final Bradley-Terry scale, not comparable with live ratings; bronze cut ≈1,015th by Kaggle's top-10% rule). Best recorded rank **354th** on 2026-09-28 (inside the silver zone at the time); a later peak of ~150th that day was self-observed with no saved snapshot. Best observed rating **2425.7** (EXP-016, ~808th of 9,886, above that day's bronze line of 2346.1).
+Both slots were resubmitted about 10 hours before the deadline and were re-converging from 600; last observed **1622.2, 1,855th of 10,230**
+(2026-09-30 20:47 UTC, about 3 hours before the deadline); last live reading before the final standings was 1686, 1,558th (2026-10-12, self-observed). No medal.
 
 **My role.** One human (me) and four LLM agents (Claude Opus 5/5.5, OpenAI Codex on GPT-5.6 Sol, Gemini 3.1 Pro/3.8 Flash via Antigravity, GPT-5.6 Sol in ChatGPT). The agents wrote
 all of the code and most documents; the submitted bots make no LLM calls at play time, and I am accountable for everything here.
@@ -325,7 +325,7 @@ Using CRediT terms: I did conceptualization (problem framing, goal changes), met
 supervision and project administration (role assignment, usage budgeting, submissions), and validation decisions; the agents did
 software, investigation and first drafts. Hard boundaries the agents could not cross: humans submit (delegated only on the last
 day), criteria are frozen before results, a proposer cannot approve its own result, and every number needs a reproduction
-command. Those checks caught several agent errors (a seat-filter bug invalidating 1,028 of 1,397 rows, a self-referencing wrapper
+command. Those checks caught several agent errors (a seat-filter bug that left only 214 of 1,397 rows valid, a self-referencing wrapper
 that silenced 186 variants, unsupported loss-analysis claims). In hindsight, I adopted public lineages too late, never tried the
 behaviour-cloning route my own early question pointed to, and never pre-registered a submission policy separate from verdicts.
 
@@ -336,11 +336,11 @@ teams (≈2,190) → rotating exact copies of the strongest public lineage plus 
 **Why no medal.**
 1. We saw local-vs-ladder mismatches from the first week (v0, tape-quality vs owner rank, the EXP-005 probe design, EXP-016/017),
    but never built the local/public/hosted comparison table our own contract required, and ran the first systematic calibration only on
-   day 24 (no discriminative power). Meanwhile we kept selecting within-lineage variants with local metrics, which almost never
+   day 23 (no discriminative power). Meanwhile we kept selecting within-lineage variants with local metrics, which almost never
    transferred (EXP-017 beat EXP-016 78/0/2 locally, then scored 165.6 lower).
-2. Both big jumps came from submitting the strongest public bot as-is, which we only did on days 8 and 17. The early plan
+2. Both big jumps came from submitting the strongest public bot as-is, which we only did on days 8 and 17 (counting from 09-02). The early plan
    (agent-written, human-approved) advised using public bots only as baselines to avoid becoming "one of thousands of clones".
-3. Pre-registered verdicts and submission decisions were not separated; at least six submissions overrode a verdict.
+3. Pre-registered verdicts and submission decisions were not separated; at least six submissions overrode a FAIL, INCONCLUSIVE, gate HOLD or reviewer objection.
 4. Six slot changes in the last two days restarted ratings from 600.
 5. Coordination overhead (≈440 documents for 62 experiments) outweighed experiment cost.
 

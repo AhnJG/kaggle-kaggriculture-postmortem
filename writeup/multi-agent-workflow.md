@@ -32,7 +32,7 @@ flowchart TB
 | Gemini → Antigravity | 공식 문서·공개 노트북·리플레이 수집, 정해진 경기 실행·집계 | `docs/` `analysis/` `opponents/` |
 | Sol (GPT-5.6, 09-28~) | 제출 직전 결정에 대한 외부 검토 (7회) | — |
 
-코디네이터는 Claude → Codex(09-15) → Claude(09-28)로 바뀌었고, 역할 재배정은 09-18, 19, 20, 26에 있었다.
+코디네이터는 Claude → Codex(09-15) → Claude(09-18부터 사람 요청으로 겸임, BOARD 서명은 09-28)로 바뀌었고, 역할 재배정은 09-18, 19, 20, 26에 있었다.
 
 ## 2. 계약의 핵심 조항 (`AGENTS.md`)
 
