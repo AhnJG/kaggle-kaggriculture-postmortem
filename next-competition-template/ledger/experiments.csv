@@ -1,0 +1,2 @@
+exp_id,created_utc,parent_sha256,one_change,local_metric,local_result,verdict,submission_id,card_path
+EXP-000,,,(example - delete),,,,,exp/EXP-000-example/card.md

@@ -10,7 +10,7 @@ Kaggle [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture)(2026�
 사람 1명과 LLM 에이전트 여러 개(Claude, Codex, Gemini/Antigravity, GPT-5.6 Sol)가 한 작업 폴더를 나눠 쓰며 운영했다.
 
 **바로 가기** · [실험 로그](experiments/EXPERIMENT_LOG.md) · [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md) ·
-[멀티에이전트 운영 방식](writeup/multi-agent-workflow.md) · [상위권과 비교](writeup/top-solutions-comparison.md) · [AI 활용 반성](writeup/ai-usage-lessons.md) · [제출한 봇](releases/) · [English summary](#english-summary)
+[멀티에이전트 운영 방식](writeup/multi-agent-workflow.md) · [상위권과 비교](writeup/top-solutions-comparison.md) · [AI 활용 반성](writeup/ai-usage-lessons.md) · [내 자원으로 어떻게 했어야 했나](writeup/what-i-should-have-done.md) · [다음 대회 템플릿](next-competition-template/) · [제출한 봇](releases/) · [English summary](#english-summary)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/score_trajectory_dark.png">
@@ -112,6 +112,9 @@ AI 오류 때문에 방향을 잘못 잡거나 실험을 망친 기록 55건(방
 - 사전등록으로 실험 판정은 엄격하게 했지만, 판정을 넘어 제출할 조건은 미리 정하지 않았다. 그 결과 판정이나 검증자 의견을 넘어선 제출 최소 6건을 그때그때 판단했다(최고점도, 실패도 거기서 나왔다).
 - 대회가 끝난 뒤 에이전트에게 [실험 로그](experiments/EXPERIMENT_LOG.md)와 [운영 회고](plan/kaggriculture_process_retrospective_claude-opus-5.5.md)를 별도로 쓰게 해서
   내 결정을 포함한 전 과정을 다시 평가했다. 다음 대회용 계약 개정안(AGENTS.md v2)도 거기서 나왔다.
+- 같은 사람·장비·에이전트·4주로 무엇을 다르게 했어야 했는지는 [writeup/what-i-should-have-done.md](writeup/what-i-should-have-done.md)에 따로 썼다.
+  요지는 쓰지 않은 Kaggle 무료 GPU 와 이미 모을 수 있던 상위권 리플레이로 행동 복제 기준선을 2주차에 만들고, 평가기 검증과 제출 정책을 1주차에 고정하는 것이다.
+  그 양식과 검사 도구는 [`next-competition-template/`](next-competition-template/)에 있다.
 
 ## 접근 방식
 
@@ -277,7 +280,8 @@ L4p 와 d157 은 같은 두 seed 에서 1승 1패였다. `verify_engine_facts.py
 | [`tools/`](tools/) [`tests/`](tests/) [`scripts/`](scripts/) | arena, 계측기, 탐색 루프, gate 검증, 리플레이 재현·부검 / 단위 테스트 / 엔진 사실 재현·수집 |
 | [`plan/`](plan/) | 모델별 계획서, 마감 계획, 회고 |
 | [`coordination/`](coordination/) | BOARD · TASKS · HANDOFF · RESET, 에이전트별 보고·제안 묶음 |
-| [`writeup/`](writeup/) | 이 저장소용으로 새로 쓴 정리 문서 |
+| [`writeup/`](writeup/) | 이 저장소용으로 새로 쓴 정리 문서 (운영 방식, 상위권 비교, AI 활용 반성, 내 자원으로 했어야 할 것) |
+| [`next-competition-template/`](next-competition-template/) | 다음 대회용 빈 양식: AGENTS.md v2, STATE.md, 원장 CSV, 실험 카드, 제출 정책, 평가기 검증 도구와 테스트 |
 | [`AGENTS.md`](AGENTS.md) [`CLAUDE.md`](CLAUDE.md) [`GEMINI.md`](GEMINI.md) [`HYPOTHESES.md`](HYPOTHESES.md) | 에이전트 계약·역할, 공용 가설 원장 |
 | [`media/`](media/) | README 그림과 생성 스크립트 |
 
@@ -328,6 +332,9 @@ day), criteria are frozen before results, a proposer cannot approve its own resu
 command. Those checks caught several agent errors (a seat-filter bug that left only 214 of 1,397 rows valid, a self-referencing wrapper
 that silenced 186 variants, unsupported loss-analysis claims). In hindsight, I adopted public lineages too late, never tried the
 behaviour-cloning route my own early question pointed to, and never pre-registered a submission policy separate from verdicts.
+With the same resources I should have used the free Kaggle GPUs and the top-team replays we could already collect to build a
+behaviour-cloning baseline in week 2, and fixed evaluator calibration and a submission policy in week 1
+([`writeup/what-i-should-have-done.md`](writeup/what-i-should-have-done.md); a reusable starter is in [`next-competition-template/`](next-competition-template/)).
 
 **Trajectory.** Hand-written rule-based bot (≈340, 0/0/400 against top public bots) → replaying recorded action tapes like the top
 teams (≈2,190) → rotating exact copies of the strongest public lineage plus a ported sale layer (≈2,420) → one-constant searches

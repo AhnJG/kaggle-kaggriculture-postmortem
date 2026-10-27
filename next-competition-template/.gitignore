@@ -1,0 +1,12 @@
+data/*
+!data/.gitkeep
+scratch/*
+!scratch/.gitkeep
+releases/**/*.tar.gz
+__pycache__/
+*.pyc
+.DS_Store
+# credentials — never commit
+kaggle.json
+.env
+*.key
